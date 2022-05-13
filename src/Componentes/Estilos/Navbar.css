@@ -1,0 +1,87 @@
+.navBarItems {
+    padding: 20px 25px;
+    font-weight: 300 !important;
+    font-size: 1.2em; 
+    font-family: "Poppins", Sans-serif;
+    color: white !important;
+}
+
+.bg-ligth {
+    background-color: transparent !important;
+}
+.navbar {
+    border-bottom: white 1px solid;
+}
+
+/*SCROLL TOP*/
+.navbar77{
+    
+    color: white !important;
+}
+.navbar77 a{    
+    color: white !important;
+    text-decoration: none!important;
+}
+
+/*SCROLL DOWN*/
+.navbar777 {
+    background: white;
+
+    color: white !important;
+
+}
+
+.navbar777 a{
+
+    background-color: rgba(186,0,0,0);
+    color: #1D2142 !important;
+}
+
+a{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+/*mediasssss*/
+@media (max-width: 768px) {
+   .navbar-collapse{
+    align-items: none !important;   
+    justify-content: end !important;
+    flex-grow: 0 !important;
+    background-color: white;
+   }
+    .navbar77 .me-auto{
+       margin-right: none !important;
+       background-color: #1D2142;
+   }
+   .navbar777 .me-auto{
+      background-color: white;
+   }
+    .fotoInicio{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .navbar-collapse {
+        align-items: flex-end !important; 
+        flex-grow: 0 !important;
+        
+    }
+    .me-auto{
+        margin-right: none !important;
+    }
+  }
+  @media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        justify-content: flex-end;
+        flex-basis: auto;
+    }
+    
+}
+@media screen and (min-width:801px) {
+    .navbar{
+        width: 100%;
+    }
+}

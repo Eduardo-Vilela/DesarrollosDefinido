@@ -1,0 +1,751 @@
+/*****SECCION1*****/
+
+.nosotros-seccion1-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1500px;
+    height: 100vh;
+    padding: 170px 0px 170px 0px;
+    margin: auto;
+    align-items: flex-start;
+}
+.nosotros-titulo{
+    text-align: left;
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.4em;
+    padding-left: 128px;
+    padding-bottom: 280px;
+}
+.nosotros-texto{
+    text-align: left;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.4em;
+    color:#828282;
+    ;
+}
+.nosotros-seccion1-flex1{
+    width: 60%;
+}
+.nosotros-seccion1-flex2{
+    width: 40%;
+}
+@media screen and (max-width: 480px) {
+   .nosotros-seccion1-flex{
+       width: 100%;
+       margin: auto;
+       padding: 30px 0px 10px 25px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   .nosotros-seccion1-flex1{
+       width: 100%;
+       
+   }
+   .nosotros-seccion1-flex2{
+       width: 100%;
+       text-align: center;
+       margin-top: 40px;
+   }
+   .nosotros-titulo{
+       font-size: 30px;
+       color: #1D2142;
+       padding: 0;
+       text-align: left;
+       font-weight: 600;
+   }
+   .nosotros-texto{
+       font-size: 16px;
+       font-weight: 100;
+       font-weight: 300;
+   }
+   
+}
+
+/*TABLET*/
+@media (min-width: 480px) and (max-width: 768px) {
+    .nosotros-seccion1-flex{
+        width: 100%;
+        height: 80vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nosotros-seccion1-flex1{
+        width: 100%;
+        
+    }
+    .nosotros-seccion1-flex2{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .nosotros-titulo{
+        font-size: 20px;
+        color: #1D2142;
+        padding: 0;
+        text-align: left;
+    }
+    .nosotros-texto{
+        font-size: 16px;
+        font-weight: 100;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1500px) {
+    .nosotros-seccion1-flex{
+        width: 100%;
+        margin: auto;        
+    }
+    .nosotros-seccion1-flex1{
+        width: 50%;
+    }
+    .nosotros-seccion1-flex2{
+        width: 50%;
+        padding: 0px 35px 0px 35px;
+    }
+}
+
+/*******SECCION2*****/
+
+.flexPrincipal-seccion2-nosotros{
+    width: 1600px;
+    margin: auto;
+}
+.nosotros-seccion2-flex{
+    display: flex;
+    padding: 200px 0px 200px 0px
+}
+.contenedor-1imagen{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px !important;
+}
+.contenedor-2imagenes{
+    width: 50%;
+}
+
+.bordesVideos{
+    border-radius: 10px !important;
+}
+
+@media screen and (max-width: 480px) {
+    .flexPrincipal-seccion2-nosotros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nosotros-seccion2-flex{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 30px 0px
+    }
+    .contenedor-1imagen{
+        width: 100%;
+        height: 50vh;
+        padding: 10px;
+    }
+    .contenedor-2imagenes{
+        display: none;   
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .contenedor-1imagen{
+        width: 50%;
+        display: none;
+    }
+    .contenedor-2imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .flexPrincipal-seccion2-nosotros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nosotros-seccion2-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: 100px 0px 100px 0px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1500px) {
+    .flexPrincipal-seccion2-nosotros{
+        width: 100%;
+    }
+}
+
+/*******SECCION3******/
+
+.contenedorSeccion3Nosotros{
+    padding: 200px 0px 200px 0px;
+    width: 100%;
+    margin: auto;
+    transition: all 0.4s ease;
+    background-color:#1D2142;
+
+}
+.seccion3-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color:#1D2142;
+        width: 100%;
+    height: 60vh;
+}
+.logros-contenedo2-seccion3{
+    display: flex;
+    flex-direction: row;
+}
+.logros1{
+   margin-bottom: 300px;
+}
+.logros2{
+    margin-bottom: 200px;
+}
+.logos-logros{
+    margin-bottom: 20px
+}
+.textoLogros{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1em;
+}
+.counter{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 400
+}
+.paddin-contenedoresLogros{
+    padding-right: 178px;
+}
+.tituloLogros{
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 3em;
+}
+
+@media screen and (max-width: 480px) {
+    .contenedorSeccion3Nosotros{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .paddin-contenedoresLogros{
+        padding: 5px;
+        text-align: center;
+    }
+    .logros1{
+        margin: 0;
+    }
+    .logros2{
+        margin: 0;
+    }
+    .logros3{
+        margin: 0;
+    }
+    .tituloLogros{
+        font-size: 30px;
+    }
+    .logos-logros{
+        width: 20%;
+    }
+    .textoLogros{
+        align-items: center;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    .counter{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .calendario{
+        width: 18%;
+    }
+    .ubicacion{
+        width: 27%;
+    }
+    .seccion3-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .logros-contenedo2-seccion3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .contenedorSeccion3Nosotros{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .paddin-contenedoresLogros{
+        padding: 0px;
+    }
+    .logros1{
+        margin: 0;
+        width: 100%;
+    }
+    .logros2{
+        margin: 0;
+        width: 100%;
+    }
+    .logros3{
+        margin: 0;
+        width: 100%;
+    }
+    .tituloLogros{
+        font-size: 30px;
+    }
+    .logos-logros{
+        width: 20%;
+    }
+    .textoLogros{
+        align-items: center;
+        font-size: 15px;
+    }
+    .counter{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .calendario{
+        width: 18%;
+    }
+    .ubicacion{
+        width: 27%;
+    }
+    .seccion3-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 80%;
+    }
+    .logros-contenedo2-seccion3{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ajusteTablets-seccion3-nosotros{
+       width: 80%;
+    }
+    .paddin-contenedoresLogros{
+        width: 80%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1500px) {
+
+}
+
+/*****SECCION4*****/
+
+.seccion4-nosotros{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.seccion4-nosotros-titulo{
+    text-align: left;
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 0.1em;
+    padding: 50px 0px 50px 0px
+}
+.nosotros-seccion4-parrafo{
+    text-align: left;
+    color: #828282;
+    font-family:  "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.3em;
+}
+
+.seccion4-nosotros-imagen{
+    width: 50%;
+   
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647546408/DESARROLLOSGRUPODELSUD/pexels-karolina-grabowska-4207907_1_buv9vz.jpg);
+    background-size: cover;
+}
+.seccion4-flex1{
+    width: 50%;
+    margin: auto;
+}
+.contenedorParrafo-seccion4{
+    text-align: left;
+    margin: auto;
+    width: 60%;
+}
+@media screen and (max-width: 480px) {
+    .seccion4-nosotros{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .seccion4-flex1{
+        width: 100%;
+        height: 60vh;
+        padding: 0px 15px 0px 15px;
+    }
+    .seccion4-nosotros-imagen{
+        width: 100%;
+        height: 40vh;
+        background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647546408/DESARROLLOSGRUPODELSUD/pexels-karolina-grabowska-4207907_1_buv9vz.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .seccion4-nosotros-titulo{
+        font-size:25px ;
+    }
+    .nosotros-seccion4-parrafo{
+        font-size: 16px;
+    }
+    .ajusteFoto-seccion4{
+        display: none;
+    }
+    .contenedorParrafo-seccion4{
+        width: 95%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .seccion4-nosotros{
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        padding: 0;
+    }
+    .seccion4-flex1{
+        width: 100%;
+        height: 40vh;
+        padding: 0px 15px 0px 15px;
+    }
+    .contenedorParrafo-seccion4{
+        text-align: left;
+        width: 100%;
+    }
+    .seccion4-nosotros-imagen{
+        width: 100%;
+        height: 100vh;
+        background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647546408/DESARROLLOSGRUPODELSUD/pexels-karolina-grabowska-4207907_1_buv9vz.jpg);
+        background-size: cover;
+    }
+    .seccion4-nosotros-titulo{
+        font-size:23px ;
+    }
+    .nosotros-seccion4-parrafo{
+        font-size: 14px;
+    }
+    .ajusteFoto-seccion4{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1500px) {
+    .seccion4-nosotros{
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+    }
+    .seccion4-flex1{
+        width: 50%;
+        padding: 0px 100px 0px 100px;
+    }
+    .seccion4-nosotros-imagen{
+        width: 50%;
+    }
+    .seccion4-nosotros-titulo{
+        font-size:25px ;
+    }
+    .nosotros-seccion4-parrafo{
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+
+
+
+/******SECCION5***/
+
+.contenedorPrincipal-seccion6-nosotros{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 200px 0px 150px 0px;
+}
+.contenedor5-nosotros{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contenedor2-nosotros{
+    width: 50%;
+    display: flex;
+}
+.fondo-cards-nosotros{
+    background-color: #F6F6F6;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px -7px 10px 34px;
+    margin-bottom: 20px;
+}
+.card-img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px
+}
+.parrafo-seccion5-nosotros{
+    color: #828282;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.4em;
+    font-weight: 200;
+    line-height: 1.4em;
+}
+.titulo-seccion5-nosotros{
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 20px 0px 40px 0px;
+    text-align: left;
+}
+.font-card-seccion5-nosotros{
+    text-align: left;
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 1em;
+}
+.swiperValoresMobi{
+    display: none;
+}
+.swiper-button-next{
+    color: transparent !important;
+} 
+
+@media screen and (max-width: 480px) {
+
+    .desactivacionValores{
+       display: none;
+    }
+    .swiperValoresMobi{
+        display: block;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .titulo-seccion5-nosotros{
+        font-size: 25px;
+    }
+    .parrafo-seccion5-nosotros{
+        font-size: 16px;
+    }
+    .contenedor5-nosotros-parrafo{
+        width: 100%;
+        height: 50vh;
+        padding: 20px;
+    }
+    .mobileSwiperNosotros{
+        width: 100%;
+        height: 75vh;
+        text-align: center;
+    }
+    .slideNosotros{
+        width: 70%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .desactivacionValores{
+        display: none;
+     }
+     .swiperValoresMobi{
+         display: block;
+         width: 100%;
+         height: 80vh;
+     }
+     .titulo-seccion5-nosotros{
+         font-size: 20px;
+     }
+     .parrafo-seccion5-nosotros{
+         font-size: 16px;
+     }
+     .contenedor5-nosotros-parrafo{
+         width: 100%;
+         height: 30vh;
+         padding: 0px 15px 0px 15px;
+     }
+     .mobileSwiperNosotros{
+         width: 100%;
+         height: 50vh;
+         text-align: center;
+     }
+     .slideNosotros{
+         width: 50%;
+     }
+}
+
+@media (min-width: 768px) and (max-width: 1500px) {
+    .contenedorPrincipal-seccion6-nosotros{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contenedor5-nosotros-parrafo{
+        width: 50%;
+    }
+    .contenedor2-nosotros{
+        width: 50%;
+    }
+    
+}
+
+
+/***SECCION6*****/
+.back-seccion6-nosotros{
+    padding: 100px 85px 100px 85px;
+    background: #1D2142;
+    width: 100%;
+    margin: auto;
+}
+.seccion6-nosotros-flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo-seccion6-nosotros{
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 25px;
+}
+.subtitulo-seccion6-nosotros{
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+.boton-seccion6-nosotros{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .desactivacionLogo-subnav-seccion6{
+        display: none;
+    }
+    .titulo-seccion6-nosotros{
+        font-size: 20px;
+    }
+    .subtitulo-seccion6-nosotros{
+        font-size: 15px;
+    }
+    .boton-seccion6-nosotros{
+        font-size:14px;
+        color: #82AB29 !important;
+          text-decoration: none;
+    }
+    .back-seccion6-nosotros{
+        padding: 100px 85px 100px 40px;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    .desactivacionLogo-subnav-seccion6{
+        display: none;
+    }
+    .titulo-seccion6-nosotros{
+        font-size: 20px;
+    }
+    .subtitulo-seccion6-nosotros{
+        font-size: 16px;
+    }
+    .boton-seccion6-nosotros{
+        font-size:18px;
+        color: #82AB29 !important;
+          text-decoration: underline;
+    }
+    .back-seccion6-nosotros{
+        padding: 100px 85px 100px 40px;
+    }
+    .seccion6-nosotros-flex{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 1500px) {
+    .titulo-seccion6-nosotros{
+        font-size: 20px;
+    }
+    .subtitulo-seccion6-nosotros{
+        font-size: 14px;
+    }
+
+}

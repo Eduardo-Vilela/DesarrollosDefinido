@@ -1,0 +1,466 @@
+.inicio-lasvictorias{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649692306/DESARROLLOSGRUPODELSUD/RENDER_LA_VICTORIA_2_-_Foto_ku9jfc.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imagenletras-lasvictorias{
+    width: 1300px;
+    margin: auto;
+}
+/*SECCION1*/
+
+.seccion1-lasvictorias{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+   
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-lasvictorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto1-lasvictorias{
+    width: 50%;
+    margin:auto !important;
+    
+}
+.texto2-lasvictorias{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.tituloSeccion1-lasvictorias{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  
+
+    text-align: left;
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.subCont-lasvictorias{
+    width: 70%;
+    margin: auto;
+}
+
+.parrafoSeccion1-lasvictorias{
+    text-align: left;
+    color: #646464;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.25em;
+    margin-top: 50px;
+}
+.imagenSeccion1Lasvictorias{
+    height: 640px;
+    width: 640px;
+    border-radius: 10px !important;
+}
+.boton-seccion2-lasvictorias{
+    font-family: "Mabry Pro", Sans-serif;
+    font-size: 0.4em;
+    font-weight: 300;
+    line-height: 1em;
+    letter-spacing: 0.2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #82AB1B;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    padding: 12px 20px 13px 20px
+}
+/* secccionnn3 */
+.flex-seccion3-lasvictorias{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: #7a7a7a 1px solid;
+    border-top: #7a7a7a 1px solid;
+    z-index: 99;
+}
+.ajustenav-lasvictorias{
+    padding: 25px
+}
+.fontnav-lasvictorias{
+    font-family: "Mabry Pro", Sans-serif !important;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #7a7a7a !important;
+}
+/* SECCION4*/
+/* .maps2{
+    margin-top: -50px;
+    width: 100%;
+    z-index: 98;
+    height: 100vh;
+} */
+.seccion4-lasvictorias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.flex1-lasvictorias{
+    display: flex;
+}
+
+.maps-lasvictorias{
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 50%;
+}
+.fotitoProyecto-lasvictorias{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/Las_Victorias_landing-05_1_dpjkk9.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+}
+.back-imagen3-lasvictorias{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+}
+.fotitoProyecto4-lasvictorias{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/businesspeople-shaking-hands_1_umpbig.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+}
+
+.seccion4texto-lasvictorias{
+    width: 50%;
+
+}
+.seccion4-font-lasvictorias{
+    color: #ADADAD;
+    font-family: "Mabry Pro", Sans-serif;
+    font-size: 75px;
+    font-weight: 200;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0px;
+    margin: 100px 0px 100px 0px
+}
+.seccion4-subtitulo-lasvictorias{
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1em;
+    margin-bottom: 50px;
+}
+.parrafo-seccion4-lasvictorias{
+    text-align: left;
+    font-family: "Poppins", Sans-serif;
+    font-size: 23px;
+    color: #646464;
+    font-weight: 200;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.25em;
+    margin-bottom: 50px;
+}
+.seccion4-subtitulo2-lasvictorias{
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 0.1em;
+    margin-bottom: 30px;
+}
+.ulSeccion4-lasvictorias{
+    color:#ADADAD;
+    font-family: "Poppins", Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 30px;
+}
+.box-seccion4-lasvictorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+    border-color: #ffff;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
+}
+.flex-iconos4-lasvictorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 10px;
+}
+.icono4-lasvictorias{
+    margin-right: 20px;
+}
+.bordertop-iconos4-lasvictorias{
+    border-top: #7a7a7a 1px solid;
+}
+.borderbottom-seccion4-lasvictorias{
+    border-bottom: #7a7a7a 1px solid;
+}
+.bordermedios-iconos4-lasvictorias{
+    border-top:#7a7a7a 1px solid ;
+    border-bottom: #7a7a7a 1px solid;
+}
+.font-seccion3-servicios-lasvictorias{
+    color: #1D2142;
+    padding-left: 30px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1em;
+}
+.box-font-seccion2-lasvictorias{
+    text-align: center;
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 25%) !important;
+}
+.boton-desarrollo-lasvictorias{
+    font-family: "Mabry Pro", Sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1em;
+    letter-spacing: 0.2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #82AB1B;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    padding: 12px 20px 13px 20px
+}
+
+/*SECCION SWIPERRRR*/
+.swiper-slide-loteos{
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.mySwiperLoteos{
+    padding: 100px !important;
+}
+.subtitulo-slide-loteos{
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.flex-slide-loteos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.swiper-button-next{
+    color: transparent !important;
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649699805/DESARROLLOSGRUPODELSUD/--_cpdicd.svg) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10% !important;
+}
+
+.swiper-button-prev:after {
+    color: transparent !important;
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649700592/DESARROLLOSGRUPODELSUD/asasa_uulliy.svg) !important;
+    background-size: auto;
+    width: 380px;
+}
+
+
+
+
+
+
+/* mediassss*/
+
+@media screen and (max-width: 480px) {
+  .inicio-lasvictorias{
+      width: 100%;
+      height: 80vh;
+      background-size: cover;
+  }
+  .imagenletras-lasvictorias{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .imagenInicioLasVictorias{
+      width: 80%;
+      padding: 0px 0px 0px 30px;
+  }
+  .cont-lasvictorias{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.tituloSeccion1-lasvictorias{
+    width: 100%;
+    height: 55vh;
+}
+.texto2-lasvictorias{
+    width: 100%;
+    height: 50vh;
+}
+.imagenSeccion1Lasvictorias{
+    width: 100%;
+    height: 38vh;
+}
+.subCont-lasvictorias{
+    width: 85%;
+}
+.parrafoSeccion1-lasvictorias{
+     font-size: 16px;
+     margin-top: 35px;
+}
+.titulo-lasvictorias-seccion2{
+    font-size: 20px;
+    line-height: 30px;
+}
+.boton-seccion2-lasvictorias{
+    font-size: 0.3em;
+}
+.desactivacionMobile-lasvictorias{
+    display: none;
+}
+.seccion4-lasvictorias{
+    display: flex;
+}
+.seccion4texto-lasvictorias{
+    width: 100%;
+    height: 70vh;
+}
+.flex1-lasvictorias{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 0px 0px 26px;
+    border-radius: 10px 0px 0px 10px;
+}
+.ajusteMobile-lasvictorias{
+    width: 85% !important;
+}
+.maps-lasvictorias{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+ .fotitoProyecto4-lasvictorias{
+     width: 100%;
+ }
+ .back-imagen3-lasvictorias{
+     width: 100%;
+ }
+ .fotitoProyecto-lasvictorias{
+     width: 100%;
+ }
+ .parrafo-seccion4-lasvictorias{
+     font-size: 16px;
+ }
+ .ulSeccion4-lasvictorias{
+     font-size: 13px;
+ }
+ .seccion4-font-lasvictorias{
+     font-size: 40px;
+     margin: 40px 0px 40px 0px;
+ }
+ .seccion4-subtitulo2-lasvictorias{
+     font-size: 18px;
+
+ }
+ .seccion4-subtitulo-lasvictorias{
+      font-size: 25px;
+      margin-bottom: 25px;
+ }
+ .box-font-seccion2-lasvictorias {
+     font-size: 15px;
+ }
+ .box-seccion4-lasvictorias{
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid #646464;
+  border-radius: 10px;
+ }
+ .marginBoton-lasvictorias{
+    margin-bottom: 50px;
+}
+.subtitulo-slide-loteos{
+    font-size: 22px !important;
+}
+.container2Seccion4{
+    width: 85% !important;
+}
+.container3Seccion4{
+    width: 85% !important;
+}
+.container4Seccion4{
+    width: 85% !important;
+}
+.ajusteMobileIframe{
+    height: 60vh !important;
+}
+.font-seccion3-servicios-lasvictorias{
+    font-size: 16px;
+}
+.flex-iconos4-lasvictorias{
+    padding: 15px;
+}
+.boton-desarrollo-lasvictorias{
+    font-size: 12px;
+}
+.flex-slide-loteos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+}
+.swiper-slide-loteos{
+    width: 60% !important;
+    height: 60% !important;
+}
+}

@@ -1,0 +1,460 @@
+.inicio-latitud34{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637068/DESARROLLOSGRUPODELSUD/Latitud_34_3_1_yomdy4.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imagenletras-latitud34{
+    width: 1300px;
+    margin: auto;
+}
+/*SECCION1*/
+
+.seccion1-latitud34{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+   
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-latitud34{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto1-latitud34{
+    width: 50%;
+    margin:auto !important;
+    
+}
+.texto2-latitud34{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.tituloSeccion1-latitud34{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  
+
+    text-align: left;
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.subCont-latitud34{
+    width: 70%;
+    margin: auto;
+}
+
+.parrafoSeccion1-latitud34{
+    text-align: left;
+    color: #646464;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.25em;
+    margin-top: 50px;
+}
+.imagenSeccion1latitud34{
+    height: 640px;
+    width: 640px;
+    border-radius: 10px !important;
+}
+.boton-seccion2-latitud34{
+    font-family: "Mabry Pro", Sans-serif;
+    font-size: 0.4em;
+    font-weight: 300;
+    line-height: 1em;
+    letter-spacing: 0.2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #82AB1B;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    padding: 12px 20px 13px 20px
+}
+/* secccionnn3 */
+.flex-seccion3-latitud34{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: #7a7a7a 1px solid;
+    border-top: #7a7a7a 1px solid;
+    z-index: 99;
+}
+.ajustenav-latitud34{
+    padding: 25px
+}
+.fontnav-latitud34{
+    font-family: "Mabry Pro", Sans-serif !important;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #7a7a7a !important;
+}
+/* SECCION4*/
+/* .maps2{
+    margin-top: -50px;
+    width: 100%;
+    z-index: 98;
+    height: 100vh;
+} */
+.seccion4-latitud34{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.flex1-latitud34{
+    display: flex;
+}
+
+.maps-latitud34{
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 50%;
+}
+.fotitoProyecto-latitud34{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637002/DESARROLLOSGRUPODELSUD/Latitud_pup3rf.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+}
+.back-imagen3-latitud34{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637067/DESARROLLOSGRUPODELSUD/lomas_01_vcappe.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+}
+.fotitoProyecto4-latitud34{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/businesspeople-shaking-hands_1_umpbig.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+}
+
+.seccion4texto-latitud34{
+    width: 50%;
+
+}
+.seccion4-font-latitud34{
+    color: #ADADAD;
+    font-family: "Mabry Pro", Sans-serif;
+    font-size: 75px;
+    font-weight: 200;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0px;
+    margin: 100px 0px 100px 0px
+}
+.seccion4-subtitulo-latitud34{
+    color: #1D2142;
+    font-family: "Raleway", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1em;
+    margin-bottom: 50px;
+}
+.parrafo-seccion4-latitud34{
+    text-align: left;
+    font-family: "Raleway", Sans-serif;
+    font-size: 23px;
+    color: #646464;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.25em;
+    margin-bottom: 50px;
+}
+.seccion4-subtitulo2-latitud34{
+    color: #1D2142;
+    font-family: "Raleway", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 0.1em;
+    margin-bottom: 30px;
+}
+.ulSeccion4-latitud34{
+    color:#ADADAD;
+    font-family: "Raleway", Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 30px;
+}
+.box-seccion4-latitud34{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:14px;
+    border-color: #ffff;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
+}
+.flex-iconos4-latitud34{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 10px;
+}
+.icono4-latitud34{
+    margin-right: 20px;
+}
+.bordertop-iconos4-latitud34{
+    border-top: #7a7a7a 1px solid;
+}
+.borderbottom-seccion4-latitud34{
+    border-bottom: #7a7a7a 1px solid;
+}
+.bordermedios-iconos4-latitud34{
+    border-top:#7a7a7a 1px solid ;
+    border-bottom: #7a7a7a 1px solid;
+}
+.font-seccion3-servicios-latitud34{
+    color: #1D2142;
+    padding-left: 30px;
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1em;
+}
+.box-font-seccion2-latitud34{
+    text-align: center;
+    color: #1D2142;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgb(0 0 0 / 25%) !important;
+}
+.boton-desarrollo-latitud34{
+    font-family: "Mabry Pro", Sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1em;
+    letter-spacing: 0.2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #82AB1B;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    padding: 12px 20px 13px 20px
+}
+
+/*SECCION SWIPERRRR*/
+
+.swiper-slide-loteos{
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.mySwiperLoteos{
+    padding: 100px !important;
+}
+.subtitulo-slide-loteos{
+    color: #1D2142;
+    font-family: "Raleway", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.flex-slide-loteos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.swiper-button-next{
+    color: transparent !important;
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649699805/DESARROLLOSGRUPODELSUD/--_cpdicd.svg) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10% !important;
+}
+.swiper-button-next:after{
+    color: transparent !important;
+}
+
+.swiper-button-prev:after {
+    color: transparent !important;
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649700592/DESARROLLOSGRUPODELSUD/asasa_uulliy.svg) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+
+
+
+/* mediassss*/
+
+@media screen and (max-width: 480px) {
+    .inicio-latitud34{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+    .imagenletras-latitud34{
+      width: 100%;
+      height: 100vh;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .imagenSeccion1latitud34{
+        width: 60%;
+        padding: 0px 0px 0px 30px;
+    }
+    .cont-latitud34{
+      width: 100%;
+      height: 100vh;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+  
+  }
+  .tituloSeccion1-latitud34{
+      width: 100%;
+      height: 55vh;
+  }
+  .texto2-latitud34{
+      width: 100%;
+      height: 50vh;
+  }
+  .imagenSeccion1latitud34{
+      width: 100%;
+      height: 50vh;
+  }
+  .subCont-latitud34{
+      width: 85%;
+  }
+  .parrafoSeccion1-latitud34{
+       font-size: 16px;
+       margin-top: 25px;
+  }
+  .titulo-latitud34-seccion2{
+      font-size: 35px;
+      line-height: 30px;
+  }
+  .boton-seccion2-latitud34{
+      font-size: 0.3em;
+  }
+  .desactivacionMobile-latitud34{
+      display: none;
+  }
+  .seccion4-latitud34{
+      display: flex;
+  }
+  .seccion4texto-latitud34{
+      width: 100%;
+      height: 65vh;
+  }
+  .flex1-latitud34{
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0px 0px 0px 26px;
+      border-radius: 10px 0px 0px 10px;
+  }
+  .ajusteMobile-latitud34{
+      width: 85% !important;
+  }
+  .maps-latitud34{
+      width: 100%;
+      height: 60vh;
+      display: flex;
+  }
+   .fotitoProyecto4-latitud34{
+       width: 100%;
+   }
+   .back-imagen3-latitud34{
+       width: 100%;
+   }
+   .fotitoProyecto-latitud34{
+       width: 100%;
+   }
+   .parrafo-seccion4-latitud34{
+       font-size: 16px;
+   }
+   .ulSeccion4-latitud34{
+       font-size: 16px;
+   }
+   .seccion4-font-latitud34{
+       font-size: 40px;
+       margin: 40px 0px 40px 0px;
+   }
+   .seccion4-subtitulo2-latitud34{
+       font-size: 18px;
+  
+   }
+   .seccion4-subtitulo-latitud34{
+        font-size: 25px;
+        margin-bottom: 25px;
+   }
+  
+   .box-seccion4-latitud34{
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+   }
+   .marginBoton-latitud34{
+      margin-bottom: 50px;
+  }
+  .subtitulo-slide-loteos{
+      font-size: 22px !important;
+  }
+  .container2Seccion4{
+      width: 85% !important;
+  }
+  .container3Seccion4{
+      width: 85% !important;
+  }
+  .container4Seccion4{
+      width: 85% !important;
+  }
+  .ajusteMobileIframe{
+      height: 60vh !important;
+  }
+  .font-seccion3-servicios-latitud34{
+      font-size: 16px;
+  }
+  .flex-iconos4-latitud34{
+      padding: 5px;
+  }
+  .boton-desarrollo-latitud34{
+      font-size: 18px;
+  }
+  .swiper-button-prev:after {
+    left: -30px !important;
+  }
+  }

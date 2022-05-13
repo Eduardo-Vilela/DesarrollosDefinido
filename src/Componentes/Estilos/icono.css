@@ -1,0 +1,21 @@
+.iconoWsp{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 9999999;
+    width: 3%;
+}
+@media screen and (max-width: 480px) {
+    .iconoWsp{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        z-index: 9999999;
+        width: 15%;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+ .contenedorIcono{
+     width: 100%;
+ }
+}
