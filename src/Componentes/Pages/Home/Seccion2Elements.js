@@ -13,6 +13,9 @@ export const BoxCards = styled.div`
     @media (max-width: 767px) { 
         display: none;
     }
+    @media (min-width: 768px) and (max-width: 1199px) { 
+        display: none;
+      }
 
 `
 export const SubBoxCards = styled.div`
@@ -24,6 +27,7 @@ justify-content: center;
 padding: 70px 0px 70px 0px;
 text-align: center;
 align-items: center;
+margin: auto;
 `
 export const Overlay = styled.div`
 position: absolute;
@@ -58,4 +62,7 @@ export const BoxCardsMobile = styled.div`
       text-align: center;
       padding: 20px;
      }
+     @media (min-width: 768px) and (max-width: 1199px) { 
+        display: block;
+      }
  `

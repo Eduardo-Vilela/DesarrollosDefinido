@@ -43,7 +43,7 @@ export const ButtonSlide5 = styled.a`
     border-radius: 20px;
     border: #ffff 2px solid;
     font-family: "Poppins", Sans-serif;
-    font-size: 0.9em;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1em;
     fill: #FFFFFF;
@@ -54,7 +54,25 @@ export const ButtonSlide5 = styled.a`
     border-color: #FFFFFF;
     border-radius: 30px 30px 30px 30px;
     width: 30%;
+    height: 5vh;
     padding: 10px;
     text-align: center;
     margin: auto;
+
+        @media (max-width: 480px) { 
+            width: 40%;
+            height: 5vh;
+            font-size:10px;
+        }
+        @media (max-width: 767px) { 
+            width: 100%;
+            width: 40%;
+            height: 5vh;
+            font-size:10px;
+        }
+        @media (min-width: 768px) and (max-width: 1199px) { 
+            width: 50%;
+            height: 8vh;
+            font-size:15px;
+        }
 `

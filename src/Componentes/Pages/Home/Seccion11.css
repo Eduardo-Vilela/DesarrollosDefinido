@@ -1,0 +1,142 @@
+.accordion-flex{
+    width: 100%;
+    margin: auto;
+    padding: 100px 0px 20px 0px;
+}
+.accordion-button{
+    color: #1D2142 !important;
+    font-size: 50px !important;
+    font-family: "Poppins", Sans-serif !important;
+    font-weight: 400 !important;
+    
+}
+.accordion-item{
+    border: 0 !important;
+}
+.accordion-button::after{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1648563794/DESARROLLOSGRUPODELSUD/2_yejmuy.svg) !important;
+    
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1648562856/DESARROLLOSGRUPODELSUD/uamrmr0qempucahch23w.svg) !important;
+    transform: rotate(135deg) !important;
+    color: greenyellow !important;
+}
+.accordion-button:focus{
+    border-color: #FFFFFF !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+    color: #1D2142 !important;
+    background-color: #FFFFFF !important; 
+    box-shadow: none !important;
+}
+.accordion-header {
+    border-bottom: 2px #1D2142 solid !important;
+}
+/****seccion10-form****/
+.flex-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.inputs-form1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs-form2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputInicio-form{
+    border: 0 !important;
+    border-bottom: #828282 1px solid !important;
+    font-size: 20px;
+    font-family: "Poppins", Sans-serif !important;
+    height: 10%;
+    width: 80%;
+}
+.textarea-formularioInicio{
+    outline: 0 !important;
+    border-radius: 10px;
+    resize: none !important;
+    width: 100%;
+    height: 50%;
+    font-size: 25px;
+    font-family: 'Poppins';
+
+}
+.buttonFormInicio{
+    width: 20%;
+    height: auto;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+.flexButtonFormInicio{
+    display: flex;
+    flex-direction: flex-end;
+
+}
+.Subtitlofooterform{
+    font-size: 23px;
+    font-family: 'Poppins';
+    line-height: 24px;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 480px) {
+.flex-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs-form1{
+    width:100%;
+    padding: 16px;
+}
+.inputs-form2{
+    width:100%;
+    padding: 15px;
+}   
+.inputInicio-form{
+    font-size: 18px;
+}
+.accordion-button{
+    font-size: 18px !important;
+}
+.textarea-formularioInicio{
+    font-size: 18px;
+}
+.buttonFormInicio{
+    font-size: 18px;
+    width: 30%;
+}
+}
+
+@media (max-width: 767px) { 
+    .flexButtonFormInicio{
+        width:100%;
+    }
+    .accordion-button{
+        font-size: 18px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .accordion-button{
+    font-size: 18px !important;
+}
+    .flexButtonFormInicio{
+        width:100%;
+    }
+    .buttonFormInicio{
+        font-size: 18px;
+        width: 50%;
+    }
+}

@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const BoxPrincipal = styled.div`
   width:100%;
   height: 100vh;
+  margin-bottom: 40px;
+  
     @media (max-width: 480px) { 
         width: 100%,
     }
@@ -51,12 +53,13 @@ export const BoxTexto = styled.div`
         padding: 0px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-        padding: 0px;
+      padding: 50px;
     }
 `
 export const BoxBack = styled.div`
   width: 50%;
   height: 100vh;
+  border-radius: 20px;
   background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647161501/DESARROLLOSGRUPODELSUD/Lomas_de_Arana-Muestra-1_1_tqpjva.png);
   background-size: cover;
 
@@ -82,6 +85,9 @@ export const Titulo3 = styled.h2 `
       @media (max-width: 767px) { 
         font-size: 30px;
        }
+       @media (min-width: 768px) and (max-width: 1199px) { 
+         font-size:30px;
+       }
 `
 export const Parrafo3 = styled.p `
     font-size: 20px;
@@ -94,6 +100,9 @@ export const Parrafo3 = styled.p `
       }
       @media (max-width: 767px) { 
         font-size: 15px;
+       }
+       @media (min-width: 768px) and (max-width: 1199px) { 
+         font-size: 15px;
        }
 `
 export const Button3 = styled.a `
@@ -109,6 +118,9 @@ export const Button3 = styled.a `
       }
       @media (max-width: 767px) { 
         font-size:25px;
+       }
+       @media (min-width: 768px) and (max-width: 1199px) { 
+         font-size:25px;
        }
 `
 
