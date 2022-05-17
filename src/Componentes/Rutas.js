@@ -12,6 +12,7 @@ function Rutas() {
       <ScrollToTop>
         <Routes>
             <Route path='/' element={<Home/>} />
+            
         </Routes>
       </ScrollToTop>
      </HashRouter>

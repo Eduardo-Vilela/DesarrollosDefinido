@@ -19,6 +19,9 @@ import {
   LogoRedes,
   Redes,
   InputFooter,
+  TituloFooterFinal,
+  LogoGrupo,
+  SubBox,
 } from './FooterElements'
 
 
@@ -124,16 +127,18 @@ function Footer() {
             </Seccion4>
           </Box2>  
           <Box3>
-            <Seccion5>
-              <h4 className='letra-footer-final'>Una empresa de </h4>
-              <img alt='logo-empresa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522179/DESARROLLOSGRUPODELSUD/Frame2_w2z3jr.svg'/>
-            </Seccion5>
-            <Seccion6>
-              <p className='letra-footer-final'>Volver al tope </p>
-              <a href="#arriba2">
-              <img alt='flecha-footer' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522352/DESARROLLOSGRUPODELSUD/qyyw1oxg7sy3szotvufi.svg' />
-              </a>
-            </Seccion6>
+            <SubBox>
+              <Seccion5>
+                <TituloFooterFinal>Una empresa de </TituloFooterFinal>
+                <LogoGrupo alt='logo-empresa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522179/DESARROLLOSGRUPODELSUD/Frame2_w2z3jr.svg'/>
+              </Seccion5>
+              <Seccion6>
+                <TituloFooterFinal >Volver al tope </TituloFooterFinal>
+                <a href="#arriba1">
+                <img alt='flecha-footer' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522352/DESARROLLOSGRUPODELSUD/qyyw1oxg7sy3szotvufi.svg' />
+                </a>
+              </Seccion6>
+            </SubBox>
           </Box3>    
         </BoxSecundario>
     </BoxPrimario> 
