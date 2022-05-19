@@ -3,7 +3,7 @@ import { Navbar , Container , Nav } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 
 /*stylessssss */
-
+import './NavbarTransparent.css'
 
 
 function NavbarTransparent() {

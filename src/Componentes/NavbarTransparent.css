@@ -1,0 +1,64 @@
+.navBarItems {
+    padding: 20px 25px;
+    font-weight: 600 !important;
+    font-size: 1.2em; 
+    font-family: "Raleway", Sans-serif;
+    color: white !important;
+}
+
+.bg-ligth {
+    background-color: transparent !important;
+}
+.navbar {
+    border-bottom: white 1px solid;
+}
+
+/*SCROLL TOP*/
+.navbar77{
+    
+    color: white !important;
+}
+.navbar77 a{    
+    color: white !important;
+    text-decoration: none!important;
+}
+
+/*SCROLL DOWN*/
+.navbar777 {
+    background: white;
+
+    color: white !important;
+
+}
+
+.navbar777 a{
+
+    background-color: rgba(186,0,0,0);
+    color: #1D2142 !important;
+}
+
+a{
+    color: white;
+    font-weight: 600;
+}
+
+/*mediasssss*/
+@media (max-width: 768px) {
+   .navbar-collapse{
+    align-items: none !important;   
+    justify-content: end !important;
+    flex-grow: 0 !important;
+    background-color: white;
+   }
+    .navbar77 .me-auto{
+       margin-right: none !important;
+       background-color: #1D2142;
+   }
+   .navbar777 .me-auto{
+      background-color: white;
+      
+   }
+    .fotoInicio{
+        width: 100%;
+    }
+}
