@@ -24,6 +24,7 @@ export const BoxHome = styled.div`
     width: 100%;
     height: 100vh;
     object-fit: contain;
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
 
     @media (max-width: 480px) { 
       width: 100%,
@@ -41,7 +42,7 @@ export const BoxHome = styled.div`
     width: 100%;
     height: 100vh;
     object-fit:cover;
-
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
     @media (max-width: 480px) { 
       width: 100%,
     }
@@ -77,6 +78,7 @@ export const BoxHome = styled.div`
   font-weight: 500;
   color: white;
   margin-bottom: 25px;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
   
     @media (max-width: 480px) { 
       font-size: 20px ;
@@ -95,6 +97,7 @@ export const BoxHome = styled.div`
   line-height: 30px;
   font-weight: 300;
   color: white;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
 
     @media (max-width: 480px) { 
       font-size: 16px ;

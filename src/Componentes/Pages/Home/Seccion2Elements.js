@@ -29,24 +29,15 @@ text-align: center;
 align-items: center;
 margin: auto;
 `
-export const Overlay = styled.div`
-position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 80%;
-    width: 80%;
-    opacity: 0;
-    transition: .3s ease;
-    background-color: #ffff
 
-       &:hover {
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
-        cursor: pointer;
-        opacity: 1;
-    }
+export const CardsBox = styled.div`
+ 
+`
+export const Overlay = styled.div`
+  display: none;
+${CardsBox}:hover & {
+  display: block;
+}
 `
 
 export const BoxCardsMobile = styled.div`

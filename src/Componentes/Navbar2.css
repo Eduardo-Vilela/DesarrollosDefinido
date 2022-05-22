@@ -1,0 +1,30 @@
+.navBar2{
+    background-color: white;
+    border-bottom: #1D2142 1px solid;
+}
+.Items2{
+    padding: 20px 25px;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+.Items3-hablemos{
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1651520903/DESARROLLOSGRUPODELSUD/right_menu_icon_214206_l5dt4e.png) !important;
+}
+@media screen and (min-width:408px) {
+    .navBar2{
+        width: 100%;
+        
+    }
+    .Items2{
+        font-size: 1.2em;
+        color: white !important;
+    }
+    .navbar-collapse2{
+        background-color: #1D2142;
+        color: white !important;
+    }
+}

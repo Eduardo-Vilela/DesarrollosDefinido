@@ -38,10 +38,19 @@ export const SlideSwiperSeccion5 = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: auto;
+
+    @media (max-width: 480px) { 
+        width: 80%;
+        height: 50vh;
+    }
+    @media (max-width: 767px) { 
+        width: 80%;
+        height: 50vh;
+    }
 `
 export const ButtonSlide5 = styled.a`
     border-radius: 20px;
-    border: #ffff 2px solid;
+    border: #ffff 1px solid;
     font-family: "Poppins", Sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -57,7 +66,7 @@ export const ButtonSlide5 = styled.a`
     height: 5vh;
     padding: 10px;
     text-align: center;
-    margin: auto;
+
 
         @media (max-width: 480px) { 
             width: 40%;

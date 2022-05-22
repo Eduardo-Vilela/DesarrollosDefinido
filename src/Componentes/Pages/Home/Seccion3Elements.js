@@ -80,10 +80,10 @@ export const Titulo3 = styled.h2 `
     font-weight: 500;
 
     @media (max-width: 480px) { 
-        font-size: 30px;
+        font-size: 25px;
       }
       @media (max-width: 767px) { 
-        font-size: 30px;
+        font-size: 18px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
          font-size:30px;
@@ -96,7 +96,7 @@ export const Parrafo3 = styled.p `
     font-weight: 200;
 
     @media (max-width: 480px) { 
-        font-size: 15px;
+        font-size: 12px;
       }
       @media (max-width: 767px) { 
         font-size: 15px;
@@ -114,10 +114,10 @@ export const Button3 = styled.a `
     font-weight: 400;
 
     @media (max-width: 480px) { 
-        font-size: 25px;
+        font-size: 20px;
       }
       @media (max-width: 767px) { 
-        font-size:25px;
+        font-size: 16px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
          font-size:25px;

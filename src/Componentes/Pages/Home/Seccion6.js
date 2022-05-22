@@ -152,8 +152,8 @@ function Seccion6() {
                 spaceBetween: 20,
               },
               769: {
-                slidesPerView: 1,
-                slidesPerGroup: 1,
+                slidesPerView: 2,
+                slidesPerGroup: 2,
               },
             }}
             navigation={false}

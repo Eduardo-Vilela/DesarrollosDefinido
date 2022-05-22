@@ -1,9 +1,10 @@
 import React from 'react'
 import { Navbar , Container , Nav ,Image} from 'react-bootstrap';
 import {Link} from 'react-router-dom'
-import '../Componentes/Estilos/Navbar2.css'
+import './Navbar2.css'
 
-function Navbar2() {
+
+function NavbarWhite() {
   return (
     <>
      <div>
@@ -29,4 +30,4 @@ function Navbar2() {
   )
 }
 
-export default Navbar2
+export default NavbarWhite

@@ -44,6 +44,7 @@ import styled from "styled-components";
  height:30vh;
  width: 100%;
  background-color: #1D2142;
+
  `
 
  export const Seccion1 = styled.div`
@@ -211,6 +212,7 @@ import styled from "styled-components";
 }
 @media (max-width: 767px) { 
   justify-content: center;
+}
 @media (min-width: 768px) and (max-width: 1199px) { 
  justify-content: center;
 }

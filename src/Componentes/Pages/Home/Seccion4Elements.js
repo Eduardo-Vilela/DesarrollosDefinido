@@ -15,6 +15,7 @@ export const BoxPrincipal = styled.div`
          justify-content:center;
       }
       @media (max-width: 767px) { 
+         height: auto;
          display:flex;
          flex-direction: column;
          justify-content:center;

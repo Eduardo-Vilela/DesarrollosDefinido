@@ -41,7 +41,40 @@ a{
     color: white;
     font-weight: 600;
 }
+.nav777 .navbar-light .navbar-toggler-icon{
+    width: 10%;
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1653157930/DESARROLLOSGRUPODELSUD/barras-de-menu-de-la-derecha_3_e7qmrs.png) !important;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1653157749/DESARROLLOSGRUPODELSUD/barras-de-menu-de-la-derecha_2_xth9tn.png) !important;
+}
 
+
+.redesNav{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ padding: 50px 150px 50px 0px;
+}
+.imagenRedes{
+    width: 60px;
+}
+
+@media (max-width: 480px) { 
+}
+  @media (max-width: 767px) { 
+
+  }
+  @media (min-width: 768px) and (max-width: 1199px) { 
+.redesNav{
+    display: none;
+}
+  }
+@media (min-width: 1200px) and (max-width: 2000px) { 
+    .redesNav{
+        display: none;
+    }
+  }
 /*mediasssss*/
 @media (max-width: 768px) {
    .navbar-collapse{
@@ -53,12 +86,46 @@ a{
     .navbar77 .me-auto{
        margin-right: none !important;
        background-color: #1D2142;
+       height: 70vh !important;
+       display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .navbar77 .container{
+     padding: 0%;
    }
    .navbar777 .me-auto{
       background-color: white;
-      
+      height: 70vh !important;
+      width: 100%;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
    }
     .fotoInicio{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .navbar-collapse {
+        align-items: flex-end !important; 
+        flex-grow: 0 !important;
+        
+    }
+    .me-auto{
+        margin-right: none !important;
+    }
+  }
+  @media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        justify-content: flex-end;
+        flex-basis: auto;
+    }
+    
+}
+@media screen and (min-width:801px) {
+    .navbar{
         width: 100%;
     }
 }
