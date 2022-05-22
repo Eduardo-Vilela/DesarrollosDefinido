@@ -30,6 +30,8 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
+padding: 0px 70px 0px 0px;
+
 `
 export const Card1 = styled.div`
 
@@ -99,4 +101,6 @@ font-size: 30px;
 color: white;
 font-family: Poppins;
 font-weight: 500;
+text-align: center;
+padding: 0px 0px 300px 0px;
 `
