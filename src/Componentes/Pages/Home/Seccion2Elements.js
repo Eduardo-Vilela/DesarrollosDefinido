@@ -31,7 +31,9 @@ margin: auto;
 `
 
 export const CardsBox = styled.div`
- 
+  $:hover {
+    display: none;
+  }
 `
 export const Overlay = styled.div`
   display: none;

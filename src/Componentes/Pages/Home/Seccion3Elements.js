@@ -43,14 +43,13 @@ export const BoxTexto = styled.div`
 
     @media (max-width: 480px) { 
         width: 100%;
-        padding: 0px;
-        height: 50vh;
+        height: 60vh;
+        padding: 0px 0px 0px 25px;
     }
     @media (max-width: 767px) { 
         width: 100%;
-        padding: 0px;
-        height: 50vh;
-        padding: 0px;
+        padding: 0px 0px 0px 25px;
+        height: 60vh;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
@@ -94,7 +93,7 @@ export const Parrafo3 = styled.p `
     font-family: "Poppins";
     color: #1D2142;
     font-weight: 200;
-
+    color: #828282;
     @media (max-width: 480px) { 
         font-size: 12px;
       }

@@ -1,8 +1,46 @@
 import styled from "styled-components";
 
+export const BoxPadre1 = styled.div`
+width: 100%;
+height: 1600px;
+margin: auto;
+padding-top: 120px;
+
+@media (max-width: 480px) { 
+  width: 80%;
+  height: 780px;
+    }
+    @media (max-width: 767px) { 
+      width: 80%;
+      height: 780px;
+    }
+    @media (min-width: 768px) and (max-width: 1199px) { 
+      
+    }
+`
+export const SubBoxPadre2 = styled.div`
+width: 80%;
+height: 1400px;
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+@media (max-width: 480px) { 
+  width: 100%;
+  height: 800px;
+    }
+    @media (max-width: 767px) { 
+      width: 100%;
+      height: 800px;
+    }
+    @media (min-width: 768px) and (max-width: 1199px) { 
+      
+    }
+`
 export const Contenedor1 = styled.div`
 width: 50%;
-height: 100vh;
+height: 1300px;
 border-radius: 10px;
 @media (max-width: 480px) { 
   width: 100%;

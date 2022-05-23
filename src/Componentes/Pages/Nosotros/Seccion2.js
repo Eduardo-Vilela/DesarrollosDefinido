@@ -1,12 +1,11 @@
 import React from 'react'
-import { BoxPadre, SubBoxPadre } from './Seccion1Elemetns'
-import {Contenedor1,Contenedor2,Video1,Video2,Video3 } from './Seccion2Elements'
+import {BoxPadre1,SubBoxPadre2,Contenedor1,Contenedor2,Video1,Video2,Video3 } from './Seccion2Elements'
 
 function Seccion2() {
   return (
     <>
-     <BoxPadre>
-         <SubBoxPadre>
+     <BoxPadre1>
+         <SubBoxPadre2>
              <Contenedor1>
              <Video1 loop autoPlay>
                 <source
@@ -30,8 +29,8 @@ function Seccion2() {
                     />
                 </Video3>
              </Contenedor2>
-         </SubBoxPadre>
-     </BoxPadre>
+         </SubBoxPadre2>
+     </BoxPadre1>
     </>
   )
 }

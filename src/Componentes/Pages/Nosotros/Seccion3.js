@@ -20,31 +20,31 @@ function Seccion3() {
      <Principal>
          <Secundario>
            <Box1>
-            <TituloPrincipalLogros className='tituloLogros'>Logros</TituloPrincipalLogros>
+            <TituloPrincipalLogros >Logros</TituloPrincipalLogros>
            </Box1>
            <Box2>
                <BoxCards>
                 <Card1>                    
-                    <img className='logos-logros' alt='logros1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648648236/DESARROLLOSGRUPODELSUD/Group_97_zd0cxi.svg'/>
-                    <TituloLogros className='textoLogros'>Unidades vendidas</TituloLogros>
-                    <NumeroLogros class="counter" data-count="150">987</NumeroLogros>
+                    <img  alt='logros1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648648236/DESARROLLOSGRUPODELSUD/Group_97_zd0cxi.svg'/>
+                    <TituloLogros >Unidades vendidas</TituloLogros>
+                    <NumeroLogros  data-count="150">987</NumeroLogros>
                 </Card1>
                 <Card2>
-                    <img className='logos-logros ubicacion' alt='logros3' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647542851/DESARROLLOSGRUPODELSUD/Group_100_zhcwaz.svg'/>
-                    <TituloLogros className='textoLogros'>Unidades disponibles</TituloLogros>
-                    <NumeroLogros class="counter" data-count="150">526</NumeroLogros>
+                    <img  alt='logros3' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647542851/DESARROLLOSGRUPODELSUD/Group_100_zhcwaz.svg'/>
+                    <TituloLogros >Unidades disponibles</TituloLogros>
+                    <NumeroLogros data-count="150">526</NumeroLogros>
                 </Card2>
             </BoxCards>
             <BoxCards>
                 <Card3>  
-                <img className='logos-logros' alt='logros2' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647542862/DESARROLLOSGRUPODELSUD/Group_129_hmhnsp.svg'/>
-                    <TituloLogros className='textoLogros'>M² desarrollados</TituloLogros> 
-                    <NumeroLogros class="counter" data-count="150">6</NumeroLogros>  
+                <img  alt='logros2' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647542862/DESARROLLOSGRUPODELSUD/Group_129_hmhnsp.svg'/>
+                    <TituloLogros >M² desarrollados</TituloLogros> 
+                    <NumeroLogros  data-count="150">6</NumeroLogros>  
                 </Card3>
                 <Card4>
-                    <img className='logos-logros calendario' alt='logros3' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647543194/DESARROLLOSGRUPODELSUD/Group_103_dn4m2u.svg'/>
-                    <TituloLogros className='textoLogros'>Unidades disponibles</TituloLogros>
-                    <NumeroLogros class="counter" data-count="150">3</NumeroLogros>
+                    <img  alt='logros3' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647543194/DESARROLLOSGRUPODELSUD/Group_103_dn4m2u.svg'/>
+                    <TituloLogros >Unidades disponibles</TituloLogros>
+                    <NumeroLogros  data-count="150">3</NumeroLogros>
                 </Card4>
             </BoxCards>
            </Box2>
