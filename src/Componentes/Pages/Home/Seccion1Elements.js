@@ -27,7 +27,7 @@ export const BoxHome = styled.div`
     background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
 
     @media (max-width: 480px) { 
-      width: 100%,
+      width: 100%;
     }
     @media (max-width: 767px) { 
       width: 100%;

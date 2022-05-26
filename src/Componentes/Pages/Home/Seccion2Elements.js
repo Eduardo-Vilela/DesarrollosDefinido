@@ -31,15 +31,12 @@ margin: auto;
 `
 
 export const CardsBox = styled.div`
-  $:hover {
-    display: none;
-  }
+
+
 `
 export const Overlay = styled.div`
-  display: none;
-${CardsBox}:hover & {
-  display: block;
-}
+
+
 `
 
 export const BoxCardsMobile = styled.div`

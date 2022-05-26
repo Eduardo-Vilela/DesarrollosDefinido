@@ -1,14 +1,17 @@
 import React from 'react'
-import NavbarWhite from '../../NavbarWhite'
-import Seccion1 from './Seccion1'
+import Seccion1 from '../Desarrollos/Seccion1'
+import NavbarWhite from '../../NavbarWhite';
+
+
 
 function Desarrollos() {
   return (
     <>
-     <NavbarWhite/>
-     <Seccion1/>
+      <NavbarWhite/>
+      <Seccion1/>
     </>
   )
 }
+
 
 export default Desarrollos

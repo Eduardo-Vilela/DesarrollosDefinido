@@ -1,35 +1,113 @@
 import styled from 'styled-components'
 
-export const BoxPrincipalDesarrollos = styled.div`
+export const BoxPrincipal = styled.div`
 width: 100%;
-height: 800px;
-padding-top: 170px;
-
+height: 2600px;
+@media (max-width: 480px) { 
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 767px) { 
+    width: 100%;
+    height: auto;
+   }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+    width: 100%;
+    height: auto;
+  }
 `
-export const SubBoxDesarrollos = styled.div`
+
+export const SubBoxLotes = styled.div`
 width: 80%;
-height: 100vh;
+height: 2600px;
 margin: auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
+padding-top: 180px;
+background: white;
+@media (max-width: 480px) { 
+    
+    height: auto;
+  }
+  @media (max-width: 767px) { 
+    
+    height: auto;
+   }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+    height: auto;
+  }
 `
-
-export const BoxDesarrollos1 = styled.div`
+export const BoxTituloLotes = styled.div`
+width:80%;
+height:200px;
+`
+export const BoxLotes = styled.div`
 width: 100%;
-height: 10vh;
+height: 2400px;
+border: 1px solid #E5E5E5; 
+border-radius: 10px;
+@media (max-width: 480px) { 
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 767px) { 
+    width: 100%;
+    height: auto;
+   }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+    width: 100%;
+    height: auto;
+  }
 `
-
-export const BoxDesarrollos2 = styled.div`
-width: 100%;
-height: 90vh;
-border: solid 2px grey;
-`
-
-export const TituloDesarrollos = styled.h1`
-font-size: 40px;
-font-family: "Poppins";
-color: #1D2142;
+export const TituloDesarrollos = styled.p`
+font-size: 38px;
+font-family: Poppins;
 font-weight: 400;
-color: #828282;
+color: #808080;
+@media (max-width: 480px) { 
+    font-size: 22px;
+  }
+  @media (max-width: 767px) { 
+     font-size: 22px;
+   }
+`
+export const AjusteFotos = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 50px 0px 50px 0px ;
+border-bottom: 1px solid #E5E5E5;
+
+@media (max-width: 480px) { 
+    flex-direction: column;
+    padding: 0px;
+  }
+  @media (max-width: 767px) { 
+    flex-direction: column; 
+    padding: 0px;
+   }
+   
+`
+export const Lote = styled.div`
+width: 50%;
+height: 500px;
+padding: 20px;
+@media (max-width: 480px) { 
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgb(229, 229, 229);
+  }
+  @media (max-width: 767px) { 
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgb(229, 229, 229);
+   }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+    height: auto;
+  }
+
+`
+export const ContenedorFotoLotes = styled.img`
+width: 80%;
+border-radius: 10px;
 `

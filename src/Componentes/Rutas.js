@@ -5,6 +5,7 @@ import ScrollToTop from '../Componentes/scrollToTop'
 import Home from './Pages/Home/Home'
 import Nosotros from './Pages/Nosotros/Nosotros'
 import Desarrollos from './Pages/Desarrollos/Desarrollos'
+import PlanCanje from './Pages/PlanCanje/PlanCanje'
 
 
 function Rutas() {
@@ -16,6 +17,7 @@ function Rutas() {
             <Route path='/' element={<Home/>} />
             <Route path='/Nosotros' element={<Nosotros/>} />
             <Route path='/Desarrollos' element={<Desarrollos/>} />
+            <Route path='/Plancanje' element={<PlanCanje/>} />
         </Routes>
       </ScrollToTop>
      </HashRouter>
