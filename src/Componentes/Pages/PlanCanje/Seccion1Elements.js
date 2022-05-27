@@ -43,6 +43,15 @@ margin: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
+@media (max-width: 480px) { 
+  width: 100%;
+  height: 60vh;
+}
+@media (max-width: 767px) { 
+  width: 100%;
+  height: 60vh;
+ }
 }
 
 `
@@ -69,6 +78,15 @@ border-radius: 10px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+@media (max-width: 480px) { 
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 767px) { 
+  width: 100%;
+  height: auto;
+ }
+
 `
 export const BoxTitulos = styled.div`
 width: 50%;
@@ -139,6 +157,12 @@ font-family: "Poppins", Sans-serif;
 font-size: 35px;
 font-weight: 600;
 line-height: 1.5em;
+@media (max-width: 480px) { 
+  font-size: 20px;
+}
+@media (max-width: 767px) { 
+  font-size: 20px;
+ }
 `
 export const SubtituloCard = styled.p`
 text-align: center;
@@ -147,11 +171,28 @@ font-family: "Poppins", Sans-serif;
 font-size: 20px;
 font-weight: 200;
 line-height: 1.5em;
+
+@media (max-width: 480px) { 
+  font-size: 20px;
+}
+@media (max-width: 767px) { 
+  font-size: 20px;
+ }
 `
 export const Columnas = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+@media (max-width: 480px) { 
+  flex-direction: row;
+  justify-content: space-around;
+  margin:auto;
+}
+@media (max-width: 767px) { 
+  flex-direction: row;
+  justify-content: space-around;
+  margin:auto;
+ }
 `
 
 export const CardLote = styled.div`
@@ -163,12 +204,21 @@ justify-content: center;
 background: white;
 text-align: center;
 border-radius: 10px;
-box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
+box-shadow: 2px 2px 5px #b9b3b3;
 cursor: pointer;
   &:hover{
-      background-color: #1D2142;
+      background-color: #1D2142 !important;
       background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1648823298/DESARROLLOSGRUPODELSUD/eljuncalLetras_xlttzf.svg);
       background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: center center;
+  }
+  @media (max-width: 480px) { 
+    width: 30%;
+  }
+  @media (max-width: 767px) { 
+    width: 30%;
+   }
 `
 
 export const CardLote1 = styled.div`
@@ -180,13 +230,22 @@ justify-content: center;
 background: white;
 text-align: center;
 border-radius: 10px;
-box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
+box-shadow: 2px 2px 5px #b9b3b3;
 cursor: pointer;
   &:hover{
       background-color: #1D2142;
       background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: center center;
       background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649692006/DESARROLLOSGRUPODELSUD/Logo-Banner-Las-Orianas_qmldsg.svg);
   }
+  @media (max-width: 480px) { 
+    width: 30%;
+  }
+  @media (max-width: 767px) { 
+    width: 30%;
+   }
+  
 `
 export const CardLote2 = styled.div`
 width: 25%;
@@ -197,13 +256,21 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 border-radius: 10px;
-box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
+box-shadow: 2px 2px 5px #b9b3b3;
 cursor: pointer;
   &:hover{
     background-repeat: no-repeat;
     background-color: #1D2142;
+    background-size: 60%;
+    background-position: center center;
       background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649431167/DESARROLLOSGRUPODELSUD/lacampi%C3%B1a_hdxe5y.svg);
   }
+  @media (max-width: 480px) { 
+    width: 30%;
+  }
+  @media (max-width: 767px) { 
+    width: 30%;
+   }
 `
 export const CardLote3 = styled.div`
 width: 25%;
@@ -214,13 +281,21 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 border-radius: 10px;
-box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
+box-shadow: 2px 2px 5px #b9b3b3;
 cursor: pointer;
   &:hover{
       background-color: #1D2142;
       background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: center center;
       background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637673/DESARROLLOSGRUPODELSUD/Groupaaa_vvoggh.svg);
   }
+  @media (max-width: 480px) { 
+    width: 30%;
+  }
+  @media (max-width: 767px) { 
+    width: 30%;
+   }
 `
 export const CardLote4 = styled.div`
 width: 25%;
@@ -231,13 +306,21 @@ justify-content: center;
 background: white;
 border-radius: 10px;
 text-align: center;
-box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
+box-shadow: 2px 2px 5px #b9b3b3;
 cursor: pointer;
   &:hover{
       background-color: #1D2142;
       background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: center center;
       background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649626460/DESARROLLOSGRUPODELSUD/Group_184_j7j7rc.svg);
+  } 
+  @media (max-width: 480px) { 
+    width: 30%;
   }
+  @media (max-width: 767px) { 
+    width: 30%;
+   }
 `
 export const CardLote5 = styled.div`
 width: 25%;
@@ -248,25 +331,45 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 border-radius: 10px;
-box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
+box-shadow: 2px 2px 5px #b9b3b3;
 cursor: pointer;
   &:hover{
       background-color: #1D2142;
       background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: center center;
       background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1653595256/DESARROLLOSGRUPODELSUD/Logo-La-Escondida-fondo-transparente-con-sombra-17-1024x1024_pwiaxc.png);
   }
+  @media (max-width: 480px) { 
+    width: 30%;
+  }
+  @media (max-width: 767px) { 
+    width: 30%;
+   }
 
 `
 
-export const T1 = styled.h2`
+export const T1 = styled.p`
 color: #1D2142;
 font-size: 20px;
 font-family: Poppins;
 font-weight: 400;
+@media (max-width: 480px) { 
+  font-size: 15px;
+}
+@media (max-width: 767px) { 
+  font-size: 15px;
+ }
 `
 export const S1 = styled.p`
 color: #878080;
 font-size: 17px;
 font-family: Poppins;
 font-weight: 400;
+@media (max-width: 480px) { 
+  font-size: 11px;
+}
+@media (max-width: 767px) { 
+  font-size: 11px;
+ }
 `

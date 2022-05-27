@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar , Container , Nav ,Image} from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 import './Navbar2.css'
-
+import './NavbarTransparent.css'
 
 function NavbarWhite() {
   return (
@@ -10,7 +10,7 @@ function NavbarWhite() {
      <div>
         <Navbar className='navBar2'  fixed="top" expand="lg">
           <Container>
-            <Navbar.Brand href="#home"><Image src='https://res.cloudinary.com/grupo-delsud/image/upload/v1646942039/DESARROLLOSGRUPODELSUD/logoNav_h8jfaz.svg' fluid/></Navbar.Brand>
+            <Navbar.Brand href="#home"><Link style={{color:'#1D2142'}} to='/'><Image src='https://res.cloudinary.com/grupo-delsud/image/upload/v1646942039/DESARROLLOSGRUPODELSUD/logoNav_h8jfaz.svg' fluid/></Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav navbar-collapse2">
              <Nav className="me-auto">
@@ -19,8 +19,11 @@ function NavbarWhite() {
                 <Nav.Item className='Items2' href="#home"><Link  style={{color:'#1D2142'}}to='/Desarrollos'>Desarrollos</Link></Nav.Item>
                 <Nav.Item className='Items2' href="#home"><Link  style={{color:'#1D2142'}}to='/Plancanje'>Plan Canje</Link></Nav.Item>
                 <Nav.Item className='Items2' href="#home"><Link style={{color:'#1D2142'}} to='/Contacto'>Contacto</Link></Nav.Item>
-                <Nav.Item className='Items3-hablemos Items2' ><a href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre' style={{color:'#82AB29',borderBottom:'1px solid #82AB29 '}}> Hola,Hablamos?</a>
-                </Nav.Item>
+                <div className='redesNav'>
+                   <a href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,w_100/v1648567662/DESARROLLOSGRUPODELSUD/icons8-facebook_zdanr8.svg'/></a>   
+                   <a href='https://www.instagram.com/desarrollos.delsud/'><img className='imagenRedes'  alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-instagram_kncmsb.svg'/> </a> 
+                   <a href=''><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-whatsapp_cpftke.svg'/> </a>     
+                 </div>
              </Nav>
             </Navbar.Collapse>
          </Container>

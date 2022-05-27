@@ -26,7 +26,7 @@
 /*SCROLL DOWN*/
 .navbar777 {
     background: white;
-
+    border-bottom: 1px solid #1D2142;
     color: white !important;
 
 }
@@ -87,7 +87,7 @@ a{
     .navbar77 .me-auto{
        margin-right: none !important;
        background-color: #1D2142;
-       height: 70vh !important;
+       height: 100vh !important;
        display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +97,7 @@ a{
    }
    .navbar777 .me-auto{
       background-color: white;
-      height: 70vh !important;
+      height: 100vh !important;
       width: 100%;
       display: flex;
     flex-direction: column;

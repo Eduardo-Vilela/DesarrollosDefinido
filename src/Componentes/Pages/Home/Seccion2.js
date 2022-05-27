@@ -18,9 +18,9 @@ function Seccion2() {
           <SubBoxCards>
             <CardsBox style={{ width: '18rem' }}>
                 
-              <Card.Body className='ajusteposicion-seccion1'>
-              <img className='ajusteFotos' alt='aa'src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161427/DESARROLLOSGRUPODELSUD/002-dollar_bnwiea.png' />
-              <Card.Title className='titulo-cards' >Cuotas en pesos <br/>y/o dólares</Card.Title>
+              <Card.Body >
+              <img  alt='aa'src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161427/DESARROLLOSGRUPODELSUD/002-dollar_bnwiea.png' />
+              <Card.Title  >Cuotas en pesos <br/>y/o dólares</Card.Title>
               </Card.Body>
                 <Overlay className='Back' >
                     <Card >

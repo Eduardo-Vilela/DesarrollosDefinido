@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link }from 'react-router-dom'
 import {
 BoxPrimario,
 BoxSecundario,
@@ -50,30 +51,42 @@ function Seccion1() {
               <SubtituloCard>Seleccioná una opción</SubtituloCard>
               <Columnas>
                 <CardLote>
+                <Link to='/FormularioDesarrollo/Eljuncal'>
                    <T1>Lisandro Olmos</T1>
-                   <S1>La Plata</S1>                    
+                   <S1>La Plata</S1>   
+                 </Link>                 
                 </CardLote>
                 <CardLote1>
+                <Link to='/FormularioDesarrollo/Lasorianas'>
                    <T1>Abasto</T1>
                    <S1>La Plata</S1>  
+                </Link>   
                 </CardLote1>
                 <CardLote2>
+                <Link to='/FormularioDesarrollo/Lacampiña'>
                    <T1>Ángel Etcheverry </T1>
                    <S1>La Plata</S1> 
+                </Link>   
                 </CardLote2>
               </Columnas>
               <Columnas>
                 <CardLote3>
+                 <Link to='/FormularioDesarrollo/Latitud34'>
                     <T1>Los Hornos</T1>
                     <S1>La Plata</S1>
+                 </Link>
                 </CardLote3>
                 <CardLote4>
+                  <Link to='/FormularioDesarrollo/Lasvictorias'>
                     <T1>Melchor Romero </T1>
                     <S1>La Plata</S1>
+                  </Link>  
                 </CardLote4>
                 <CardLote5>
+                <Link to='/FormularioDesarrollo/Laescondida'>
                   <T1>Los Hornos</T1>
                   <S1>La Plata</S1>
+                </Link>  
                 </CardLote5>
               </Columnas>
            </BoxTarjetas>

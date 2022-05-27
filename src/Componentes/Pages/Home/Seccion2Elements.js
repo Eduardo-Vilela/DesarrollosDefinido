@@ -31,10 +31,15 @@ margin: auto;
 `
 
 export const CardsBox = styled.div`
-
+&:hover {
+  background: white;
+}
 
 `
 export const Overlay = styled.div`
+&:hover {
+  background: white;
+}
 
 
 `

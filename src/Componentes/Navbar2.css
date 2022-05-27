@@ -14,6 +14,9 @@
 .navbar-light .navbar-toggler-icon{
     background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1651520903/DESARROLLOSGRUPODELSUD/right_menu_icon_214206_l5dt4e.png) !important;
 }
+.navbar-collapse{
+    
+}
 @media screen and (min-width:408px) {
     .navBar2{
         width: 100%;
@@ -26,5 +29,6 @@
     .navbar-collapse2{
         background-color: #1D2142;
         color: white !important;
+        height: 100vh !important;
     }
 }
