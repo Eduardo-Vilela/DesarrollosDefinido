@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer  from '../../Footer'
 import Seccion10 from '../Home/Seccion10'
 import Seccion11 from '../Home/Seccion11'
 
@@ -22,7 +21,6 @@ function Seccion6() {
      </Principal>
      <Seccion10/>
      <Seccion11/>
-     <Footer/>
     </>
   )
 }

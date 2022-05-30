@@ -21,6 +21,7 @@ function Seccion1() {
 
     const {
         register,
+        reset,
         formState: { errors },
         handleSubmit
       } = useForm({
@@ -28,7 +29,7 @@ function Seccion1() {
       });
       const onSubmit = (data,e) => {
         //alert(JSON.stringify(data));
-        axios.post(`https://promo.desarrollosdelsud.com.ar/webApi/public/FormularioContacto`, data)
+        axios.post(`https://promos.desarrollosdelsud.com.ar/webApi/public/FormularioContacto`, data)
           .then(function (response) {
             console.log(response.data);
             toast.success('Formulario enviado!', {
@@ -40,6 +41,7 @@ function Seccion1() {
               draggable: true,
               progress: undefined,
               });
+              reset()
           })
           .catch(function (error) {
             console.log(error);
@@ -53,7 +55,7 @@ function Seccion1() {
               progress: undefined,
               });
           });
-          e.target.reset()
+        reset()
       };
   return (
     <> 
@@ -74,49 +76,37 @@ function Seccion1() {
              <BoxFormContacto  onSubmit={handleSubmit(onSubmit)}>          
                           <InputContacto type="text" name='name'
                             {...register("name", {
-                              required: true,
-                              maxLength: 20,
-                              pattern: /^[A-Za-z]+$/i,
-                          
-                            })}
+                              required: "*Campo requerido",
+                              maxLength: {
+                                  value: 40,
+                              }
+                              })}
                             placeholder="Nombre"
                           />
-                          {errors?.name?.type === "required" && 
-                          <p className='text-danger'>Este campo es obligatorio</p>}
-                          {errors?.name?.type === "maxLength" && (
-                            <p className='text-danger'>El nombre no puede exceder los 20 caracteres</p>
-                          )}
-                          {errors?.nombre?.type === "pattern" && (
-                            <p className='text-danger'>Solo caracteres alfabéticos</p>
-                          )}
+                          {errors.name && <p style={{color:'white', fontFamily:'Poppins'}}>Campo Requerido!</p>}
                           <InputContacto  type="text" name='email'
-                          {...register("email", 
-                          { 
-                            required: true,
-                            maxLength: 50,
-                            pattern: /number/i,
-                            })} 
+                            {...register("email", {
+                            required: "*Campo requerido",
+                            pattern: {
+                            value: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                            message1: "Dirección de mail invalida"
+                               }
+                              })}
                             style={{color:'white'}}
                             placeholder="Email"
                             />
-                          {errors?.email?.type === "required" && 
-                          <p className='text-danger'>Este campo es obligatorio</p>}
-                          {errors?.email?.type === "maxLength" && (
-                            <p className='text-danger'>El nombre no puede exceder los 50 caracteres</p>
-                          )}
-                          <InputContacto type="text" name='telefono'
-                          {...register("telefono", 
-                          { 
-                            maxLength: 10,
-                            required: true,                  
-                            })}
+                            {errors.email &&  <p style={{color:'white', fontFamily:'Poppins'}}>*Campo Requerido!</p>}
+                          <InputContacto type="number" name='telefono'
+                              {...register("telefono", {
+                                required: "*Campo requerido",
+                                maxLength: {
+                                    value: 20,
+                                }
+                                })}
+
                             placeholder="Teléfono "
                             />
-                            {errors?.telefono?.type === "required" && 
-                            <p className='text-danger'>Este campo es obligatorio</p>}
-                            {errors?.telefono?.type === "maxLength" && (
-                            <p className='text-danger'>El Telefono no puede exceder los 10 caracteres</p>
-                          )}
+                            {errors.telefono &&  <p style={{color:'white', fontFamily:'Poppins'}}>*Campo Requerido!</p>}
                         <InputArea  name="w3review" rows="3" cols="10" placeholder='Mensaje'
                         {...register("mensaje", 
                         { 
@@ -125,9 +115,9 @@ function Seccion1() {
                           })}
                         />
                          {errors?.mensaje?.type === "required" && 
-                            <p className='text-danger'>Este campo es obligatorio</p>}
+                            <p style={{color: 'white'}}>Este campo es obligatorio</p>}
                           {errors?.mensaje?.type === "maxLength" && (
-                            <p className='text-danger'>El mensaje no puede exceder los 140 caracteres</p>
+                            <p style={{color: 'white'}}>El mensaje no puede exceder los 140 caracteres</p>
                           )}
                         <Button className='buttonModal'  type="submit" value="Enviar →"/>
                   </BoxFormContacto>

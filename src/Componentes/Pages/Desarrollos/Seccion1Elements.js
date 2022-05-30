@@ -63,10 +63,10 @@ font-family: Poppins;
 font-weight: 400;
 color: #808080;
 @media (max-width: 480px) { 
-    font-size: 22px;
+    font-size: 18px;
   }
   @media (max-width: 767px) { 
-     font-size: 22px;
+     font-size: 20px;
    }
 `
 export const AjusteFotos = styled.div`
@@ -92,14 +92,42 @@ export const Lote = styled.div`
 width: 50%;
 height: 500px;
 padding: 20px;
+transition:all 0.6s ease;
+transform-style: preserve-3d;
+
+   &:hover{
+   transform: rotateY(180deg);
+   }
+   
+  .back{
+    transform: rotateY(180deg);
+  }
+
+   .front, .back{
+     position: absolute;
+     left:0px;
+     right: 0px;
+     top: 0px;
+     bottom: 0px;
+     width: 80%;
+     margin: auto;
+     height: auto;
+     backface-visibility:hidden;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+   }
+
+
 @media (max-width: 480px) { 
     width: 100%;
-    height: auto;
+    height: 250px;
     border-top: 1px solid rgb(229, 229, 229);
   }
   @media (max-width: 767px) { 
     width: 100%;
-    height: auto;
+    height: 300px;
     border-top: 1px solid rgb(229, 229, 229);
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
@@ -110,4 +138,20 @@ padding: 20px;
 export const ContenedorFotoLotes = styled.img`
 width: 80%;
 border-radius: 10px;
+`
+
+export const TituloFlips = styled.h2`
+color: #1D2142;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 1em;
+`
+
+export const SubtituloFlips = styled.h3`
+color: #AEAEAE;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.5em;
 `

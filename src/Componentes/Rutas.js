@@ -10,6 +10,7 @@ import Contacto from './Pages/Contacto/Contacto'
 import Formulario1 from './Pages/PlanCanje/Formulario1'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Footer'
 
 
 function Rutas() {
@@ -46,6 +47,7 @@ function Rutas() {
             <Route path='/FormularioDesarrollo/Lasvictorias' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Laescondida' element={<Formulario1/>} />
         </Routes>
+        <Footer/>
       </ScrollToTop>
      </HashRouter>
     </>

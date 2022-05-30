@@ -28,6 +28,7 @@ import {
 function Footer() {
   const {
     register,
+    reset,
     formState: { errors },
     handleSubmit
   } = useForm({
@@ -35,7 +36,7 @@ function Footer() {
   });
   const onSubmit = (data,e) => {
     //alert(JSON.stringify(data));
-    axios.post(`https://promo.desarrollosdelsud.com.ar/webApi/public/formSuscribite`, data)
+    axios.post(`https://promos.desarrollosdelsud.com.ar/webApi/public/formSuscribite`, data)
       .then(function (response) {
         console.log(response.data);
         toast.success('Formulario enviado!', {
@@ -47,6 +48,7 @@ function Footer() {
           draggable: true,
           progress: undefined,
           });
+          reset()
       })
       .catch(function (error) {
         console.log(error);
@@ -60,7 +62,7 @@ function Footer() {
           progress: undefined,
           });
       });
-      e.target.reset()
+      reset()
   }; 
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../Footer'
 import NavbarTransparent from '../../NavbarTransparent'
 import Seccion1 from './Seccion1'
 import Seccion10 from './Seccion10'
@@ -28,7 +27,6 @@ function Home() {
      <Seccion9/>
      <Seccion10/>
      <Seccion11/>
-     <Footer/>
     </>
   )
 }

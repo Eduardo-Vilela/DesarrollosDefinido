@@ -28,6 +28,8 @@ FotoAuto,
 import NavbarWhite from '../../NavbarWhite';
 import axios from "axios";
 import { toast } from 'react-toastify';
+import {Link} from 'react-router-dom'
+
 
 function Formulario1() {
 const [formStep, setFormStep] = React.useState(0)
@@ -38,7 +40,7 @@ const completeFormStep = () => {
 
 const ButtonFinal = () => {
   if (formStep > 1) {
-   return (<ButtonFormPlanCanje >Ir al inicio</ButtonFormPlanCanje>)
+   return (<ButtonFormPlanCanje ><Link to='/'>Ir al inicio</Link></ButtonFormPlanCanje>)
   } else if (formStep === 2){
     return(
       undefined
@@ -71,8 +73,8 @@ const onSubmit = (data,e) => {
         draggable: true,
         progress: undefined,
         });
+        reset()
     })
-    reset()
     .catch(function (error) {
       console.log(error);
       toast.error('No se pudo enviar el formulario!', {
@@ -219,15 +221,15 @@ const onSubmit = (data,e) => {
 
                   <LabelPlanCanje className='label-autoform2' >WhatsApp</LabelPlanCanje>
                   <InputPlanCanje className='input-formAuto' type="text" name='whatsapp'
-                  {...register("whatsApp", 
+                  {...register("whatsapp", 
                   { 
                     required: true,                  
                     })}
-                    placeholder="whatsApp"
+                    placeholder="whatsapp"
                     />
-                    {errors?.whatsApp?.type === "required" && 
+                    {errors?.whatsapp?.type === "required" && 
                     <p className='text-danger'>Este campo es obligatorio</p>}
-                    {errors?.whatsApp?.type === "maxLength" && (
+                    {errors?.whatsapp?.type === "maxLength" && (
                     <p className='text-danger'>El nombre no puede exceder los 10 caracteres</p>
                   )}
               </Parte2>
