@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const BoxPrincipal = styled.div`
 width: 100%;
-height: 2600px;
+height: 2900px;
 @media (max-width: 480px) { 
     width: 100%;
     height: auto;
@@ -19,7 +20,7 @@ height: 2600px;
 
 export const SubBoxLotes = styled.div`
 width: 80%;
-height: 2600px;
+height: 2900px;
 margin: auto;
 padding-top: 180px;
 background: white;
@@ -89,11 +90,12 @@ border-bottom: 1px solid #E5E5E5;
    
 `
 export const Lote = styled.div`
-width: 50%;
+width: 80%;
 height: 500px;
 padding: 20px;
 transition:all 0.6s ease;
 transform-style: preserve-3d;
+margin: auto;
 
    &:hover{
    transform: rotateY(180deg);
@@ -109,7 +111,7 @@ transform-style: preserve-3d;
      right: 0px;
      top: 0px;
      bottom: 0px;
-     width: 80%;
+     width: 100%;
      margin: auto;
      height: auto;
      backface-visibility:hidden;
@@ -136,7 +138,7 @@ transform-style: preserve-3d;
 
 `
 export const ContenedorFotoLotes = styled.img`
-width: 80%;
+width: 100%;
 border-radius: 10px;
 `
 
@@ -154,4 +156,10 @@ font-family: Poppins;
 font-size: 20px;
 font-weight: 300;
 line-height: 1.5em;
+`
+
+export const LinkFlip = styled(Link)`
+width: 50%;
+height: 500px;
+border-left: solid 1px #E5E5E5;
 `

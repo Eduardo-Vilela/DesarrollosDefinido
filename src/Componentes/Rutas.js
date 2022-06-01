@@ -11,7 +11,8 @@ import Formulario1 from './Pages/PlanCanje/Formulario1'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './Footer'
-
+import LasVictorias from './Pages/Desarrollos/Lotes/LasVictorias/LasVictorias'
+import Eljuncal from './Pages/Desarrollos/Lotes/Eljuncal/Eljuncal'
 
 function Rutas() {
   return (
@@ -39,6 +40,8 @@ function Rutas() {
             <Route path='/Plancanje' element={<PlanCanje/>} />
             <Route path='/Contacto' element={<Contacto/>} />
 
+            <Route path='/Lasvictorias' element={<LasVictorias/>} />
+            <Route path='/Eljuncal' element={<Eljuncal/>} />
 
             <Route path='/FormularioDesarrollo/Eljuncal' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lasorianas' element={<Formulario1/>} />

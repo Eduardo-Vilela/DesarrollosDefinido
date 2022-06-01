@@ -44,24 +44,29 @@ function Seccion2() {
 
             )}
             </CardsBox>
-            <CardsBox style={{ width: '18rem' }}>
+            <CardsBox 
+            onMouseEnter={() => setIsShown(true)}
+            onMouseLeave={() => setIsShown(false)}
+            style={{ width: '18rem' }}>
               <Card.Body className='ajusteposicion-seccion1'>
               <img  className='ajusteFotos'alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/Group_22_femmox.svg' />
               <Card.Title className='titulo-cards' >Financiación <br/> Personalizada</Card.Title>          
               </Card.Body>
-              <Overlay className='overlay'>
-                  <Card style={{ width: '18rem' }}>
-                      <Card.Body className='ajusteposicion-seccion1'>
-                      <img className='ajusteFotos' alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-2-1_naohwr.svg" />
-                          <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
-                          Armá tu propio plan de 
-                          financiación a medida, 
-                          adaptado a tus 
-                          necesidades
-                          </Card.Subtitle>
-                      </Card.Body>
-                  </Card>
-              </Overlay>
+              {isShown &&(
+               <Overlay className='overlay'>
+                 <Card style={{ width: '18rem' }}>
+                     <Card.Body className='ajusteposicion-seccion1'>
+                     <img className='ajusteFotos' alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-2-1_naohwr.svg" />
+                         <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
+                         Armá tu propio plan de 
+                         financiación a medida, 
+                         adaptado a tus 
+                         necesidades
+                         </Card.Subtitle>
+                     </Card.Body>
+                 </Card>
+             </Overlay>
+              )}
             </CardsBox>
             <CardsBox style={{ width: '18rem' }}>
               <Card.Body className='ajusteposicion-seccion1'>
