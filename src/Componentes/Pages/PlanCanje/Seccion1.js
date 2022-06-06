@@ -23,6 +23,7 @@ CardLote4,
 CardLote5,
 T1,
 S1,
+LinkPlan,
 } from './Seccion1Elements'
 
 
@@ -51,42 +52,42 @@ function Seccion1() {
               <SubtituloCard>Seleccioná una opción</SubtituloCard>
               <Columnas>
                 <CardLote>
-                <Link to='/FormularioDesarrollo/Eljuncal'>
+                 <LinkPlan style={{textDecoration:'none'}} to='/FormularioDesarrollo/Eljuncal'>
                    <T1>Lisandro Olmos</T1>
                    <S1>La Plata</S1>   
-                 </Link>                 
+                 </LinkPlan>                 
                 </CardLote>
                 <CardLote1>
-                <Link to='/FormularioDesarrollo/Lasorianas'>
+                <LinkPlan style={{textDecoration:'none'}}  to='/FormularioDesarrollo/Lasorianas'>
                    <T1>Abasto</T1>
                    <S1>La Plata</S1>  
-                </Link>   
+                </LinkPlan>   
                 </CardLote1>
                 <CardLote2>
-                <Link to='/FormularioDesarrollo/Lacampiña'>
+                <LinkPlan style={{textDecoration:'none'}}  to='/FormularioDesarrollo/Lacampina'>
                    <T1>Ángel Etcheverry </T1>
                    <S1>La Plata</S1> 
-                </Link>   
+                </LinkPlan>   
                 </CardLote2>
               </Columnas>
               <Columnas>
                 <CardLote3>
-                 <Link to='/FormularioDesarrollo/Latitud34'>
+                 <LinkPlan style={{textDecoration:'none'}}  to='/FormularioDesarrollo/Latitud34'>
                     <T1>Los Hornos</T1>
                     <S1>La Plata</S1>
-                 </Link>
+                 </LinkPlan>
                 </CardLote3>
                 <CardLote4>
-                  <Link to='/FormularioDesarrollo/Lasvictorias'>
+                  <LinkPlan style={{textDecoration:'none'}}  to='/FormularioDesarrollo/Lasvictorias'>
                     <T1>Melchor Romero </T1>
                     <S1>La Plata</S1>
-                  </Link>  
+                  </LinkPlan>  
                 </CardLote4>
                 <CardLote5>
-                <Link to='/FormularioDesarrollo/Laescondida'>
+                <LinkPlan style={{textDecoration:'none'}}  to='/FormularioDesarrollo/Laescondida'>
                   <T1>Los Hornos</T1>
                   <S1>La Plata</S1>
-                </Link>  
+                </LinkPlan>  
                 </CardLote5>
               </Columnas>
            </BoxTarjetas>

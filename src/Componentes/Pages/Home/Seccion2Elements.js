@@ -31,18 +31,30 @@ margin: auto;
 `
 
 export const CardsBox = styled.div`
-&:hover {
-  background: white;
+position: relative;
+`
+export const TarjetaVerde = styled.div`
+display: none;
+
+${CardsBox}:hover & {
+ display:block;
+ position: absolute;
+ top:0;
+ bottom:0;
+ left:0;
+ right:0;
+ width: 200px;
+ height: 200px; 
 }
 
 `
-export const Overlay = styled.div`
-&:hover {
-  background: white;
+export const TarjetaGris = styled.div`
+display: block;
+&:hover{
+  display:none;
 }
-
-
 `
+
 
 export const BoxCardsMobile = styled.div`
     display: none;

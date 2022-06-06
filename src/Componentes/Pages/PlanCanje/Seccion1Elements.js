@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link} from 'react-router-dom'
 
 export const BoxPrimario = styled.div`
 width: 100%;
@@ -46,11 +47,11 @@ justify-content: center;
 
 @media (max-width: 480px) { 
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height: 60vh;
+  height: 70vh;
  }
 }
 
@@ -80,11 +81,13 @@ flex-direction: column;
 justify-content: space-evenly;
 @media (max-width: 480px) { 
   width: 100%;
-  height: auto;
+  height: 70vh;
+  padding-top: 20px;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height: auto;
+  height: 70vh;
+  padding-top: 20px;
  }
 
 `
@@ -354,6 +357,7 @@ color: #1D2142;
 font-size: 20px;
 font-family: Poppins;
 font-weight: 400;
+
 @media (max-width: 480px) { 
   font-size: 15px;
 }
@@ -372,4 +376,28 @@ font-weight: 400;
 @media (max-width: 767px) { 
   font-size: 11px;
  }
+`
+
+export const LinkPlan  = styled(Link)`
+
+${CardLote}:hover & {
+ opacity: 0;
+}
+${CardLote1}:hover & {
+  opacity: 0;
+ }
+ 
+${CardLote2}:hover & {
+  opacity: 0;
+ }
+ ${CardLote3}:hover & {
+  opacity: 0;
+ }
+ ${CardLote4}:hover & {
+  opacity: 0;
+ }
+ ${CardLote5}:hover & {
+  opacity: 0;
+ }
+
 `

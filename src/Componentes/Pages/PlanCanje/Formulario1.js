@@ -47,17 +47,16 @@ const ButtonFinal = () => {
     )
   } else{
     return(
-      <ButtonFormPlanCanje type="submit" onClick={completeFormStep}>Siguiente  →</ButtonFormPlanCanje>
+      <ButtonFormPlanCanje disabled={!isValid} type="submit" onClick={completeFormStep}>Siguiente  →</ButtonFormPlanCanje>
     )
   }
 }
 
 const {
   register,
-  handleSubmit,
   reset,
-  formState: { errors }
-} = useForm();
+  formState: { errors, isValid }
+} = useForm({ mode:"all"});
 
 const onSubmit = (data,e) => {
   //alert(JSON.stringify(data));
@@ -113,7 +112,7 @@ const onSubmit = (data,e) => {
              </BoxAuto>
          </BoxSecundario>
          <BoxFondoForm>
-            <BoxFormulario onSubmit={handleSubmit(onSubmit)}>
+            <BoxFormulario onSubmit={(onSubmit)}>
               {formStep === 0 &&(
               <Parte1>
                 <BoxIntermedioinputs>
@@ -122,25 +121,18 @@ const onSubmit = (data,e) => {
                       <InputPlanCanje className='input-formAuto' type="text" name='modeloDeAuto'
                         {...register("modeloDeAuto", 
                         { 
-                          maxLength: 10,
                           required: true,                  
-                          })}          
+                          })}       
                           placeholder="Modelo De Auto"
                           />
-                          {errors?.modeloDeAuto?.type === "required" && 
-                          <p className='text-danger'>Este campo es obligatorio</p>}
-                          {errors?.modeloDeAuto?.type === "maxLength" && (
-                          <p className='text-danger'>El nombre no puede exceder los 10 caracteres</p>
-                        )}
+
                     </PosicionLabels>
                     <PosicionLabels>
                           <LabelPlanCanje className='label-auto' >Marca</LabelPlanCanje>
                           <InputPlanCanje className='input-formAuto' type="text" name='marca'
                           {...register("marca", 
                           { 
-                            required: true,
-                            maxLength: 50,
-                              
+                            required: true,                     
                             })}               
                             placeholder="Marca"
                             />
@@ -154,10 +146,9 @@ const onSubmit = (data,e) => {
                 <BoxIntermedioinputs>
                   <PosicionLabels>
                         <LabelPlanCanje className='label-auto' >Kilometros</LabelPlanCanje>
-                        <InputPlanCanje className='input-formAuto' type="text" name='kilometros'
+                        <InputPlanCanje className='input-formAuto' type="number" name='kilometros'
                           {...register("kilometros", 
                           { 
-                            maxLength: 10,
                             required: true,                  
                             })}                        
                             placeholder="0.000"
@@ -170,10 +161,9 @@ const onSubmit = (data,e) => {
                     </PosicionLabels>
                     <PosicionLabels>
                           <LabelPlanCanje className='label-auto' >Valor del auto</LabelPlanCanje>
-                          <InputPlanCanje className='input-formAuto' type="text" name='valorDelAuto'
+                          <InputPlanCanje className='input-formAuto' type="number" name='valorDelAuto'
                           {...register("valorDelAuto", 
                           { 
-                            maxLength: 10,
                             required: true,                  
                             })}
                             placeholder="0.000.000"
@@ -220,7 +210,7 @@ const onSubmit = (data,e) => {
                                 
 
                   <LabelPlanCanje className='label-autoform2' >WhatsApp</LabelPlanCanje>
-                  <InputPlanCanje className='input-formAuto' type="text" name='whatsapp'
+                  <InputPlanCanje className='input-formAuto' type="number" name='whatsapp'
                   {...register("whatsapp", 
                   { 
                     required: true,                  
