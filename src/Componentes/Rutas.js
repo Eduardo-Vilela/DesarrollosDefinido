@@ -34,21 +34,27 @@ function Rutas() {
       <ToastContainer />
       <ScrollToTop>
         <Routes>
+            /*COMPONENTES*/ 
             <Route path='/' element={<Home/>} />
             <Route path='/Nosotros' element={<Nosotros/>} />
             <Route path='/Desarrollos' element={<Desarrollos/>} />
             <Route path='/Plancanje' element={<PlanCanje/>} />
             <Route path='/Contacto' element={<Contacto/>} />
-
+            /* DESARROLLOS */
             <Route path='/Lasvictorias' element={<LasVictorias/>} />
             <Route path='/Eljuncal' element={<Eljuncal/>} />
-
+             /* FORMULARIOS*/
             <Route path='/FormularioDesarrollo/Eljuncal' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lasorianas' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lacampiña' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Latitud34' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lasvictorias' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Laescondida' element={<Formulario1/>} />
+            /* ENRUTADO DESARROLLOS INTERNO*/
+            {/* <Route path='/' element={<Formulario1/>} />
+            <Route path='/' element={<Formulario1/>} />
+            <Route path='/' element={<Formulario1/>} />
+            <Route path='/' element={<Formulario1/>} /> */}
         </Routes>
         <Footer/>
       </ScrollToTop>
