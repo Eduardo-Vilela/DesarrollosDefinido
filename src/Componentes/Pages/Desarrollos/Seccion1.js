@@ -66,7 +66,7 @@ function Seccion1() {
                 </div>
               </Lote>
             </LinkFlip>  
-            <LinkFlip to='/Lacampiña'>
+            <LinkFlip to='/Lacampina'>
               <Lote >
                 <div className='front'>
                    <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Intro-Card-La-Campina_foyc5b.png'/>
@@ -92,7 +92,7 @@ function Seccion1() {
                 </div>
               </Lote>
             </LinkFlip>
-            <LinkFlip to='/'>
+            <LinkFlip to='/Laescondida'>
               <Lote >
                 <div className='front'>
                   <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Intro-Card-La-Escondida_qnyllt.png'/>

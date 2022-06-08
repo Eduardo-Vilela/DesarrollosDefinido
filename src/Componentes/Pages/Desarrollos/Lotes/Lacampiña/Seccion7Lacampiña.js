@@ -8,20 +8,18 @@ import {
     Numero4,
     TituloDerecha ,
     ParrafoDerecha,
-    SubtituloDerecha,
-    ItemListaDerecha,
     Imagen2,
     ItemListaDerecha3,
     ButtonArmaTuPago,
-}  from './LasVictoriasElements'
+}  from '../LasVictorias/LasVictoriasElements'
 
-function Seccion7Victorias() {
+function Seccion7Lacampiña() {
   return (
     <>
      <Box2>
          <SubBox2>
              <BoxMaps>
-             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/businesspeople-shaking-hands_1_umpbig.jpg'  ></Imagen2>
+             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649432527/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u.jpg'  ></Imagen2>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -40,8 +38,8 @@ function Seccion7Victorias() {
                   </div>
                   <div style={{width:'75%'}}>
                     <ul style={{listStyle:'none',padding:'0'}}>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>Accedé desde un 50% de anticipo</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>El resto financialo hasta en 60 cuotas fijas</ItemListaDerecha3>
+                        <ItemListaDerecha3 style={{border:'0',margin:'0'}}><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>Accedé desde un 50% de anticipo</ItemListaDerecha3>
+                        <ItemListaDerecha3 style={{border:'0',margin:'0'}}><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>El resto financialo hasta en 60 cuotas fijas</ItemListaDerecha3>
                     </ul>
                   </div>
                   <div>
@@ -55,4 +53,4 @@ function Seccion7Victorias() {
   )
 }
 
-export default Seccion7Victorias
+export default Seccion7Lacampiña

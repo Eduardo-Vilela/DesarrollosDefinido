@@ -12,9 +12,9 @@ import {
     ItemListaDerecha,
     Imagen2,
     ItemListaDerecha3,
-}  from './LasVictoriasElements'
+}  from '../LasVictorias/LasVictoriasElements'
 
-function Seccion6Victorias() {
+function Seccion6Laescondida() {
   return (
     <>
      <Box2 >
@@ -32,20 +32,22 @@ function Seccion6Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Este proyecto contará con los servicios<br/>
-                    de electricidad aérea; además de un cerco <br/>
-                    perimetral que rodea todo el desarrollo<br/>
-                    y un portón para el ingreso y egreso al<br/>
-                    predio. Desde Desarrollos Delsud nos <br/>
-                    ocupamos del mejorado de las calles, <br/>
-                    cuyo final de obra cuenta con tosca y calcáreo.<br/>
+                    Contará con los servicios de electricidad y agua potable, <br/>
+                    suministrado por reconocida empresa de la zona,<br/>
+                     aunque cabe destacar que la conectividad de estos <br/>
+                     fue facilitada por obra privada de Desarrollos Delsud. <br/>
+                     Desde la empresa también nos hemos ocupado del <br/>
+                     mejoramiento de la calle, cuyo final de obra <br/>
+                     cuenta con tosca y calcáreo, y de su luminaria común. <br/>
+                     De esta manera, facilitamos los recursos necesarios <br/>
+                     para que cada propietario cumpla los <br/>
+                     sueños de su propia inversión.<br/>
                     </ParrafoDerecha>
                   </div>
                   <div style={{width:'55%'}}>
                     <ul style={{listStyle:'none',padding:'0'}}>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/vetro5_ejqofr.svg'/></span>Electricidad</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649629353/DESARROLLOSGRUPODELSUD/Vector_lfysdy.svg'/></span>Portones de ingreso y egreso</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649435466/DESARROLLOSGRUPODELSUD/Vector_g9k2zu.jpg'/></span>Cerco perimetral</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/Vectorfbaf_zx4xjl.svg'/></span>Agua Potable</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/road_1_qqkxci.svg'/></span>Mejorado de calles</ItemListaDerecha3>
                     </ul>
                   </div>
@@ -57,4 +59,4 @@ function Seccion6Victorias() {
   )
 }
 
-export default Seccion6Victorias
+export default Seccion6Laescondida

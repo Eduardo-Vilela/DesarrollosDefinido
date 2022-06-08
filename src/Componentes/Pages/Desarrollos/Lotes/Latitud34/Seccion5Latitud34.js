@@ -11,9 +11,9 @@ import {
     NumerosAzules,
     TextoGris,
     Imagen2,
-} from './LasVictoriasElements'
+} from '../LasVictorias/LasVictoriasElements'
 
-function Seccion5Victorias() {
+function Seccion5Latitud34() {
   return (
     <>
      <Box2>
@@ -31,20 +31,20 @@ function Seccion5Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Las Victorias cuenta con 72 terrenos<br/> 
-                    de 251m², ofreciendote un lugar amplio <br/> 
-                    y verde para que cambies tu estilo de vida.<br/> 
+                        Latitud 34° cuenta con 112 terrenos de variadas medidas, <br/>
+                        que llegan hasta los 361 m² convirtiéndolo en el barrio <br/>
+                        perfecto para llevar una vida en tranquilidad. <br/>
                     </ParrafoDerecha>
                   </div>
                   <div>
                     <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
                   </div>
                   <BoxTarjeton>
-                   <NumerosAzules>72</NumerosAzules>
+                   <NumerosAzules>122</NumerosAzules>
                    <TextoGris>Unidades</TextoGris>
                    <TextoGris>/</TextoGris>
                    <TextoGris>desde</TextoGris>
-                   <NumerosAzules>251m²</NumerosAzules>
+                   <NumerosAzules>300m²</NumerosAzules>
                   </BoxTarjeton>
                  </SubBoxUbicacion>
              </BoxUbicacion>
@@ -54,4 +54,4 @@ function Seccion5Victorias() {
   )
 }
 
-export default Seccion5Victorias
+export default Seccion5Latitud34

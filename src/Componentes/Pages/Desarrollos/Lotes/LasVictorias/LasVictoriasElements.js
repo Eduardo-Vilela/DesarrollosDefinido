@@ -1,6 +1,6 @@
 import styled from 'styled-components'
  
-export const BoxHome = styled.div`
+export const BoxHomeVictorias = styled.div`
 width: 100%;
 height: 70vh;
 display: flex;
@@ -8,6 +8,31 @@ flex-direction: row;
 justify-content: center;
 background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649692306/DESARROLLOSGRUPODELSUD/RENDER_LA_VICTORIA_2_-_Foto_ku9jfc.jpg);
 `
+export const BoxHomeJuncal = styled.div`
+width: 100%;
+height: 70vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1648822621/DESARROLLOSGRUPODELSUD/DJI_0077_3_xewzsu.jpg);
+`
+export const BoxHomeLatitud34 = styled.div`
+width: 100%;
+height: 70vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637068/DESARROLLOSGRUPODELSUD/Latitud_34_3_1_yomdy4.jpg);
+`
+export const BoxHomeLacampiña = styled.div`
+width: 100%;
+height: 70vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649431244/DESARROLLOSGRUPODELSUD/La_Campi%C3%B1a-8_edit_2_muqssy.jpg);
+`
+
 export const BoxTitulo = styled.div`
 width: 50%;
 height: 70vh;
@@ -157,7 +182,22 @@ border-radius: 10px;
   }
 
 `
+export const Video1 = styled.video`
+width: 100%;
+height: 100%;
+border-radius: 10px !important;
 
+
+@media (max-width: 480px) { 
+   width: 100%;
+   height: auto;
+  }
+  @media (max-width: 767px) { 
+   width: 100%;
+   height: auto;
+  }
+
+`
 export const Separador = styled.div`
 margin-bottom: 2px;
 `
@@ -186,7 +226,7 @@ justify-content: center;
 export const BoxMaps = styled.div`
 width: 45%;
 height:100vh;
-
+background-attachment: fixed;
 `
 export const BoxUbicacion = styled.div`
 width: 55%;
@@ -203,7 +243,25 @@ justify-content: space-evenly;
 align-items: flex-start;
 `
 
-export const Numero = styled.h2`
+export const Numero1 = styled.h2`
+font-family: 'Mabry Pro', Sans-serif;
+font-size: 90px;
+font-weight: 300;
+color: #ADADAD;
+`
+export const Numero2 = styled.h2`
+font-family: 'Mabry Pro', Sans-serif;
+font-size: 90px;
+font-weight: 300;
+color: #ADADAD;
+`
+export const Numero3 = styled.h2`
+font-family: 'Mabry Pro', Sans-serif;
+font-size: 90px;
+font-weight: 300;
+color: #ADADAD;
+`
+export const Numero4 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
@@ -271,7 +329,7 @@ line-height: 1em;
 color: grey;
 `
 export const Imagen2 = styled.img`
-
+background-attachment: fixed;
 `
 
 /*seccion 6*/
@@ -284,6 +342,8 @@ font-family: "Poppins", Sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: 1em;
+border-bottom: 1px grey solid;
+margin-top: 10px;
 `
 
 /*seccion7*/
@@ -302,4 +362,35 @@ border-width: 2px 2px 2px 2px;
 border-color: #FFFFFF;
 border-radius: 30px 30px 30px 30px;
 padding: 12px 20px 13px 20px
+`
+
+/*seccion 8 */
+
+export const SubBoxSiper = styled.div`
+width: 100%;
+height: 90vh;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+`
+export const BoxAlto = styled.div`
+width: 80%;
+height: 30%;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+`
+export const BoxBajo = styled.div`
+width:100%;
+height: 70%;
+`
+
+/* el juncal */
+
+export const VideoSlideJuncal = styled.video`
+
+
 `

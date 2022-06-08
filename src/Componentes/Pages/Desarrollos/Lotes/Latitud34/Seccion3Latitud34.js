@@ -1,9 +1,9 @@
 import React from 'react'
-import { Box3,} from './LasVictoriasElements'
+import { Box3,} from '../LasVictorias/LasVictoriasElements'
 import {Nav} from 'react-bootstrap'
 import { HashLink } from 'react-router-hash-link';
 
-function Seccion3Victorias() {
+function Seccion3Latitud34() {
   return (
     <>
      <Box3>
@@ -31,4 +31,4 @@ function Seccion3Victorias() {
   )
 }
 
-export default Seccion3Victorias
+export default Seccion3Latitud34

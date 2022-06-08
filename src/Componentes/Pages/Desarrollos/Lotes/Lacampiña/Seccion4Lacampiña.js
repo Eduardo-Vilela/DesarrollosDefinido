@@ -1,15 +1,15 @@
 import React from 'react'
-import { Box2,BoxUbicacion, SubBox2,BoxMaps, SubBoxUbicacion,Numero1,TituloDerecha ,ParrafoDerecha,SubtituloDerecha,ItemListaDerecha} from './LasVictoriasElements'
+import { Box2,BoxUbicacion, SubBox2,BoxMaps, SubBoxUbicacion,Numero1,TituloDerecha ,ParrafoDerecha,SubtituloDerecha,ItemListaDerecha} from '../LasVictorias/LasVictoriasElements'
 
-function Seccion4Victorias() {
+function Seccion4Lacampiña() {
   return (
     <>
      <Box2 >
          <SubBox2>
              <BoxMaps>
-                <iframe className='ajusteMobileIframe' title='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.8865420140028!2d-58.11021278476073!3d-34.959452280368836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2db5c9445b9dd%3A0x5d9c05728e96f7f2!2sC.%20202%20%26%20C.%20492%2C%20Abasto%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1649628958491!5m2!1ses!2sar" 
-                    style={{width:'100%',height:'100vh'}}
-                    />
+             <iframe className='ajusteMobileIframe' title='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2310.53042292712!2d-58.083831394617675!3d-35.01713083049595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2c39a9bb0a4a1%3A0x8396e9bdfd083b9a!2sC.%2038%20%26%20C.%20229%2C%20Abasto%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1649432253889!5m2!1ses!2sar" 
+              style={{width:'100%',height:'100vh',objectFit:'cover'}}
+              ></iframe>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -21,13 +21,11 @@ function Seccion4Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Las Victorias se encuentra ubicado <br/>
-                    en la calle 492 e/ 202 y 208 de la <br/>
-                    Localidad de Abasto en el partido de <br/>
-                    La Plata, posee una privilegiada conexión <br/>
-                    con la R.P. N° 36, permitiendo un acceso <br/>
-                    fácil y rápido tanto al casco urbano de la <br/>
-                    ciudad de La Plata, como a CABA.<br/>
+                    Este nuevo lanzamiento está ubicado <br/>
+                    en la localidad Ángel Etcheverry, <br/>
+                    sobre la calle 229, entre las calles 38 y 42. <br/>
+                    Es de fácil acceso ya que se encuentra <br/>
+                    muy próximo a las Avenida 44.<br/>
                     </ParrafoDerecha>
                   </div>
                   <div>
@@ -49,4 +47,4 @@ function Seccion4Victorias() {
   )
 }
 
-export default Seccion4Victorias
+export default Seccion4Lacampiña

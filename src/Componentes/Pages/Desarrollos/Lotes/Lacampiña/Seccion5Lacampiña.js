@@ -11,15 +11,15 @@ import {
     NumerosAzules,
     TextoGris,
     Imagen2,
-} from './LasVictoriasElements'
+} from '../LasVictorias/LasVictoriasElements'
 
-function Seccion5Victorias() {
+function Seccion5Lacampiña() {
   return (
     <>
      <Box2>
          <SubBox2>
              <BoxMaps>
-              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/Las_Victorias_landing-05_1_dpjkk9.jpg'  ></Imagen2>
+              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649432360/DESARROLLOSGRUPODELSUD/La_Campi%C3%B1a_unmfp3.svg'  ></Imagen2>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -31,20 +31,20 @@ function Seccion5Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Las Victorias cuenta con 72 terrenos<br/> 
-                    de 251m², ofreciendote un lugar amplio <br/> 
-                    y verde para que cambies tu estilo de vida.<br/> 
+                    La Campiña cuenta con 168 desarrollos de variadas<br/>
+                     medidas, que llegan hasta los 450 m², conectados <br/>
+                     entre sí por calles internas.<br/>
                     </ParrafoDerecha>
                   </div>
                   <div>
                     <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
                   </div>
                   <BoxTarjeton>
-                   <NumerosAzules>72</NumerosAzules>
+                   <NumerosAzules>168</NumerosAzules>
                    <TextoGris>Unidades</TextoGris>
                    <TextoGris>/</TextoGris>
                    <TextoGris>desde</TextoGris>
-                   <NumerosAzules>251m²</NumerosAzules>
+                   <NumerosAzules>280m²</NumerosAzules>
                   </BoxTarjeton>
                  </SubBoxUbicacion>
              </BoxUbicacion>
@@ -54,4 +54,4 @@ function Seccion5Victorias() {
   )
 }
 
-export default Seccion5Victorias
+export default Seccion5Lacampiña

@@ -13,15 +13,15 @@ import {
     Imagen2,
     ItemListaDerecha3,
     ButtonArmaTuPago,
-}  from './LasVictoriasElements'
+}  from '../LasVictorias/LasVictoriasElements'
 
-function Seccion7Victorias() {
+function Seccion7Eljuncal() {
   return (
     <>
      <Box2>
          <SubBox2>
              <BoxMaps>
-             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/businesspeople-shaking-hands_1_umpbig.jpg'  ></Imagen2>
+             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649075284/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng.jpg'  ></Imagen2>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -55,4 +55,4 @@ function Seccion7Victorias() {
   )
 }
 
-export default Seccion7Victorias
+export default Seccion7Eljuncal

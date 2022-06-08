@@ -1,7 +1,7 @@
 import React from 'react'
-import { Box2,BoxUbicacion, SubBox2,BoxMaps, SubBoxUbicacion,Numero1,TituloDerecha ,ParrafoDerecha,SubtituloDerecha,ItemListaDerecha} from './LasVictoriasElements'
+import { Box2,BoxUbicacion, SubBox2,BoxMaps, SubBoxUbicacion,Numero1,TituloDerecha ,ParrafoDerecha,SubtituloDerecha,ItemListaDerecha} from '../LasVictorias/LasVictoriasElements'
 
-function Seccion4Victorias() {
+function Seccion4Latitud34() {
   return (
     <>
      <Box2 >
@@ -21,13 +21,13 @@ function Seccion4Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Las Victorias se encuentra ubicado <br/>
-                    en la calle 492 e/ 202 y 208 de la <br/>
-                    Localidad de Abasto en el partido de <br/>
-                    La Plata, posee una privilegiada conexión <br/>
-                    con la R.P. N° 36, permitiendo un acceso <br/>
-                    fácil y rápido tanto al casco urbano de la <br/>
-                    ciudad de La Plata, como a CABA.<br/>
+                       Latitud 34° se encuentra ubicado en la <br/> 
+                       calle 90 e/ 143 y 152 de la Localidad de <br/> 
+                       Los Hornos, en el partido de La Plata, <br/> 
+                       posee una privilegiada conexión con el <br/> 
+                       centro de la ciudad a través de la <br/> 
+                       asfaltada calle 155, que conecta luego <br/> 
+                       con las principales avenidas 66 y 60.<br/> 
                     </ParrafoDerecha>
                   </div>
                   <div>
@@ -37,6 +37,7 @@ function Seccion4Victorias() {
                     <ul>
                         <ItemListaDerecha  >Colegios</ItemListaDerecha>
                         <ItemListaDerecha  >Comercios</ItemListaDerecha>
+                        <ItemListaDerecha  >Gastronomía</ItemListaDerecha>
                         <ItemListaDerecha  >Entidades Bancarias</ItemListaDerecha>
                         <ItemListaDerecha  >Avenidas y Rutas cercanas</ItemListaDerecha>
                     </ul>
@@ -49,4 +50,4 @@ function Seccion4Victorias() {
   )
 }
 
-export default Seccion4Victorias
+export default Seccion4Latitud34

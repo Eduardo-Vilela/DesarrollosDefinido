@@ -13,6 +13,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import Footer from './Footer'
 import LasVictorias from './Pages/Desarrollos/Lotes/LasVictorias/LasVictorias'
 import Eljuncal from './Pages/Desarrollos/Lotes/Eljuncal/Eljuncal'
+import Latitud34 from './Pages/Desarrollos/Lotes/Latitud34/Latitud34'
+import Laescondida from './Pages/Desarrollos/Lotes/Laescondida/Laescondida'
+import Lacampiña from './Pages/Desarrollos/Lotes/Lacampiña/Lacampiña'
 
 function Rutas() {
   return (
@@ -34,27 +37,28 @@ function Rutas() {
       <ToastContainer />
       <ScrollToTop>
         <Routes>
-            /*COMPONENTES*/ 
+
             <Route path='/' element={<Home/>} />
             <Route path='/Nosotros' element={<Nosotros/>} />
             <Route path='/Desarrollos' element={<Desarrollos/>} />
             <Route path='/Plancanje' element={<PlanCanje/>} />
             <Route path='/Contacto' element={<Contacto/>} />
-            /* DESARROLLOS */
+
             <Route path='/Lasvictorias' element={<LasVictorias/>} />
             <Route path='/Eljuncal' element={<Eljuncal/>} />
-             /* FORMULARIOS*/
+            <Route path='/Latitud34' element={<Latitud34/>} />
+            <Route path='/Laescondida' element={<Laescondida/>} />
+            <Route path='/Lacampina' element={<Lacampiña/>} />
+            {/* <Route path='/Lascatalinas' element={<Lascatalinas/>} /> */}
+
             <Route path='/FormularioDesarrollo/Eljuncal' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lasorianas' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lacampiña' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Latitud34' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lasvictorias' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Laescondida' element={<Formulario1/>} />
-            /* ENRUTADO DESARROLLOS INTERNO*/
-            {/* <Route path='/' element={<Formulario1/>} />
-            <Route path='/' element={<Formulario1/>} />
-            <Route path='/' element={<Formulario1/>} />
-            <Route path='/' element={<Formulario1/>} /> */}
+
+
         </Routes>
         <Footer/>
       </ScrollToTop>
