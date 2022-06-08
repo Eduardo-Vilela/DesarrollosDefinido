@@ -8,8 +8,6 @@ import {
     Numero3,
     TituloDerecha ,
     ParrafoDerecha,
-    SubtituloDerecha,
-    ItemListaDerecha,
     Imagen2,
     ItemListaDerecha3,
 }  from '../LasVictorias/LasVictoriasElements'
@@ -32,23 +30,17 @@ function Seccion6Laescondida() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Contará con los servicios de electricidad y agua potable, <br/>
-                    suministrado por reconocida empresa de la zona,<br/>
-                     aunque cabe destacar que la conectividad de estos <br/>
-                     fue facilitada por obra privada de Desarrollos Delsud. <br/>
-                     Desde la empresa también nos hemos ocupado del <br/>
-                     mejoramiento de la calle, cuyo final de obra <br/>
-                     cuenta con tosca y calcáreo, y de su luminaria común. <br/>
-                     De esta manera, facilitamos los recursos necesarios <br/>
-                     para que cada propietario cumpla los <br/>
-                     sueños de su propia inversión.<br/>
+                    La Escondida cuenta con 148 terrenos de <br/>
+                    variadas medidas, que llegan hasta los 609 m2. <br/>
+                    Dándote la posibilidad de elegir tu lote ideal.<br/>
                     </ParrafoDerecha>
                   </div>
                   <div style={{width:'55%'}}>
                     <ul style={{listStyle:'none',padding:'0'}}>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/vetro5_ejqofr.svg'/></span>Electricidad</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/Vectorfbaf_zx4xjl.svg'/></span>Agua Potable</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/road_1_qqkxci.svg'/></span>Mejorado de calles</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/vetro5_ejqofr.svg'/></span>Electricidad aérea</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649629353/DESARROLLOSGRUPODELSUD/Vector_lfysdy.svg'/></span>Tranquera de ingreso y egreso</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649435466/DESARROLLOSGRUPODELSUD/Vector_g9k2zu.jpg'/></span>Cerco perimetral de 5 hilos</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/road_1_qqkxci.svg'/></span>Calle de tosca y calcáreo</ItemListaDerecha3>
                     </ul>
                   </div>
                  </SubBoxUbicacion>

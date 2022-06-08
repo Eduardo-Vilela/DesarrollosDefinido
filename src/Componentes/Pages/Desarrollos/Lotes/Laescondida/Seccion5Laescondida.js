@@ -19,7 +19,7 @@ function Seccion5Laescondida() {
      <Box2>
          <SubBox2>
              <BoxMaps>
-              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649076431/DESARROLLOSGRUPODELSUD/Juncal_gtamen.jpg'  ></Imagen2>
+              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651587525/DESARROLLOSGRUPODELSUD/la%20escondida/444-948x1024_wefged.png'  ></Imagen2>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -31,21 +31,20 @@ function Seccion5Laescondida() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    El Juncal cuenta con 437 terrenos de variadas medidas, <br/>
-                    conectados entre sí por calles internas, convirtiéndolo<br/>
-                     en el barrio ideal para llevar a cabo tu rutina diaria. <br/>
-                     Es una zona en constante evolución y desarrollo.<br/>
+                    La Escondida ubicado sobre la calle 84 entre <br/>
+                    las calles 161 y 167, cuenta con un rápido <br/>
+                    acceso desde Av. 66 y Av. 167 o Av. 161.<br/>
                     </ParrafoDerecha>
                   </div>
                   <div>
                     <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
                   </div>
                   <BoxTarjeton>
-                   <NumerosAzules>437</NumerosAzules>
+                   <NumerosAzules>148</NumerosAzules>
                    <TextoGris>Unidades</TextoGris>
                    <TextoGris>/</TextoGris>
                    <TextoGris>desde</TextoGris>
-                   <NumerosAzules>222m²</NumerosAzules>
+                   <NumerosAzules>251m²</NumerosAzules>
                   </BoxTarjeton>
                  </SubBoxUbicacion>
              </BoxUbicacion>

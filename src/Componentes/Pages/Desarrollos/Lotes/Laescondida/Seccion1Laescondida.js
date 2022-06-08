@@ -1,20 +1,20 @@
 import React from 'react'
 import{
-BoxHomeJuncal,BoxTitulo,LetrasLasVictorias
+BoxHomeLaescondida,BoxTitulo,LetrasLasVictorias
 } from '../LasVictorias/LasVictoriasElements'
 
 
 function Seccion1Laescondida() {
   return (
     <>
-     <BoxHomeJuncal>
+     <BoxHomeLaescondida>
        <BoxTitulo>
-         <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648823298/DESARROLLOSGRUPODELSUD/eljuncalLetras_xlttzf.svg'/>
+         <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651583108/DESARROLLOSGRUPODELSUD/la%20escondida/Logo-La-Escondida-fondo-transparente-con-sombra-17-1024x1024_uj96z1.png'/>
        </BoxTitulo>
        <BoxTitulo>
 
        </BoxTitulo>
-     </BoxHomeJuncal>
+     </BoxHomeLaescondida>
     </>
   )
 }

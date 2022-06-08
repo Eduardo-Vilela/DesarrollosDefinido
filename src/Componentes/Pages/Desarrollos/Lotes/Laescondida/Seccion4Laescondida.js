@@ -7,9 +7,7 @@ function Seccion4Laescondida() {
      <Box2 >
          <SubBox2>
              <BoxMaps>
-             <iframe className='ajusteMobileIframe' title='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.4360534275897!2d-58.03778858476052!3d-34.970740880366016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2c2c3d7d2af8b%3A0xd23784691f43fa46!2sC.%20177%20%26%20C.%2037%2C%20B1901%20Melchor%20Romero%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1649095098204!5m2!1ses!2sar" 
-                style={{width:'100%',height:'100vh'}}
-                />
+                <iframe title='mapaDesarrollo' style={{width:'100%',height:'100vh'}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.624905275253!2d-57.97389288475996!3d-34.991059080361005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e9a317af01df%3A0xdc23f7f16c9236b1!2sC.%2084%20%26%20C.%20161%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1651591292140!5m2!1ses!2sar" />
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -21,11 +19,11 @@ function Seccion4Laescondida() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Se encuentra en una zona con cercanía a comercios y servicios,<br/> 
-                    y a sólo 20 minutos del centro de la ciudad de La Plata. Al ser<br/>
-                    una zona rodeada por la naturaleza es ideal para proyectar un<br/>
-                    en el cual poder disfrutar de un descanso de fin de <br/>
-                    semana, como también la rutina del día a día.<br/>
+                    La Escondida es un gran lugar para aquellos <br/>
+                    que buscan salir de la ciudad, y respirar aire puro, <br/>
+                    ideal para vivienda de fin de semana o permanente.<br/> 
+                    Se encuentra a tan solo veinte minutos <br/>
+                    del casco urbano, en la localidad de Los Hornos.<br/>
                     </ParrafoDerecha>
                   </div>
                   <div>

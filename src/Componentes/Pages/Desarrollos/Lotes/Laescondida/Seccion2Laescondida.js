@@ -7,7 +7,7 @@ import {
     Titulo,
     Parrafo,
     Button1,
-    Video1,
+    Imagen1,
     Separador
 } from '../LasVictorias/LasVictoriasElements'
 
@@ -20,18 +20,13 @@ function Seccion2Laescondida() {
          <BoxTitulo>
              <AjusteBox>
                <Separador> 
-                <Titulo>La tranquilidad <br/>que buscabas</Titulo>
+                <Titulo>El placer de <br/>vivir donde querés</Titulo>
                </Separador>
                <Separador>
                     <Parrafo>
-                        Este nuevo desarrollo de la empresa se 
-                        encuentra en la localidad de Abasto, partido 
-                        de La Plata, en la zona sur de la provincia de 
-                        Buenos Aires. Ubicado sobre la calle 492 entre las 
-                        calles 202 y 208, en una zona en constante evolución. 
-                        Las Victorias es el lugar ideal para quien desea 
-                        planificar su vida en la tranquilidad que 
-                        otorgan los espacios verdes.
+                    La Escondida, se encuentra en Los Hornos, ciudad de La Plata, sobre la calle 84 entre las calles 161 y 167. A tan solo veinte minutos del casco de la ciudad.
+                    Es un barrio semi-cerrado de siete manzanas, rodeado de espacios verdes que propician un entorno tranquilo, silencioso y reservado. Los lotes que integran este desarrollo, son de medidas variadas que van desde los 251 m2 hasta 609 m2.
+                    Este proyecto es un gran lugar para aquellos que buscan salir de la ciudad y respirar aire puro, ideal como vivienda de fin de semana o permanente.
                     </Parrafo>
                 </Separador>
                 <Separador>
@@ -40,7 +35,7 @@ function Seccion2Laescondida() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Video1 loop autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649780672/DESARROLLOSGRUPODELSUD/El-Juncal-Landing22222_hx68tk.mp4'/>
+             <Imagen1 style={{width:'600px', height:'440px'}} alt='fotoseccion1-lasvictorias'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651586609/DESARROLLOSGRUPODELSUD/la%20escondida/render-grupo_8-Foto-1024x576_rkb7op.jpg'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

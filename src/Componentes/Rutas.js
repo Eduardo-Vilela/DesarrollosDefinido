@@ -16,6 +16,7 @@ import Eljuncal from './Pages/Desarrollos/Lotes/Eljuncal/Eljuncal'
 import Latitud34 from './Pages/Desarrollos/Lotes/Latitud34/Latitud34'
 import Laescondida from './Pages/Desarrollos/Lotes/Laescondida/Laescondida'
 import Lacampiña from './Pages/Desarrollos/Lotes/Lacampiña/Lacampiña'
+import Lasorianas from './Pages/Desarrollos/Lotes/Lasorianas/Lasorianas'
 
 function Rutas() {
   return (
@@ -49,6 +50,7 @@ function Rutas() {
             <Route path='/Latitud34' element={<Latitud34/>} />
             <Route path='/Laescondida' element={<Laescondida/>} />
             <Route path='/Lacampina' element={<Lacampiña/>} />
+            <Route path='/Lasorianas' element={<Lasorianas/>} />
             {/* <Route path='/Lascatalinas' element={<Lascatalinas/>} /> */}
 
             <Route path='/FormularioDesarrollo/Eljuncal' element={<Formulario1/>} />

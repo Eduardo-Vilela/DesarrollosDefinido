@@ -24,6 +24,16 @@ flex-direction: row;
 justify-content: center;
 background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637068/DESARROLLOSGRUPODELSUD/Latitud_34_3_1_yomdy4.jpg);
 `
+export const BoxHomeLaescondida = styled.div`
+width: 100%;
+height: 70vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-size: cover;
+background-position: center;
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1651588572/DESARROLLOSGRUPODELSUD/la%20escondida/inicio2_pujbto.jpg);
+`
 export const BoxHomeLacampiña = styled.div`
 width: 100%;
 height: 70vh;
