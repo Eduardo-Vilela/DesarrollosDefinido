@@ -83,6 +83,13 @@ width: 400px;
 export const Box2 = styled.div`
 width: 100%;
 height: 100vh;
+
+@media (max-width: 480px) { 
+  height: 1000px;
+}
+@media (max-width: 767px) { 
+  height: 1000px;
+ }
 `
 
 export const SubBox = styled.div`
@@ -220,6 +227,14 @@ height: 10vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
+
+@media (max-width: 480px) { 
+  display:none;
+}
+@media (max-width: 767px) { 
+  display:none;
+ }
+
 `
 
 
@@ -231,16 +246,46 @@ height:100vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
+
+@media (max-width: 480px) { 
+  flex-direction: column-reverse;
+  justify-content: center;
+  height:100%;
+}
+@media (max-width: 767px) { 
+  flex-direction: column-reverse;
+  justify-content: center;
+  height:100%;
+ }
 `
 
 export const BoxMaps = styled.div`
 width: 45%;
 height:100vh;
 background-attachment: fixed;
+
+@media (max-width: 480px) { 
+  width: 100%;
+  height:50%;
+}
+@media (max-width: 767px) { 
+  width: 100%;
+  height:50%;
+ }
+
 `
 export const BoxUbicacion = styled.div`
 width: 55%;
 height:100vh;
+
+@media (max-width: 480px) { 
+  width: 100%;
+  height:50%;
+}
+@media (max-width: 767px) { 
+  width: 100%;
+  height:50%;
+ }
 `
 
 export const SubBoxUbicacion = styled.div`
@@ -258,30 +303,62 @@ font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
 color: #ADADAD;
+
+@media (max-width: 480px) { 
+  font-size: 30px;
+}
+@media (max-width: 767px) { 
+  font-size: 30px;
+ }
 `
 export const Numero2 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
 color: #ADADAD;
+@media (max-width: 480px) { 
+  font-size: 30px;
+}
+@media (max-width: 767px) { 
+  font-size: 30px;
+ }
 `
 export const Numero3 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
 color: #ADADAD;
+@media (max-width: 480px) { 
+  font-size: 30px;
+}
+@media (max-width: 767px) { 
+  font-size: 30px;
+ }
 `
 export const Numero4 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
 color: #ADADAD;
+@media (max-width: 480px) { 
+  font-size: 30px;
+}
+@media (max-width: 767px) { 
+  font-size: 30px;
+ }
 `
 export const TituloDerecha = styled.h3`
 color: #1D2142;
 font-family: "Raleway", Sans-serif;
 font-size: 35px;
 font-weight: 600;
+
+@media (max-width: 480px) { 
+  font-size: 19px;
+}
+@media (max-width: 767px) { 
+  font-size: 19px;
+ }
 `
 
 export const ParrafoDerecha = styled.p`
@@ -290,6 +367,13 @@ font-family: "Poppins", Sans-serif;
 font-size: 22px;
 font-weight: 200;
 line-height: 1.25em;
+
+@media (max-width: 480px) { 
+  font-size: 15px;
+}
+@media (max-width: 767px) { 
+  font-size: 15px;
+ }
 `
 export const SubtituloDerecha = styled.h4`
 color: #1D2142;
@@ -297,16 +381,32 @@ font-family: "Raleway", Sans-serif;
 font-size: 23px;
 font-weight: 600;
 line-height: 0.1em;
+
+@media (max-width: 480px) { 
+  font-size: 16px;
+}
+@media (max-width: 767px) { 
+  font-size: 16px;
+ }
 `
 
 export const ItemListaDerecha = styled.li`
 width: 100%;
-height: 50px;
+margin: 50px 0px 50px 0px;
 color: grey;
 font-family: "Poppins", Sans-serif;
 font-size: 22px;
 font-weight: 400;
 line-height: 1em;
+
+@media (max-width: 480px) { 
+  font-size: 12px;
+  margin: 10px 0px 10px 0px;
+}
+@media (max-width: 767px) { 
+  font-size: 12px;
+  margin: 10px 0px 10px 0px;
+ }
 `
 
 /*SECCION 5 */
