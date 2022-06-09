@@ -47,6 +47,9 @@ height:200px;
   
   height: 100px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 80px;
+}
 `
 export const BoxLotes = styled.div`
 width: 100%;
@@ -77,6 +80,9 @@ color: #808080;
   @media (max-width: 767px) { 
      font-size: 20px;
    }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+    font-size: 20px;
+  }
 `
 export const AjusteFotos = styled.div`
 display: flex;
@@ -141,7 +147,7 @@ margin: auto;
     border-top: 1px solid rgb(229, 229, 229);
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
-    height: auto;
+    height: 200px;
   }
 
 `
