@@ -16,7 +16,11 @@ justify-content: space-evenly;
 
 
 export const BoxTitulo9 = styled.h3`
- font-size: 30px;
+color: #1D2142;
+font-family: "Poppins", Sans-serif;
+font-size: 25px;
+font-weight: 500;
+line-height: 1.2em;
 
  @media (max-width: 480px) { 
   font-size: 20px;
@@ -36,7 +40,7 @@ export const BoxSwiper = styled.div`
 export const EmpresasLogo = styled.div`
 display: flex;
 justify-content: center ;
-height:80px;
+
 border-radius: 8px;
 background-color: white;
 box-shadow: 5px 5px 5px 0 rgb(0 0 0 / 10%);  

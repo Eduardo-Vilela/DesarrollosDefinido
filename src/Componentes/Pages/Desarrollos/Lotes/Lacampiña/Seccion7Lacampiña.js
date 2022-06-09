@@ -3,7 +3,7 @@ import {
     Box2,
     BoxUbicacion, 
     SubBox2,
-    BoxMaps, 
+    BoxMaps3Lacampiña, 
     SubBoxUbicacion,
     Numero4,
     TituloDerecha ,
@@ -16,15 +16,15 @@ import {
 function Seccion7Lacampiña() {
   return (
     <>
-     <Box2>
+     <Box2 id='4-formadepago'>
          <SubBox2>
-             <BoxMaps>
-             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649432527/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u.jpg'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps3Lacampiña>
+             {/* <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649432527/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u.jpg'  ></Imagen2> */}
+             </BoxMaps3Lacampiña>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>
-                    <Numero4 id='#4-formadepago'>4.</Numero4>
+                    <Numero4>4.</Numero4>
                   </div>  
                   <div>
                     <TituloDerecha>Forma de pago</TituloDerecha>

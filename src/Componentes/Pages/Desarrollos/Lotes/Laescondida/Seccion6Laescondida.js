@@ -3,7 +3,7 @@ import {
     Box2,
     BoxUbicacion, 
     SubBox2,
-    BoxMaps, 
+    BoxMaps2Laescondida, 
     SubBoxUbicacion,
     Numero3,
     TituloDerecha ,
@@ -15,15 +15,15 @@ import {
 function Seccion6Laescondida() {
   return (
     <>
-     <Box2 >
+     <Box2  id='3-servicios'>
          <SubBox2>
-             <BoxMaps>
-             <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps2Laescondida>
+             {/* <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg'  ></Imagen2> */}
+             </BoxMaps2Laescondida>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>
-                    <Numero3 id='#3-servicios'>3.</Numero3>
+                    <Numero3>3.</Numero3>
                   </div>  
                   <div>
                     <TituloDerecha>Servicios</TituloDerecha>

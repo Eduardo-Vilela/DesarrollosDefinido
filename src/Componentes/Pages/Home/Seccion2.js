@@ -19,13 +19,13 @@ function Seccion2() {
      <BoxCards>
           <SubBoxCards>
             <CardsBox 
-            style={{ width: '18rem' }}>
+            style={{ width: '18rem',borderRight:'1px solid #E5E5E5' }}>
             <Card.Body>
                 <img  alt='aa'src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161427/DESARROLLOSGRUPODELSUD/002-dollar_bnwiea.png' />
                 <Card.Title >Cuotas en pesos <br/>y/o dólares</Card.Title>
           </Card.Body>  
             <TarjetaVerde>
-                        <Card style={{ width: '18rem' }} >
+                        <Card style={{ width: '18rem', height:'100%' }} >
                             <Card.Body className='ajusteposicion-seccion1'>
                             <img src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-5_epscre.svg" />
                                 <Card.Subtitle style={{background: 'white'}} >
@@ -40,14 +40,14 @@ function Seccion2() {
             </CardsBox>
             <CardsBox 
 
-            style={{ width: '18rem' }}>
+            style={{ width: '18rem' ,borderRight:'1px solid #E5E5E5' }}>
               <Card.Body className='ajusteposicion-seccion1'>
               <img  className='ajusteFotos'alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/Group_22_femmox.svg' />
               <Card.Title className='titulo-cards' >Financiación <br/> Personalizada</Card.Title>          
               </Card.Body>
 
                <TarjetaVerde className='overlay'>
-                 <Card style={{ width: '18rem' }}>
+                 <Card style={{width: '18rem', height:'100%' }}>
                      <Card.Body className='ajusteposicion-seccion1'>
                      <img className='ajusteFotos' alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-2-1_naohwr.svg" />
                          <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
@@ -61,13 +61,13 @@ function Seccion2() {
              </TarjetaVerde>
 
             </CardsBox>
-            <CardsBox style={{ width: '18rem' }}>
+            <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
               <Card.Body className='ajusteposicion-seccion1'>
               <img className='ajusteFotos'  alt='aaa'src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,h_76,w_75/v1649774503/DESARROLLOSGRUPODELSUD/018-bank-check-1_jnjhh6.svg' />
               <Card.Title className='titulo-cards' >Accedé sólo <br/> con DNI</Card.Title>              
               </Card.Body>
               <TarjetaVerde className='overlay'>
-                  <Card style={{ width: '18rem' }}>
+                  <Card style={{width: '18rem', height:'100%' }}>
                       <Card.Body className='ajusteposicion-seccion1'>
                       <img className='ajusteFotos' style={{background: 'white' , marginBottom:'20px'}} src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-28_bouhbg.svg" />
                           <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
@@ -80,13 +80,13 @@ function Seccion2() {
                   </Card>
               </TarjetaVerde>
             </CardsBox>
-            <CardsBox style={{ width: '18rem' }}>
+            <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
               <Card.Body className='ajusteposicion-seccion1'>
               <img className='ajusteFotos'  alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/006-crane_truck_1_ipxkwu.png' />
               <Card.Title className='titulo-cards' >Maquinaria <br/> Propia</Card.Title>               
               </Card.Body>
               <TarjetaVerde className='overlay'>
-                  <Card style={{ width: '18rem' }}>
+                  <Card style={{width: '18rem', height:'100%' }}>
                       <Card.Body className='ajusteposicion-seccion1'>
                       <img className='ajusteFotos' alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-3-1_wradha.svg" />
                           <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
@@ -106,7 +106,7 @@ function Seccion2() {
               <Card.Title className='titulo-cards' >Terrenos con<br/> Escritura</Card.Title>             
               </Card.Body>
               <TarjetaVerde className='overlay'>
-                  <Card style={{ width: '18rem' }}>
+                  <Card style={{ width: '18rem', height:'100%'}}>
                       <Card.Body className='ajusteposicion-seccion1'>
                       <img className='ajusteFotos' alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/035-agreement_rhmtz8.svg" />
                       <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>

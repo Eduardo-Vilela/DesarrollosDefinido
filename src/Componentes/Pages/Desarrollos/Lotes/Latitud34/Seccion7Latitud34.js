@@ -3,7 +3,7 @@ import {
     Box2,
     BoxUbicacion, 
     SubBox2,
-    BoxMaps, 
+    BoxMaps3Latitud, 
     SubBoxUbicacion,
     Numero4,
     TituloDerecha ,
@@ -20,9 +20,9 @@ function Seccion7Latitud34() {
     <>
      <Box2>
          <SubBox2>
-             <BoxMaps>
-             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1654704292/DESARROLLOSGRUPODELSUD/businessman-handshaking-businesswoman-showing-respect-closeup-view-of-hands-shaking-1_yteozo.jpg'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps3Latitud>
+             {/* <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1654704292/DESARROLLOSGRUPODELSUD/businessman-handshaking-businesswoman-showing-respect-closeup-view-of-hands-shaking-1_yteozo.jpg'  ></Imagen2> */}
+             </BoxMaps3Latitud>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>

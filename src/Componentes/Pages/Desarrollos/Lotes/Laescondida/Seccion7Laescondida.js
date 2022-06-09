@@ -3,7 +3,7 @@ import {
     Box2,
     BoxUbicacion, 
     SubBox2,
-    BoxMaps, 
+    BoxMaps3Laescondida, 
     SubBoxUbicacion,
     Numero4,
     TituloDerecha ,
@@ -18,11 +18,11 @@ import {
 function Seccion7Laescondida() {
   return (
     <>
-     <Box2>
+     <Box2 id='4-formadepago'>
          <SubBox2>
-             <BoxMaps>
-             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649075284/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng.jpg'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps3Laescondida>
+             {/* <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649075284/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng.jpg'  ></Imagen2> */}
+             </BoxMaps3Laescondida>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>
@@ -40,8 +40,8 @@ function Seccion7Laescondida() {
                   </div>
                   <div style={{width:'75%'}}>
                     <ul style={{listStyle:'none',padding:'0'}}>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>Accedé desde un 50% de anticipo</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>El resto financialo hasta en 60 cuotas fijas</ItemListaDerecha3>
+                        <ItemListaDerecha3 style={{border: '0'}}><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>Accedé desde un 50% de anticipo</ItemListaDerecha3>
+                        <ItemListaDerecha3 style={{border: '0'}}><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>El resto financialo hasta en 60 cuotas fijas</ItemListaDerecha3>
                     </ul>
                   </div>
                   <div>

@@ -3,7 +3,7 @@ import {
     Box2,
     BoxUbicacion, 
     SubBox2,
-    BoxMaps, 
+    BoxMaps3Eljuncal, 
     SubBoxUbicacion,
     Numero4,
     TituloDerecha ,
@@ -18,30 +18,30 @@ import {
 function Seccion7Eljuncal() {
   return (
     <>
-     <Box2>
+     <Box2 id='4-formadepago'>
          <SubBox2>
-             <BoxMaps>
-             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649075284/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng.jpg'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps3Eljuncal>
+             {/* <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649075284/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng.jpg'  ></Imagen2> */}
+             </BoxMaps3Eljuncal>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>
-                    <Numero4 id='#4-formadepago'>4.</Numero4>
+                    <Numero4 >4.</Numero4>
                   </div>  
                   <div>
                     <TituloDerecha>Forma de pago</TituloDerecha>
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Contamos con la posibilidad de ofrecer<br/> 
-                    una financiación propia, bajo requisitos <br/> 
-                    mínimos y con planes realmente a medida.<br/> 
+                    Contamos con la posibilidad de ofrecer 
+                    una financiación propia, bajo requisitos  
+                    mínimos y con planes realmente a medida. 
                     </ParrafoDerecha>
                   </div>
                   <div style={{width:'75%'}}>
                     <ul style={{listStyle:'none',padding:'0'}}>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>Accedé desde un 50% de anticipo</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>El resto financialo hasta en 60 cuotas fijas</ItemListaDerecha3>
+                        <ItemListaDerecha3 style={{border:'0'}}><span style={{margin:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>Accedé desde un 50% de anticipo</ItemListaDerecha3>
+                        <ItemListaDerecha3 style={{border:'0'}}><span style={{margin:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>El resto financialo hasta en 60 cuotas fijas</ItemListaDerecha3>
                     </ul>
                   </div>
                   <div>

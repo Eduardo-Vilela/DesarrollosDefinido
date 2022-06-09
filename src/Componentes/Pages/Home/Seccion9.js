@@ -8,6 +8,7 @@ import {
 } from './Seccion9Elements'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
 
 function Seccion9() {
   return (
@@ -18,6 +19,7 @@ function Seccion9() {
             <BoxSwiper>
             <Swiper
                 breakpoints={{
+                    
                     // when window width is >= 640px
                     320: {
                         width: 320,
@@ -48,7 +50,11 @@ function Seccion9() {
                         spaceBetween: 40
                 }        
                     }}
-        
+                autoplay={{
+                    delay: 1500,
+                    disableOnInteraction: false,
+                    }}
+                modules={[Autoplay]}
                 className='slider-empresas'     
                 loop={true}          
         >   

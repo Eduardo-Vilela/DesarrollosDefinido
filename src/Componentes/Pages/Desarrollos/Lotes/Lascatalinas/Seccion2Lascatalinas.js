@@ -40,7 +40,7 @@ function Seccion2Victorias() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Imagen1  alt='fotoseccion1-lasvictorias' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649430829/DESARROLLOSGRUPODELSUD/lasvictorias_viv_qjlpwc.png'/>
+             <Imagen1  alt='fotoseccion1-lasvictorias' src=''/>
          </BoxTitulo>
        </SubBox>
      </Box2>

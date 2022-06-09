@@ -12,6 +12,7 @@ import {
     ItemListaDerecha,
     Imagen2,
     ItemListaDerecha3,
+    BoxMaps2Latitud,
 }  from '../LasVictorias/LasVictoriasElements'
 
 function Seccion6Latitud34() {
@@ -19,9 +20,9 @@ function Seccion6Latitud34() {
     <>
      <Box2 >
          <SubBox2>
-             <BoxMaps>
-             <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps2Latitud>
+             {/* <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg'  ></Imagen2> */}
+             </BoxMaps2Latitud>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>

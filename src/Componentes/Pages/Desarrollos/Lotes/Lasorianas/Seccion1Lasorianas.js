@@ -1,20 +1,20 @@
 import React from 'react'
 import{
-BoxHomeJuncal,BoxTitulo,LetrasLasVictorias
+BoxHomeLasorianas,BoxTitulo,LetrasLasVictorias
 } from '../LasVictorias/LasVictoriasElements'
 
 
 function Seccion1Lasorianas() {
   return (
     <>
-     <BoxHomeJuncal>
+     <BoxHomeLasorianas>
        <BoxTitulo>
-         <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648823298/DESARROLLOSGRUPODELSUD/eljuncalLetras_xlttzf.svg'/>
+         <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649692006/DESARROLLOSGRUPODELSUD/Logo-Banner-Las-Orianas_qmldsg.svg'/>
        </BoxTitulo>
        <BoxTitulo>
 
        </BoxTitulo>
-     </BoxHomeJuncal>
+     </BoxHomeLasorianas>
     </>
   )
 }

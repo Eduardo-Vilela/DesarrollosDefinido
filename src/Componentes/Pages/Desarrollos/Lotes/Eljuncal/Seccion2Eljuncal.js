@@ -40,7 +40,7 @@ function Seccion2Eljuncal() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Video1 loop autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649780672/DESARROLLOSGRUPODELSUD/El-Juncal-Landing22222_hx68tk.mp4'/>
+             <Video1 loop autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4"  src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649780672/DESARROLLOSGRUPODELSUD/El-Juncal-Landing22222_hx68tk.mp4'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

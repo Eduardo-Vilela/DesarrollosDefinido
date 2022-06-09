@@ -2,7 +2,7 @@ import React from 'react'
 import { 
     Box2,
     BoxUbicacion, 
-    SubBox2,BoxMaps, 
+    SubBox2,BoxMaps1Laescondida, 
     SubBoxUbicacion,
     Numero2,TituloDerecha ,
     ParrafoDerecha,
@@ -16,15 +16,15 @@ import {
 function Seccion5Laescondida() {
   return (
     <>
-     <Box2>
+     <Box2 id='2-proyecto'>
          <SubBox2>
-             <BoxMaps>
-              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651587525/DESARROLLOSGRUPODELSUD/la%20escondida/444-948x1024_wefged.png'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps1Laescondida>
+              {/* <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651587525/DESARROLLOSGRUPODELSUD/la%20escondida/444-948x1024_wefged.png'  ></Imagen2> */}
+             </BoxMaps1Laescondida>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div >
-                    <Numero2 id='#2-proyecto'>2.</Numero2>
+                    <Numero2 >2.</Numero2>
                   </div>  
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>

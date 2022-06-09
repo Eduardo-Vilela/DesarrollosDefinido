@@ -18,15 +18,15 @@ import {
 function Seccion7Victorias() {
   return (
     <>
-     <Box2>
+     <Box2 id='4-formadepago'>
          <SubBox2>
              <BoxMaps>
-             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/businesspeople-shaking-hands_1_umpbig.jpg'  ></Imagen2>
+             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src=''  ></Imagen2>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>
-                    <Numero4 id='#4-formadepago'>4.</Numero4>
+                    <Numero4>4.</Numero4>
                   </div>  
                   <div>
                     <TituloDerecha>Forma de pago</TituloDerecha>

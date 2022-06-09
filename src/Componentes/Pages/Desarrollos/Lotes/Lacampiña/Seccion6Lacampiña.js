@@ -3,7 +3,7 @@ import {
     Box2,
     BoxUbicacion, 
     SubBox2,
-    BoxMaps, 
+    BoxMaps2Lacampiña, 
     SubBoxUbicacion,
     Numero3,
     TituloDerecha ,
@@ -15,11 +15,11 @@ import {
 function Seccion6Lacampiña() {
   return (
     <>
-     <Box2 >
+     <Box2 id='3-servicios' >
          <SubBox2>
-             <BoxMaps>
-             <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649432434/DESARROLLOSGRUPODELSUD/lomas_04_b8zrms.jpg'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps2Lacampiña>
+             {/* <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649432434/DESARROLLOSGRUPODELSUD/lomas_04_b8zrms.jpg'  ></Imagen2> */}
+             </BoxMaps2Lacampiña>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>

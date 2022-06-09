@@ -2,7 +2,7 @@ import React from 'react'
 import { 
     Box2,
     BoxUbicacion, 
-    SubBox2,BoxMaps, 
+    SubBox2,BoxMaps1Latitud, 
     SubBoxUbicacion,
     Numero2,TituloDerecha ,
     ParrafoDerecha,
@@ -18,9 +18,9 @@ function Seccion5Latitud34() {
     <>
      <Box2>
          <SubBox2>
-             <BoxMaps>
-              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/Las_Victorias_landing-05_1_dpjkk9.jpg'  ></Imagen2>
-             </BoxMaps>
+             <BoxMaps1Latitud>
+              {/* <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/Las_Victorias_landing-05_1_dpjkk9.jpg'  ></Imagen2> */}
+             </BoxMaps1Latitud>
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div >
