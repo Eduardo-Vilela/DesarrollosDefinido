@@ -11,6 +11,7 @@ import {
     Imagen2,
     ItemListaDerecha3,
     ButtonArmaTuPago,
+    ContenedorLista,
 }  from '../LasVictorias/LasVictoriasElements'
 
 function Seccion7Lacampiña() {
@@ -31,17 +32,17 @@ function Seccion7Lacampiña() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Contamos con la posibilidad de ofrecer<br/> 
-                    una financiación propia, bajo requisitos <br/> 
-                    mínimos y con planes realmente a medida.<br/> 
+                    Contamos con la posibilidad de ofrecer 
+                    una financiación propia, bajo requisitos  
+                    mínimos y con planes realmente a medida. 
                     </ParrafoDerecha>
                   </div>
-                  <div style={{width:'75%'}}>
+                  <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
                         <ItemListaDerecha3 style={{border:'0',margin:'0'}}><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>Accedé desde un 50% de anticipo</ItemListaDerecha3>
                         <ItemListaDerecha3 style={{border:'0',margin:'0'}}><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>El resto financialo hasta en 60 cuotas fijas</ItemListaDerecha3>
                     </ul>
-                  </div>
+                  </ContenedorLista>
                   <div>
                   <ButtonArmaTuPago href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos  → </ButtonArmaTuPago>
                   </div>

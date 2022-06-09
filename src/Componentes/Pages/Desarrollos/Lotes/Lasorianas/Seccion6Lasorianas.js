@@ -11,6 +11,7 @@ import {
     SubtituloDerecha,
     ItemListaDerecha,
     Imagen2,
+    ContenedorLista,
     ItemListaDerecha3,
 }  from '../LasVictorias/LasVictoriasElements'
 
@@ -44,13 +45,13 @@ function Seccion6Lasorianas() {
                      sueños de su propia inversión.
                     </ParrafoDerecha>
                   </div>
-                  <div style={{width:'55%' ,padding:'40px 0px'}}>
+                  <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/vetro5_ejqofr.svg'/></span>Electricidad</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/Vectorfbaf_zx4xjl.svg'/></span>Agua Potable</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/road_1_qqkxci.svg'/></span>Mejorado de calles</ItemListaDerecha3>
                     </ul>
-                  </div>
+                  </ContenedorLista>
                  </SubBoxUbicacion>
              </BoxUbicacion>
          </SubBox2>

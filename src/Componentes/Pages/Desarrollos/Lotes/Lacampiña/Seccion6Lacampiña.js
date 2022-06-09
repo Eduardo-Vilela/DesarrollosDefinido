@@ -10,6 +10,7 @@ import {
     ParrafoDerecha,
     Imagen2,
     ItemListaDerecha3,
+    ContenedorLista,
 }  from '../LasVictorias/LasVictoriasElements'
 
 function Seccion6Lacampiña() {
@@ -41,7 +42,7 @@ function Seccion6Lacampiña() {
                     cuenta con tosca y calcáreo.<br/>
                     </ParrafoDerecha>
                   </div>
-                  <div style={{width:'60%'}}>
+                  <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/vetro5_ejqofr.svg'/></span>Electricidad</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/Vectorfbaf_zx4xjl.svg'/></span>Agua Potable</ItemListaDerecha3>
@@ -49,7 +50,7 @@ function Seccion6Lacampiña() {
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649629353/DESARROLLOSGRUPODELSUD/Vector_lfysdy.svg'/></span>Portones de ingreso y egreso</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649435466/DESARROLLOSGRUPODELSUD/Vector_g9k2zu.jpg'/></span>Cerco perimetral</ItemListaDerecha3>
                     </ul>
-                  </div>
+                  </ContenedorLista>
                  </SubBoxUbicacion>
              </BoxUbicacion>
          </SubBox2>

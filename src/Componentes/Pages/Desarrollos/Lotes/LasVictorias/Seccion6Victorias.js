@@ -11,6 +11,7 @@ import {
     SubtituloDerecha,
     ItemListaDerecha,
     Imagen2,
+    ContenedorLista,
     ItemListaDerecha3,
 }  from './LasVictoriasElements'
 
@@ -41,14 +42,14 @@ function Seccion6Victorias() {
                     cuyo final de obra cuenta con tosca y calcáreo.<br/>
                     </ParrafoDerecha>
                   </div>
-                  <div style={{width:'55%'}}>
+                  <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/vetro5_ejqofr.svg'/></span>Electricidad</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649629353/DESARROLLOSGRUPODELSUD/Vector_lfysdy.svg'/></span>Portones de ingreso y egreso</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649435466/DESARROLLOSGRUPODELSUD/Vector_g9k2zu.jpg'/></span>Cerco perimetral</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/road_1_qqkxci.svg'/></span>Mejorado de calles</ItemListaDerecha3>
                     </ul>
-                  </div>
+                  </ContenedorLista>
                  </SubBoxUbicacion>
              </BoxUbicacion>
          </SubBox2>

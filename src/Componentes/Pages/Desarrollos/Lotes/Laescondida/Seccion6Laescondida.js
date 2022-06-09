@@ -9,6 +9,7 @@ import {
     TituloDerecha ,
     ParrafoDerecha,
     Imagen2,
+    ContenedorLista,
     ItemListaDerecha3,
 }  from '../LasVictorias/LasVictoriasElements'
 
@@ -35,14 +36,14 @@ function Seccion6Laescondida() {
                     Dándote la posibilidad de elegir tu lote ideal.<br/>
                     </ParrafoDerecha>
                   </div>
-                  <div style={{width:'55%'}}>
+                   <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/vetro5_ejqofr.svg'/></span>Electricidad aérea</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649629353/DESARROLLOSGRUPODELSUD/Vector_lfysdy.svg'/></span>Tranquera de ingreso y egreso</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649435466/DESARROLLOSGRUPODELSUD/Vector_g9k2zu.jpg'/></span>Cerco perimetral de 5 hilos</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/road_1_qqkxci.svg'/></span>Calle de tosca y calcáreo</ItemListaDerecha3>
                     </ul>
-                  </div>
+                  </ContenedorLista>
                  </SubBoxUbicacion>
              </BoxUbicacion>
          </SubBox2>

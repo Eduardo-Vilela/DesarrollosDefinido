@@ -1,6 +1,6 @@
 import React from 'react'
 import{
-BoxHomeLasorianas,BoxTitulo,LetrasLasVictorias
+BoxHomeLasorianas,BoxTitulo,LetrasLasVictorias,BoxTitulo2
 } from '../LasVictorias/LasVictoriasElements'
 
 
@@ -11,9 +11,9 @@ function Seccion1Lasorianas() {
        <BoxTitulo>
          <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649692006/DESARROLLOSGRUPODELSUD/Logo-Banner-Las-Orianas_qmldsg.svg'/>
        </BoxTitulo>
-       <BoxTitulo>
+       <BoxTitulo2>
 
-       </BoxTitulo>
+       </BoxTitulo2>
      </BoxHomeLasorianas>
     </>
   )

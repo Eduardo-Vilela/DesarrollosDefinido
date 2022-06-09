@@ -11,6 +11,7 @@ import {
     NumerosAzules,
     TextoGris,
     Imagen2,
+    ButtonArmaTuPago,
 } from '../LasVictorias/LasVictoriasElements'
 
 function Seccion5Eljuncal() {
@@ -47,6 +48,7 @@ function Seccion5Eljuncal() {
                    <TextoGris>desde</TextoGris>
                    <NumerosAzules>222m²</NumerosAzules>
                   </BoxTarjeton>
+                  {/* <ButtonArmaTuPago href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos  → </ButtonArmaTuPago> */}
                  </SubBoxUbicacion>
              </BoxUbicacion>
          </SubBox2>

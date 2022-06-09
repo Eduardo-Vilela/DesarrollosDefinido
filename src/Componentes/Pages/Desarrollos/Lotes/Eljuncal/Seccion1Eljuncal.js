@@ -1,6 +1,6 @@
 import React from 'react'
 import{
-BoxHomeJuncal,BoxTitulo,LetrasLasVictorias
+BoxHomeJuncal,BoxTitulo,LetrasLasVictorias,BoxTitulo2
 } from '../LasVictorias/LasVictoriasElements'
 
 
@@ -11,9 +11,9 @@ function LasVictorias() {
        <BoxTitulo>
          <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648823298/DESARROLLOSGRUPODELSUD/eljuncalLetras_xlttzf.svg'/>
        </BoxTitulo>
-       <BoxTitulo>
+       <BoxTitulo2>
 
-       </BoxTitulo>
+       </BoxTitulo2>
      </BoxHomeJuncal>
     </>
   )

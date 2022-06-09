@@ -13,6 +13,14 @@ width: 80%;
 height: 25vh;
 text-align: center;
 margin: auto;
+
+@media (max-width: 480px) { 
+   margin-top: 90px;
+}
+@media (max-width: 767px) { 
+   margin-top: 90px;
+ }
+
 `
 
 export const Titulo10 = styled.h2`

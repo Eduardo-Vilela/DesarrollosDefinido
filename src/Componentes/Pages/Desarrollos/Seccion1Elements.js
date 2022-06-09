@@ -39,6 +39,14 @@ background: white;
 export const BoxTituloLotes = styled.div`
 width:80%;
 height:200px;
+@media (max-width: 480px) { 
+    
+  height: 100px;
+}
+@media (max-width: 767px) { 
+  
+  height: 100px;
+ }
 `
 export const BoxLotes = styled.div`
 width: 100%;
@@ -129,7 +137,7 @@ margin: auto;
   }
   @media (max-width: 767px) { 
     width: 100%;
-    height: 300px;
+    height: 250px;
     border-top: 1px solid rgb(229, 229, 229);
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
@@ -160,6 +168,14 @@ line-height: 1.5em;
 
 export const LinkFlip = styled(Link)`
 width: 50%;
-height: 500px;
 border-left: solid 1px #E5E5E5;
+@media (max-width: 480px) { 
+  width:85%;
+  border: 0;
+}
+@media (max-width: 767px) { 
+  width:85%;
+  border: 0;
+ }
+
 `

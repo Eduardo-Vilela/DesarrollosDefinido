@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Swiper } from 'swiper/react'
  
 
 
@@ -55,7 +56,21 @@ justify-content: center;
 background-position: center;
 background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1654780213/DESARROLLOSGRUPODELSUD/slidelasorianas/portada-de-inicio-scaled_gysb5p.jpg);
 `
-
+export const BoxTitulo2 = styled.div`
+width: 50%;
+height: 70vh;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+@media (max-width: 480px) { 
+  display: none;
+}
+@media (max-width: 767px) { 
+  display: none;
+}
+`
 export const BoxTitulo = styled.div`
 width: 50%;
 height: 70vh;
@@ -67,12 +82,16 @@ align-items: center;
 
 
 @media (max-width: 480px) { 
-    width: 100%;
+    width: 90%;
     height: 50vh;
+    margin: auto;
+    align-items: baseline;
   }
   @media (max-width: 767px) { 
-    width: 100%;
+    width: 90%;
     height: 50vh;
+    margin: auto;
+    align-items: baseline;
   }
 
 `
@@ -82,12 +101,14 @@ width: 400px;
 
 
 @media (max-width: 480px) { 
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin-left: 37px;
   }
   @media (max-width: 767px) { 
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin-left: 37px;
   }
 `
 
@@ -98,10 +119,10 @@ width: 100%;
 height: 100vh;
 
 @media (max-width: 480px) { 
-  height: 1000px;
+  height: auto;
 }
 @media (max-width: 767px) { 
-  height: 1000px;
+  height: auto;
  }
 `
 
@@ -148,11 +169,11 @@ font-weight: 600;
 
 @media (max-width: 480px) { 
     font-size: 20px;
-    line-height: 40px;
+    line-height: 23px;
   }
   @media (max-width: 767px) { 
     font-size: 20px;
-    line-height: 40px;
+    line-height: 23px;
   }
 
 `
@@ -201,16 +222,20 @@ width: 100%;
 height: 100%;
 border-radius: 10px;
 
+`
+export const Imagenslide = styled.img`
+width: 100%;
+height: 100%;
+border-radius: 10px;
 
 @media (max-width: 480px) { 
-   width: 100%;
-   height: auto;
-  }
-  @media (max-width: 767px) { 
-   width: 100%;
-   height: auto;
-  }
-
+  width: 85%;
+  height: 70%;
+ }
+ @media (max-width: 767px) { 
+  width: 85%;
+  height: 70%;
+ }
 `
 export const Video1 = styled.video`
 width: 100%;
@@ -296,12 +321,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 
@@ -316,12 +341,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -334,12 +359,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -352,12 +377,12 @@ background-repeat: no-repeat;
 background-size: contain;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -371,12 +396,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -390,12 +415,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -409,12 +434,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -427,12 +452,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -445,12 +470,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -465,12 +490,12 @@ background-size: contain;
 @media (max-width: 480px) { 
   background-attachment: inherit;
   width: 100%;
-  height:50%;
+  height:50vh;
 }
 @media (max-width: 767px) { 
   background-attachment: inherit;
   width: 100%;
-  height:50%;
+  height:50vh;
  }
 `
 export const BoxMaps2Eljuncal = styled.div`
@@ -519,12 +544,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -538,12 +563,12 @@ background-repeat: no-repeat;
 background-size: contain;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -556,12 +581,12 @@ background-size: contain;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height:50vh;
     background-attachment: inherit;
  }
 `
@@ -573,6 +598,7 @@ margin: auto;
 align-items: center;
 display: flex;
 justify-content: center;
+padding-bottom: 50px;
 
 @media (max-width: 480px) { 
   width: 100%;
@@ -601,9 +627,11 @@ padding: 50px 0px;
 
 @media (max-width: 480px) { 
   font-size: 30px;
+  padding: 25px 0px;
 }
 @media (max-width: 767px) { 
   font-size: 30px;
+  padding: 25px 0px;
  }
 `
 export const Numero2 = styled.h2`
@@ -816,6 +844,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 
+@media (max-width: 480px) { 
+  width: 100%;
+height:60vh;
+}
+@media (max-width: 767px) { 
+  width: 100%;
+height: 60vh;
+ }
 `
 export const BoxAlto = styled.div`
 width: 80%;
@@ -824,16 +860,42 @@ margin: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
+margin-top: 40px;
+
+@media (max-width: 480px) { 
+  width: 80%;
+height: 10vh;
+}
+@media (max-width: 767px) { 
+  width: 80%;
+height: 10vh;
+ }
 `
 export const BoxBajo = styled.div`
 width:100%;
 height: 70%;
+
+@media (max-width: 480px) { 
+  width:100%;
+height: 50vh;
+}
+@media (max-width: 767px) { 
+  width:100%;
+height: 50vh;
+ }
 `
 
 /* el juncal */
 
 export const VideoSlideJuncal = styled.video`
-
+@media (max-width: 480px) { 
+  width:100%;
+height: 100%;
+}
+@media (max-width: 767px) { 
+  width:100%;
+height: 100%;
+ }
 
 `
 
@@ -849,5 +911,37 @@ export const ContenedorSubNavbar = styled.div`
 display:flex;
 flex-direction: column;
 justify-content: center;
+
+`
+
+export const ContenedorIframe = styled.div`
+width: 100%;
+height: 100%;
+@media (max-width: 480px) { 
+  
+}
+@media (max-width: 767px) { 
+  
+ }
+`
+
+export const ContenedorLista = styled.div`
+width: 60%;
+
+@media (max-width: 480px) { 
+  width: 100%;
+}
+@media (max-width: 767px) { 
+  width: 100%;
+ }
+`
+
+export const PrincipalSwiper = styled(Swiper)`
+.swiper-button-prev{
+  left: 260px;
+  right: auto;
+  top: auto;
+  bottom: 60px;
+}
 
 `

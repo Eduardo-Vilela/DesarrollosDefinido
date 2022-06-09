@@ -1,6 +1,6 @@
 import React from 'react'
 import{
-BoxHomeVictorias,BoxTitulo,LetrasLasVictorias
+BoxHomeVictorias,BoxTitulo,LetrasLasVictorias,BoxTitulo2
 } from './LasVictoriasElements'
 
 
@@ -11,9 +11,9 @@ function LasVictorias() {
        <BoxTitulo>
          <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src=''/>
        </BoxTitulo>
-       <BoxTitulo>
+       <BoxTitulo2>
 
-       </BoxTitulo>
+       </BoxTitulo2>
      </BoxHomeVictorias>
     </>
   )

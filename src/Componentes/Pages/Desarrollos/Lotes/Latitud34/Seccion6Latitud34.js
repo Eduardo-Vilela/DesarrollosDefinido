@@ -11,6 +11,7 @@ import {
     SubtituloDerecha,
     ItemListaDerecha,
     Imagen2,
+    ContenedorLista,
     ItemListaDerecha3,
     BoxMaps2Latitud,
 }  from '../LasVictorias/LasVictoriasElements'
@@ -41,7 +42,7 @@ function Seccion6Latitud34() {
                         cada propietario cumpla los sueños de su propia inversión. <br/>
                     </ParrafoDerecha>
                   </div>
-                  <div style={{width:'60%'}}>
+                  <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
                         <ItemListaDerecha3><span style={{margin:'6%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/vetro5_ejqofr.svg'/></span>Electricidad</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'6%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/Vectorfbaf_zx4xjl.svg'/></span>Agua Potable</ItemListaDerecha3>
@@ -49,7 +50,7 @@ function Seccion6Latitud34() {
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1654703981/DESARROLLOSGRUPODELSUD/Frame-3_rxikyf.svg'/></span>Cerco perimetral</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649079671/DESARROLLOSGRUPODELSUD/road_1_qqkxci.svg'/></span>Mejorado de calles</ItemListaDerecha3>
                     </ul>
-                  </div>
+                  </ContenedorLista>
                  </SubBoxUbicacion>
              </BoxUbicacion>
          </SubBox2>
