@@ -224,8 +224,8 @@ border-radius: 10px;
 
 `
 export const Imagenslide = styled.img`
-width: 100%;
-height: 100%;
+width: 95%;
+height: 90%;
 border-radius: 10px;
 
 @media (max-width: 480px) { 

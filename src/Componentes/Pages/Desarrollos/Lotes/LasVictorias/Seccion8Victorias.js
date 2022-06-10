@@ -43,10 +43,7 @@ function Seccion8Victorias() {
                           slidesPerView: 2,
                           spaceBetween: 2,
                       },
-                      769: {
-                      slidesPerView: 1,
-                      slidesPerGroup: 3,
-                      },
+
                   }}
                     slidesPerView={2}
                     centeredSlides={true}
