@@ -4,6 +4,8 @@ import styled from 'styled-components'
 export const BoxPrincipal = styled.div`
 width: 100%;
 height: 2900px;
+margin-bottom: 90px;
+
 @media (max-width: 480px) { 
     width: 100%;
     height: auto;

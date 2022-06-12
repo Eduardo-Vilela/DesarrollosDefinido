@@ -46,6 +46,12 @@ export const Box2 = styled.div`
 
 export const LogosRedes = styled.img`
    padding: 10px;
+   @media (max-width: 480px) {
+      width: 80%;
+   }
+   @media (max-width: 767px) {
+      width: 80%;
+   }
 `
 export const Titulo = styled.h2`
    font-size: 40px;

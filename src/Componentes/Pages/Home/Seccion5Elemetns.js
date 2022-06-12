@@ -49,35 +49,31 @@ export const SlideSwiperSeccion5 = styled.div`
     }
 `
 export const ButtonSlide5 = styled.a`
-    border-radius: 20px;
-    border: #ffff 1px solid;
-    font-family: "Poppins", Sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 1em;
-    fill: #FFFFFF;
-    color: #FFFFFF;
-    background-color: #82AB1B;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #FFFFFF;
-    border-radius: 30px 30px 30px 30px;
+outline: none;
     width: 30%;
     height: 5vh;
-    padding: 10px;
-    text-align: center;
+    font-family: "Mabry Pro", Sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    background-color: #82AB29;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF30;
+    border-radius: 30px 30px 30px 30px;
+    padding: 15px 15px 15px 15px;
 
 
         @media (max-width: 480px) { 
             width: 40%;
             height: 5vh;
-            font-size:10px;
+            font-size:15px;
         }
         @media (max-width: 767px) { 
             width: 100%;
             width: 40%;
             height: 5vh;
-            font-size:10px;
+            font-size:15px;
         }
         @media (min-width: 768px) and (max-width: 1199px) { 
             width: 50%;

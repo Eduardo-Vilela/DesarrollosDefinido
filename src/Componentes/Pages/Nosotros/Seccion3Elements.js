@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 export const Principal = styled.div`
 width: 100%;
-height: 1000px;
-
+height: 940px;
+background: #1D2142;
 @media (max-width: 480px) { 
   display: flex;
   flex-direction: column;
@@ -19,10 +19,9 @@ height: 1000px;
  }
 `
 export const Secundario = styled.div`
-width: 100%;
+width: 70%;
 height: 100vh;
 margin: auto;
-background: #1D2142;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -168,10 +167,10 @@ font-family: Poppins;
 font-weight: 200;
 
 @media (max-width: 480px) { 
-font-size: 10px;
+font-size: 12px;
 }
 @media (max-width: 767px) { 
-font-size: 10px;
+font-size: 12px;
  }
 `
 
@@ -182,10 +181,10 @@ font-weight: 200;
 color: white;
 
 @media (max-width: 480px) { 
-  font-size: 25px;
+  font-size: 20px;
   }
   @media (max-width: 767px) { 
-  font-size: 25px;
+  font-size: 20px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
     font-size: 25px;
@@ -196,14 +195,18 @@ font-size: 30px;
 color: white;
 font-family: Poppins;
 font-weight: 500;
-text-align: center;
+text-align: left;
 padding: 0px 0px 300px 0px;
 
 @media (max-width: 480px) { 
   padding: 0px;
+  text-align: left;
+  padding-left: 35px;
 }
 @media (max-width: 767px) { 
   padding: 0px;
+  text-align: left;
+  padding-left: 35px;
  }
 
 `

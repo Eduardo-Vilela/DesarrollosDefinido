@@ -26,10 +26,12 @@ border: solid 1px #dadadaba;
 border-radius: 10px;
 
 @media (max-width: 480px) { 
-    height: 80vh;
+    height: 60vh;
+    width: 100%;
   }
   @media (max-width: 767px) { 
-    height: 80vh;
+    height: 60vh;
+    width: 100%;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
     
@@ -81,7 +83,7 @@ export const ImgCardsDesarrollos = styled.img`
     width: 100%
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
-    width: 100%
+    width: 70%
   }
 `
 

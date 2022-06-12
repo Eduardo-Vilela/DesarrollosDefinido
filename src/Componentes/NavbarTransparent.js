@@ -30,7 +30,7 @@ function NavbarTransparent() {
   return (
       <>
            <Navbar className={navbar ? "navbar navBar active navbar777" : "navbar navbar77"}  fixed="top" expand="lg">
-            <Container id="arriba1">
+            <Container id="#arriba1">
               <Navbar.Brand href="#home"> <Link to='/'>
                 {
                   window.scrollY >= 200 ? 

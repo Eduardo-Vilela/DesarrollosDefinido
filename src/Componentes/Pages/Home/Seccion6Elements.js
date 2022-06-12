@@ -19,10 +19,10 @@ export const BoxPrincipal = styled.div`
 `
 
 export const BoxSecundario = styled.div`
-    width: 85%;
+    width: 82%;
     height: 100vh;
     margin: auto;
-    padding: 50px 0px 50px 0px;
+    padding: 90px 0px 50px 0px;
     @media (max-width: 480px) { 
       padding:0px;
   }
@@ -56,7 +56,7 @@ export const SlideTexto6 = styled.div`
 `
 
 export const ImagenSlide = styled.img`
- width: 80%;
+ width: 70%;
  height: 80vh;
  border-radius: 10px;
 

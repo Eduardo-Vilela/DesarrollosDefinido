@@ -19,8 +19,8 @@ function Seccion8() {
          <Boxhijo1>
           <TituloMaps>Estamos cerca</TituloMaps>
           <SubBoxLogoMaps>
-          <ImagenMaps alt='aaaaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647348106/DESARROLLOSGRUPODELSUD/Group_65_tkbbt7.svg'/>
-          <SubTituloMaps>La Plata, Buenos Aires</SubTituloMaps>
+            <ImagenMaps alt='aaaaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647348106/DESARROLLOSGRUPODELSUD/Group_65_tkbbt7.svg'/>
+            <SubTituloMaps>La Plata, Buenos Aires</SubTituloMaps>
           </SubBoxLogoMaps>
          </Boxhijo1>
          <Boxhijo2>

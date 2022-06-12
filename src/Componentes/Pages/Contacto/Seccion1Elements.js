@@ -3,10 +3,18 @@ import styled from 'styled-components'
 export const BoxPadre = styled.div`
 width: 100%;
 height: 100vh;
+margin-top: 80px;
+
+@media (max-width: 480px) { 
+  margin-top: 60px;
+}
+@media (max-width: 767px) { 
+  margin-top: 60px;
+ }
 `
 export const SubBoxPadre = styled.div`
 width: 100%;
-height: auto;
+height: 100vh;
 margin: auto;
 display: flex;
 flex-direction: row;
@@ -30,13 +38,13 @@ background-size: cover;
 
 @media (max-width: 480px) { 
     width: 100%;
-    background-size: contain;
-    height: 32vh;
+    background-size: cover;
+    height: 20vh;
   }
   @media (max-width: 767px) { 
     width: 100%;
-    background-size: contain;
-    height: 42vh;
+    background-size: cover;
+    height: 20vh;
    }
 `
 export const Box2 = styled.div`
@@ -51,10 +59,12 @@ padding: 2em 5em 2em 5em;
 @media (max-width: 480px) { 
     width: 100%;
     padding: 0px;
+    height: 80vh;
   }
   @media (max-width: 767px) { 
     width: 100%;
     padding: 0px;
+    height: 80vh;
    }
 `
 
@@ -80,17 +90,12 @@ font-weight: 400;
   }
 `
 export const ContenedorTitulos = styled.div`
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 40px 0px;
-
-
+width: 80%;
+text-align: left;
+padding-bottom: 80px;
 `
 export const SubtituloContacto = styled.p`
-font-size: 22px;
+font-size: 20px;
 color: white;
 font-family: Poppins;
 font-weight: 300;
@@ -108,10 +113,12 @@ font-weight: 300;
 
 export const InputContacto  = styled.input`
 border: 0 !important;
+outline: 0;
 background: none !important;
 border-bottom: solid #ffff 1px !important;
 margin-bottom: 20px;
-font-size: 30px;
+font-size: 20px;
+font-family: "Raleway", Sans-serif;
 color: #ffff !important;
 outline: none !important;
 width: 80%;
@@ -137,7 +144,7 @@ border: 0 !important;
 background: none !important;
 border-bottom: solid #ffff 1px !important;
 margin-bottom: 20px;
-font-size: 30px;
+font-size: 20px;
 width: 80%;
 color: #ffff !important;
 outline: none !important;

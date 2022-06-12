@@ -9,7 +9,7 @@ function NavbarWhite() {
     <>
      <div>
         <Navbar className='navBar2'  fixed="top" expand="lg">
-          <Container>
+          <Container id="#arriba1">
             <Navbar.Brand href="#home"><Link style={{color:'#1D2142'}} to='/'><Image src='https://res.cloudinary.com/grupo-delsud/image/upload/v1646942039/DESARROLLOSGRUPODELSUD/logoNav_h8jfaz.svg' fluid/></Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav navbar-collapse2">

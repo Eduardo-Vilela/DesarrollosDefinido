@@ -67,7 +67,7 @@ height: 80vh;
 `
 export const TituloNosotros = styled.h1`
 
-font-size: 50px;
+font-size: 45px;
 font-family: "Poppins";
 color: #1D2142;
 line-height: 1.4em;

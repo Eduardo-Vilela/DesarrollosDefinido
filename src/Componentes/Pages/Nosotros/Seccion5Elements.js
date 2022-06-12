@@ -32,17 +32,12 @@ width: 100%;
 height: 1000px;
 
 @media (max-width: 480px) { 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 500px;
+  display: none;
+
 
 }
 @media (max-width: 767px) { 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 500px;
+  display: none;
 
  }
 `

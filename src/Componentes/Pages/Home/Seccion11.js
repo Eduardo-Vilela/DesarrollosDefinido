@@ -61,7 +61,7 @@ function Seccion11() {
        <SubBoxCards>
        <Accordion className='accordion-flex'>
         <Accordion.Item eventKey="0">
-          <Accordion.Header className='tituloAcordion'>Dejanos un mensaje</Accordion.Header>
+          <Accordion.Header className='tituloAcordion'>Dejanos <span style={{width:'1%'}}/> <b> un mensaje</b></Accordion.Header>
             <Accordion.Body>
             <h5 className='Subtitlofooterform'>Dejanos tu consulta y nos contactaremos lo antes posible.</h5>
               <div >
@@ -114,7 +114,7 @@ function Seccion11() {
                           )}
                     </div> 
                     <div className='inputs-form2'>
-                        <textarea id='textarea' className='textarea-formularioInicio' rows="10" cols="50" placeholder='Dejanos tu mensaje' name='mensjae'
+                        <textarea id='textarea' className='textarea-formularioInicio' rows="10" cols="50" placeholder='Mensaje' name='mensaje'
                         
                         {...register("mensaje", 
                         { 

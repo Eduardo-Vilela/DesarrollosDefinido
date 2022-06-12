@@ -15,10 +15,10 @@ text-align: center;
 margin: auto;
 
 @media (max-width: 480px) { 
-   margin-top: 90px;
+   margin-top: 40px;
 }
 @media (max-width: 767px) { 
-   margin-top: 90px;
+   margin-top: 40px;
  }
 
 `
@@ -27,6 +27,7 @@ export const Titulo10 = styled.h2`
 font-size: 45px;
 font-weight: 200;
 color: #808080;
+font-family: 'Poppins';
 
 @media (max-width: 480px) { 
      font-size: 20px;

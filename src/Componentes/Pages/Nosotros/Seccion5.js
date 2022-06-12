@@ -1,5 +1,5 @@
 import React from 'react'
-import { BoxTexto, Parrafo3, Titulo3 } from '../Home/Seccion3Elements'
+import { BoxIntermedio, BoxTexto, Parrafo3, Titulo3 } from '../Home/Seccion3Elements'
 import { Box2, BoxCards} from './Seccion3Elements'
 import {Valores, TituloValores , Parrafito,BoxPadre3,SubBoxPadre3,BoxValoresMobile, BoxSwiperValores,BoxTexto3 } from './Seccion5Elements'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,6 +11,7 @@ function Seccion5() {
      <BoxPadre3>
          <SubBoxPadre3>
            <BoxTexto>
+            <BoxIntermedio>
              <Titulo3 >Valores</Titulo3>
              <Parrafo3 className='parrafo-seccion5-nosotros'>
              En Delsud nos distinguimos por 
@@ -19,6 +20,7 @@ function Seccion5() {
               ofreciendo servicios personalizados sobre         
               la base de la confianza y la seriedad.
              </Parrafo3>
+             </BoxIntermedio> 
            </BoxTexto>
            <Box2>
              <BoxCards>
@@ -51,7 +53,7 @@ function Seccion5() {
 
      <BoxValoresMobile>
        <BoxTexto3>
-         <Titulo3 >Valores</Titulo3>
+         <Titulo3 >Nuestros Valores</Titulo3>
          <Parrafo3 className='parrafo-seccion5-nosotros'>
          En Delsud nos distinguimos por 
           proporcionar a nuestros clientes una     

@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarTransparent from '../../NavbarTransparent'
+import ModalInicio from './ModalInicio'
 import Seccion1 from './Seccion1'
 import Seccion10 from './Seccion10'
 import Seccion11 from './Seccion11'
@@ -16,6 +17,7 @@ function Home() {
   return (
     <>
     <NavbarTransparent/>
+    <ModalInicio/>
      <Seccion1/>
      <Seccion2/>
      <Seccion3/>

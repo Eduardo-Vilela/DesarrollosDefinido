@@ -118,7 +118,7 @@ function Footer() {
                         {errors?.email?.type === "maxLength" && (
                           <p className='text-danger'>El nombre no puede exceder los 50 caracteres</p>
                         )}                   
-                      < input className='submit-footer'  type="submit" value="Enviar →"/>
+                      < input style={{color:'#1D2142',backgroundColor: '#02010100',fontSize:'13px' , fontWeight:'600'}} type="submit" value="ENVIAR"/>
                       </div> 
                 </form>
             </Seccion3>
@@ -136,7 +136,7 @@ function Footer() {
               </Seccion5>
               <Seccion6>
                 <TituloFooterFinal >Volver al tope </TituloFooterFinal>
-                <a href="#arriba1">
+                <a href="arriba1">
                 <img alt='flecha-footer' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522352/DESARROLLOSGRUPODELSUD/qyyw1oxg7sy3szotvufi.svg' />
                 </a>
               </Seccion6>

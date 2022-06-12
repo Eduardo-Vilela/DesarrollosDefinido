@@ -65,15 +65,15 @@ function Seccion1() {
 
              </Box1>
              <Box2>
-            <ContenedorTitulos>
-               <TituloContacto>Contacto</TituloContacto>
-               <SubtituloContacto >
-                  Completá el formulario con tu consulta
-                  <br/> 
-                  y la resolveremos a la brevedad.
-               </SubtituloContacto>
-            </ContenedorTitulos>
-             <BoxFormContacto  onSubmit={handleSubmit(onSubmit)}>          
+             <BoxFormContacto  onSubmit={handleSubmit(onSubmit)}>
+                        <ContenedorTitulos>
+                            <TituloContacto>Contacto</TituloContacto>
+                            <SubtituloContacto >
+                                Completá el formulario con tu consulta
+                                <br/> 
+                                y la resolveremos a la brevedad.
+                            </SubtituloContacto>
+                        </ContenedorTitulos>          
                           <InputContacto type="text" name='name'
                             {...register("name", {
                               required: "*Campo requerido",
@@ -82,6 +82,7 @@ function Seccion1() {
                               }
                               })}
                             placeholder="Nombre"
+                            
                           />
                           {errors.name && <p style={{color:'white', fontFamily:'Poppins'}}>Campo Requerido!</p>}
                           <InputContacto  type="text" name='email'
@@ -93,7 +94,7 @@ function Seccion1() {
                                }
                               })}
                             style={{color:'white'}}
-                            placeholder="Email"
+                            placeholder="E-mail"
                             />
                             {errors.email &&  <p style={{color:'white', fontFamily:'Poppins'}}>*Campo Requerido!</p>}
                           <InputContacto type="number" name='telefono'
@@ -107,7 +108,7 @@ function Seccion1() {
                             placeholder="Teléfono "
                             />
                             {errors.telefono &&  <p style={{color:'white', fontFamily:'Poppins'}}>*Campo Requerido!</p>}
-                        <InputArea  name="w3review" rows="3" cols="10" placeholder='Mensaje'
+                        <InputArea  name="w3review" rows="4" cols="10" placeholder='Mensaje'
                         {...register("mensaje", 
                         { 
                           maxLength: 140,
@@ -115,7 +116,7 @@ function Seccion1() {
                           })}
                         />
                          {errors?.mensaje?.type === "required" && 
-                            <p style={{color: 'white'}}>Este campo es obligatorio</p>}
+                            <p style={{color: 'white'}}>*Campo requerido</p>}
                           {errors?.mensaje?.type === "maxLength" && (
                             <p style={{color: 'white'}}>El mensaje no puede exceder los 140 caracteres</p>
                           )}

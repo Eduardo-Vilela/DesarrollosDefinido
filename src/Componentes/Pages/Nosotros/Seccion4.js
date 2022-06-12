@@ -4,7 +4,7 @@ BoxPadre,
 SubBoxPadre,
 BoxBack2,
 } from './Seccion4Elements'
-import { BoxTexto, Parrafo3, Titulo3 } from '../Home/Seccion3Elements'
+import { BoxTexto, Parrafo3, Titulo3,BoxIntermedio, } from '../Home/Seccion3Elements'
 
 function Seccion4() {
   return (
@@ -12,6 +12,7 @@ function Seccion4() {
      <BoxPadre>
       <SubBoxPadre>
         <BoxTexto>
+          <BoxIntermedio>
             <Titulo3 className='seccion4-nosotros-titulo'>
                   ¿Qué nos inspira?
             </Titulo3>
@@ -34,6 +35,7 @@ function Seccion4() {
                 poder acompañarte en todo el proceso de tu soñada inversión de
                 futuro.
             </Parrafo3>
+            </BoxIntermedio> 
         </BoxTexto>
         <BoxBack2>
  

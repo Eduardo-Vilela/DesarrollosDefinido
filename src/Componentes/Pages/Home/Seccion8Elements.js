@@ -36,20 +36,29 @@ export const SubBoxLogoMaps = styled.div`
  flex-direction: row;
  justify-content: center;
 
+ @media (max-width: 480px) { 
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 767px) { 
+  justify-content: flex-start;
+  align-items: center;
+ }
+
 `
 export const TituloMaps = styled.h1`
- font-size: 30px;
- font-family: "Poppins"
+ font-size: 40px;
+ font-family: "Poppins";
  font-weight: 300;
  color: #1D2142;
 
  @media (max-width: 480px) { 
-  font-size:20px;
-  margin: auto;
+  font-size:30px;
+  line-height: 20px;
 }
 @media (max-width: 767px) { 
-  font-size:20px;
-  margin: auto;
+  font-size:30px;
+  line-height: 20px;
  } 
  
 `
@@ -72,4 +81,12 @@ export const SubTituloMaps = styled.p`
 export const ImagenMaps = styled.img`
   padding: 20px;
   aling-items: center;
+  @media (max-width: 480px) { 
+    width: 5%;
+    padding:0;
+  }
+  @media (max-width: 767px) { 
+    width: 5%;
+    padding:0;
+   }
 `

@@ -6,6 +6,7 @@ import {
     CardsBox,
     BoxCardsMobile,
     TarjetaGris,
+    ContenidoVerde,
 } from '../Home/Seccion2Elements'
 import{Card} from 'react-bootstrap'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -25,8 +26,8 @@ function Seccion2() {
                 <Card.Title >Cuotas en pesos <br/>y/o dólares</Card.Title>
           </Card.Body>  
             <TarjetaVerde>
-                        <Card style={{ width: '18rem', height:'100%' }} >
-                            <Card.Body className='ajusteposicion-seccion1'>
+                        <Card style={{ width: 'auto', height:'100%',border:'0' }} >
+                            <ContenidoVerde >
                             <img src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-5_epscre.svg" />
                                 <Card.Subtitle style={{background: 'white'}} >
                                 Financiá tu terreno
@@ -34,88 +35,88 @@ function Seccion2() {
                                 cuotas en dólares 
                                 sin interés
                                 </Card.Subtitle>
-                            </Card.Body>     
+                            </ContenidoVerde>     
                         </Card>
                     </TarjetaVerde>
             </CardsBox>
             <CardsBox 
 
             style={{ width: '18rem' ,borderRight:'1px solid #E5E5E5' }}>
-              <Card.Body className='ajusteposicion-seccion1'>
-              <img  className='ajusteFotos'alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/Group_22_femmox.svg' />
-              <Card.Title className='titulo-cards' >Financiación <br/> Personalizada</Card.Title>          
+              <Card.Body >
+              <img  alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/Group_22_femmox.svg' />
+              <Card.Title c >Financiación <br/> Personalizada</Card.Title>          
               </Card.Body>
 
-               <TarjetaVerde className='overlay'>
-                 <Card style={{width: '18rem', height:'100%' }}>
-                     <Card.Body className='ajusteposicion-seccion1'>
-                     <img className='ajusteFotos' alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-2-1_naohwr.svg" />
-                         <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
+               <TarjetaVerde>
+                 <Card style={{width: 'auto', height:'100%',border:'0' }}>
+                     <ContenidoVerde >
+                     <img src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-2-1_naohwr.svg" />
+                         <Card.Subtitle  style={{background: 'white'}}>
                          Armá tu propio plan de 
                          financiación a medida, 
                          adaptado a tus 
                          necesidades
                          </Card.Subtitle>
-                     </Card.Body>
+                     </ContenidoVerde>
                  </Card>
              </TarjetaVerde>
 
             </CardsBox>
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
-              <Card.Body className='ajusteposicion-seccion1'>
-              <img className='ajusteFotos'  alt='aaa'src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,h_76,w_75/v1649774503/DESARROLLOSGRUPODELSUD/018-bank-check-1_jnjhh6.svg' />
-              <Card.Title className='titulo-cards' >Accedé sólo <br/> con DNI</Card.Title>              
+              <Card.Body >
+              <img   alt='aaa'src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,h_76,w_75/v1649774503/DESARROLLOSGRUPODELSUD/018-bank-check-1_jnjhh6.svg' />
+              <Card.Title >Accedé sólo <br/> con DNI</Card.Title>              
               </Card.Body>
-              <TarjetaVerde className='overlay'>
-                  <Card style={{width: '18rem', height:'100%' }}>
-                      <Card.Body className='ajusteposicion-seccion1'>
-                      <img className='ajusteFotos' style={{background: 'white' , marginBottom:'20px'}} src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-28_bouhbg.svg" />
-                          <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
+              <TarjetaVerde >
+                  <Card style={{width: 'auto', height:'100%',border:'0' }}>
+                      <ContenidoVerde >
+                      <img width='50' height='50' style={{background: 'white' , marginBottom:'20px'}} src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-28_bouhbg.svg" />
+                          <Card.Subtitle  style={{background: 'white'}}>
                               Podés acceder a<br/>
                               tu propio terreno <br/>
                               financiado, con mínimos <br/>
                               requisitos
                           </Card.Subtitle>
-                      </Card.Body>
+                      </ContenidoVerde>
                   </Card>
               </TarjetaVerde>
             </CardsBox>
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
-              <Card.Body className='ajusteposicion-seccion1'>
-              <img className='ajusteFotos'  alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/006-crane_truck_1_ipxkwu.png' />
-              <Card.Title className='titulo-cards' >Maquinaria <br/> Propia</Card.Title>               
+              <Card.Body >
+              <img  alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/006-crane_truck_1_ipxkwu.png' />
+              <Card.Title  >Maquinaria <br/> Propia</Card.Title>               
               </Card.Body>
-              <TarjetaVerde className='overlay'>
-                  <Card style={{width: '18rem', height:'100%' }}>
-                      <Card.Body className='ajusteposicion-seccion1'>
-                      <img className='ajusteFotos' alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-3-1_wradha.svg" />
-                          <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
+              <TarjetaVerde>
+                  <Card style={{width: 'auto', height:'100%',border:'0' }}>
+                      <ContenidoVerde >
+                      <img alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-3-1_wradha.svg" />
+                          <Card.Subtitle style={{background: 'white'}}>
                           Contamos con la 
                           maquinaria necesaria 
                           para el tratamiento del 
                           suelo y la colocación de 
                           servicios
                           </Card.Subtitle>
-                      </Card.Body>
+                      </ContenidoVerde>
                   </Card>
               </TarjetaVerde>
            </CardsBox>
            <CardsBox style={{ width: '18rem' }}>
-              <Card.Body className='ajusteposicion-seccion1'>
-              <img className='ajusteFotos' alt='ss' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/035-agreement_rszyxv.png' />
-              <Card.Title className='titulo-cards' >Terrenos con<br/> Escritura</Card.Title>             
+              <Card.Body >
+              <img  alt='ss' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/035-agreement_rszyxv.png' />
+              <Card.Title >Terrenos con<br/> Escritura</Card.Title>             
               </Card.Body>
-              <TarjetaVerde className='overlay'>
-                  <Card style={{ width: '18rem', height:'100%'}}>
-                      <Card.Body className='ajusteposicion-seccion1'>
-                      <img className='ajusteFotos' alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/035-agreement_rhmtz8.svg" />
-                      <Card.Subtitle className='parrafoCards-inicio' style={{background: 'white'}}>
+              <TarjetaVerde >
+                  <Card style={{ width: 'auto', height:'100%',border:'0'}}>
+                      <ContenidoVerde >
+                      <img  alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/035-agreement_rhmtz8.svg" />
+                      <Card.Subtitle  style={{background: 'white'}}>
                           Todos nuestros 
                           desarrollos cuentan con 
                           la posibilidad de una 
                           escrituración inmediata
                           </Card.Subtitle>
-                      </Card.Body>
+                      </ContenidoVerde>
                   </Card>
               </TarjetaVerde>
            </CardsBox>
@@ -126,6 +127,7 @@ function Seccion2() {
      <SubBoxCards>
       <Swiper  
         modules={[Autoplay]} 
+        
         autoplay={{
             delay: 1500,
             disableOnInteraction: false,

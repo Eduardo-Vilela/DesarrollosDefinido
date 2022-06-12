@@ -2,20 +2,20 @@ import styled from 'styled-components'
 
 export const BoxPadre = styled.div`
 width: 100%;
-height: 800px;
+height: 900px;
 
 @media (max-width: 480px) { 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
+  height: 740px;
 
 }
 @media (max-width: 767px) { 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
+  height: 740px;
 
  }
 `
@@ -31,13 +31,13 @@ justify-content: center;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-top: 350px;
+    
   }
   @media (max-width: 767px) { 
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-top: 350px;
+   
    }
 `
 
@@ -51,10 +51,12 @@ background-size: cover;
 
   @media (max-width: 480px) { 
       width: 100%;
-      height: 40vh;
+      height: 30%;
+      border-radius:0;
   }
   @media (max-width: 767px) { 
       width: 100%;
-      height: 40vh;
+      height: 30%;
+      border-radius:0;
   }
 `

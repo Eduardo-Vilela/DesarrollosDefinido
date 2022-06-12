@@ -73,10 +73,10 @@ font-family: Poppins;
 font-weight: 200;
 color: white;
 @media (max-width: 480px) { 
-  font-size: 10px;
+  font-size: 16px;
 }
 @media (max-width: 767px) { 
-  font-size: 10px;
+  font-size: 16px;
  }
 `
 
@@ -88,5 +88,5 @@ color: #b5b5b5;
 `
 
 export const Logo6 = styled.img`
-width: 20%;
+width: 50%;
 `

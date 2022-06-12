@@ -16,7 +16,7 @@ function Seccion2() {
               <br/>
               <Video2  loop autoPlay>
                 <source
-                  src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779825/DESARROLLOSGRUPODELSUD/abajo-izquierda_222_raqdek.mp4"
+                  src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779829/DESARROLLOSGRUPODELSUD/abajo-izquierda222_yg520l.mp4"
                   type="video/mp4"
                 />
               </Video2>

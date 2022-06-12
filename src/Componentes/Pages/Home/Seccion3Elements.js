@@ -14,6 +14,7 @@ export const BoxPrincipal = styled.div`
 `
 export const SubBox = styled.div`
   width: 100%;
+  height: 100vh;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -36,20 +37,20 @@ export const SubBox = styled.div`
 `
 export const BoxTexto = styled.div`
   width: 50%;
-  padding: 170px;
+
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 
     @media (max-width: 480px) { 
         width: 100%;
-        height: 60vh;
+        height: 70%;
         padding: 0px 0px 0px 25px;
     }
     @media (max-width: 767px) { 
         width: 100%;
         padding: 0px 0px 0px 25px;
-        height: 60vh;
+        height: 70%;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
@@ -77,19 +78,20 @@ export const Titulo3 = styled.h2 `
     font-family: "Poppins";
     color: #1D2142;
     font-weight: 500;
+    line-height: 90px;
 
     @media (max-width: 480px) { 
-        font-size: 25px;
+        font-size: 24px;
       }
       @media (max-width: 767px) { 
-        font-size: 18px;
+        font-size: 24px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
-         font-size:30px;
+         font-size:24px;
        }
 `
 export const Parrafo3 = styled.p `
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Poppins";
     color: #1D2142;
     font-weight: 200;
@@ -101,7 +103,7 @@ export const Parrafo3 = styled.p `
         font-size: 15px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
-         font-size: 15px;
+         font-size: 18px;
        }
 `
 export const Button3 = styled.a `
@@ -111,6 +113,7 @@ export const Button3 = styled.a `
     color: #767676 !important;
     text-decoration: none;
     font-weight: 400;
+    line-height: 100px;
 
     @media (max-width: 480px) { 
         font-size: 20px;
@@ -122,4 +125,14 @@ export const Button3 = styled.a `
          font-size:25px;
        }
 `
-
+export const BoxIntermedio = styled.div`
+width: 70%;
+margin: auto;
+text-align: left;
+@media (max-width: 480px) { 
+  width: 100%;
+}
+@media (max-width: 767px) { 
+  width: 100%;
+ }
+`

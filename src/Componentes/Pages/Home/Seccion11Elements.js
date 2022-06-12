@@ -9,7 +9,7 @@ margin-bottom: 100px;
 `
 
 export const SubBoxCards = styled.div`
-width: 80%;
+width: 90%;
 height:auto;
 margin: auto;
 `

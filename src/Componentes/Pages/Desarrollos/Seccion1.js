@@ -105,7 +105,7 @@ function Seccion1() {
               </Lote>
             </LinkFlip>  
            </AjusteFotos>
-           <AjusteFotos>
+           <AjusteFotos style={{border:'0'}}>
             <LinkFlip to=''>
               <Lote>
                 <div className='front'>
@@ -119,7 +119,7 @@ function Seccion1() {
               </Lote>
             </LinkFlip>  
             <LinkFlip to='/'>
-              <Lote >
+              <Lote style={{display:'none'}}>
               <div className='front'>
                 {/* <ContenedorFotoLotes alt='fotoDesarrollo' src=''/> */}
               </div>

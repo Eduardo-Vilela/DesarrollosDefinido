@@ -3,6 +3,12 @@ import styled from "styled-components";
 export const BoxSwiper9 = styled.div`
  width: 100%;
  height: 80vh;
+ @media (max-width: 480px) { 
+ height: 40vh;
+}
+@media (max-width: 767px) { 
+  height: 40vh;
+ }
 
 `
 export const SubBox9 = styled.div`
@@ -12,6 +18,12 @@ margin: auto;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+@media (max-width: 480px) { 
+  height: 40vh;
+ }
+ @media (max-width: 767px) { 
+   height: 40vh;
+  }
 `
 
 

@@ -24,15 +24,15 @@ function Seccion5() {
                 <SwiperSlide style={{display: 'flex'}} >
                     <SlideSwiperSeccion5>
                         <img alt='22'src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648476286/DESARROLLOSGRUPODELSUD/promocion-las-orianas_eef4wz.png'/>
-                        <div>
-                        <ButtonSlide5 href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...' >Me interesa →</ButtonSlide5>
+                        <div style={{paddingTop:'50px'}}>
+                        <ButtonSlide5 style={{outline: 'none'}} href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...' >Me interesa →</ButtonSlide5>
                         </div>
                     </SlideSwiperSeccion5>
                 </SwiperSlide>
                 <SwiperSlide style={{display: 'flex'}} >
                     <SlideSwiperSeccion5>
                         <img alt='22'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648476525/DESARROLLOSGRUPODELSUD/PROMO-02_qw3fke.png'/>
-                        <div>
+                        <div style={{paddingTop:'50px'}}>
                         <ButtonSlide5 href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>Me interesa →</ButtonSlide5>
                         </div>
                     </SlideSwiperSeccion5>
@@ -40,7 +40,7 @@ function Seccion5() {
                 <SwiperSlide style={{display: 'flex'}}>
                     <SlideSwiperSeccion5>
                         <img alt='22'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648476525/DESARROLLOSGRUPODELSUD/PROMO-01_uvgbyi.png'/>
-                        <div>
+                        <div style={{paddingTop:'50px'}}>
                         <ButtonSlide5 href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>Me interesa →</ButtonSlide5>
                         </div>
                     </SlideSwiperSeccion5>

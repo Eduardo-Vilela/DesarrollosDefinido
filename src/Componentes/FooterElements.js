@@ -3,12 +3,12 @@ import styled from "styled-components";
 
  export const BoxPrimario = styled.div`
   width: 100%;
-  height: 60vh;
+  height: 50vh;
  `
 
  export const BoxSecundario = styled.div`
  width: 100% ;
- height: 60vh;
+ height: 50vh;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -20,13 +20,17 @@ import styled from "styled-components";
  display: flex;
  flex-direction: row;
  justify-content: space-around;
- height: 60vh;
+ height: 50vh;
  align-items: center;
  @media (max-width: 480px) { 
    flex-direction: row-reverse;
+   align-items: center;
+   height: 25vh;
   }
   @media (max-width: 767px) { 
   flex-direction: row-reverse;
+  align-items: center;
+  height: 25vh;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
   flex-direction: row-reverse;
@@ -43,7 +47,7 @@ import styled from "styled-components";
  display: flex;
  flex-direction: row;
  justify-content: space-around;
- height:30vh;
+ height: 15vh;
  width: 100%;
  background-color: #1D2142;
 
@@ -51,10 +55,25 @@ import styled from "styled-components";
 
  export const Seccion1 = styled.div`
  
+ @media (max-width: 480px) { 
+  
+  text-align: end;
+ }
+ @media (max-width: 767px) { 
+ 
+ text-align: end;
+ }
  `
 
  export const Seccion2 = styled.div`
+ @media (max-width: 480px) { 
+  
+  text-align: left;
+ }
+ @media (max-width: 767px) { 
  
+ text-align: left;
+ }
  `
 
  export const Seccion3 = styled.div`
@@ -74,13 +93,15 @@ import styled from "styled-components";
     width: 80%;
     margin: auto;
     @media (max-width: 480px) { 
-      font-size:12px;
+      font-size:10px;
+      text-align: center;
      }
      @media (max-width: 767px) { 
-      font-size:12px;
+      font-size:10px;
+      text-align: center;
      }
      @media (min-width: 768px) and (max-width: 1199px) { 
-      font-size:12px;
+      
      }
  `
 
@@ -90,6 +111,15 @@ import styled from "styled-components";
   justify-content: center;
   align-items: center;
   
+  @media (max-width: 480px) { 
+    width: 100%;
+    justify-content: space-around;
+   }
+   @media (max-width: 767px) { 
+    width: 100%;
+    justify-content: space-around;
+   }
+
  `
 
  export const Seccion6 = styled.div`
@@ -104,7 +134,7 @@ import styled from "styled-components";
       display: none;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-     display: none;
+     
     }
  `
 
@@ -168,6 +198,7 @@ import styled from "styled-components";
  `
 
  export const InputFooter = styled.input`
+ width: 310px;
  border: 0 !important;
  border-bottom: 2px solid #1D2142 !important;
  `
@@ -214,8 +245,9 @@ import styled from "styled-components";
 }
 @media (max-width: 767px) { 
   justify-content: center;
+  
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
- justify-content: center;
+ justify-content: space-around;
 }
  `
