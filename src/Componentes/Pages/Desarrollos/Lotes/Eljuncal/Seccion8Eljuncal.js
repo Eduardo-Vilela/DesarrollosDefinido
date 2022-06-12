@@ -31,24 +31,16 @@ function Seccion8Eljuncal() {
             </BoxAlto> 
             <BoxBajo>
             <Swiper
-                  breakpoints={{
-                    200: {
-                      slidesPerView: 1,
-                      spaceBetween: 1,
-                  },
-                  480: {
-                    slidesPerView: 1,
-                    spaceBetween: 1,
-                },
-                      640: {
-                          slidesPerView: 2,
-                          spaceBetween: 2,
-                      },
-                      769: {
-                      slidesPerView: 1,
-                      slidesPerGroup: 3,
-                      },
-                  }}
+                //   breakpoints={{
+                //     200: {
+                //       slidesPerView: 1,
+                //       spaceBetween: 1,
+                //   },
+                //   480: {
+                //     slidesPerView: 1,
+                //     spaceBetween: 1,
+                // }
+                //   }}
                     slidesPerView={2}
                     centeredSlides={true}
                     spaceBetween={2}

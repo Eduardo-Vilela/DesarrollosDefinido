@@ -72,9 +72,9 @@ function Seccion2() {
                       <ContenidoVerde >
                       <img width='50' height='50' style={{background: 'white' , marginBottom:'20px'}} src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-28_bouhbg.svg" />
                           <Card.Subtitle  style={{background: 'white'}}>
-                              Podés acceder a<br/>
-                              tu propio terreno <br/>
-                              financiado, con mínimos <br/>
+                              Podés acceder a
+                              tu propio terreno 
+                              financiado, con mínimos 
                               requisitos
                           </Card.Subtitle>
                       </ContenidoVerde>
