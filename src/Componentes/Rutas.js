@@ -17,6 +17,7 @@ import Latitud34 from './Pages/Desarrollos/Lotes/Latitud34/Latitud34'
 import Laescondida from './Pages/Desarrollos/Lotes/Laescondida/Laescondida'
 import Lacampiña from './Pages/Desarrollos/Lotes/Lacampiña/Lacampiña'
 import Lasorianas from './Pages/Desarrollos/Lotes/Lasorianas/Lasorianas'
+import Icono from './Icono'
 
 function Rutas() {
   return (
@@ -63,6 +64,7 @@ function Rutas() {
 
         </Routes>
         <Footer/>
+        <Icono/>
       </ScrollToTop>
      </HashRouter>
     </>

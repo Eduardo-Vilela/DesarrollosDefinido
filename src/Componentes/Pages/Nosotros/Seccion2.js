@@ -7,14 +7,14 @@ function Seccion2() {
      <BoxPadre1>
          <SubBoxPadre2>
              <Contenedor1>
-             <Video1 loop autoPlay>
+             <Video1 loop autoPlay data-aos="fade-up" data-aos-duration="3000">
                 <source
                   src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779825/DESARROLLOSGRUPODELSUD/abajo-izquierda_222_raqdek.mp4"
                   type="video/mp4"
                 />
               </Video1>
               <br/>
-              <Video2  loop autoPlay>
+              <Video2  loop autoPlay data-aos="fade-right" data-aos-duration="3000">
                 <source
                   src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779829/DESARROLLOSGRUPODELSUD/abajo-izquierda222_yg520l.mp4"
                   type="video/mp4"
@@ -22,7 +22,7 @@ function Seccion2() {
               </Video2>
              </Contenedor1>
              <Contenedor2>
-                <Video3  loop autoPlay>
+                <Video3  loop autoPlay data-aos="fade-up" data-aos-duration="3000">
                     <source
                     src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779687/DESARROLLOSGRUPODELSUD/video-derecha222_dedlp3.mp4"
                     type="video/mp4"

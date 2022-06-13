@@ -12,7 +12,7 @@ function Seccion4() {
      <BoxPadre>
       <SubBoxPadre>
         <BoxTexto>
-          <BoxIntermedio>
+          <BoxIntermedio data-aos="fade-up"  data-aos-duration="3000">
             <Titulo3 className='seccion4-nosotros-titulo'>
                   ¿Qué nos inspira?
             </Titulo3>
@@ -37,7 +37,7 @@ function Seccion4() {
             </Parrafo3>
             </BoxIntermedio> 
         </BoxTexto>
-        <BoxBack2>
+        <BoxBack2 data-aos="fade-up"  data-aos-duration="3000">
  
         </BoxBack2>
       </SubBoxPadre>

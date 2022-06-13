@@ -30,21 +30,21 @@ function Seccion8Victorias() {
             </BoxAlto> 
             <BoxBajo>
              <Swiper
-                  breakpoints={{
-                    200: {
-                      slidesPerView: 1,
-                      spaceBetween: 1,
-                  },
-                  480: {
-                    slidesPerView: 1,
-                    spaceBetween: 1,
-                },
-                      640: {
-                          slidesPerView: 2,
-                          spaceBetween: 2,
-                      },
+                //   breakpoints={{
+                //     200: {
+                //       slidesPerView: 1,
+                //       spaceBetween: 1,
+                //   },
+                //   480: {
+                //     slidesPerView: 1,
+                //     spaceBetween: 1,
+                // },
+                //       640: {
+                //           slidesPerView: 2,
+                //           spaceBetween: 2,
+                //       },
 
-                  }}
+                //   }}
                     slidesPerView={2}
                     centeredSlides={true}
                     spaceBetween={2}

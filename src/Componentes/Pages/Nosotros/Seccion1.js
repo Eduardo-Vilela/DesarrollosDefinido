@@ -7,16 +7,19 @@ import {
    TituloNosotros,
    BoxTexto2,
 } from './Seccion1Elemetns'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 function Seccion1() {
   return (
     <>
     <BoxPadre>
         <SubBoxPadre>
-            <BoxTexto>
+            <BoxTexto data-aos="fade-up"  data-aos-duration="3000">
               <TituloNosotros>Llegamos para que <br/>cumplir tu sueño sea <br/>más simple</TituloNosotros>
             </BoxTexto>
-            <BoxTexto2>
+            <BoxTexto2  data-aos="fade-up" data-aos-duration="3000">
                 <Parrafo3>
                 Somos una de las empresas desarrolladoras de inmuebles más
                 completas y eficaces del mercado. Nuestro objetivo es que 

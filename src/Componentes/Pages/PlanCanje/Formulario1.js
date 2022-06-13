@@ -125,7 +125,11 @@ const onSubmit = (data,e) => {
                           })}       
                           placeholder="Modelo De Auto"
                           />
-
+                          {errors?.modeloDeAuto?.type === "required" && 
+                          <p className='text-danger'>Este campo es obligatorio</p>}
+                          {errors?.modeloDeAuto?.type === "maxLength" && (
+                            <p className='text-danger'>El nombre no puede exceder los 50 caracteres</p>
+                          )}
                     </PosicionLabels>
                     <PosicionLabels>
                           <LabelPlanCanje className='label-auto' >Marca</LabelPlanCanje>

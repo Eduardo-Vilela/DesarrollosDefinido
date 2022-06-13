@@ -1,0 +1,9 @@
+.rs-modal-content {
+
+    padding:0 !important;
+}
+
+.rs-modal-wrapper {
+ bottom: 0 !important;
+ top: 210px !important;
+}

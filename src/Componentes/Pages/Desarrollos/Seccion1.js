@@ -14,7 +14,9 @@ TituloFlips,
 SubtituloFlips,
 LinkFlip,
 } from './Seccion1Elements'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 function Seccion1() {
@@ -29,7 +31,7 @@ function Seccion1() {
          <BoxLotes>
            <AjusteFotos>
            <LinkFlip to='/Lasvictorias'>
-              <Lote>
+              <Lote data-aos="flip-up"  data-aos-duration="1000" >
                 <div className='front'>
                 <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575241/DESARROLLOSGRUPODELSUD/Intro-Card-Las-Victorias_vwkvvz.png'/>
                 </div>
@@ -41,7 +43,7 @@ function Seccion1() {
               </Lote>
             </LinkFlip>
             <LinkFlip to='/Eljuncal'>
-              <Lote >
+              <Lote  data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
                   <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Intro-Card-El-Juncal_zsvfay.png'/>
                  </div>
@@ -55,7 +57,7 @@ function Seccion1() {
            </AjusteFotos>
            <AjusteFotos>
            <LinkFlip to='/Latitud34'>
-              <Lote>
+              <Lote data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
                   <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647631164/DESARROLLOSGRUPODELSUD/Group_198_vhwg2d.jpg'/>
                 </div>
@@ -67,7 +69,7 @@ function Seccion1() {
               </Lote>
             </LinkFlip>  
             <LinkFlip to='/Lacampina'>
-              <Lote >
+              <Lote data-aos="flip-up"  data-aos-duration="1000" >
                 <div className='front'>
                    <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Intro-Card-La-Campina_foyc5b.png'/>
                 </div>
@@ -81,7 +83,7 @@ function Seccion1() {
            </AjusteFotos>
            <AjusteFotos>
             <LinkFlip to='/Lasorianas'>
-              <Lote>
+              <Lote data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
                   <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575242/DESARROLLOSGRUPODELSUD/Intro-Card-Las-Orianas_quue6e.png'/>
                </div> 
@@ -93,7 +95,7 @@ function Seccion1() {
               </Lote>
             </LinkFlip>
             <LinkFlip to='/Laescondida'>
-              <Lote >
+              <Lote data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
                   <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Intro-Card-La-Escondida_qnyllt.png'/>
                 </div>  
@@ -107,7 +109,7 @@ function Seccion1() {
            </AjusteFotos>
            <AjusteFotos style={{border:'0'}}>
             <LinkFlip to=''>
-              <Lote>
+              <Lote data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
                    <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Las-Catalinas_q5xlrv.png'/>
                 </div>
@@ -119,7 +121,7 @@ function Seccion1() {
               </Lote>
             </LinkFlip>  
             <LinkFlip to='/'>
-              <Lote style={{display:'none'}}>
+              <Lote style={{display:'none'}}  data-aos="flip-up"  data-aos-duration="1000">
               <div className='front'>
                 {/* <ContenedorFotoLotes alt='fotoDesarrollo' src=''/> */}
               </div>
