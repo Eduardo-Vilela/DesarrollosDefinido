@@ -53,7 +53,6 @@ justify-content: center;
   width: 100%;
   height: 70vh;
  }
-}
 
 `
 export const BoxAuto = styled.div`
@@ -94,6 +93,9 @@ justify-content: space-evenly;
 export const BoxTitulos = styled.div`
 width: 50%;
 height: auto;
+padding-left: 200px;
+
+
 @media (max-width: 480px) { 
     width:100%;
   }
@@ -110,7 +112,7 @@ width: 50%;
    width: 70%;
    }
 `
-export const TituloPlan = styled.h1`
+export const TituloPlan = styled.p`
 text-align: left;
 color: #FFFFFF;
 font-family: "Poppins", Sans-serif;
@@ -131,6 +133,8 @@ font-family: "Poppins", Sans-serif;
 font-size: 20px;
 font-weight: 300;
 line-height: 1.3em;
+text-align: left;
+
 @media (max-width: 480px) { 
     font-size: 15px;
   }

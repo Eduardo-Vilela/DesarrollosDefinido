@@ -7,3 +7,21 @@
  bottom: 0 !important;
  top: 210px !important;
 }
+
+.swiper-button-next{
+    color: transparent !important;
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1655149801/DESARROLLOSGRUPODELSUD/Group-178_bbov0q.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10% !important;
+    width: 10% !important;
+}
+.swiper-button-prev{
+    color:transparent !important;
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1655149801/DESARROLLOSGRUPODELSUD/Group-178_bbov0q.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10% !important;
+    width: 10% !important;
+    transform: rotate(180deg);
+}

@@ -82,6 +82,7 @@ export const BoxHome = styled.div`
   color: white;
   margin-bottom: 25px;
   text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  line-height: 1.2em;
   
     @media (max-width: 480px) { 
       font-size: 20px ;

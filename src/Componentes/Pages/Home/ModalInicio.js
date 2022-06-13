@@ -89,7 +89,7 @@ function ModalInicio() {
                     {errors.name && <p className='text-danger'>{errors.name.message}</p>}
                     <InputModal 
                     type="number"
-                    placeholder='Telefono'
+                    placeholder='Teléfono'
                     {...register("telefono", {
                         required: "Campo requerido",
                         maxLength: {

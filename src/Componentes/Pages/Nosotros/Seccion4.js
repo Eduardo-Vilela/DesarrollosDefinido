@@ -21,14 +21,14 @@ function Seccion4() {
                 en nuestros clientes. Cuando proyectamos, diseñamos y llevamos
                 a cabo un proyecto, lo hacemos con la mente puesta en la calidad
                 de vida de las personas que lo van a adquirir, brindando la máxima 
-                funcionalidad y calidad.
-                <br>
-                </br>
+                funcionalidad y calidad.<br/>
+                <br/>
+                
                 Además, nos enorgullece contarte que formamos parte de un
                 grupo empresarial que en solo dos años supo crecer para  
                 acompañarte en todo tu proceso.
-                <br>
-                </br>
+                <br/>
+                <br/>
                 Pertenecer a Grupo Delsud, nos permite contar con financiación 
                 propia bajo requisitos mínimos y con planes realmente a medida,  
                 para que puedas adquirir el bien de anhelo con mayor facilidad y    

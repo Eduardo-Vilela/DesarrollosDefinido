@@ -33,7 +33,7 @@ function Seccion1() {
            <LinkFlip to='/Lasvictorias'>
               <Lote data-aos="flip-up"  data-aos-duration="1000" >
                 <div className='front'>
-                <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575241/DESARROLLOSGRUPODELSUD/Intro-Card-Las-Victorias_vwkvvz.png'/>
+                <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655152625/DESARROLLOSGRUPODELSUD/Portadas-04_yjm6ib.png'/>
                 </div>
                 <div className='back' >
                  <TituloFlips>Las Victorias</TituloFlips>
@@ -45,7 +45,7 @@ function Seccion1() {
             <LinkFlip to='/Eljuncal'>
               <Lote  data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
-                  <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Intro-Card-El-Juncal_zsvfay.png'/>
+                  <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655152630/DESARROLLOSGRUPODELSUD/Portadas-01_sxqfl8.png'/>
                  </div>
                 <div className='back'>
                  <TituloFlips>El juncal</TituloFlips>
@@ -59,7 +59,7 @@ function Seccion1() {
            <LinkFlip to='/Latitud34'>
               <Lote data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
-                  <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647631164/DESARROLLOSGRUPODELSUD/Group_198_vhwg2d.jpg'/>
+                  <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655152625/DESARROLLOSGRUPODELSUD/Portadas-06_ldau8m.png'/>
                 </div>
                 <div className='back'>
                  <TituloFlips>Latitud 34</TituloFlips>
@@ -71,7 +71,7 @@ function Seccion1() {
             <LinkFlip to='/Lacampina'>
               <Lote data-aos="flip-up"  data-aos-duration="1000" >
                 <div className='front'>
-                   <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Intro-Card-La-Campina_foyc5b.png'/>
+                   <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655152627/DESARROLLOSGRUPODELSUD/Portadas-02_knbvxl.png'/>
                 </div>
                 <div className='back'>
                  <TituloFlips>La Campiña</TituloFlips>
@@ -85,7 +85,7 @@ function Seccion1() {
             <LinkFlip to='/Lasorianas'>
               <Lote data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
-                  <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575242/DESARROLLOSGRUPODELSUD/Intro-Card-Las-Orianas_quue6e.png'/>
+                  <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655152625/DESARROLLOSGRUPODELSUD/Portadas-03_ddaifm.png'/>
                </div> 
                 <div className='back'>
                  <TituloFlips>Las Orianas</TituloFlips>
@@ -97,7 +97,7 @@ function Seccion1() {
             <LinkFlip to='/Laescondida'>
               <Lote data-aos="flip-up"  data-aos-duration="1000">
                 <div className='front'>
-                  <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653575239/DESARROLLOSGRUPODELSUD/Intro-Card-La-Escondida_qnyllt.png'/>
+                  <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655152629/DESARROLLOSGRUPODELSUD/Portadas-05_saykck.png'/>
                 </div>  
                 <div className='back'>
                  <TituloFlips>La Escondida</TituloFlips>

@@ -77,7 +77,7 @@ function Footer() {
             <Seccion1>
               <TitulosFooter>INFORMACIÓN</TitulosFooter>
               <SubtitulosFooter >Avenida 7 840, e/ 48 y 49</SubtitulosFooter>
-              <SubtitulosFooter>La Plata, Buenos Aires. 1901.</SubtitulosFooter>
+              <SubtitulosFooter>La Plata, Buenos Aires. 1900.</SubtitulosFooter>
             </Seccion1>
             <Seccion2>
                <TitulosFooter >CONTACTO</TitulosFooter>

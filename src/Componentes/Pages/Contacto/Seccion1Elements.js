@@ -145,6 +145,7 @@ background: none !important;
 border-bottom: solid #ffff 1px !important;
 margin-bottom: 20px;
 font-size: 20px;
+font-family: "Raleway", Sans-serif;
 width: 80%;
 color: #ffff !important;
 outline: none !important;

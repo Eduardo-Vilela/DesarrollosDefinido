@@ -83,7 +83,7 @@ height: 25vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 106px;
+
 text-align: center;
 align-items: center;
 
@@ -103,7 +103,7 @@ height: 25vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 106px;
+
 text-align: center;
 align-items: center;
 
@@ -123,7 +123,7 @@ height: 25vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 106px;
+
 text-align: center;
 align-items: center;
 @media (max-width: 480px) { 
@@ -142,9 +142,11 @@ height: 25vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 106px;
+
 text-align: center;
 align-items: center;
+
+
 @media (max-width: 480px) { 
   width: 100%;
   padding: 0px;
@@ -177,7 +179,7 @@ font-size: 12px;
 export const NumeroLogros = styled.div`
 font-size: 45px;
 font-family: Poppins;
-font-weight: 200;
+font-weight: 600;
 color: white;
 
 @media (max-width: 480px) { 
@@ -209,4 +211,12 @@ padding: 0px 0px 300px 0px;
   padding-left: 35px;
  }
 
+`
+
+export const IconoAños = styled.img`
+width: 40px;
+height: 40px;
+`
+export const IconoUnidades  = styled.img`
+width: 55px;
 `

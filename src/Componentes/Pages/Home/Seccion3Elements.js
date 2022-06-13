@@ -78,7 +78,7 @@ export const Titulo3 = styled.h2 `
     font-family: "Poppins";
     color: #1D2142;
     font-weight: 500;
-    line-height: 90px;
+    line-height: 4em;
 
     @media (max-width: 480px) { 
         font-size: 24px;
@@ -96,6 +96,8 @@ export const Parrafo3 = styled.p `
     color: #1D2142;
     font-weight: 200;
     color: #828282;
+    line-height: 1.6em;
+
     @media (max-width: 480px) { 
         font-size: 12px;
       }

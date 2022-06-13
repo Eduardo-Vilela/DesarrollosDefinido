@@ -169,12 +169,15 @@ font-weight: 600;
 
 @media (max-width: 480px) { 
     font-size: 20px;
-    line-height: 23px;
+    line-height: 15px;
   }
   @media (max-width: 767px) { 
     font-size: 20px;
-    line-height: 23px;
+    line-height: 15px;
   }
+  @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size: 20px;
+}
 
 `
 export const Parrafo = styled.p`
@@ -189,7 +192,9 @@ export const Parrafo = styled.p`
   @media (max-width: 767px) { 
     font-size: 12px;
   }
-
+  @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size: 16px;
+}
 
 `
 export const Button1 = styled.button`

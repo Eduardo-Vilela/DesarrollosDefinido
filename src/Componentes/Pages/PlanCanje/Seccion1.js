@@ -9,8 +9,7 @@ BoxTitulos,
 FotoAuto,
 TituloPlan,
 SubtituloPlanCanje,
-Box1,
-Box2,
+
 TituloCard,
 SubtituloCard,
 Columnas,
@@ -32,14 +31,14 @@ function Seccion1() {
      <BoxPrimario>
          <BoxSecundario>
              <BoxTitulos>
-              <Box1>
-                  <TituloPlan>Plan Canje</TituloPlan>
+     
+              <TituloPlan>Plan Canje  <img width='60' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648065960/DESARROLLOSGRUPODELSUD/Group_1337_rctgnn.svg' alt='plancanje'/></TituloPlan>
+              <SubtituloPlanCanje> Tomamos tu auto en parte de pago <br/>por el terreno que siempre soñaste</SubtituloPlanCanje>
+                {/* <div>
                   <span style={{width: '3%'}}></span>
                   <img style={{width: '10%'}} src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648065960/DESARROLLOSGRUPODELSUD/Group_1337_rctgnn.svg' alt='plancanje'/>
-              </Box1>
-              <Box2>
-                  <SubtituloPlanCanje> Tomamos tu auto en parte de pago <br/>por el terreno que siempre soñaste</SubtituloPlanCanje>
-              </Box2>
+                  </div>
+          */}
              </BoxTitulos>
              <BoxAuto>
                <FotoAuto alt='aaaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653586516/DESARROLLOSGRUPODELSUD/pngwing.com_lkuost.png'/>

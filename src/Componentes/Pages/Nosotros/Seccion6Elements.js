@@ -55,7 +55,7 @@ text-align: center;
 `
 
 export const Titulo6 = styled.h2`
-font-size: 30px;
+font-size: 50px;
 font-family: Poppins;
 font-weight: 500px;
 color: white;
@@ -68,10 +68,11 @@ color: white;
 `
 
 export const Subtitulo6 = styled.h3`
-font-size: 15px;
+font-size: 30px;
 font-family: Poppins;
 font-weight: 200;
 color: white;
+line-height: 3em;
 @media (max-width: 480px) { 
   font-size: 16px;
 }

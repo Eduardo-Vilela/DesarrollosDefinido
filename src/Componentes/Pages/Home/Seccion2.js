@@ -23,13 +23,13 @@ function Seccion2() {
             style={{ width: '18rem',borderRight:'1px solid #E5E5E5' }}>
             <Card.Body>
                 <img  alt='aa'src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161427/DESARROLLOSGRUPODELSUD/002-dollar_bnwiea.png' />
-                <Card.Title >Cuotas en pesos <br/>y/o dólares</Card.Title>
+                <Card.Title style={{color:'#767676',FontFamily:'Raleway'}} >Cuotas en pesos <br/>y/o dólares</Card.Title>
           </Card.Body>  
             <TarjetaVerde>
                         <Card style={{ width: 'auto', height:'100%',border:'0' }} >
                             <ContenidoVerde >
                             <img src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-5_epscre.svg" />
-                                <Card.Subtitle style={{background: 'white'}} >
+                                <Card.Subtitle style={{background: 'white',color:'#767676'}} >
                                 Financiá tu terreno
                                 en cuotas fijas en pesos o 
                                 cuotas en dólares 
@@ -44,14 +44,14 @@ function Seccion2() {
             style={{ width: '18rem' ,borderRight:'1px solid #E5E5E5' }}>
               <Card.Body >
               <img  alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/Group_22_femmox.svg' />
-              <Card.Title c >Financiación <br/> Personalizada</Card.Title>          
+              <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}  >Financiación <br/> Personalizada</Card.Title>          
               </Card.Body>
 
                <TarjetaVerde>
                  <Card style={{width: 'auto', height:'100%',border:'0' }}>
                      <ContenidoVerde >
                      <img src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-2-1_naohwr.svg" />
-                         <Card.Subtitle  style={{background: 'white'}}>
+                         <Card.Subtitle  style={{background: 'white',color:'#767676'}}>
                          Armá tu propio plan de 
                          financiación a medida, 
                          adaptado a tus 
@@ -65,13 +65,13 @@ function Seccion2() {
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
               <Card.Body >
               <img   alt='aaa'src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,h_76,w_75/v1649774503/DESARROLLOSGRUPODELSUD/018-bank-check-1_jnjhh6.svg' />
-              <Card.Title >Accedé sólo <br/> con DNI</Card.Title>              
+              <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}  >Accedé sólo <br/> con DNI</Card.Title>              
               </Card.Body>
               <TarjetaVerde >
                   <Card style={{width: 'auto', height:'100%',border:'0' }}>
                       <ContenidoVerde >
                       <img width='50' height='50' style={{background: 'white' , marginBottom:'20px'}} src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-28_bouhbg.svg" />
-                          <Card.Subtitle  style={{background: 'white'}}>
+                          <Card.Subtitle  style={{background: 'white',color:'#767676'}}>
                               Podés acceder a
                               tu propio terreno 
                               financiado, con mínimos 
@@ -84,13 +84,13 @@ function Seccion2() {
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
               <Card.Body >
               <img  alt='aaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/006-crane_truck_1_ipxkwu.png' />
-              <Card.Title  >Maquinaria <br/> Propia</Card.Title>               
+              <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}   >Maquinaria <br/> Propia</Card.Title>               
               </Card.Body>
               <TarjetaVerde>
                   <Card style={{width: 'auto', height:'100%',border:'0' }}>
                       <ContenidoVerde >
                       <img alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-3-1_wradha.svg" />
-                          <Card.Subtitle style={{background: 'white'}}>
+                          <Card.Subtitle style={{background: 'white',color:'#767676'}}>
                           Contamos con la 
                           maquinaria necesaria 
                           para el tratamiento del 
@@ -104,13 +104,13 @@ function Seccion2() {
            <CardsBox style={{ width: '18rem' }}>
               <Card.Body >
               <img  alt='ss' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648161373/DESARROLLOSGRUPODELSUD/035-agreement_rszyxv.png' />
-              <Card.Title >Terrenos con<br/> Escritura</Card.Title>             
+              <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}  >Terrenos con<br/> Escritura</Card.Title>             
               </Card.Body>
               <TarjetaVerde >
                   <Card style={{ width: 'auto', height:'100%',border:'0'}}>
                       <ContenidoVerde >
                       <img  alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/035-agreement_rhmtz8.svg" />
-                      <Card.Subtitle  style={{background: 'white'}}>
+                      <Card.Subtitle  style={{background: 'white',color:'#767676'}}>
                           Todos nuestros 
                           desarrollos cuentan con 
                           la posibilidad de una 
