@@ -56,6 +56,9 @@ function Seccion8Laescondida() {
                     className="mySwiper"
                     style={{width: '100%' , height:'100%'}}
                 >
+                  <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655233875/DESARROLLOSGRUPODELSUD/la%20escondida/Escondida_web_1_dy13ee.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655233875/DESARROLLOSGRUPODELSUD/la%20escondida/escondida_web_3_qwlrdo.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655233875/DESARROLLOSGRUPODELSUD/la%20escondida/escondida_web_2_ua9nlz.jpg'/></SwiperSlide>
                     <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651587525/DESARROLLOSGRUPODELSUD/la%20escondida/Render01-1024x576_hksvex.jpg'/></SwiperSlide>
                     <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651587525/DESARROLLOSGRUPODELSUD/la%20escondida/render-grupo_8-Foto-1024x576_1_qxqlfd.jpg'/></SwiperSlide>
                     <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651587525/DESARROLLOSGRUPODELSUD/la%20escondida/render-grupo_6-Foto-1024x576_izaszc.jpg'/></SwiperSlide>
