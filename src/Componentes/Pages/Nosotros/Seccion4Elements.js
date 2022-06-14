@@ -18,6 +18,9 @@ height: 900px;
   height: 740px;
 
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 700px;
+}
 `
 export const SubBoxPadre = styled.div`
 width: 100%;
@@ -39,6 +42,10 @@ justify-content: center;
     justify-content: center;
    
    }
+
+   @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 100%;
+}
 `
 
 export const BoxBack2 = styled.div`
@@ -59,4 +66,7 @@ background-size: cover;
       height: 30%;
       border-radius:0;
   }
+  @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 100%;
+}
 `

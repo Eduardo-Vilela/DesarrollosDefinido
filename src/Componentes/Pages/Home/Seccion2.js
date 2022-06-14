@@ -90,7 +90,7 @@ function Seccion2() {
                   <Card style={{width: 'auto', height:'100%',border:'0' }}>
                       <ContenidoVerde >
                       <img alt='overlayy' src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649773777/DESARROLLOSGRUPODELSUD/Group-3-1_wradha.svg" />
-                          <Card.Subtitle style={{background: 'white',color:'#767676'}}>
+                          <Card.Subtitle style={{background: 'white',color:'#767676',fontSize:'15px'}}>
                           Contamos con la 
                           maquinaria necesaria 
                           para el tratamiento del 

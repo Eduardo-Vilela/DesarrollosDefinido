@@ -1,7 +1,7 @@
 import React from 'react'
 import { BoxIntermedio, BoxTexto, Parrafo3, Titulo3 } from '../Home/Seccion3Elements'
 import { Box2, BoxCards} from './Seccion3Elements'
-import {Valores, TituloValores , Parrafito,BoxPadre3,SubBoxPadre3,BoxValoresMobile, BoxSwiperValores,BoxTexto3 } from './Seccion5Elements'
+import {Valores, TituloValores , Parrafito,BoxPadre3,SubBoxPadre3,BoxValoresMobile, BoxSwiperValores,BoxTexto3,IconosValores } from './Seccion5Elements'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 
@@ -25,24 +25,24 @@ function Seccion5() {
            <Box2>
              <BoxCards>
                  <Valores>
-                  <img  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647609904/DESARROLLOSGRUPODELSUD/Group_104_xi25hp.svg'/>
+                  <IconosValores  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647609904/DESARROLLOSGRUPODELSUD/Group_104_xi25hp.svg'/>
                   <TituloValores>Transparencia</TituloValores>
                   <Parrafito>Documentamos cada paso en tu proceso de compra para asegurarte de que estás llevando a cabo una compra segura.</Parrafito>
                  </Valores>
                  <Valores>
-                  <img  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/Group_105_kglmjj.svg'/>
+                  <IconosValores  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/Group_105_kglmjj.svg'/>
                   <TituloValores>Innovación</TituloValores>
                   <Parrafito>Somos un equipo joven, soñador, abierto a las nuevas ideas. Buscamos estar a la vanguardia en la creación y gestión de inmuebles.</Parrafito>
                  </Valores>
              </BoxCards>
              <BoxCards>    
                  <Valores>
-                   <img  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/handshake_1_1_q45b5f.svg'/>
+                   <IconosValores  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/handshake_1_1_q45b5f.svg'/>
                    <TituloValores>Responsabilidad</TituloValores>
                    <Parrafito>Nos aseguramos de cumplir con todos los estándares exigidos en cada proyecto, en el tiempo y forma preestablecidos.</Parrafito>
                  </Valores>
                  <Valores>
-                   <img  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/Group_91_pfhrlg.svg'/>
+                   <IconosValores  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/Group_91_pfhrlg.svg'/>
                    <TituloValores>Compromiso</TituloValores>
                    <Parrafito>Creemos en lo que hacemos y en lo que tenemos para aportarle a la industria, nos caracteriza la vocación y el compromiso</Parrafito>
                  </Valores>

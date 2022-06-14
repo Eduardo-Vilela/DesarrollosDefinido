@@ -15,7 +15,7 @@ padding-top: 120px;
       height: 650px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      
+      height: 1000px;
     }
 `
 export const SubBoxPadre2 = styled.div`
@@ -35,7 +35,7 @@ justify-content: center;
       height: 500px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      
+      height: 1000px;
     }
 `
 export const Contenedor1 = styled.div`
@@ -60,10 +60,8 @@ border-radius: 10px;
 export const Contenedor2 = styled.div`
 width: 50%;
 height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
+
+
 
 @media (max-width: 480px) { 
 display: none;

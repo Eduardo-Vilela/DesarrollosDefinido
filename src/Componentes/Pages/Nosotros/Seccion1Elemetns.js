@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BoxPadre = styled.div`
  width: 100%;
- height: 800px;
+ height: 900px;
  padding-top: 170px;
  @media (max-width: 480px) { 
   height: 800px;
@@ -13,7 +13,7 @@ export const BoxPadre = styled.div`
   padding-top: 80px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  height: 600px;
+  height: 700px;
 }
 
 `
@@ -35,13 +35,13 @@ height: 100vh;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
 flex-direction: row;
- height: 100vh;
+ height: 700px;
 }
 `
 
 export const BoxTexto = styled.div`
 width: 50%;
-height: 100vh;
+height: 100%;
 @media (max-width: 480px) { 
   width: 100%;
   height: 20vh;
@@ -51,10 +51,11 @@ height: 100vh;
   height: 20vh;
 }
 
+
 `
 export const BoxTexto2 = styled.div`
 width: 50%;
-height: 100vh;
+height: 100%;
 @media (max-width: 480px) { 
    width: 100%;
   height: 80vh;

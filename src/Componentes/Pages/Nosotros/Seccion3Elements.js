@@ -17,6 +17,10 @@ background: #1D2142;
   justify-content: center;
   height: 80vh;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 550px;
+}
+
 `
 export const Secundario = styled.div`
 width: 70%;
@@ -38,6 +42,9 @@ justify-content: center;
     justify-content: center;
     height: 80vh;
    }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 100%;
+}
 `
 
 export const Box1 = styled.div`
@@ -55,6 +62,9 @@ justify-content: center;
   width: 100%;
   height: 30vh;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  height: auto;
+}
 `
 
 export const Box2 = styled.div`
@@ -75,6 +85,9 @@ padding: 0px 70px 0px 0px;
   height: 50vh;
   padding: 0px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  height: auto;
+}
 `
 export const Card1 = styled.div`
 

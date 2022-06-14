@@ -69,7 +69,7 @@ export const ImagenSlide = styled.img`
  height: 50vh ;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 50% ;
+  width: 80% ;
   height: 50vh ;
  }
 `
@@ -103,7 +103,7 @@ export const Parrafo6 = styled.p`
  font-size: 15px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 20px;
+  font-size: 15px;
  }
 `
 export const ButtonSlideSeccion6 = styled.a`
@@ -175,7 +175,7 @@ export const ImagenSlideVacia = styled.div`
  margin: auto;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 50% ;
+  width: 80% ;
   height: 50vh ;
   margin: auto;
  }
