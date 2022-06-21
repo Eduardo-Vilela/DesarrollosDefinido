@@ -65,6 +65,9 @@ color: white;
 @media (max-width: 767px) { 
   font-size: 20px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:25px;
+}
 `
 
 export const Subtitulo6 = styled.h3`
@@ -79,6 +82,9 @@ line-height: 3em;
 @media (max-width: 767px) { 
   font-size: 16px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:22px;
+}
 `
 
 export const LinkGrupo = styled.a`

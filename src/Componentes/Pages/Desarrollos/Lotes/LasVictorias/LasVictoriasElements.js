@@ -176,7 +176,7 @@ font-weight: 600;
     line-height: 15px;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 20px;
+  font-size: 32px;
 }
 
 `
@@ -694,6 +694,9 @@ line-height: 2em;
 @media (max-width: 767px) { 
   font-size: 19px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:18px;
+}
 `
 
 export const ParrafoDerecha = styled.p`
@@ -709,6 +712,9 @@ line-height: 1.25em;
 @media (max-width: 767px) { 
   font-size: 15px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:18px;
+}
 `
 export const SubtituloDerecha = styled.h4`
 color: #1D2142;
@@ -723,11 +729,14 @@ line-height: 4em;
 @media (max-width: 767px) { 
   font-size: 16px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:18px;
+}
 `
 
 export const ItemListaDerecha = styled.li`
 width: 100%;
-margin: 50px 0px 50px 0px;
+margin: 20px 0px 20px 0px;
 color: grey;
 font-family: "Poppins", Sans-serif;
 font-size: 22px;
@@ -742,6 +751,10 @@ line-height: 1em;
   font-size: 12px;
   margin: 10px 0px 10px 0px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:18px;
+  margin: 10px 0px 10px 0px;
+}
 `
 
 /*SECCION 5 */
@@ -779,6 +792,9 @@ font-weight: 600;
 @media (max-width: 767px) { 
   font-size: 18px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:14px;
+}
 `
 
 export const TextoGris = styled.p`
@@ -787,6 +803,9 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1em;
 color: grey;
+@media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:14px;
+}
 `
 export const Imagen2 = styled.img`
 background-attachment: fixed;
@@ -811,6 +830,9 @@ margin-top: 10px;
 @media (max-width: 767px) { 
   font-size: 10px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:12px;
+}
 `
 
 /*seccion7*/
@@ -837,6 +859,9 @@ padding: 12px 20px 13px 20px;
 @media (max-width: 767px) { 
   font-size: 15px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:18px;
+}
 `
 
 /*seccion 8 */
@@ -893,14 +918,20 @@ height: 50vh;
 /* el juncal */
 
 export const VideoSlideJuncal = styled.video`
-// @media (max-width: 480px) { 
-//   width:100%;
-// height: 100%;
-// }
-// @media (max-width: 767px) { 
-//   width:100%;
-// height: 100%;
-//  }
+  width: 95%;
+
+@media (max-width: 480px) { 
+width: 90%;
+eight: 100%;
+}
+@media (max-width: 767px) { 
+  width:90%;
+height: 100%;
+}
+@media (min-width: 768px) and (max-width: 1199px) { 
+   width:90%;
+height: 100%;
+}
 
 `
 
@@ -911,6 +942,10 @@ export const NavItems = styled.div`
  font-weight: 600;
  color: #E0E0E0;
  margin-right: 30px;
+
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size: 12px;
+}
 `
 export const ContenedorSubNavbar = styled.div`
 display:flex;
@@ -931,7 +966,7 @@ height: 100%;
 `
 
 export const ContenedorLista = styled.div`
-width: 60%;
+width: 70%;
 
 @media (max-width: 480px) { 
   width: 100%;
@@ -939,6 +974,9 @@ width: 60%;
 @media (max-width: 767px) { 
   width: 100%;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  width: 75%;
+}
 `
 
 export const PrincipalSwiper = styled(Swiper)`

@@ -55,6 +55,9 @@ function Seccion8Lacampiña() {
                     className="mySwiper"
                     style={{width: '100%' , height:'100%'}}
                 >
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232871/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/campi%C3%B1a1_fptt2q.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232871/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/LA-CAMPINA-1_fb3xta.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232871/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/La-Campina_web_kkxm88.jpg'/></SwiperSlide>
                     <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785863/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/01-La-Campina-3_qc4xrl.mp4'/></SwiperSlide>
                     <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785866/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/02-La-Campina-3_z9tmqz.mp4'/></SwiperSlide>
                     <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785863/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/03-La-Campina-3_tt6vom.mp4'/></SwiperSlide>

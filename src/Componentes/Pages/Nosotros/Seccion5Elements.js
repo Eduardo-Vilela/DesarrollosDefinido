@@ -11,6 +11,9 @@ text-align: left;
 padding: 50px;
 background: #F6F6F6;
 
+@media (min-width: 768px) and (max-width: 1199px) { 
+  padding: 20px;
+}
 
 `
 
@@ -19,6 +22,11 @@ color: #1D2142;
 font-size: 18px;
 font-family: Poppins;
 font-weight: 500;
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+  font-size: 15px;
+}
+
 `
 export const Parrafito = styled.p`
 color: #828282;
@@ -40,8 +48,14 @@ height: 1000px;
   display: none;
 
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 800px;
+}
 `
-
+export const IconosValores = styled.img`
+width: 50px;
+height: 50px;
+`
 export const SubBoxPadre3 = styled.div`
 width: 100%;
 height: 100vh;
@@ -56,6 +70,9 @@ justify-content: center;
   @media (max-width: 767px) { 
   display: none;
    }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 100%;
+}
 `
 export const BoxValoresMobile = styled.div`
 @media (max-width: 480px) { 

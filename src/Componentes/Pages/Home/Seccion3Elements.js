@@ -11,6 +11,10 @@ export const BoxPrincipal = styled.div`
     @media (max-width: 767px) { 
         width: 100%;
     }
+    @media (min-width: 768px) and (max-width: 1199px) { 
+      height: 70vh;
+
+    }
 `
 export const SubBox = styled.div`
   width: 100%;
@@ -32,7 +36,7 @@ export const SubBox = styled.div`
         padding: 0px 0px 0px 20px
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-
+      height: 70vh;
      }
 `
 export const BoxTexto = styled.div`
@@ -54,6 +58,8 @@ export const BoxTexto = styled.div`
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
+      height: auto;
+     
     }
 `
 export const BoxBack = styled.div`
@@ -61,11 +67,16 @@ export const BoxBack = styled.div`
   height: 100vh;
   border-radius: 20px;
   background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647161501/DESARROLLOSGRUPODELSUD/Lomas_de_Arana-Muestra-1_1_tqpjva.png);
+<<<<<<< HEAD
   /* background-size: cover; */
   object-fit: contain;
   background-repeat: no-repeat;
   background-position-x: right;
   background-size: 80%;
+=======
+  background-size: cover;
+  background-position: center;
+>>>>>>> ca9b92fcfa4ab80077f879dc7a9a2cac04ab9810
 
     @media (max-width: 480px) { 
         width: 100%;
@@ -75,6 +86,9 @@ export const BoxBack = styled.div`
         width: 100%;
         height: 50vh;
     }
+    @media (min-width: 768px) and (max-width: 1199px) { 
+      height: auto;
+     }
 
 `
 export const Titulo3 = styled.h2 `
@@ -95,7 +109,7 @@ export const Titulo3 = styled.h2 `
        }
 `
 export const Parrafo3 = styled.p `
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Poppins";
     color: #1D2142;
     font-weight: 200;
@@ -109,7 +123,7 @@ export const Parrafo3 = styled.p `
         font-size: 15px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
-         font-size: 18px;
+         font-size: 14px;
        }
 `
 export const Button3 = styled.a `

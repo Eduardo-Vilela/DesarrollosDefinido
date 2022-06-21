@@ -26,7 +26,7 @@ function Seccion8Lasorianas() {
      <Box2>
          <SubBoxSiper>
             <BoxAlto>
-             <TituloDerecha>Proyecto El Juncal</TituloDerecha> 
+             <TituloDerecha>Proyecto Las Orianas</TituloDerecha> 
             </BoxAlto> 
             <BoxBajo>
             <Swiper
@@ -56,6 +56,9 @@ function Seccion8Lasorianas() {
                     className="mySwiper"
                     style={{width: '100%' , height:'100%'}}
                 >
+                   <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655233044/DESARROLLOSGRUPODELSUD/slidelasorianas/Las-Orianas_web_akmcfy.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655233044/DESARROLLOSGRUPODELSUD/slidelasorianas/Las-Orianas_web2_aeistt.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655233044/DESARROLLOSGRUPODELSUD/slidelasorianas/Las-Orianas_web3_v8iwxn.jpg'/></SwiperSlide>
                     <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649784651/DESARROLLOSGRUPODELSUD/01-El-Juncal-3_acmtvi.mp4'/></SwiperSlide>
                     <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649784551/DESARROLLOSGRUPODELSUD/02-El-Juncal-3_jagyrg.mp4'/></SwiperSlide>
                     <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649784206/DESARROLLOSGRUPODELSUD/03-El-Juncal-3_j5899n.mp4'/></SwiperSlide>

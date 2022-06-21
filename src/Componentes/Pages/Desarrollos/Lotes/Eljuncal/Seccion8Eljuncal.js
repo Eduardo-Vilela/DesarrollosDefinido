@@ -36,7 +36,7 @@ function Seccion8Eljuncal() {
                 //       slidesPerView: 1,
                 //       spaceBetween: 1,
                 //   },
-                //   480: {
+                //   : {
                 //     slidesPerView: 1,
                 //     spaceBetween: 1,
                 // }
@@ -49,7 +49,10 @@ function Seccion8Eljuncal() {
                     className="mySwiper"
                     style={{width: '100%' , height:'100%'}}
                 >
-                    <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='100%' height='100%' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649784651/DESARROLLOSGRUPODELSUD/01-El-Juncal-3_acmtvi.mp4'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232717/DESARROLLOSGRUPODELSUD/slideEljuncal/Juncal1_tosehi.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232717/DESARROLLOSGRUPODELSUD/slideEljuncal/Juncal2_ubf4ft.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232717/DESARROLLOSGRUPODELSUD/slideEljuncal/Juncal3_to04v3.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649784651/DESARROLLOSGRUPODELSUD/01-El-Juncal-3_acmtvi.mp4'/></SwiperSlide>
                     <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649784551/DESARROLLOSGRUPODELSUD/02-El-Juncal-3_jagyrg.mp4'/></SwiperSlide>
                     <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4" width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649784206/DESARROLLOSGRUPODELSUD/03-El-Juncal-3_j5899n.mp4'/></SwiperSlide>
                     <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649696157/DESARROLLOSGRUPODELSUD/slideEljuncal/El_Juncal-1_rxzajd.jpg'/></SwiperSlide>

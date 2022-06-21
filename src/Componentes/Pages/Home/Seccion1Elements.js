@@ -73,6 +73,7 @@ export const BoxHome = styled.div`
     @media (min-width: 768px) and (max-width: 1199px) { 
       width: 100%;
       padding: 0px 25px 0px 25px;
+      align-items: center;
     }
   
   `

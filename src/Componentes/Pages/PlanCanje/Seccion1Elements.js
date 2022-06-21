@@ -126,6 +126,9 @@ line-height: 1.5em;
   @media (max-width: 767px) { 
     font-size: 40px;
    }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:40px;
+}
 `
 export const SubtituloPlanCanje = styled.p`
 color: #FFFFFF;
@@ -141,6 +144,9 @@ text-align: left;
   @media (max-width: 767px) { 
     font-size: 15px;
    }
+   @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:15px;
+}
 `
 export const Box1 = styled.div`
 width:100%;

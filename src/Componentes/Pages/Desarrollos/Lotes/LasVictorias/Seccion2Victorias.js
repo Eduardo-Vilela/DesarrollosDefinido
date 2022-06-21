@@ -20,7 +20,7 @@ function Seccion2Victorias() {
          <BoxTitulo>
              <AjusteBox>
                <Separador> 
-                <Titulo>Viví en contacto<br/> con la naturaleza</Titulo>
+                <Titulo>Viví en contacto con la naturaleza</Titulo>
                </Separador>
                <Separador>
                     <Parrafo>
