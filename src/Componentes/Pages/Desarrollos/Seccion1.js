@@ -48,7 +48,7 @@ function Seccion1() {
                   <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655152630/DESARROLLOSGRUPODELSUD/Portadas-01_sxqfl8.png'/>
                  </div>
                 <div className='back'>
-                 <TituloFlips>El juncal</TituloFlips>
+                 <TituloFlips>El Juncal</TituloFlips>
                  <SubtituloFlips>Calle 37 entre 177 y 179</SubtituloFlips>
                  <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653941470/DESARROLLOSGRUPODELSUD/eljunci1_o2vhgg.jpg'/>
                 </div>

@@ -49,7 +49,7 @@ export const SubBoxLogoMaps = styled.div`
 export const TituloMaps = styled.h1`
  font-size: 40px;
  font-family: "Poppins";
- font-weight: 300;
+ font-weight: 500;
  color: #1D2142;
 
  @media (max-width: 480px) { 

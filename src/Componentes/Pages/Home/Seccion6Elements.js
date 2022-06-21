@@ -19,7 +19,7 @@ export const BoxPrincipal = styled.div`
 `
 
 export const BoxSecundario = styled.div`
-    width: 85%;
+    width: 75%;
     height: 100vh;
     margin: auto;
     padding: 90px 0px 50px 0px;

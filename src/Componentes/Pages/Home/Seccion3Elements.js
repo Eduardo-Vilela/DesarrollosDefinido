@@ -36,7 +36,7 @@ export const SubBox = styled.div`
      }
 `
 export const BoxTexto = styled.div`
-  width: 50%;
+  width: 80%;
 
   display: flex;
   flex-direction: column;
@@ -44,13 +44,13 @@ export const BoxTexto = styled.div`
 
     @media (max-width: 480px) { 
         width: 100%;
-        height: 70%;
+        height: 60%;
         padding: 0px 0px 0px 25px;
     }
     @media (max-width: 767px) { 
         width: 100%;
         padding: 0px 0px 0px 25px;
-        height: 70%;
+        height: 60%;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
@@ -61,7 +61,11 @@ export const BoxBack = styled.div`
   height: 100vh;
   border-radius: 20px;
   background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647161501/DESARROLLOSGRUPODELSUD/Lomas_de_Arana-Muestra-1_1_tqpjva.png);
-  background-size: cover;
+  /* background-size: cover; */
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 80%;
 
     @media (max-width: 480px) { 
         width: 100%;
@@ -96,7 +100,7 @@ export const Parrafo3 = styled.p `
     color: #1D2142;
     font-weight: 200;
     color: #828282;
-    line-height: 1.6em;
+    line-height: 1.3em;
 
     @media (max-width: 480px) { 
         font-size: 12px;
@@ -114,8 +118,9 @@ export const Button3 = styled.a `
     font-size: 25px;
     color: #767676 !important;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 100px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 
     @media (max-width: 480px) { 
         font-size: 20px;

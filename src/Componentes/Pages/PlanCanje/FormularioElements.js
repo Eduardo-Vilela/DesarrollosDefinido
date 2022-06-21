@@ -147,7 +147,7 @@ font-family: "Poppins", Sans-serif;
       opacity: 0.4;
     }
       
-    }
+    
 
     @media (max-width: 480px) { 
       font-size: 14px;

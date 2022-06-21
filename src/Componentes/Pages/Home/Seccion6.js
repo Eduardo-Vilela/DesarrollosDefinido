@@ -41,9 +41,10 @@ function Seccion6() {
      <BoxPrincipal>
          <BoxSecundario>
          <Swiper data-aos="fade-up"
-                slidesPerView={2}
+                slidesPerView={1}
                 centeredSlides={false}
                 slidesPerGroupSkip={1}
+                spaceBetween={10}
                 grabCursor={true}
                 keyboard={{
                 enabled: true,
@@ -56,7 +57,7 @@ function Seccion6() {
                 },
                 1024: {
                     slidesPerView: 2,
-                    slidesPerGroup: 4,
+                    slidesPerGroup: 2,
                 }
                 }}
                 navigation={true}
@@ -88,6 +89,7 @@ function Seccion6() {
                             </ButtonSlideSeccion6>           
                     </SlideTexto6>
                 </SwiperSlide>
+ 
                 <SwiperSlide >
                   <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490605/DESARROLLOSGRUPODELSUD/Group_191_x2r2ef.jpg" />
                 </SwiperSlide>

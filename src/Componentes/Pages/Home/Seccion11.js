@@ -105,7 +105,7 @@ function Seccion11() {
                             maxLength: 10,
                             required: true,                  
                             })}
-                            placeholder="Telefono"
+                            placeholder="Teléfono "
                             />
                             {errors?.telefono?.type === "required" && 
                             <p className='text-danger'>Este campo es obligatorio</p>}
