@@ -14,7 +14,7 @@ function Seccion3() {
     <>
      <BoxPrincipal>
        <Box1>
-         <Titulo>¡Estamos para asesorate!</Titulo>
+         <Titulo>¡Estamos para asesorarte!</Titulo>
        </Box1>
        <Box2>
         <a href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><LogosRedes className='seccion3-redes' alt='facebook' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647265206/DESARROLLOSGRUPODELSUD/Vector_ldkf57.png'/></a>

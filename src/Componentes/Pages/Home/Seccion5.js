@@ -7,7 +7,7 @@ import {
 } 
 from './Seccion5Elemetns'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 
 function Seccion5() {
     
@@ -17,8 +17,11 @@ function Seccion5() {
          <BoxSecundario5>
            <Swiper 
                 navigation={true} 
-                modules={[Navigation]} 
-                // style = {{margin: 'auto'}}
+                modules={[Navigation,Autoplay]} 
+                autoplay={{
+                    delay: 1900,
+                    disableOnInteraction: false,
+                    }}
 
                 >
                <SwiperSlide style={{display: 'flex'}} >

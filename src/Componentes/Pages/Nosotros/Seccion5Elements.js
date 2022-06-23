@@ -6,13 +6,14 @@ height: 30vh;
 margin-bottom: 10px;
 margin-right: 10px;
 border-radius: 10px;
-padding: 10px;
 text-align: left;
-padding: 50px;
+padding-left: 30px;
+padding-top: 30px;
+padding-right: 30px;
 background: #F6F6F6;
 
 @media (min-width: 768px) and (max-width: 1199px) { 
-  padding: 20px;
+  padding: 10px;
 }
 
 `
@@ -24,7 +25,7 @@ font-family: Poppins;
 font-weight: 500;
 
 @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 15px;
+  font-size: 12px;
 }
 
 `
@@ -33,6 +34,10 @@ color: #828282;
 font-size: 15px;
 font-family: Poppins;
 font-weight: 200;
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+  font-size: 11px;
+}
 `
 
 export const BoxPadre3 = styled.div`
@@ -55,6 +60,9 @@ height: 1000px;
 export const IconosValores = styled.img`
 width: 50px;
 height: 50px;
+@media (min-width: 768px) and (max-width: 1199px) { 
+  width: 35px;
+}
 `
 export const SubBoxPadre3 = styled.div`
 width: 100%;

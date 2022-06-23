@@ -114,11 +114,11 @@ transform-style: preserve-3d;
 margin: auto;
 
    &:hover{
-   transform: rotateY(180deg);
+   transform: rotateX(180deg);
    }
    
   .back{
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
 
    .front, .back{

@@ -67,16 +67,11 @@ export const BoxBack = styled.div`
   height: 100vh;
   border-radius: 20px;
   background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647161501/DESARROLLOSGRUPODELSUD/Lomas_de_Arana-Muestra-1_1_tqpjva.png);
-<<<<<<< HEAD
   /* background-size: cover; */
   object-fit: contain;
   background-repeat: no-repeat;
   background-position-x: right;
-  background-size: 80%;
-=======
-  background-size: cover;
-  background-position: center;
->>>>>>> ca9b92fcfa4ab80077f879dc7a9a2cac04ab9810
+  background-size: 100%;
 
     @media (max-width: 480px) { 
         width: 100%;

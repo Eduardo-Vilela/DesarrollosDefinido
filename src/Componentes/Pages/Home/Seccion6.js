@@ -15,6 +15,8 @@ import {
    ImagenSlideVacia,
 } from './Seccion6Elements'
 
+import './Seccion11.css'
+
 function Seccion6() {
       //navbar scroll when active state
       const [color, setColor] = useState(false)
@@ -41,24 +43,17 @@ function Seccion6() {
      <BoxPrincipal>
          <BoxSecundario>
          <Swiper data-aos="fade-up"
-                slidesPerView={1}
+                slidesPerView={2.5}
                 centeredSlides={false}
                 slidesPerGroupSkip={1}
-                spaceBetween={10}
+                spaceBetween={80}
                 grabCursor={true}
                 keyboard={{
                 enabled: true,
                 }}
                 
                 breakpoints={{
-                769: {
-                    slidesPerView: 2,
-                    slidesPerGroup: 3,
-                },
-                1024: {
-                    slidesPerView: 2,
-                    slidesPerGroup: 2,
-                }
+
                 }}
                 navigation={true}
                 modules={[Keyboard, Navigation]}
@@ -75,13 +70,9 @@ function Seccion6() {
                         </Titulo6>
                         <Parrafo6 className='seccion5-parrafo'>
                             Comercializamos distintos desarrollos
-                            <br/> 
                             en diversas ubicaciones, con más
-                            <br/>  
                             de 800 terrenos disponibles para que
-                            <br/> 
                             encuentres el terreno que mejor se 
-                            <br/> 
                             adapte a tus necesidades.
                             </Parrafo6>
                             <ButtonSlideSeccion6>
@@ -89,7 +80,6 @@ function Seccion6() {
                             </ButtonSlideSeccion6>           
                     </SlideTexto6>
                 </SwiperSlide>
- 
                 <SwiperSlide >
                   <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490605/DESARROLLOSGRUPODELSUD/Group_191_x2r2ef.jpg" />
                 </SwiperSlide>

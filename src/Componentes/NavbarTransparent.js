@@ -31,7 +31,9 @@ function NavbarTransparent() {
       <>
            <Navbar className={navbar ? "navbar navBar active navbar777" : "navbar navbar77"}  fixed="top" expand="lg">
             <Container id="#arriba1">
-              <Navbar.Brand href="#home"> <Link to='/'>
+              <Navbar.Brand href="#home"> 
+              <div>
+              <Link to='/'>
                 {
                   window.scrollY >= 200 ? 
                     <img  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1646942039/DESARROLLOSGRUPODELSUD/logoNav_h8jfaz.svg' alt="lala"/> 
@@ -39,6 +41,7 @@ function NavbarTransparent() {
                     <img  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648360095/DESARROLLOSGRUPODELSUD/Group_s8dqa5.svg ' alt="lala2"/>
                 }
               </Link> 
+              </div>
                </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -51,7 +54,13 @@ function NavbarTransparent() {
                   <div className='redesNav'>
                    <a href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,w_100/v1648567662/DESARROLLOSGRUPODELSUD/icons8-facebook_zdanr8.svg'/></a>   
                    <a href='https://www.instagram.com/desarrollos.delsud/'><img className='imagenRedes'  alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-instagram_kncmsb.svg'/> </a> 
-                   <a href=''><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-whatsapp_cpftke.svg'/> </a>     
+                   <a href=''><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-whatsapp_cpftke.svg'/> </a>  
+                   {
+                    window.scrollY >= 200 ?
+                    <div>vacio</div>
+                   :
+                   <Nav.Item className='navBarItems' href="#home"><Link to='/Contacto'>Hola, hablamos?</Link></Nav.Item> 
+                   }   
                   </div>
                 </Nav>
               </Navbar.Collapse>

@@ -19,7 +19,7 @@ export const BoxPrincipal = styled.div`
 `
 
 export const BoxSecundario = styled.div`
-    width: 75%;
+    width: 80%;
     height: 100vh;
     margin: auto;
     padding: 90px 0px 50px 0px;
@@ -56,7 +56,7 @@ export const SlideTexto6 = styled.div`
 `
 
 export const ImagenSlide = styled.img`
- width: 70%;
+ width: 510px;
  height: 80vh;
  border-radius: 10px;
 
@@ -70,11 +70,11 @@ export const ImagenSlide = styled.img`
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
   width: 80% ;
-  height: 50vh ;
+  height: 58vh ;
  }
 `
 export const Titulo6 = styled.h1`
-  font-size: 65px;
+  font-size: 50px;
   font-family: "Poppins";
   font-weight: 500;
   color: white;
@@ -91,7 +91,7 @@ export const Titulo6 = styled.h1`
 `
 
 export const Parrafo6 = styled.p`
- font-size: 25px;
+ font-size: 20px;
  font-family: "Poppins";
  font-weight: 200;
  color: white;

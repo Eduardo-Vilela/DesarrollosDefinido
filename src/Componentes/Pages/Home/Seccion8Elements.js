@@ -13,12 +13,17 @@ margin: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
+position: relative;
 `
 export const Boxhijo1 = styled.div`
 width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+background-color: white;
+position: absolute;
+top: 60px;
+
 @media (max-width: 480px) { 
   flex-direction: column;
 }
@@ -65,7 +70,7 @@ export const TituloMaps = styled.h1`
 export const SubTituloMaps = styled.p`
  font-size: 25px;
  padding: 20px;
- font-family: "Poppins"
+ font-family: "Poppins";
  font-weight: 200;
  color: #B8B8B8;
 

@@ -266,10 +266,11 @@ margin-bottom: 2px;
 
 export const Box3 = styled.div`
 width: 100%;
-height: 10vh;
+height: 5vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
+position: relative;
 
 @media (max-width: 480px) { 
   display:none;
@@ -987,4 +988,15 @@ export const PrincipalSwiper = styled(Swiper)`
   bottom: 60px;
 }
 
+`
+export const OcultarBorderIframe = styled.div`
+width: 100%;
+display: flex;
+flex-direction: row;
+background-color: white;
+position: absolute;
+top: 0;
+bottom: -50px;
+left: 0;
+right: 0;
 `

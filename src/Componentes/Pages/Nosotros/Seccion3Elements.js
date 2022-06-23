@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Principal = styled.div`
 width: 100%;
-height: 940px;
+height: 650px;
 background: #1D2142;
 @media (max-width: 480px) { 
   display: flex;
@@ -23,8 +23,8 @@ background: #1D2142;
 
 `
 export const Secundario = styled.div`
-width: 70%;
-height: 100vh;
+width: 90%;
+height: 650px;
 margin: auto;
 display: flex;
 flex-direction: row;
@@ -49,7 +49,7 @@ justify-content: center;
 
 export const Box1 = styled.div`
 width: 50%;
-height: 100vh;
+height: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -69,7 +69,7 @@ justify-content: center;
 
 export const Box2 = styled.div`
 width: 50%;
-height: 100vh;
+height: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -87,12 +87,13 @@ padding: 0px 70px 0px 0px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   height: auto;
+  padding: 0;
 }
 `
 export const Card1 = styled.div`
 
 width: 50%;
-height: 25vh;
+height: 220px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -112,7 +113,7 @@ align-items: center;
 export const Card2 = styled.div`
 
 width: 50%;
-height: 25vh;
+height: 220px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -132,7 +133,7 @@ align-items: center;
 export const Card3 = styled.div`
 
 width: 50%;
-height: 25vh;
+height: 220px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -151,7 +152,7 @@ align-items: center;
 export const Card4 = styled.div`
 
 width: 50%;
-height: 25vh;
+height: 220px;
 display: flex;
 flex-direction: column;
 justify-content: center;

@@ -56,7 +56,7 @@ function ModalInicio() {
 
   return (
     <>
-      <Modal  size={'md'} open={open} onClose={handleClose}>
+      <Modal  size={'md'} open={open} onClose={handleClose}  >
         <Modal.Header>
         </Modal.Header>
         <BoxPrincipal>

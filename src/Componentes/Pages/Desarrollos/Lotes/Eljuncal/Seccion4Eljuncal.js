@@ -8,7 +8,7 @@ function Seccion4Eljuncal() {
          <SubBox2>
              <BoxMaps>
                <ContenedorIframe>
-                <iframe title='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.4360534275897!2d-58.03778858476052!3d-34.970740880366016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2c2c3d7d2af8b%3A0xd23784691f43fa46!2sC.%20177%20%26%20C.%2037%2C%20B1901%20Melchor%20Romero%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1649095098204!5m2!1ses!2sar" 
+                <iframe title='mapa' src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.97131511231089%2C-58.03725295015823&z=19" 
                     style={{width:'100%',height:'100%'}}
                     />
                 </ContenedorIframe>

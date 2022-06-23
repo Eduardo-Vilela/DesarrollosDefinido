@@ -49,7 +49,7 @@ justify-content: center;
 `
 
 export const BoxBack2 = styled.div`
-width: 50%;
+width: 70%;
 height: 90vh;
 margin: auto;
 border-radius: 20px;
@@ -67,6 +67,6 @@ background-size: cover;
       border-radius:0;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
-  height: 100%;
+  height: 70%;
 }
 `
