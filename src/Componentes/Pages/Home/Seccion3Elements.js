@@ -104,7 +104,7 @@ export const Titulo3 = styled.h2 `
        }
 `
 export const Parrafo3 = styled.p `
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Poppins";
     color: #1D2142;
     font-weight: 200;
@@ -145,10 +145,14 @@ export const BoxIntermedio = styled.div`
 width: 70%;
 margin: auto;
 text-align: left;
+padding: 0px 200px 0px 0px;
+
 @media (max-width: 480px) { 
   width: 100%;
+  padding: 0;
 }
 @media (max-width: 767px) { 
   width: 100%;
+  padding: 0;
  }
 `

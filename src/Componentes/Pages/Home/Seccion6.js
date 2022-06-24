@@ -13,6 +13,7 @@ import {
    BoxMobile6,
    BoxSwiperMobile,
    ImagenSlideVacia,
+   Ajuste
 } from './Seccion6Elements'
 
 import './Seccion11.css'
@@ -42,27 +43,8 @@ function Seccion6() {
     <>
      <BoxPrincipal>
          <BoxSecundario>
-         <Swiper data-aos="fade-up"
-                slidesPerView={2.5}
-                centeredSlides={false}
-                slidesPerGroupSkip={1}
-                spaceBetween={80}
-                grabCursor={true}
-                keyboard={{
-                enabled: true,
-                }}
-                
-                breakpoints={{
-
-                }}
-                navigation={true}
-                modules={[Keyboard, Navigation]}
-                className={ color ? "mySwiper2 " : "mySwiper7 desactivacionSwiperSeccion5"
-            }
-
-            >
-                <SwiperSlide>
-                    <SlideTexto6 className='seccion5-flex'>
+          <Ajuste>
+          <SlideTexto6 className='seccion5-flex'>
                         <Titulo6 className='seccion5-Titulo'>
                             Nuestros
                             <br/>
@@ -79,7 +61,29 @@ function Seccion6() {
                             <Link to='/Desarrollos' style={{color: '#82AB29'}} className="boton-seccion5">Ver Desarrollos → </Link>             
                             </ButtonSlideSeccion6>           
                     </SlideTexto6>
-                </SwiperSlide>
+          </Ajuste>
+          <Ajuste>
+         <Swiper data-aos="fade-up"
+                slidesPerView={1.5}
+                centeredSlides={true}
+                // slidesPerGroupSkip={1}
+                // spaceBetween={10}
+                grabCursor={true}
+                keyboard={{
+                enabled: true,
+                }}
+                
+                breakpoints={{
+
+                }}
+                navigation={true}
+                modules={[Keyboard, Navigation]}
+                
+                className={ color ? "mySwiper2 " : "mySwiper7 desactivacionSwiperSeccion5"
+
+            }
+
+            style={{width:'100%', height:'100%'}}>
                 <SwiperSlide >
                   <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490605/DESARROLLOSGRUPODELSUD/Group_191_x2r2ef.jpg" />
                 </SwiperSlide>
@@ -103,7 +107,8 @@ function Seccion6() {
                   <ImagenSlide alt="fotodesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649876110/DESARROLLOSGRUPODELSUD/11-685x1024_cgttsc.jpg" />
                 </Link>
                 </SwiperSlide>
-            </Swiper> 
+            </Swiper>    
+          </Ajuste>
          </BoxSecundario>
      </BoxPrincipal>
 

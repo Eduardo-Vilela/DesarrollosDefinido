@@ -21,7 +21,7 @@ function Seccion11() {
       });
       const onSubmit = (data,e) => {
         //alert(JSON.stringify(data));
-        axios.post(`https://promo.desarrollosdelsud.com.ar/webApi/public/contacto/formFooter`, data)
+        axios.post(`https://prueba.desarrollosdelsud.com.ar/webApi/public/FormularioAcordion`, data)
           .then(function (response) {
             console.log(response.data);
             toast.success('Formulario enviado!', {
@@ -70,9 +70,7 @@ function Seccion11() {
                           <input className='inputInicio-form' type="text" name='nombre'
                             {...register("nombre", {
                               required: true,
-                              maxLength: 20,
-                              pattern: /^[A-Za-z]+$/i,
-                          
+                              maxLength: 20,       
                             })}
                             placeholder="Nombre"
                           />

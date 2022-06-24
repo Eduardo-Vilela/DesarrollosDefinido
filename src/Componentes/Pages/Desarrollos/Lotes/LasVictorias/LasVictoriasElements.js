@@ -230,7 +230,7 @@ border-radius: 10px;
 `
 export const Imagenslide = styled.img`
 width: 95%;
-height: 90%;
+height: 100%;
 border-radius: 10px;
 
 @media (max-width: 480px) { 
@@ -920,7 +920,8 @@ height: 50vh;
 
 export const VideoSlideJuncal = styled.video`
   width: 95%;
-
+object-fit: cover;
+border-radius: 10px;
 @media (max-width: 480px) { 
 width: 90%;
 eight: 100%;

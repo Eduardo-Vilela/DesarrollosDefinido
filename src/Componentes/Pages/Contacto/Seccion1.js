@@ -29,7 +29,7 @@ function Seccion1() {
       });
       const onSubmit = (data,e) => {
         //alert(JSON.stringify(data));
-        axios.post(`https://promos.desarrollosdelsud.com.ar/webApi/public/FormularioContacto`, data)
+        axios.post(`https://prueba.desarrollosdelsud.com.ar/webApi/public/FormularioContacto`, data)
           .then(function (response) {
             console.log(response.data);
             toast.success('Formulario enviado!', {

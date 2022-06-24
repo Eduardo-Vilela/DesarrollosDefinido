@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
+
 export const BoxPrincipal = styled.div`
   width: 100%;
   height: 100vh;
   background-color: #1D2142;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   @media (max-width: 480px) { 
       display:none;
   }
@@ -19,15 +17,20 @@ export const BoxPrincipal = styled.div`
 `
 
 export const BoxSecundario = styled.div`
-    width: 80%;
+    width: 100%;
     height: 100vh;
     margin: auto;
     padding: 90px 0px 50px 0px;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
     @media (max-width: 480px) { 
       padding:0px;
+      flex-direction: column;
   }
   @media (max-width: 767px) { 
     padding:0px;
+    flex-direction: column;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
     padding:0px;
@@ -35,19 +38,24 @@ export const BoxSecundario = styled.div`
 
 `
 export const SlideTexto6 = styled.div`
-   width: 80%;
-   height: 80vh;
+   width: 100%;
+   height: 100%;
+   padding-left: 175px;
    display: flex;
    flex-direction: column;
-   justify-content: space-evenly;
+   justify-content: center;
 
    @media (max-width: 480px) { 
-       width:100% ;
-       height:50vh ;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    padding-left: 0;
   }
   @media (max-width: 767px) { 
-      width: 100% ;
-      height: 40vh ;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    padding-left: 0;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
     width: 100%;
@@ -56,8 +64,8 @@ export const SlideTexto6 = styled.div`
 `
 
 export const ImagenSlide = styled.img`
- width: 510px;
- height: 80vh;
+ /* width: 510px; */
+ /* height: 80vh; */
  border-radius: 10px;
 
  @media (max-width: 480px) { 
@@ -179,4 +187,9 @@ export const ImagenSlideVacia = styled.div`
   height: 50vh ;
   margin: auto;
  }
+`
+
+export const Ajuste = styled.div`
+width: 50%;
+
 `
