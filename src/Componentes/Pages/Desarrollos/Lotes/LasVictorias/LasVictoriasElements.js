@@ -311,6 +311,7 @@ background-attachment: fixed;
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
+  margin-top: -50px;
 }
 @media (max-width: 767px) { 
   width: 100%;
@@ -605,14 +606,17 @@ align-items: center;
 display: flex;
 justify-content: center;
 padding-bottom: 50px;
+background-color: white;
 
 @media (max-width: 480px) { 
   width: 100%;
   height:50%;
+  z-index: 99;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50%;
+  z-index: 99;
  }
 `
 

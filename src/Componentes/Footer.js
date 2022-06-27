@@ -22,10 +22,20 @@ import {
   TituloFooterFinal,
   LogoGrupo,
   SubBox,
+  BoxAjusteFooter,
 } from './FooterElements'
 
 
 function Footer() {
+
+  const ScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  } 
+
+
   const {
     register,
     reset,
@@ -73,7 +83,9 @@ function Footer() {
     <>
     <BoxPrimario>
         <BoxSecundario>
+ 
            <Box1>
+            <BoxAjusteFooter>
             <Seccion1>
               <TitulosFooter>INFORMACIÓN</TitulosFooter>
               <SubtitulosFooter >Avenida 7 840, e/ 48 y 49</SubtitulosFooter>
@@ -122,6 +134,7 @@ function Footer() {
                       </div> 
                 </form>
             </Seccion3>
+            </BoxAjusteFooter>
           </Box1>
           <Box2>
             <Seccion4>
@@ -136,12 +149,11 @@ function Footer() {
               </Seccion5>
               <Seccion6>
                 <TituloFooterFinal >Volver al tope </TituloFooterFinal>
-                <a href="arriba1">
-                <img alt='flecha-footer' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522352/DESARROLLOSGRUPODELSUD/qyyw1oxg7sy3szotvufi.svg' />
-                </a>
+                 <img onClick={ScrollToTop} alt='flecha-footer' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522352/DESARROLLOSGRUPODELSUD/qyyw1oxg7sy3szotvufi.svg' />
               </Seccion6>
             </SubBox>
-          </Box3>    
+          </Box3> 
+
         </BoxSecundario>
     </BoxPrimario> 
     </>

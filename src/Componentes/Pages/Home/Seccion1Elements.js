@@ -82,7 +82,7 @@ export const BoxHome = styled.div`
   font-weight: 500;
   color: white;
   margin-bottom: 25px;
-  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 76%);
   line-height: 1.2em;
   
     @media (max-width: 480px) { 

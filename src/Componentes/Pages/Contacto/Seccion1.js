@@ -94,7 +94,7 @@ function Seccion1() {
                                }
                               })}
                             style={{color:'white'}}
-                            placeholder="E-mail"
+                            placeholder="Email"
                             />
                             {errors.email &&  <p style={{color:'white', fontFamily:'Poppins'}}>*Campo Requerido!</p>}
                           <InputContacto type="number" name='telefono'

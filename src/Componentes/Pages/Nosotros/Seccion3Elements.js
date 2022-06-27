@@ -212,7 +212,7 @@ color: white;
 font-family: Poppins;
 font-weight: 500;
 text-align: left;
-padding: 0px 0px 300px 0px;
+padding: 0px 0px 300px 80px;
 
 @media (max-width: 480px) { 
   padding: 0px;

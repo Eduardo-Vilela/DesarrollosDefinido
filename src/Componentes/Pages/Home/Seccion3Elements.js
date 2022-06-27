@@ -72,6 +72,7 @@ export const BoxBack = styled.div`
   background-repeat: no-repeat;
   background-position-x: right;
   background-size: 100%;
+  background-position-y: 50%;
 
     @media (max-width: 480px) { 
         width: 100%;
@@ -145,7 +146,7 @@ export const BoxIntermedio = styled.div`
 width: 70%;
 margin: auto;
 text-align: left;
-padding: 0px 200px 0px 0px;
+
 
 @media (max-width: 480px) { 
   width: 100%;

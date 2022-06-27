@@ -40,14 +40,14 @@ const completeFormStep = () => {
 
 const ButtonFinal = () => {
   if (formStep > 1) {
-   return (<ButtonFormPlanCanje ><Link to='/'>Ir al inicio</Link></ButtonFormPlanCanje>)
+   return (<ButtonFormPlanCanje ><Link to='/' style={{textDecoration:'none !important' ,color:'white',fontSize:'20px'}}>Ir al inicio</Link></ButtonFormPlanCanje>)
   } else if (formStep === 2){
     return(
       undefined
     )
   } else{
     return(
-      <ButtonFormPlanCanje disabled={!isValid} type="submit" onClick={completeFormStep}>Siguiente  →</ButtonFormPlanCanje>
+      <ButtonFormPlanCanje disabled={!isValid}  onClick={completeFormStep}>Siguiente  →</ButtonFormPlanCanje>
     )
   }
 }
@@ -55,6 +55,7 @@ const ButtonFinal = () => {
 const {
   register,
   reset,
+  handleSubmit,
   formState: { errors, isValid }
 } = useForm({ mode:"all"});
 
@@ -112,7 +113,7 @@ const onSubmit = (data,e) => {
              </BoxAuto>
          </BoxSecundario>
          <BoxFondoForm>
-            <BoxFormulario onSubmit={(onSubmit)}>
+            <BoxFormulario onSubmit={handleSubmit(onSubmit)}>
               {formStep === 0 &&(
               <Parte1>
                 <BoxIntermedioinputs>
@@ -197,6 +198,7 @@ const onSubmit = (data,e) => {
                     {errors?.nombre?.type === "maxLength" && (
                     <p className='text-danger'>El nombre no puede exceder los 10 caracteres</p>
                   )}
+                  <br/>
                   <LabelPlanCanje className='label-autoform2'>Email</LabelPlanCanje>
                 <InputPlanCanje className='input-formAuto' type="text" name='email'
                   {...register("email", 
@@ -212,7 +214,7 @@ const onSubmit = (data,e) => {
                     <p className='text-danger'>El nombre no puede exceder los 10 caracteres</p>
                   )}
                                 
-
+                                <br/>
                   <LabelPlanCanje className='label-autoform2' >WhatsApp</LabelPlanCanje>
                   <InputPlanCanje className='input-formAuto' type="number" name='whatsapp'
                   {...register("whatsapp", 
@@ -226,6 +228,7 @@ const onSubmit = (data,e) => {
                     {errors?.whatsapp?.type === "maxLength" && (
                     <p className='text-danger'>El nombre no puede exceder los 10 caracteres</p>
                   )}
+                   <br/>
               </Parte2>
                 )}
                 {formStep === 2 &&(

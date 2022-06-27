@@ -22,7 +22,7 @@ import Icono from './Icono'
 function Rutas() {
   return (
     <>
-     <HashRouter>
+     <HashRouter data-aos="zoom-in" >
      <ToastContainer
         position="top-right"
         autoClose={5000}

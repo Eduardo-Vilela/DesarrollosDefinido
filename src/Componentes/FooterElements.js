@@ -17,24 +17,7 @@ import styled from "styled-components";
  export const Box1 = styled.div`
  width: 100% ;
  margin: auto;
- display: flex;
- flex-direction: row;
- justify-content: space-around;
- height: 50vh;
- align-items: center;
- @media (max-width: 480px) { 
-   flex-direction: row-reverse;
-   align-items: center;
-   height: 25vh;
-  }
-  @media (max-width: 767px) { 
-  flex-direction: row-reverse;
-  align-items: center;
-  height: 25vh;
-  }
-  @media (min-width: 768px) and (max-width: 1199px) { 
-  flex-direction: row-reverse;
-  }
+ 
  `
 
  export const Box2 = styled.div`
@@ -225,7 +208,7 @@ import styled from "styled-components";
 
  @media (max-width: 480px) { 
   width: 20%;
-  
+ }
 @media (max-width: 767px) { 
   width: 20%;
  
@@ -235,6 +218,7 @@ import styled from "styled-components";
  
 }
  `
+
  export const SubBox = styled.div`
  width: 80%;
  display: flex;
@@ -250,4 +234,26 @@ import styled from "styled-components";
 @media (min-width: 768px) and (max-width: 1199px) { 
  justify-content: space-around;
 }
+ `
+
+ export const BoxAjusteFooter = styled.div`
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ height: 170px;
+ align-items: baseline;
+ @media (max-width: 480px) { 
+   flex-direction: row-reverse;
+   align-items: center;
+   height: 25vh;
+  }
+  @media (max-width: 767px) { 
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 25vh;
+  }
+  @media (min-width: 768px) and (max-width: 1199px) { 
+  flex-direction: row-reverse;
+  }
+ 
  `

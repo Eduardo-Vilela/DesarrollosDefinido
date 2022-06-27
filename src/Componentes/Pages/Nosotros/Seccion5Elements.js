@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Valores = styled.div`
 width: 50%;
-height: 30vh;
+height: 300px;
 margin-bottom: 10px;
 margin-right: 10px;
 border-radius: 10px;
@@ -12,8 +12,11 @@ padding-top: 30px;
 padding-right: 30px;
 background: #F6F6F6;
 
+
+
 @media (min-width: 768px) and (max-width: 1199px) { 
   padding: 10px;
+  height: 250px;
 }
 
 `

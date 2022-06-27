@@ -43,7 +43,7 @@ function Seccion6() {
     <>
      <BoxPrincipal>
          <BoxSecundario>
-          <Ajuste>
+          {/* <Ajuste>
           <SlideTexto6 className='seccion5-flex'>
                         <Titulo6 className='seccion5-Titulo'>
                             Nuestros
@@ -60,14 +60,15 @@ function Seccion6() {
                             <ButtonSlideSeccion6>
                             <Link to='/Desarrollos' style={{color: '#82AB29'}} className="boton-seccion5">Ver Desarrollos → </Link>             
                             </ButtonSlideSeccion6>           
-                    </SlideTexto6>
-          </Ajuste>
+            </SlideTexto6>
+          </Ajuste> */}
           <Ajuste>
+
          <Swiper data-aos="fade-up"
                 slidesPerView={1.5}
-                centeredSlides={true}
+                centeredSlides={false}
                 // slidesPerGroupSkip={1}
-                // spaceBetween={10}
+                spaceBetween={50}
                 grabCursor={true}
                 keyboard={{
                 enabled: true,
@@ -84,6 +85,25 @@ function Seccion6() {
             }
 
             style={{width:'100%', height:'100%'}}>
+              <SwiperSlide className="SlideParrafo">
+              <SlideTexto6 className='seccion5-flex'>
+                        <Titulo6 className='seccion5-Titulo'>
+                            Nuestros
+                            <br/>
+                            Desarrollos
+                        </Titulo6>
+                        <Parrafo6 className='seccion5-parrafo'>
+                            Comercializamos distintos desarrollos
+                            en diversas ubicaciones, con más
+                            de 800 terrenos disponibles para que
+                            encuentres el terreno que mejor se 
+                            adapte a tus necesidades.
+                            </Parrafo6>
+                            <ButtonSlideSeccion6>
+                            <Link to='/Desarrollos' style={{color: '#82AB29'}} className="boton-seccion5">Ver Desarrollos → </Link>             
+                            </ButtonSlideSeccion6>           
+            </SlideTexto6>
+              </SwiperSlide >
                 <SwiperSlide >
                   <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490605/DESARROLLOSGRUPODELSUD/Group_191_x2r2ef.jpg" />
                 </SwiperSlide>
@@ -95,9 +115,6 @@ function Seccion6() {
                 </SwiperSlide>
                 <SwiperSlide>
                   <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490607/DESARROLLOSGRUPODELSUD/Group_195_jklscp.png" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649875992/DESARROLLOSGRUPODELSUD/El_Juncal-1_owdhpy.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
                   <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490217/DESARROLLOSGRUPODELSUD/Group_189_zo7ghe.jpg" />

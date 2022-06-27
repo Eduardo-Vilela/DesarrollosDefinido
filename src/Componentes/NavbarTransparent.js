@@ -36,9 +36,9 @@ function NavbarTransparent() {
               <Link to='/'>
                 {
                   window.scrollY >= 200 ? 
-                    <img  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1646942039/DESARROLLOSGRUPODELSUD/logoNav_h8jfaz.svg' alt="lala"/> 
+                    <img width='100' height='40'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1646942039/DESARROLLOSGRUPODELSUD/logoNav_h8jfaz.svg' alt="lala"/> 
                   :
-                    <img  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648360095/DESARROLLOSGRUPODELSUD/Group_s8dqa5.svg ' alt="lala2"/>
+                    <img width='100' height='40'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648360095/DESARROLLOSGRUPODELSUD/Group_s8dqa5.svg ' alt="lala2"/>
                 }
               </Link> 
               </div>
@@ -54,13 +54,7 @@ function NavbarTransparent() {
                   <div className='redesNav'>
                    <a href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,w_100/v1648567662/DESARROLLOSGRUPODELSUD/icons8-facebook_zdanr8.svg'/></a>   
                    <a href='https://www.instagram.com/desarrollos.delsud/'><img className='imagenRedes'  alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-instagram_kncmsb.svg'/> </a> 
-                   <a href=''><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-whatsapp_cpftke.svg'/> </a>  
-                   {
-                    window.scrollY >= 200 ?
-                    <div>vacio</div>
-                   :
-                   <Nav.Item className='navBarItems' href="#home"><Link to='/Contacto'>Hola, hablamos?</Link></Nav.Item> 
-                   }   
+                   <a href=''><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-whatsapp_cpftke.svg'/> </a>    
                   </div>
                 </Nav>
               </Navbar.Collapse>

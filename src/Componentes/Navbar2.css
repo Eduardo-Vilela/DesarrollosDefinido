@@ -17,6 +17,17 @@
 .navbar-collapse{
     
 }
+
+.ItemVerde{
+    padding: 20px 25px;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #82AB1B !important;
+}
+.ItemVerde a{
+    color: #82AB1B !important;
+    border-bottom: 2px #82AB1B solid;
+}
 @media screen and (min-width:408px) {
     .navBar2{
         width: 100%;

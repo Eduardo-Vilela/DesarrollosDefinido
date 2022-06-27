@@ -142,6 +142,7 @@ font-family: "Poppins", Sans-serif;
     border-radius: 30px 30px 30px 30px;
     padding: 12px 20px 13px 20px;
     margin-top: 20px;
+    text-decoration: none !important;
 
     :disabled {
       opacity: 0.4;
@@ -160,6 +161,7 @@ font-family: "Poppins", Sans-serif;
      }
 `
 export const ImagenFinal = styled.img`
-width:100%;
+width:70%;
 height: auto;
+margin: auto;
 `

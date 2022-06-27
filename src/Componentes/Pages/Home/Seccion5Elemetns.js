@@ -52,7 +52,7 @@ export const ButtonSlide5 = styled.a`
 outline: none;
     width: 30%;
     height: 5vh;
-    font-family: "Mabry Pro", Sans-serif;
+    font-family: "Poppins", Sans-serif;
     font-size: 18px;
     color: white;
     font-weight: 500;
@@ -62,7 +62,7 @@ outline: none;
     border-color: #FFFFFF30;
     border-radius: 30px 30px 30px 30px;
     padding: 15px 15px 15px 15px;
-
+text-decoration: none !important;
 
         @media (max-width: 480px) { 
             width: 40%;
