@@ -9,6 +9,9 @@ export const BoxSwiper9 = styled.div`
 @media (max-width: 767px) { 
   height: 40vh;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 350px;
+ }
 
 `
 export const SubBox9 = styled.div`
@@ -24,6 +27,9 @@ justify-content: space-evenly;
  @media (max-width: 767px) { 
    height: 40vh;
   }
+  @media (min-width: 768px) and (max-width: 1199px) { 
+  height: 350px;
+ }
 `
 
 

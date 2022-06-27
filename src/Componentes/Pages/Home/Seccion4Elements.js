@@ -20,6 +20,9 @@ export const BoxPrincipal = styled.div`
          flex-direction: column;
          justify-content:center;
       }
+      @media (min-width: 768px) and (max-width: 1199px) { 
+      height: 15vh;
+   }
 `
 export const Box1 = styled.div`
    padding: 30px;

@@ -30,6 +30,9 @@ top: 60px;
 @media (max-width: 767px) { 
   flex-direction: column;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+ top: 85px;
+ }
 `
 
 export const Boxhijo2 = styled.div`
@@ -65,6 +68,9 @@ export const TituloMaps = styled.h1`
   font-size:30px;
   line-height: 20px;
  } 
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size: 20px;
+ }
  
 `
 export const SubTituloMaps = styled.p`

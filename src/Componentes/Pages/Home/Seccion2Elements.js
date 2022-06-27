@@ -17,6 +17,7 @@ export const BoxCards = styled.div`
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
         display: block;
+        height: 30vh;
       }
 
 `
@@ -30,6 +31,10 @@ padding: 70px 0px 70px 0px;
 text-align: center;
 align-items: center;
 margin: auto;
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+        padding: 20px 0px 20px 0px;
+      }
 `
 
 export const CardsBox = styled.div`

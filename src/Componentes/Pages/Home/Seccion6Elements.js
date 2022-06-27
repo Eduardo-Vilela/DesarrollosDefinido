@@ -33,7 +33,9 @@ export const BoxSecundario = styled.div`
     flex-direction: column;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
+  flex-direction: column;
     padding:0px;
+    
 }
 
 `
@@ -58,8 +60,10 @@ export const SlideTexto6 = styled.div`
     padding-left: 0;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
-    width: 100%;
-    height: 40vh;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
   }
 `
 
@@ -77,8 +81,8 @@ export const ImagenSlide = styled.img`
  height: 50vh ;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 80% ;
-  height: 58vh ;
+  width: 60% ;
+  height: 50vh ;
  }
 `
 export const Titulo6 = styled.h1`
@@ -93,7 +97,7 @@ export const Titulo6 = styled.h1`
    font-size: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
- font-size: 20px;
+ font-size: 35px;
 }
     
 `
@@ -111,7 +115,7 @@ export const Parrafo6 = styled.p`
  font-size: 15px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 15px;
+  font-size: 25px;
  }
 `
 export const ButtonSlideSeccion6 = styled.a`
@@ -126,7 +130,7 @@ color: white;
  font-size: 18px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 20px;
+  font-size: 30px;
  }
 `
 
@@ -152,7 +156,7 @@ export const BoxMobile6 = styled.div`
     display: block;
     background-color: #1D2142;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
   }
 
 `
@@ -183,7 +187,7 @@ export const ImagenSlideVacia = styled.div`
  margin: auto;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 80% ;
+  width: 60% ;
   height: 50vh ;
   margin: auto;
  }

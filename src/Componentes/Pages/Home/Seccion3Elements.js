@@ -12,7 +12,7 @@ export const BoxPrincipal = styled.div`
         width: 100%;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      height: 70vh;
+      height: 35vh;
 
     }
 `
@@ -36,7 +36,7 @@ export const SubBox = styled.div`
         padding: 0px 0px 0px 20px
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      height: 70vh;
+      height: 35vh;
      }
 `
 export const BoxTexto = styled.div`

@@ -5,7 +5,6 @@ import {
     SubBoxCards,
     CardsBox,
     BoxCardsMobile,
-    TarjetaGris,
     ContenidoVerde,
 } from '../Home/Seccion2Elements'
 import{Card} from 'react-bootstrap'
