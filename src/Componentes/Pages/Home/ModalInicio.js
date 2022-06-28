@@ -78,23 +78,29 @@ function ModalInicio() {
                 <BoxForm onSubmit={handleSubmit(onSubmit)} >
                 <InputModal 
                     placeholder='Nombre'
+                    
                     {...register("name", {
                         required: "Campo requerido",
+                        max: 20, min: 2,
+                        pattern: /^[A-Za-z]+$/i,
                         maxLength: {
-                        value: 40,
-                        message: "Máximo 40 caracteres"
-                    }
+                        value: 10,
+                        message: "Máximo 10 caracteres",          
+                    }                  
                     })}
                     />
                     {errors.name && <p className='text-danger'>{errors.name.message}</p>}
+                    {errors?.name?.type === "pattern" && (
+                        <p className='text-danger'>Solo caracteres alfabéticos</p>
+                      )}
                     <InputModal 
                     type="number"
                     placeholder='Teléfono'
                     {...register("telefono", {
                         required: "Campo requerido",
                         maxLength: {
-                        value: 20,
-                        message: "Máximo 20 caracteres"
+                        value: 12,
+                        message: "Máximo 12 caracteres"
                     }
                     })}
                     />

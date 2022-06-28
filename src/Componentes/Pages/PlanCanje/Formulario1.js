@@ -122,22 +122,25 @@ const onSubmit = (data,e) => {
                       <InputPlanCanje className='input-formAuto' type="text" name='modeloDeAuto'
                         {...register("modeloDeAuto", 
                         { 
-                          required: true,                  
+                          required: true, maxLength: 10,pattern: /^[A-Za-z]+$/i,                 
                           })}       
                           placeholder="Modelo De Auto"
                           />
                           {errors?.modeloDeAuto?.type === "required" && 
                           <p className='text-danger'>Este campo es obligatorio</p>}
                           {errors?.modeloDeAuto?.type === "maxLength" && (
-                            <p className='text-danger'>El nombre no puede exceder los 50 caracteres</p>
+                            <p className='text-danger'>El nombre no puede exceder los 10 caracteres</p>
                           )}
+                           {errors?.modeloDeAuto?.type === "pattern" && (
+                        <p className='text-danger'>Solo caracteres alfabéticos</p>
+                      )}
                     </PosicionLabels>
                     <PosicionLabels>
                           <LabelPlanCanje className='label-auto' >Marca</LabelPlanCanje>
                           <InputPlanCanje className='input-formAuto' type="text" name='marca'
                           {...register("marca", 
                           { 
-                            required: true,                     
+                            required: true, pattern: /^[A-Za-z]+$/i ,                   
                             })}               
                             placeholder="Marca"
                             />
@@ -145,6 +148,9 @@ const onSubmit = (data,e) => {
                           <p className='text-danger'>Este campo es obligatorio</p>}
                           {errors?.marca?.type === "maxLength" && (
                             <p className='text-danger'>El nombre no puede exceder los 50 caracteres</p>
+                          )}
+                          {errors?.marca?.type === "pattern" && (
+                            <p className='text-danger'>Solo caracteres alfabéticos</p>
                           )}
                     </PosicionLabels>
                 </BoxIntermedioinputs>
@@ -154,7 +160,8 @@ const onSubmit = (data,e) => {
                         <InputPlanCanje className='input-formAuto' type="number" name='kilometros'
                           {...register("kilometros", 
                           { 
-                            required: true,                  
+                            required: true, 
+                                             
                             })}                        
                             placeholder="0.000"
                             />
@@ -163,6 +170,7 @@ const onSubmit = (data,e) => {
                             {errors?.kilometros?.type === "maxLength" && (
                             <p className='text-danger'>El nombre no puede exceder los 10 caracteres</p>
                           )}
+                         
                     </PosicionLabels>
                     <PosicionLabels>
                           <LabelPlanCanje className='label-auto' >Valor del auto</LabelPlanCanje>
@@ -184,30 +192,40 @@ const onSubmit = (data,e) => {
               )}
                 {formStep === 1 &&(
               <Parte2>
-              <LabelPlanCanje className='label-autoform2'>Nombre y Apellido</LabelPlanCanje>
+              <LabelPlanCanje className='label-autoform2'>Nombre</LabelPlanCanje>
                 <InputPlanCanje className='input-formAuto' type="text" name='nombre'
                   {...register("nombre", 
                   { 
 
-                    required: true,                  
+                    required: true,
+                    pattern: /^[A-Za-z]+$/i,
+                    maxLength: {
+                    value: 10,
+                    message: "Máximo 10 caracteres",          
+                }                                    
                     })}             
                     placeholder="Nombre"
                     />
                     {errors?.nombre?.type === "required" && 
                     <p className='text-danger'>Este campo es obligatorio</p>}
-                    {errors?.nombre?.type === "maxLength" && (
-                    <p className='text-danger'>El nombre no puede exceder los 10 caracteres</p>
-                  )}
+                    {errors?.nombre?.type === "pattern" && (
+                        <p className='text-danger'>Solo caracteres alfabéticos</p>
+                      )}
                   <br/>
                   <LabelPlanCanje className='label-autoform2'>Email</LabelPlanCanje>
                 <InputPlanCanje className='input-formAuto' type="text" name='email'
                   {...register("email", 
                   { 
                     maxLength: 40,
-                    required: true,                  
+                    required: true, 
+                    pattern: {
+                      value: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                      message: "Dirección de mail invalida"
+                  }                 
                     })}
                     placeholder="E-mail"
                     />
+                      {errors.email && <p className='text-danger'>{errors.email.message}</p>}
                     {errors?.email?.type === "required" && 
                     <p className='text-danger'>Este campo es obligatorio</p>}
                     {errors?.email?.type === "maxLength" && (
@@ -219,10 +237,15 @@ const onSubmit = (data,e) => {
                   <InputPlanCanje className='input-formAuto' type="number" name='whatsapp'
                   {...register("whatsapp", 
                   { 
-                    required: true,                  
+                    required: true,      
+                    maxLength: {
+                      value: 10,
+                      message: "Máximo 10 caracteres",          
+                  }                     
                     })}
                     placeholder="whatsapp"
                     />
+                     {errors.whatsapp && <p className='text-danger'>{errors.whatsapp.message}</p>}
                     {errors?.whatsapp?.type === "required" && 
                     <p className='text-danger'>Este campo es obligatorio</p>}
                     {errors?.whatsapp?.type === "maxLength" && (
