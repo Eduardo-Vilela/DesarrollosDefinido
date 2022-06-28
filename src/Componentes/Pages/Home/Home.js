@@ -22,7 +22,7 @@ function Home() {
      <Seccion2/>
      <Seccion3/>
      <Seccion4/>
-     <Seccion5/>
+     {/* <Seccion5/> */}
      <Seccion6/>
      <Seccion7/>
      <Seccion8/>

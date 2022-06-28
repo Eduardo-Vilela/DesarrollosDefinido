@@ -1,6 +1,9 @@
+
+
 .navBar2{
     background-color: white;
     border-bottom: #1D2142 1px solid;
+    
 }
 .Items2{
     padding: 20px 25px;
@@ -14,9 +17,10 @@
 .navbar-light .navbar-toggler-icon{
     background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1651520903/DESARROLLOSGRUPODELSUD/right_menu_icon_214206_l5dt4e.png) !important;
 }
-.navbar-collapse{
-    
+.imagenRedesNav2{
+    width: 60px !important;
 }
+
 
 .ItemVerde{
     padding: 20px 25px;
@@ -28,18 +32,40 @@
     color: #82AB1B !important;
     border-bottom: 2px #82AB1B solid;
 }
-@media screen and (min-width:408px) {
+@media (max-width: 480px) { 
     .navBar2{
         width: 100%;
         
     }
     .Items2{
-        font-size: 1.2em;
+        font-size: 22px;
         color: white !important;
+        padding: 20px 0px 10px 50px;
     }
     .navbar-collapse2{
         background-color: #1D2142;
         color: white !important;
         height: 100vh !important;
     }
+    .me-auto{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .redesWhite{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 80%;
+            padding-top: 50px
+        }
+        .imagenRedesNav2{   
+             
+            padding-top: 50px;
+            border: 2px solid black;
+            border-radius: 50px;
+            padding: 10px;
+
+        }
 }

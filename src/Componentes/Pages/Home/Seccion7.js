@@ -59,6 +59,13 @@ function Seccion7() {
                 </div>   
               </Link>
             </BoxBordesCards>
+            <BoxBordesCards className='bordeMedio'>
+              <Link to='/Laescondida'>
+                <div >
+                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,h_29,w_73/v1652387064/DESARROLLOSGRUPODELSUD/la%20escondida/laescondidaCortada_vnp0kb.png" />
+                </div>   
+              </Link>
+            </BoxBordesCards>
        </BoxCards2>  
      </BoxCardsDesarrollos>
 

@@ -19,10 +19,10 @@ function NavbarWhite() {
                 <Nav.Item className='Items2' href="#home"><Link  style={{color:'#1D2142'}}to='/Desarrollos'>Desarrollos</Link></Nav.Item>
                 <Nav.Item className='Items2' href="#home"><Link  style={{color:'#1D2142'}}to='/Plancanje'>Plan Canje</Link></Nav.Item>
                 <Nav.Item className='Items2' href="#home"><Link style={{color:'#1D2142'}} to='/Contacto'>Contacto</Link></Nav.Item>
-                <div className='redesNav'>
-                   <a href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,w_100/v1648567662/DESARROLLOSGRUPODELSUD/icons8-facebook_zdanr8.svg'/></a>   
-                   <a href='https://www.instagram.com/desarrollos.delsud/'><img className='imagenRedes'  alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-instagram_kncmsb.svg'/> </a> 
-                   <a href=''><img className='imagenRedes' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-whatsapp_cpftke.svg'/> </a>     
+                <div className='redesWhite redesNav'>
+                   <a href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><img className='imagenRedesNav2' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,w_100/v1648567662/DESARROLLOSGRUPODELSUD/icons8-facebook_zdanr8.svg'/></a>   
+                   <a href='https://www.instagram.com/desarrollos.delsud/'><img className='imagenRedesNav2'  alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-instagram_kncmsb.svg'/> </a> 
+                   <a href=''><img className='imagenRedesNav2' alt='iconoNav' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648567662/DESARROLLOSGRUPODELSUD/icons8-whatsapp_cpftke.svg'/> </a>     
                  </div>
              </Nav>
             </Navbar.Collapse>

@@ -92,6 +92,16 @@
     font-weight: 200;
 }
 
+.mySwiper7{
+    background-color: white !important;
+
+}
+.mySwiper2{
+    background-color: #1D2142 !important;
+
+}
+
+
 @media screen and (max-width: 480px) {
     .accordion-flex{
         width: 100%;
@@ -174,6 +184,3 @@
     }
 }
 
-.mySipwe2 .swiper-button-prev::after {
-    opacity: 0;
-}

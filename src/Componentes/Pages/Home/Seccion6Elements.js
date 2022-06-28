@@ -81,8 +81,8 @@ export const ImagenSlide = styled.img`
  height: 50vh ;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 60% ;
-  height: 50vh ;
+  width: 50%;
+  height: 500px;
  }
 `
 export const Titulo6 = styled.h1`
@@ -97,7 +97,7 @@ export const Titulo6 = styled.h1`
    font-size: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
- font-size: 35px;
+ font-size: 24px;
 }
     
 `
@@ -115,7 +115,7 @@ export const Parrafo6 = styled.p`
  font-size: 15px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 25px;
+  font-size: 14px;
  }
 `
 export const ButtonSlideSeccion6 = styled.a`
@@ -130,7 +130,7 @@ color: white;
  font-size: 18px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 30px;
+  font-size: 24px;
  }
 `
 
@@ -156,7 +156,7 @@ export const BoxMobile6 = styled.div`
     display: block;
     background-color: #1D2142;
     width: 100%;
-    height: 110vh;
+    height: 1000px;
   }
 
 `
@@ -196,6 +196,18 @@ export const ImagenSlideVacia = styled.div`
 export const Ajuste = styled.div`
 width: 100%;
   .mySwiper2{
+       width: 100%;
+  .swiper-button-disabled{
+      background: transparent !important;
+    }
+    .swiper-slide{
+      width: 30% !important;
+    }
+     .SlideParrafo{
+      width: 50% !important;
+     }
+  }
+  .mySwiper7{
        width: 100%;
   .swiper-button-disabled{
       background: transparent !important;

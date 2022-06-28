@@ -4,7 +4,11 @@ export const BoxPrincipal = styled.div`
 height: 50vh;
 display: flex;
 flex-direction: row;
-justify-content: center
+justify-content: center;
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+ height: 400px;
+ }
 `
 export const Box1 = styled.div`
 width: 50%;
@@ -40,7 +44,7 @@ border-bottom: 2px solid grey;
       font-size:  12px !important;
     }
     @media (max-width: 767px) { 
-      font-size: 12px !important;
+      font-size: 16px !important;
      }
 `
 export const LogoModal = styled.img`
@@ -116,12 +120,14 @@ width: 30%;
 padding:10px;
 
 @media (max-width: 480px) { 
-      font-size:  10px !important;
+      font-size:  15px !important;
       padding:0px;
+      width: 50%;
     }
     @media (max-width: 767px) { 
-      font-size: 10px !important;
+      font-size: 15px !important;
       padding:0px;
+      width: 50%;
      }
 `
 

@@ -97,10 +97,12 @@ padding-left: 200px;
 
 
 @media (max-width: 480px) { 
-    width:100%;
+    width:80%;
+    padding: 0;
   }
   @media (max-width: 767px) { 
-    width:100%;
+    width:80%;
+    padding: 0;
    }
 `
 export const FotoAuto = styled.img`
@@ -121,10 +123,10 @@ font-weight: 600;
 line-height: 1.5em;
 
 @media (max-width: 480px) { 
-    font-size: 40px;
+    font-size: 35px;
   }
   @media (max-width: 767px) { 
-    font-size: 40px;
+    font-size: 35px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:40px;
@@ -250,7 +252,7 @@ cursor: pointer;
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
-      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649692006/DESARROLLOSGRUPODELSUD/Logo-Banner-Las-Orianas_qmldsg.svg);
+      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649626460/DESARROLLOSGRUPODELSUD/Group_184_j7j7rc.svg);
   }
   @media (max-width: 480px) { 
     width: 30%;
@@ -326,7 +328,7 @@ cursor: pointer;
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
-      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649626460/DESARROLLOSGRUPODELSUD/Group_184_j7j7rc.svg);
+      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649692006/DESARROLLOSGRUPODELSUD/Logo-Banner-Las-Orianas_qmldsg.svg);
   } 
   @media (max-width: 480px) { 
     width: 30%;

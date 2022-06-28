@@ -4,6 +4,10 @@ import styled from "styled-components";
 export const BoxPrincipal8 = styled.div`
  width: 100%;
  height: 100vh;
+
+ @media (min-width: 768px) and (max-width: 1199px) { 
+ height: 800px;
+ }
 `
 
 export const BoxSecundario8 =styled.div`
@@ -14,6 +18,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 position: relative;
+@media (min-width: 768px) and (max-width: 1199px) { 
+ height: 800px;
+ }
 `
 export const Boxhijo1 = styled.div`
 width: 100%;

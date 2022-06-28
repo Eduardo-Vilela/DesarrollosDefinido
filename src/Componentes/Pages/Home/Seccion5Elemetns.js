@@ -11,11 +11,11 @@ export const BoxPrincipal5 = styled.div`
     }
     @media (max-width: 767px) { 
         width: 100%;
-        height: 50vh;
+        height: 500px;;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       width: 100%;
-      height: 50vh;
+      height: 500px;
    }
 `
 export const BoxSecundario5 = styled.div`
@@ -37,7 +37,7 @@ export const BoxSecundario5 = styled.div`
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       width: 100%;
-      height: 50vh;
+      height: 500px;
    }
 `
 export const SlideSwiperSeccion5 = styled.div`

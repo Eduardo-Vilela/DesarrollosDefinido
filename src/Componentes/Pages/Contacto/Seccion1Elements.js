@@ -118,7 +118,7 @@ background: none !important;
 border-bottom: solid #ffff 1px !important;
 margin-bottom: 20px;
 font-size: 25px;
-font-family: "Raleway", Sans-serif;
+font-family: 'Poppins';
 color: #ffff !important;
 outline: none !important;
 width: 80%;
