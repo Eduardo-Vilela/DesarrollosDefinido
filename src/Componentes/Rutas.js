@@ -19,10 +19,12 @@ import Lacampiña from './Pages/Desarrollos/Lotes/Lacampiña/Lacampiña'
 import Lasorianas from './Pages/Desarrollos/Lotes/Lasorianas/Lasorianas'
 import Icono from './Icono'
 
+
 function Rutas() {
   return (
     <>
      <HashRouter data-aos="zoom-in" >
+     
      <ToastContainer
         position="top-right"
         autoClose={5000}

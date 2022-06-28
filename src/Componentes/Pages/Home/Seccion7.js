@@ -55,14 +55,14 @@ function Seccion7() {
             <BoxBordesCards className='bordeMedio'>
               <Link to='/Laescondida'>
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,h_29,w_73/v1652387064/DESARROLLOSGRUPODELSUD/la%20escondida/laescondidaCortada_vnp0kb.png" />
+                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448613/Logo_-_La_Escondida_lngc51.svg" />
                 </div>   
               </Link>
             </BoxBordesCards>
             <BoxBordesCards className='bordeMedio'>
-              <Link to='/Laescondida'>
+              <Link to='/LasCatalinas'>
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,h_29,w_73/v1652387064/DESARROLLOSGRUPODELSUD/la%20escondida/laescondidaCortada_vnp0kb.png" />
+                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448614/Logo_-_Las_Catalinas_lakd4u.svg" />
                 </div>   
               </Link>
             </BoxBordesCards>
@@ -113,7 +113,7 @@ function Seccion7() {
                 <BoxBordesCards className='bordeMedio'>
                 <Link to='/Laescondida'>
                     <div >
-                        <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/c_scale,h_29,w_73/v1652387064/DESARROLLOSGRUPODELSUD/la%20escondida/laescondidaCortada_vnp0kb.png" />
+                        <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448613/Logo_-_La_Escondida_lngc51.svg" />
                     </div>   
                 </Link>
                 </BoxBordesCards>
