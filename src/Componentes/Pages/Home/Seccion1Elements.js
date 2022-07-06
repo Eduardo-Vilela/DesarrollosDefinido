@@ -34,7 +34,7 @@ export const BoxHome = styled.div`
     }
     @media (max-width: 767px) { 
       width: 100%;
-     }
+    }
   `
 
   export const BoxVideo = styled.video`
@@ -51,7 +51,7 @@ export const BoxHome = styled.div`
     }
     @media (max-width: 767px) { 
       width: 100%
-     }
+    }
 
   `
   export const BoxTitulo = styled.div`
@@ -59,7 +59,7 @@ export const BoxHome = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    width: 80%;
+    width: 82%;
     height: 100vh;
 
     @media (max-width: 480px) { 
@@ -91,10 +91,10 @@ export const BoxHome = styled.div`
     }
     @media (max-width: 767px) { 
       font-size: 30px ;
-     }
+    }
     @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 57px ;
-     }
+    }
   
   `
   export const SubtituloPrincipal = styled.h2`
@@ -113,6 +113,6 @@ export const BoxHome = styled.div`
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 24px ;
-     }
+    }
     
   `

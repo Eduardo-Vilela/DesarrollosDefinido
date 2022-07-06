@@ -9,10 +9,12 @@ padding-top: 120px;
 @media (max-width: 480px) { 
   width: 80%;
   height: 650px;
+  padding-top: 0px;
     }
     @media (max-width: 767px) { 
       width: 80%;
       height: 650px;
+      padding-top: 0px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       height: 1000px;

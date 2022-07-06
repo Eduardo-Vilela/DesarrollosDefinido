@@ -24,7 +24,7 @@ function Seccion6() {
   
       //navbar scroll changeBackground function
       const changeBackground = () => {
-        if (window.scrollY >= 2200) {
+        if (window.scrollY >= 1800) {
           setColor(true)
           
         } else {
@@ -41,7 +41,7 @@ function Seccion6() {
 
   return (
     <>
-     <BoxPrincipal data-aos="fade-up" data-aos-duration="3000">
+     <BoxPrincipal >
          <BoxSecundario>
           {/* <Ajuste>
           <SlideTexto6 className='seccion5-flex'>
@@ -64,7 +64,7 @@ function Seccion6() {
           </Ajuste> */}
           <Ajuste>
 
-         <Swiper data-aos="fade-up" data-aos-duration="3000"
+         <Swiper data-aos="fade-up" data-aos-duration="2000"
                 slidesPerView={1.5}
                 centeredSlides={false}
                 // slidesPerGroupSkip={1}

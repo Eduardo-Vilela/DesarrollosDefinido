@@ -33,18 +33,19 @@ justify-content: center;
 @media (max-width: 480px) { 
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: space-between;
     
   }
   @media (max-width: 767px) { 
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: space-between;
    
    }
 
    @media (min-width: 768px) and (max-width: 1199px) { 
   height: 100%;
+  width: 90%;
 }
 `
 

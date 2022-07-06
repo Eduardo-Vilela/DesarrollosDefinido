@@ -4,12 +4,15 @@ export const BoxCardsDesarrollos = styled.div`
 width: 100%;
 height:50vh;
 display: flex;
+padding-top: 90px;
+
 
 @media (max-width: 480px) { 
     display: none;
   }
   @media (max-width: 767px) { 
   display: none;
+  }
   @media (min-width: 768px) and (max-width: 1199px) { 
     display: none;
   }
@@ -58,7 +61,7 @@ export const BoxBordesCards = styled.div`
 text-align: center;
  margin: auto;
     width: 50%;
-    height: 30vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,7 +77,7 @@ text-align: center;
 `
 
 export const ImgCardsDesarrollos = styled.img`
- width: 50%;
+ width: 130px;
 
  @media (max-width: 480px) { 
     width: 100%    
@@ -101,5 +104,18 @@ export const BoxCardsMobile = styled.div`
   }
   @media (min-width: 1120px) and (max-width: 2000px) { 
     display: none;
+  }
+`
+export const ImgCardsLasCatalinas = styled.img`
+width: 200px;
+
+ @media (max-width: 480px) { 
+    width: 100%    
+  }
+  @media (max-width: 767px) { 
+    width: 100%
+  }
+  @media (min-width: 768px) and (max-width: 1199px) { 
+    width: 70%
   }
 `

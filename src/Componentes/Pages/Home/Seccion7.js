@@ -7,6 +7,7 @@ import {
     ImgCardsDesarrollos,
     CardsMobile,
     BoxCardsMobile,
+    ImgCardsLasCatalinas,
 } from './Seccion7Elements'
 
 
@@ -62,7 +63,7 @@ function Seccion7() {
             <BoxBordesCards className='bordeMedio'>
               <Link to='/LasCatalinas'>
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448614/Logo_-_Las_Catalinas_lakd4u.svg" />
+                    <ImgCardsLasCatalinas  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448614/Logo_-_Las_Catalinas_lakd4u.svg" />
                 </div>   
               </Link>
             </BoxBordesCards>
@@ -94,6 +95,13 @@ function Seccion7() {
                     </div> 
                 </Link>  
                 </BoxBordesCards>
+                <BoxBordesCards className='bordeMedio'>
+                <Link to='/LasCatalinas'>
+                  <div >
+                     
+                  </div>   
+                </Link>
+            </BoxBordesCards>
             </CardsMobile>
             <CardsMobile>
                 <BoxBordesCards className='bordeMedio'>
@@ -117,6 +125,13 @@ function Seccion7() {
                     </div>   
                 </Link>
                 </BoxBordesCards>
+                <BoxBordesCards className='bordeMedio'>
+                  <Link to='/LasCatalinas'>
+                    <div >
+                        <ImgCardsLasCatalinas   src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448614/Logo_-_Las_Catalinas_lakd4u.svg" />
+                    </div>   
+                  </Link>
+            </BoxBordesCards>
             </CardsMobile>    
         </BoxCards2>  
      </BoxCardsMobile>

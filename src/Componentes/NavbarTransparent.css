@@ -1,64 +1,48 @@
-.navBarItems {
+.navbarWhite{
+    background-color: white;
+    border-bottom: 1px #1D2142 solid;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    width: 82% !important;
+}
+.navbar{
+    width: 100% !important;
+}
+.me-auto.navbar-nav{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: end;
+}
+.navBarItems{
     padding: 20px 25px;
     font-size: 1.2em; 
-    font-family: "Poppins";
-    font-weight: 200 !important;
+    font-family: "Poppins" !important;
+    font-weight: 300 !important;
     color: white !important;
 }
-
-.bg-ligth {
-    background-color: transparent !important;
+.navBarItems a{
+    text-decoration: none !important;
+    color: #1D2142 !important;
 }
-.navbar {
-    border-bottom: white 1px solid;
-}
-
-/*SCROLL TOP*/
 .navbar77{
-    
-    color: white !important;
+    border-bottom: 1px white solid;
+    width: 100%;
 }
 .navbar77 a{    
     color: white !important;
     text-decoration: none!important;
 }
 
-/*SCROLL DOWN*/
-.navbar777 {
-    background: white;
-    border-bottom: 1px solid #1D2142;
-    color: white !important;
-
-}
-
-.navbar777 a{
-
-    background-color: rgba(186,0,0,0);
-    color: #1D2142 !important;
-}
-
-a{
-    color: white;
-    font-weight: 300;
-    font-family: Poppins;
-}
-.nav777 .navbar-light .navbar-toggler-icon{
-    width: 10%;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAABhElEQVR4nO3asUoDQRSF4f+KIoiChUhAC7tgYyERK0UQfAFbC0G09XkEG7EVfIAEglgIQRutBLGysRMVC4m5Fmu/M2F3dtXz1QfuyZAlw82CiIiIyD9loUF33wBWS+xSlA/gxMxeQ8KjISF3XwDaofkaWAL2Q4IjJRepiocGYx6BdWCL+n8LnoFjM3uruoiIiNRd8M9gEdx9DJgvee4AeDKzfkg42QG4ewO4BuYSjLsHWmb2nhdMeRNskebDAzSBxZBgyltdBzgDlhPM6gI3CeaIiIj8ZjEboVngEJgpr04hvoC2mZ2HhGMO4BTYGbZVYgOgaWYPecGYq/DL8H2S+yRbj+eK+QaMA9vA5JClUroys7uqS4iIiEjG3afdveflG7h75+fekivlUnQNWEkwx4BNsncEcqU8gEugl2COky1gbxPMEhER+c1iNkJTwC4wUV6dwvTMrBsSjDmAI+Bg6Epp9cmWoo95wb/6pmiw2EdgD2iUV6cQfbL/BS6qLiIiIiJSa9/anrxcSV3KxwAAAABJRU5ErkJggg==) !important;
-}
-.navbar-toggler-icon{
-    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1656428089/DESARROLLOSGRUPODELSUD/icons8-hamburger-64_fsuow8.png) !important;
-}
-
-
 .redesNav{
  display: flex;
  flex-direction: row;
- justify-content: center;
+ justify-content: space-evenly;
  width: 75%;
  padding-top: 50px;
 }
-.imagenRedes{
+.imagenRedesNav2{
     width: 60px;
     filter: invert(1);
     padding-top: 50px;
@@ -67,93 +51,36 @@ a{
     padding: 10px;
 }
 
-  
-
-/*mediasssss*/
-@media (max-width: 768px) {
-   .navbar-collapse{
-    align-items: none !important;   
-    justify-content: end !important;
-    flex-grow: 0 !important;
-    background-color: white;
-   }
-    .navbar77 .me-auto{
-       margin-right: none !important;
-       background-color: #1D2142;
-       height: 100vh !important;
-       display: flex;
-    flex-direction: column;
-    justify-content: center;
-   }
-   .navbar77 .container{
-     padding: 0%;
-   }
-   .navbar777 .container{
-    padding: 0%;
-  }
-   .navbar777 .me-auto{
-    margin-right: none !important;
-    background-color: #1D2142;
-    height: 100vh !important;
-    display: flex;
- flex-direction: column;
- justify-content: center;
-   }
-   .navbar777 a{
-
-    background-color: rgba(186,0,0,0);
-    color: white !important;
-    padding: 5px; 
-}
-.navbar77 a{
-
-    background-color: rgba(186,0,0,0);
-    color: white !important;
-    padding: 5px; 
-}
-    .fotoInicio{
-        width: 100%;
+@media (max-width: 480px) { 
+    .navbar-collapse{
+        width: 100% !important;
+        background-color: #1D2142;
     }
-    .navBarItems{
-        padding: 20px 0px 10px 50px;
-        font-size: 25px;
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        width: 100% !important;
+        padding: 0;
     }
-    
-}
-
-@media screen and (min-width:801px) {
-    .navbar{
-        width: 100%;
+    .me-auto.navbar-nav{
+        justify-content: center;
+    }
+    .paddingMobileLogo{
+        padding-left: 40px;
     }
 }
-
-@media (min-width: 992px){
-    .navbar-expand-lg .navbar-collapse {
-        display: flex !important;
-        justify-content: flex-end;
-        flex-basis: auto;
+  @media (max-width: 767px) { 
+    .navbar-collapse{
+        width: 100% !important;
+        background-color: #1D2142;
     }
-    
-}
-
-@media (min-width: 768px) and (max-width: 1199px) { 
-    .redesNav{
-        display: none;
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        width: 100% !important;
+        padding: 0;
     }
-}
-@media only screen and (min-width: 1200px) {
-    .navbar-collapse {
-        align-items: flex-end !important; 
-        flex-grow: 0 !important;
-        
+    .me-auto.navbar-nav{
+        justify-content: center;
     }
-    .me-auto{
-        margin-right: none !important;
-    }
-  }
-  @media (min-width: 1400px){
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1550px !important;
+    .paddingMobileLogo{
+        padding-left: 40px;
     }
 }
 
@@ -161,4 +88,6 @@ a{
     .redesNav{
         display: none;
     }
-  }
+}
+
+

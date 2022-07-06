@@ -45,6 +45,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649431244/DESARROLLOSGRUPODELSUD/La_Campi%C3%B1a-8_edit_2_muqssy.jpg);
+background-position: center;
 `
 
 export const BoxHomeLasorianas = styled.div`
@@ -166,6 +167,7 @@ font-size: 50px;
 font-family: "Poppins";
 color: #1D2142;
 font-weight: 600;
+line-height: 1.3em;
 
 @media (max-width: 480px) { 
     font-size: 20px;
@@ -219,13 +221,21 @@ padding: 12px 20px 13px 20px;
   @media (max-width: 767px) { 
     font-size: 12px;
   }
-
-
+  @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size: 16px;
+}
 `
 export const Imagen1 = styled.img`
 width: 100%;
-height: 100%;
+height: 70%;
 border-radius: 10px;
+
+@media (max-width: 480px) { 
+    height: 50%;
+}
+  @media (max-width: 767px) { 
+    height: 50%;
+  }
 
 `
 export const Imagenslide = styled.img`
@@ -260,6 +270,7 @@ border-radius: 10px !important;
 `
 export const Separador = styled.div`
 margin-bottom: 2px;
+padding-top: 20px;
 `
 
 /*SECCION3*/
@@ -439,6 +450,7 @@ background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1651
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
+
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
@@ -457,6 +469,8 @@ background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
+background-position-x: -30%;
+
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
@@ -475,6 +489,8 @@ background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
+background-position-x: -30%;
+
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
@@ -643,6 +659,9 @@ padding: 50px 0px;
   font-size: 30px;
   padding: 25px 0px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:45px;
+}
 `
 export const Numero2 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
@@ -656,6 +675,9 @@ color: #ADADAD;
 @media (max-width: 767px) { 
   font-size: 30px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:45px;
+}
 `
 export const Numero3 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
@@ -672,6 +694,9 @@ color: #ADADAD;
   line-height: 0;
 
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:45px;
+}
 `
 export const Numero4 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
@@ -685,6 +710,9 @@ color: #ADADAD;
 @media (max-width: 767px) { 
   font-size: 30px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:45px;
+}
 `
 export const TituloDerecha = styled.h3`
 color: #1D2142;
@@ -700,7 +728,7 @@ line-height: 2em;
   font-size: 19px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:18px;
+  font-size:19px;
 }
 `
 
@@ -718,7 +746,7 @@ line-height: 1.25em;
   font-size: 15px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:18px;
+  font-size:15px;
 }
 `
 export const SubtituloDerecha = styled.h4`
@@ -741,7 +769,7 @@ line-height: 4em;
 
 export const ItemListaDerecha = styled.li`
 width: 100%;
-margin: 20px 0px 20px 0px;
+padding: 20px 0px 20px 0px;
 color: grey;
 font-family: "Poppins", Sans-serif;
 font-size: 22px;
@@ -757,8 +785,9 @@ line-height: 1em;
   margin: 10px 0px 10px 0px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:18px;
-  margin: 10px 0px 10px 0px;
+  font-size:14px;
+  margin: 0px;
+  padding: 5px;
 }
 `
 
@@ -766,16 +795,15 @@ line-height: 1em;
 
 export const BoxTarjeton = styled.div`
 
-width: 50%;
-height: 70px;
+width: 75%;
+height: 90px;
 border: 1px solid #E5E5E5;
 border-radius: 10px;
 box-shadow: 2px 2px 5px rgb(0 0 0 / 18%);
 align-items: center;
 display: flex;
-flex-diection: row;
+flex-direction: row;
 justify-content: inherit;
-
 
 @media (max-width: 480px) { 
   width: 100%;
@@ -824,9 +852,9 @@ color: #1D2142;
 font-family: "Poppins", Sans-serif;
 font-size: 20px;
 font-weight: 400;
-line-height: 4em;
-border-bottom: 1px grey solid;
-margin-top: 10px;
+line-height: 1.4em;
+
+padding-top: 30px;
 
 
 @media (max-width: 480px) { 
@@ -837,6 +865,7 @@ margin-top: 10px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:12px;
+  padding-top: 17px;
 }
 `
 
@@ -973,15 +1002,17 @@ height: 100%;
 
 export const ContenedorLista = styled.div`
 width: 70%;
-
+padding-top: 80px;
 @media (max-width: 480px) { 
   width: 100%;
+  
 }
 @media (max-width: 767px) { 
   width: 100%;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   width: 75%;
+  padding-top: 30px;
 }
 `
 

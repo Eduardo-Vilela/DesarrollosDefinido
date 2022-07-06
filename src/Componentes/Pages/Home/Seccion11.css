@@ -8,7 +8,7 @@
     font-size: 50px !important;
     font-family: "Poppins", Sans-serif !important;
     font-weight: 400 !important;
-    
+    padding: 1rem 0rem !important;
 }
 .accordion-item{
     border: 0 !important;
@@ -93,11 +93,10 @@
 }
 
 .mySwiper7{
-    background-color: white !important;
-
+    
 }
 .mySwiper2{
-    background-color: #1D2142 !important;
+
 
 }
 

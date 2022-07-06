@@ -30,7 +30,8 @@ function Seccion5Eljuncal() {
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{paddingBottom:'80px'
+                  }}>
                     <ParrafoDerecha>
                     El Juncal cuenta con 437 terrenos de variadas medidas, <br/>
                     conectados entre sí por calles internas, convirtiéndolo<br/>
@@ -38,10 +39,8 @@ function Seccion5Eljuncal() {
                      Es una zona en constante evolución y desarrollo.<br/>
                     </ParrafoDerecha>
                   </div>
-                  <div>
-                    <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
-                  <BoxTarjeton>
+                  
+                  <BoxTarjeton >
                    <NumerosAzules>437</NumerosAzules>
                    <TextoGris>Unidades</TextoGris>
                    <TextoGris>/</TextoGris>

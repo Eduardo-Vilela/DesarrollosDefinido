@@ -39,13 +39,13 @@ function Seccion7Laescondida() {
                     mínimos y con planes realmente a medida. 
                     </ParrafoDerecha>
                   </div>
-                  <ContenedorLista>
+                  {/* <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
                         <ItemListaDerecha3 style={{border: '0'}}><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>Accedé desde un 50% de anticipo</ItemListaDerecha3>
                         <ItemListaDerecha3 style={{border: '0'}}><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649077741/DESARROLLOSGRUPODELSUD/Vector_j2nmrw.svg'/></span>El resto financialo hasta en 60 cuotas fijas</ItemListaDerecha3>
                     </ul>
-                  </ContenedorLista>
-                  <div>
+                  </ContenedorLista> */}
+                  <div style={{paddingTop:'80px'}}>
                   <ButtonArmaTuPago href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos  → </ButtonArmaTuPago>
                   </div>
                  </SubBoxUbicacion>

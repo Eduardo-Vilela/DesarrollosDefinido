@@ -35,7 +35,7 @@ function Seccion2Laescondida() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Imagen1 style={{width:'600px', height:'440px'}} alt='fotoseccion1-lasvictorias'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651586609/DESARROLLOSGRUPODELSUD/la%20escondida/render-grupo_8-Foto-1024x576_rkb7op.jpg'/>
+             <Imagen1 alt='fotoseccion1-lasvictorias'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651586609/DESARROLLOSGRUPODELSUD/la%20escondida/render-grupo_8-Foto-1024x576_rkb7op.jpg'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

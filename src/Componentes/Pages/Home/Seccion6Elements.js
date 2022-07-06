@@ -5,6 +5,10 @@ export const BoxPrincipal = styled.div`
   width: 100%;
   height: 100vh;
   background-color: #1D2142;
+    transition: background-color 3s ease;
+
+
+    
   @media (max-width: 480px) { 
       display:none;
   }
@@ -20,7 +24,6 @@ export const BoxSecundario = styled.div`
     width: 100%;
     height: 100vh;
     margin: auto;
-    padding: 90px 0px 50px 0px;
     display: flex;
   flex-direction: row;
   justify-content: center;
@@ -195,13 +198,16 @@ export const ImagenSlideVacia = styled.div`
 
 export const Ajuste = styled.div`
 width: 100%;
+padding: 0px 0px 100px 0px;
   .mySwiper2{
        width: 100%;
+       padding-top:100px ;
   .swiper-button-disabled{
       background: transparent !important;
     }
     .swiper-slide{
-      width: 30% !important;
+      width: 25% !important;
+      height: 90%;
     }
      .SlideParrafo{
       width: 50% !important;
@@ -209,11 +215,13 @@ width: 100%;
   }
   .mySwiper7{
        width: 100%;
+       padding-top:100px ;
   .swiper-button-disabled{
       background: transparent !important;
     }
     .swiper-slide{
-      width: 30% !important;
+      width: 25% !important;
+      height:90% ;
     }
      .SlideParrafo{
       width: 50% !important;
