@@ -43,6 +43,7 @@ position: relative;
 export const TarjetaVerde = styled.div`
 display: none;
 
+
 ${CardsBox}:hover & {
   align-items: center;
  display:block;
@@ -93,4 +94,8 @@ export const BoxCardsMobile = styled.div`
      @media (min-width: 768px) and (max-width: 1199px) { 
         display: none;
       }
+ `
+ export const LogoVerde = styled.img`
+ width: 60px;
+
  `

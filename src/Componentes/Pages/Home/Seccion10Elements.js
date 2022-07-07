@@ -3,7 +3,7 @@ import styled from "styled-components";
  export const BoxPrincipal10 = styled.div`
  width: 100%;
  height: 25vh;
- background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647363760/DESARROLLOSGRUPODELSUD/Frame_z0lj4q.svg);
+ background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1657210286/DESARROLLOSGRUPODELSUD/pastito_ahodj9.png);
  background-size: cover;
  background-repeat: no-repeat;
  `

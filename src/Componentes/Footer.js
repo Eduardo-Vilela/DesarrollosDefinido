@@ -148,8 +148,8 @@ function Footer() {
                 <LogoGrupo alt='logo-empresa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522179/DESARROLLOSGRUPODELSUD/Frame2_w2z3jr.svg'/>
               </Seccion5>
               <Seccion6>
-                <TituloFooterFinal >Volver al tope </TituloFooterFinal>
-                 <img onClick={ScrollToTop} alt='flecha-footer' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522352/DESARROLLOSGRUPODELSUD/qyyw1oxg7sy3szotvufi.svg' />
+                <TituloFooterFinal  >Volver al tope </TituloFooterFinal>
+                 <img onClick={ScrollToTop}  alt='flecha-footer' style={{cursor:'pointer'}} src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647522352/DESARROLLOSGRUPODELSUD/qyyw1oxg7sy3szotvufi.svg' />
               </Seccion6>
             </SubBox>
           </Box3> 

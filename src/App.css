@@ -5,7 +5,10 @@
 
 .rs-modal-wrapper {
  bottom: 0 !important;
- top: 210px !important;
+ top: 0px !important;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
 
 .swiper-button-next{

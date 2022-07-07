@@ -15,8 +15,8 @@ function Seccion9() {
     <>
      <BoxSwiper9>
          <SubBox9>
-            <BoxTitulo9>Somos parte de Grupo Delsud: </BoxTitulo9> 
             <BoxSwiper>
+            <BoxTitulo9>Somos parte de Grupo Delsud: </BoxTitulo9> 
             <Swiper
                 breakpoints={{
                     
@@ -50,6 +50,7 @@ function Seccion9() {
                         spaceBetween: 40
                 }        
                     }}
+                    spaceBetween={10}
                 autoplay={{
                     delay: 1500,
                     disableOnInteraction: false,
@@ -58,9 +59,6 @@ function Seccion9() {
                 className='slider-empresas'     
                 loop={true}          
         >   
-                <SwiperSlide>
-                    <a href='https://oesteplatense.com.ar/'  ><EmpresasLogo><img alt='oeste' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648472611/EUGENIE/marcas/marca-3_kvnaxi_mxo1dx.svg'/></EmpresasLogo></a>
-                </SwiperSlide>
                 <SwiperSlide>
                     <a href='https://www.eleditorplatense.com.ar/'><EmpresasLogo><img alt='eleditor' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648472287/EUGENIE/marcas/marca-4_fumybn_lexght.svg'/></EmpresasLogo></a>
                 </SwiperSlide>

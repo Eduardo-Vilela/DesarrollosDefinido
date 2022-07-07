@@ -6,7 +6,7 @@ function Icono() {
   return (
     <>
       <div className='contenedorIcono'>
-        <a target="_blank" href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>
+        <a target="_blank" rel="noreferrer" href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>
          <div>
              <img  className='iconoWsp'  alt='icono' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655148992/DESARROLLOSGRUPODELSUD/whatsapp_xxdhku.png'/>
          </div>

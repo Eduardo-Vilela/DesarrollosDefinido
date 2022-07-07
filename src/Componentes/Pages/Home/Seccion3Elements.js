@@ -48,13 +48,13 @@ export const BoxTexto = styled.div`
 
     @media (max-width: 480px) { 
         width: 100%;
-        height: 60%;
+        height: 800px;
         padding: 0px 0px 0px 25px;
     }
     @media (max-width: 767px) { 
         width: 100%;
         padding: 0px 0px 0px 25px;
-        height: 60%;
+        height: 800px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
@@ -97,14 +97,15 @@ export const Titulo3 = styled.h2 `
     color: #1D2142;
     font-weight: 500;
     line-height: 1.4em;
-
+    padding-bottom: 20px;
+    
     @media (max-width: 480px) { 
         font-size: 24px;
-        padding-bottom: 50px;
+        padding-bottom: 15px;
       }
       @media (max-width: 767px) { 
         font-size: 24px;
-        padding-bottom: 50px;
+        padding-bottom: 15px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
          font-size:24px;

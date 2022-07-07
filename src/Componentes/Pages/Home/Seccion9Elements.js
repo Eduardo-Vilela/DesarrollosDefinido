@@ -58,12 +58,12 @@ export const BoxSwiper = styled.div`
 export const EmpresasLogo = styled.div`
 display: flex;
 justify-content: center ;
-
 border-radius: 8px;
 background-color: white;
-box-shadow: 5px 5px 5px 0 rgb(0 0 0 / 10%);  
+box-shadow: 5px 5px 5px  rgb(0 0 0 / 10%);  
 -webkit-filter: grayscale(100%); 
 filter: grayscale(100%);
+
   &:hover{
     transform: scale(1.1); 
     transition: 0.5s;

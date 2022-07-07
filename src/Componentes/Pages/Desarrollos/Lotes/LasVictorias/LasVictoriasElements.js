@@ -111,6 +111,9 @@ width: 400px;
     height: auto;
     margin-left: 37px;
   }
+  @media (min-width: 768px) and (max-width: 1199px) { 
+  width: 300px;
+}
 `
 
 /*secion2*/
@@ -178,7 +181,7 @@ line-height: 1.3em;
     line-height: 15px;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 32px;
+  font-size: 30px;
 }
 
 `
@@ -634,6 +637,10 @@ background-color: white;
   height:50%;
   z-index: 99;
  }
+
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  padding: 0;
+}
 `
 
 export const SubBoxUbicacion = styled.div`
@@ -660,7 +667,8 @@ padding: 50px 0px;
   padding: 25px 0px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:45px;
+  font-size:35px;
+  padding: 0;
 }
 `
 export const Numero2 = styled.h2`
@@ -677,6 +685,7 @@ color: #ADADAD;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:45px;
+  padding: 0;
 }
 `
 export const Numero3 = styled.h2`
@@ -696,6 +705,7 @@ color: #ADADAD;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:45px;
+  padding: 0;
 }
 `
 export const Numero4 = styled.h2`
@@ -712,6 +722,7 @@ color: #ADADAD;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:45px;
+  padding: 0;
 }
 `
 export const TituloDerecha = styled.h3`
@@ -811,6 +822,10 @@ justify-content: inherit;
 @media (max-width: 767px) { 
   width: 100%;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  font-size:14px;
+  height: 50px;
+}
 `
 export const NumerosAzules = styled.p`
 text-align: center;
@@ -894,7 +909,7 @@ padding: 12px 20px 13px 20px;
   font-size: 15px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:18px;
+  font-size:14px;
 }
 `
 

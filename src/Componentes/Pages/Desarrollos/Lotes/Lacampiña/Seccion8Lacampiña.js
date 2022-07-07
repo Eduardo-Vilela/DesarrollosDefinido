@@ -55,6 +55,10 @@ function Seccion8Lacampiña() {
                     className="mySwiper"
                     style={{width: '100%' , height:'100%'}}
                 >
+                                         <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1657225711/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/Campi%C3%B1a_-_3nueva_-_jpg_rtfw0d.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1657225711/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/Campi%C3%B1a_-_1nueva_-_jpg_c5wdzw.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1657225711/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/Campi%C3%B1a_-_2nueva_-_jpg_fu4br5.jpg'/></SwiperSlide>
+                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1657225710/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/Campi%C3%B1a_-_4nueva_-_jpg_xyw2oq.jpg'/></SwiperSlide>
                     <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232871/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/campi%C3%B1a1_fptt2q.jpg'/></SwiperSlide>
                     <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232871/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/LA-CAMPINA-1_fb3xta.jpg'/></SwiperSlide>
                     <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655232871/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/La-Campina_web_kkxm88.jpg'/></SwiperSlide>

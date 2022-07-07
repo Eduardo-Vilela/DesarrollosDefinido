@@ -191,6 +191,7 @@ import styled from "styled-components";
  color: white;
  font-weight: 200;
  padding-right: 40px;
+
  @media (max-width: 480px) { 
  font-size: 10px;
 }

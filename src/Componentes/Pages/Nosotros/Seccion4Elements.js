@@ -52,20 +52,25 @@ justify-content: center;
 export const BoxBack2 = styled.div`
 width: 70%;
 height: 90vh;
-margin: auto;
+
 border-radius: 20px;
 background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647546408/DESARROLLOSGRUPODELSUD/pexels-karolina-grabowska-4207907_1_buv9vz.jpg);
-background-size: cover;
+background-size: 90%;
+background-repeat: no-repeat;
+background-position-x: right;
+background-position-y: center;
 
   @media (max-width: 480px) { 
       width: 100%;
       height: 30%;
       border-radius:0;
+      background-position-x: center;
   }
   @media (max-width: 767px) { 
       width: 100%;
       height: 30%;
       border-radius:0;
+      background-position-x: center;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
   height: 70%;

@@ -35,6 +35,9 @@
 .accordion-header {
     border-bottom: 2px #1D2142 solid !important;
 }
+.accordion-body{
+    padding: 10px 0px !important ;
+}
 /****seccion10-form****/
 .flex-formulario{
     width: 100%;

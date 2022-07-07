@@ -8,12 +8,9 @@ import {
     Numero4,
     TituloDerecha ,
     ParrafoDerecha,
-    SubtituloDerecha,
-    ItemListaDerecha,
-    Imagen2,
-    ItemListaDerecha3,
+
     ButtonArmaTuPago,
-    ContenedorLista,
+
 }  from './LasVictoriasElements'
 
 function Seccion7Victorias() {

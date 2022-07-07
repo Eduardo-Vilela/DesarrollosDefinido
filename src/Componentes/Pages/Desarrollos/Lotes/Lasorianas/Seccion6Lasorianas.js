@@ -8,8 +8,7 @@ import {
     Numero3,
     TituloDerecha ,
     ParrafoDerecha,
-    SubtituloDerecha,
-    ItemListaDerecha,
+
     Imagen2,
     ContenedorLista,
     ItemListaDerecha3,

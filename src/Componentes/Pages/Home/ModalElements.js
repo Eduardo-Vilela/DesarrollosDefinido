@@ -1,11 +1,16 @@
 import styled from 'styled-components'
 
 export const BoxPrincipal = styled.div`
-height: 50vh;
+height: 500px;
 display: flex;
 flex-direction: row;
 justify-content: center;
-
+@media (max-width: 480px) { 
+      height: 300px;
+    }
+    @media (max-width: 767px) { 
+      height: 300px;
+     }
 @media (min-width: 768px) and (max-width: 1199px) { 
  height: 400px;
  }
@@ -36,7 +41,7 @@ height: 100%;
 export const InputModal  = styled.input`
 color: grey;
 border: 0;
-font-size: 20px;
+font-size: 18px;
 font-family: 'Poppins';
 border-bottom: 2px solid grey;
 
@@ -110,7 +115,7 @@ margin: 0px;
 `
 export const ButtonInput = styled.input`
 color: #1D2142 ;
-font-size: 20px ;
+font-size: 18px ;
 font-weight: 600 ;
 line-height: 1.2em ;
 border: 2px solid #1D2142 !important;
