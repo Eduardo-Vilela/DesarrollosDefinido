@@ -31,7 +31,12 @@ padding: 70px 0px 70px 0px;
 text-align: center;
 align-items: center;
 margin: auto;
-
+@media (max-width: 480px) { 
+  padding: 30px 0px 30px 0px;
+    }
+    @media (max-width: 767px) { 
+      padding: 30px 0px 30px 0px;
+    }
 @media (min-width: 768px) and (max-width: 1199px) { 
         padding: 20px 0px 20px 0px;
       }
@@ -39,13 +44,15 @@ margin: auto;
 
 export const CardsBox = styled.div`
 position: relative;
+
 `
 export const TarjetaVerde = styled.div`
 display: none;
 
 
 ${CardsBox}:hover & {
-  align-items: center;
+
+align-items: center;
  display:block;
  position: absolute;
  top:0;
@@ -54,6 +61,7 @@ ${CardsBox}:hover & {
  right:0;
  width: 220px;
  height: 200px; 
+
 }
 
 `
@@ -61,6 +69,7 @@ export const TarjetaGris = styled.div`
 display: block;
 &:hover{
   display:none;
+  
 }
 
 `

@@ -30,6 +30,7 @@ align-items: center;
 
 export const BoxTextito = styled.div`
 width: 50%;
+
 @media (max-width: 480px) { 
   width: 100%;
   text-align: left;
@@ -71,11 +72,12 @@ color: white;
 `
 
 export const Subtitulo6 = styled.h3`
-font-size: 30px;
+font-size: 25px;
 font-family: Poppins;
 font-weight: 200;
 color: white;
 line-height: 3em;
+
 @media (max-width: 480px) { 
   font-size: 16px;
 }
@@ -88,12 +90,18 @@ line-height: 3em;
 `
 
 export const LinkGrupo = styled.a`
-font-size: 20px;
+font-size: 30px;
 font-family: Poppins;
 font-weight: 200;
 color: #b5b5b5;
+text-decoration: none;
+outline: none;
+&:hover{
+  color: #82AB29 ;
+}
+
 `
 
 export const Logo6 = styled.img`
-width: 50%;
+width: 40%;
 `

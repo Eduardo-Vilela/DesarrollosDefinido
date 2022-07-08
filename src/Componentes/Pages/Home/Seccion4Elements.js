@@ -12,13 +12,12 @@ export const BoxPrincipal = styled.div`
       @media (max-width: 480px) { 
          display:flex;
          flex-direction: column;
-         justify-content:center;
+         justify-content: space-evenly;
       }
       @media (max-width: 767px) { 
-         height: auto;
          display:flex;
          flex-direction: column;
-         justify-content:center;
+         justify-content: space-evenly;
       }
       @media (min-width: 768px) and (max-width: 1199px) { 
       height: 15vh;
@@ -26,35 +25,57 @@ export const BoxPrincipal = styled.div`
 `
 export const Box1 = styled.div`
    padding: 30px;
+   width: 50%;
+   text-align: end;
    @media (max-width: 480px) { 
-      padding: 0px;    
+      padding: 0px;  
+      width: 100%; 
+      text-align: center; 
     }
     @media (max-width: 767px) { 
        padding: 0px;
+       width: 100%;
+       text-align: center; 
     }
 
 `
 export const Box2 = styled.div`
+width: 50%;
    display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+   column-gap: 80px;
    padding: 30px;  
-   @media (max-width: 480px) { 
-      padding: 0px;    
+    
+   .BordesRedondos{
+      @media (max-width: 480px) { 
+
+         border: 1px solid white;
+         border-radius: 30px;
     }
     @media (max-width: 767px) { 
-       padding: 0px;
+      border: 1px solid white;
+      border-radius: 30px;
+    }   
+
+   }
+
+     
+   @media (max-width: 480px) { 
+      justify-content: center;
+      padding: 0;
+      width: 70%;
+      column-gap: 10px;
+    }
+    @media (max-width: 767px) { 
+      justify-content: center;
+      padding: 0;
+      width: 70%;
+      column-gap: 10px;
     }
 `
 
 export const LogosRedes = styled.img`
-   padding: 10px;
-   @media (max-width: 480px) {
-      width: 80%;
-   }
-   @media (max-width: 767px) {
-      width: 80%;
-   }
+   width: 100%;
+   padding: 12px;
 `
 export const Titulo = styled.h2`
    font-size: 40px;

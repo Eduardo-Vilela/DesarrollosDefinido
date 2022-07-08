@@ -46,10 +46,13 @@ export const CardsMobile = styled.div`
  @media (max-width: 480px) { 
     flex-direction: column;
     justify-content: center;
+    width: 50%;
+    border-right: 1px solid #dadada9e;
   }
   @media (max-width: 767px) { 
     flex-direction: column;
     justify-content: center;
+    width: 50%;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
     flex-direction: column;
@@ -65,12 +68,16 @@ text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-right: 1px solid #dadada9e;
+border-right: 1px solid #dadada40;
     @media (max-width: 480px) { 
         border: 0px;
+        width: 100%;
+        border-bottom: 1px solid #dadada40 !important;
       }
       @media (max-width: 767px) { 
         border: 0px;
+        width: 100%;
+        border-bottom: 1px solid #dadada40 !important;
       }
       @media (min-width: 768px) and (max-width: 1199px) { 
       }
@@ -80,10 +87,10 @@ export const ImgCardsDesarrollos = styled.img`
  width: 130px;
 
  @media (max-width: 480px) { 
-    width: 100%    
+    width: 100px;  
   }
   @media (max-width: 767px) { 
-    width: 100%
+    width: 100px;  
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
     width: 70%

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const BoxPrincipal = styled.div`
@@ -6,10 +7,12 @@ export const BoxPrincipal = styled.div`
   margin-bottom: 40px;
   
     @media (max-width: 480px) { 
-        width: 100%,
+        width: 100%;
+        margin: 0;
     }
     @media (max-width: 767px) { 
         width: 100%;
+        margin: 0;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       height: 400px;
@@ -48,13 +51,13 @@ export const BoxTexto = styled.div`
 
     @media (max-width: 480px) { 
         width: 100%;
-        height: 800px;
-        padding: 0px 0px 0px 25px;
+        height: 70%;
+      
     }
     @media (max-width: 767px) { 
         width: 100%;
-        padding: 0px 0px 0px 25px;
-        height: 800px;
+      
+        height: 70%;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
@@ -69,7 +72,7 @@ export const BoxTexto = styled.div`
 export const BoxBack = styled.div`
   width: 50%;
   height: 100vh;
-  border-radius: 20px;
+  border-radius: 20px 0px 0px 20px;
   background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647161501/DESARROLLOSGRUPODELSUD/Lomas_de_Arana-Muestra-1_1_tqpjva.png);
   /* background-size: cover; */
   object-fit: contain;
@@ -138,7 +141,7 @@ export const Parrafo3 = styled.p `
         padding-top: 40px;
        }
 `
-export const Button3 = styled.a `
+export const Button3 = styled(Link) `
     color: #b5b5b5 !important;
     font-family: "Poppins";
     font-size: 25px;
@@ -147,7 +150,9 @@ export const Button3 = styled.a `
     font-weight: 500;
     line-height: 100px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-
+     &:hover{
+      color: #82AB29 ;
+     }
     @media (max-width: 480px) { 
         font-size: 20px;
       }
@@ -162,7 +167,7 @@ export const BoxIntermedio = styled.div`
 width: 70%;
 margin: auto;
 text-align: left;
-padding-right: 150px;
+
 
 @media (max-width: 480px) { 
   width: 90%;

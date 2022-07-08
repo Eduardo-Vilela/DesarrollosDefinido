@@ -9,6 +9,7 @@ function Seccion2() {
             <Contenedor1>
             <Video1 loop autoPlay data-aos="fade-up" data-aos-duration="3000">
                 <source
+                style={{borderRadius:'20px !important'}}
                   src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779825/DESARROLLOSGRUPODELSUD/abajo-izquierda_222_raqdek.mp4"
                   type="video/mp4"
                 />

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BoxPadre = styled.div`
  width: 100%;
- height: 900px;
+ height: 750px;
  padding-top: 170px;
  @media (max-width: 480px) { 
   height: 800px;
@@ -19,7 +19,7 @@ export const BoxPadre = styled.div`
 `
 export const SubBoxPadre = styled.div`
 width: 80%;
-height: 100vh;
+height: 100%;
 margin: auto;
 display: flex;
 flex-direction: row;

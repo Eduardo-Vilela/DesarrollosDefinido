@@ -4,7 +4,7 @@ export const BoxPadre1 = styled.div`
 width: 100%;
 height: 1400px;
 margin: auto;
-padding-top: 120px;
+
 
 @media (max-width: 480px) { 
   width: 80%;
@@ -78,13 +78,19 @@ display: none;
 `
 
 export const Video1 = styled.video`
+border-radius:10px;
 width: 100%;
-border-radius: 10px;
+
+margin-bottom: 80px;
+
+
 @media (max-width: 767px) { 
   width: 100%;
+  margin: 0;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
   width: 90%;
+  margin: 0;
 }
 @media (min-width: 1200px) and (max-width: 3000px) { 
   width: 90%;

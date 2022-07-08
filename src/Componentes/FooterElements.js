@@ -4,6 +4,7 @@ import styled from "styled-components";
  export const BoxPrimario = styled.div`
   width: 100%;
   height: 50vh;
+  background-color: #FAFAFA;;
  `
 
  export const BoxSecundario = styled.div`
@@ -73,8 +74,12 @@ import styled from "styled-components";
 
  export const Seccion4 = styled.div`
     padding: 20px 0px 20px 0px;
-    width: 80%;
+    width: 83%;
     margin: auto;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
     @media (max-width: 480px) { 
       font-size:10px;
       text-align: center;
@@ -239,10 +244,13 @@ import styled from "styled-components";
 
  export const BoxAjusteFooter = styled.div`
  display: flex;
- flex-direction: row;
- justify-content: space-around;
+ max-width: 80%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+ justify-content: space-between;
  height: 170px;
- align-items: baseline;
+ align-items: end;
  @media (max-width: 480px) { 
    flex-direction: row-reverse;
    align-items: center;

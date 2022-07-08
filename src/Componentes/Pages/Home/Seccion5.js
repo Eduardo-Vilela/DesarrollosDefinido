@@ -19,7 +19,7 @@ function Seccion5() {
                 navigation={true} 
                 modules={[Navigation,Autoplay]} 
                 autoplay={{
-                    delay: 1900,
+                    delay: 2000,
                     disableOnInteraction: false,
                     }}
 

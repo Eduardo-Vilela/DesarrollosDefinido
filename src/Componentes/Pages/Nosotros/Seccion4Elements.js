@@ -29,18 +29,19 @@ margin: auto;
 display: flex;
 flex-direction: row;
 justify-content: center;
+padding-top: 70px;
 
 @media (max-width: 480px) { 
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    
+    padding-top: 0px;
   }
   @media (max-width: 767px) { 
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-   
+    padding-top: 0px;
    }
 
    @media (min-width: 768px) and (max-width: 1199px) { 

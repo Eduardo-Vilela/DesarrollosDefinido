@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 
@@ -51,13 +52,13 @@ export const SlideTexto6 = styled.div`
    justify-content: space-evenly;
 
    @media (max-width: 480px) { 
-    width: 80%;
+    width: 86%;
     height: 40vh;
     margin: auto;
     padding-left: 0;
   }
   @media (max-width: 767px) { 
-    width: 80%;
+    width: 86%;
     height: 40vh;
     margin: auto;
     padding-left: 0;
@@ -77,11 +78,11 @@ export const ImagenSlide = styled.img`
 
  @media (max-width: 480px) { 
   width:80% ;
-  height:50vh ;
+  height:55vh ;
 }
 @media (max-width: 767px) { 
  width: 80% ;
- height: 50vh ;
+ height: 55vh ;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
   width: 50%;
@@ -169,7 +170,7 @@ export const BoxSwiperMobile = styled.div`
  text-align: center;
 `
 
-export const ImagenSlideVacia = styled.div`
+export const ImagenSlideVacia = styled(Link)`
  width: 80%;
  height: 80vh;
  border-radius: 10px;
@@ -180,13 +181,13 @@ export const ImagenSlideVacia = styled.div`
 
  @media (max-width: 480px) { 
   width:80% ;
-  height:50vh ;
+  height:55vh ;
   margin: auto;
 
 }
 @media (max-width: 767px) { 
  width: 80% ;
- height: 50vh ;
+ height: 55vh ;
  margin: auto;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 

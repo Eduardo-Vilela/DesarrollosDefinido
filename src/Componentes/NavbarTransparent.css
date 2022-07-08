@@ -34,7 +34,9 @@
     color: white !important;
     text-decoration: none!important;
 }
-
+.navbar-light .navbar-toggler{
+    border: 0 !important;
+}
 .redesNav{
  display: flex;
  flex-direction: row;
@@ -51,6 +53,11 @@
     padding: 10px;
 }
 
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 @media (max-width: 480px) { 
     .navbar-collapse{
         width: 100% !important;
@@ -64,7 +71,11 @@
         justify-content: center;
     }
     .paddingMobileLogo{
-        padding-left: 40px;
+        padding-left: 26px !important;
+    }
+    .navBarItems a{
+        
+        color: white !important;
     }
 }
   @media (max-width: 767px) { 

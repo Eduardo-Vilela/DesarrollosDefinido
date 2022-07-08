@@ -129,7 +129,7 @@ return (
         modules={[Autoplay]} 
         
         autoplay={{
-            delay: 1500,
+            delay: 2200,
             disableOnInteraction: false,
         }}
         breakpoints={{
@@ -142,7 +142,8 @@ return (
             slidesPerGroup: 2,
             },
         }}
-        
+        loop={true}
+        loopFillGroupWithBlank={true}
         className="mySwiperMobiInicio swiperMobi"
         >
             <SwiperSlide><img style={{width:'100%' , heigth:'60vh' , margin: 'auto'}}   alt='555' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653160073/DESARROLLOSGRUPODELSUD/Group-1305_dpfaww.jpg' /></SwiperSlide>

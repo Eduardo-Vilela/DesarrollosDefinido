@@ -65,9 +65,9 @@ function Seccion6() {
           <Ajuste>
 
          <Swiper data-aos="fade-up" data-aos-duration="2000"
-                slidesPerView={1.5}
+                slidesPerView={1}
                 centeredSlides={false}
-                // slidesPerGroupSkip={1}
+
                 spaceBetween={50}
                 grabCursor={true}
                 keyboard={{
@@ -144,7 +144,7 @@ function Seccion6() {
                 adapte a tus necesidades.
               </Parrafo6>
               <ButtonSlideSeccion6 >
-                <a className="boton-seccion5" style={{color:'#82AB29'}} href='aaaaa' >Ver Desarrollos → </a>             
+                <a className="boton-seccion5" style={{color:'white'}} href='aaaaa' >Ver Desarrollos → </a>             
               </ButtonSlideSeccion6>           
         </SlideTexto6>
         <BoxSwiperMobile className="ajusteswiper-mobile">
@@ -154,7 +154,7 @@ function Seccion6() {
             slidesPerGroupSkip={1}
             grabCursor={true}
             autoplay={{
-              delay: 1500,
+              delay: 2000,
               disableOnInteraction: false,
             }}
             keyboard={{
@@ -189,7 +189,7 @@ function Seccion6() {
               <ImagenSlide alt="fotoDesarrollos"  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490217/DESARROLLOSGRUPODELSUD/Group_189_zo7ghe.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5" >
-                <ImagenSlideVacia  href="aaaaa">Ver Desarrollos → </ImagenSlideVacia>
+                <ImagenSlideVacia  to='/Desarrollos'>Ver Desarrollos → </ImagenSlideVacia>
             </SwiperSlide>
           </Swiper>
           </BoxSwiperMobile>

@@ -62,7 +62,7 @@ outline: none;
     height: 5vh;
     font-family: "Poppins", Sans-serif;
     font-size: 18px;
-    color: white;
+    color: white !important;
     font-weight: 500;
     background-color: #82AB29;
     border-style: solid;

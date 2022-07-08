@@ -30,7 +30,7 @@ function Seccion3() {
             Disponemos de maquinarias y personal permanente para cubrir todas las etapas del proceso en tiempos 
             inmejorables, haciendo de nuestros desarrollos, tu alternativa más rentable.
             </Parrafo3> 
-          <Button3 href=''>Conocenos →</Button3>
+          <Button3 to='/Nosotros'>Conocenos →</Button3>
           </BoxIntermedio>  
         </BoxTexto>
         <BoxBack>

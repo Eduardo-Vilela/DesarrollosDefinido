@@ -10,9 +10,13 @@ function Seccion6() {
      <Principal>
        <Secundario>
           <BoxTextito>
-            <Titulo6>¿Conocés Grupo Delsud?</Titulo6>
-            <Subtitulo6>Estamos esperando que seas parte</Subtitulo6>
-            <LinkGrupo href='https://grupodelsud.com/'> Ir a Grupo Delsud → </LinkGrupo>
+            <div>
+              <Titulo6>¿Conocés Grupo Delsud?</Titulo6>
+              <Subtitulo6>Estamos esperando que seas parte</Subtitulo6>
+            </div>
+            <div>
+              <LinkGrupo href='https://grupodelsud.com/'> Ir a Grupo Delsud → </LinkGrupo>
+            </div>
           </BoxTextito>
           <BoxFoto>
             <Logo6 alt='foto-seccion5-prevfooter' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647614820/DESARROLLOSGRUPODELSUD/Frame_sshhg1.png'/>

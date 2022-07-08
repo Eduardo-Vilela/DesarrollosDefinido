@@ -43,8 +43,15 @@ function NavbarTransparent() {
                 </Link>
               </div>
               </Navbar.Brand>
-              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-              <Navbar.Collapse  >
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" >
+              {
+                    window.scrollY >= 200 ? 
+                    <img  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1657311165/DESARROLLOSGRUPODELSUD/barras-de-menu-de-la-derecha_1_ui4i1p.png' alt="lala"/> 
+                    :
+                    <img  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1657311165/DESARROLLOSGRUPODELSUD/barras-de-menu-de-la-derecha_2_mq4dwu.png' alt="lala"/> 
+                  }
+              </Navbar.Toggle>
+              <Navbar.Collapse>
                 <Nav className="me-auto" >
                   <Nav.Item className='navBarItems' href="#home"><Link to='/'>Inicio</Link></Nav.Item>
                   <Nav.Item className='navBarItems' href="#link"><Link to='/Nosotros'>Nosotros</Link></Nav.Item>

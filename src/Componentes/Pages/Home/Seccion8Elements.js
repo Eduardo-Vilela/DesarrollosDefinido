@@ -11,13 +11,20 @@ export const BoxPrincipal8 = styled.div`
 `
 
 export const BoxSecundario8 =styled.div`
-width: 80% ;
+width: 81% ;
 height: 100vh;
 margin: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
 position: relative;
+
+@media (max-width: 480px) { 
+  width: 88% ;
+}
+@media (max-width: 767px) { 
+  width: 88% ;
+ }
 @media (min-width: 768px) and (max-width: 1199px) { 
  height: 800px;
  }
@@ -68,11 +75,11 @@ export const TituloMaps = styled.h1`
  color: #1D2142;
 
  @media (max-width: 480px) { 
-  font-size:30px;
+  font-size:24px;
   line-height: 20px;
 }
 @media (max-width: 767px) { 
-  font-size:30px;
+  font-size:24px;
   line-height: 20px;
  } 
  @media (min-width: 768px) and (max-width: 1199px) { 
@@ -100,11 +107,11 @@ export const ImagenMaps = styled.img`
   padding: 20px;
   aling-items: center;
   @media (max-width: 480px) { 
-    width: 5%;
+    width: 3%;
     padding:0;
   }
   @media (max-width: 767px) { 
-    width: 5%;
+    width: 3%;
     padding:0;
    }
 `
