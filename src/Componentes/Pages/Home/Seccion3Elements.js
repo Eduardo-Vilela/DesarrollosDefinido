@@ -40,6 +40,7 @@ export const SubBox = styled.div`
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       height: 100%;
+      width: 90%;
      }
 `
 export const BoxTexto = styled.div`
@@ -51,18 +52,18 @@ export const BoxTexto = styled.div`
 
     @media (max-width: 480px) { 
         width: 100%;
-        height: 70%;
+        height: 80%;
       
     }
     @media (max-width: 767px) { 
         width: 100%;
       
-        height: 70%;
+        height: 80%;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
       height: auto;
-     
+      width: 50%;
     }
     @media (min-width: 1025px) and (max-width: 1280px) {
         padding:0;
@@ -91,11 +92,12 @@ export const BoxBack = styled.div`
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       height: auto;
+      width: 50%;
      }
 
 `
 export const Titulo3 = styled.h2 `
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Poppins";
     color: #1D2142;
     font-weight: 500;
@@ -104,11 +106,11 @@ export const Titulo3 = styled.h2 `
     
     @media (max-width: 480px) { 
         font-size: 24px;
-        padding-bottom: 15px;
+        padding-bottom: 5px;
       }
       @media (max-width: 767px) { 
         font-size: 24px;
-        padding-bottom: 15px;
+        padding-bottom: 5px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
          font-size:24px;
@@ -134,11 +136,10 @@ export const Parrafo3 = styled.p `
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
          font-size: 14px;
-         padding-top: 40px;
+         
        }
        @media (min-width: 1025px) and (max-width: 1280px) {
         font-size:14px;
-        padding-top: 40px;
        }
 `
 export const Button3 = styled(Link) `
@@ -160,7 +161,7 @@ export const Button3 = styled(Link) `
         font-size: 16px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
-         font-size:25px;
+         font-size:20px;
        }
 `
 export const BoxIntermedio = styled.div`
@@ -178,7 +179,7 @@ text-align: left;
   padding: 0;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-        width: 70%;
+        width: 80%;
         padding-right: 0 !important;
         margin: 0;
        }

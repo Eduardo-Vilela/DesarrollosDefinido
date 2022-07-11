@@ -85,8 +85,8 @@ export const ImagenSlide = styled.img`
  height: 55vh ;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 50%;
-  height: 500px;
+  width: 90%;
+  height: 560px;
  }
 `
 export const Titulo6 = styled.h1`
@@ -168,6 +168,13 @@ export const BoxSwiperMobile = styled.div`
  width: 100% ;
  height: 60vh;
  text-align: center;
+
+ @media (min-width: 768px) and (max-width: 1199px) { 
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+  }
+
 `
 
 export const ImagenSlideVacia = styled(Link)`
@@ -191,8 +198,8 @@ export const ImagenSlideVacia = styled(Link)`
  margin: auto;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 60% ;
-  height: 50vh ;
+  width: 80% ;
+  height: 75vh ;
   margin: auto;
  }
 `

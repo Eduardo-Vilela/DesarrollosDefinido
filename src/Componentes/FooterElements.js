@@ -168,6 +168,12 @@ import styled from "styled-components";
  font-size: 13px;
  font-weight: 400;
  line-height: 1.8em;
+text-decoration: none !important;
+&:hover{
+  color: #1D2142 !important;
+}
+
+
  @media (max-width: 480px) { 
    font-size:12px;
   }
@@ -250,7 +256,8 @@ import styled from "styled-components";
     margin-right: auto;
  justify-content: space-between;
  height: 170px;
- align-items: end;
+ align-content: end;
+ 
  @media (max-width: 480px) { 
    flex-direction: row-reverse;
    align-items: center;

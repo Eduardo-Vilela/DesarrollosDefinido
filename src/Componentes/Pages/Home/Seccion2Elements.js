@@ -18,6 +18,7 @@ export const BoxCards = styled.div`
     @media (min-width: 768px) and (max-width: 1199px) { 
         display: block;
         height: 300px;
+        display: flex;
       }
 
 `

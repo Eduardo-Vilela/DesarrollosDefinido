@@ -19,7 +19,7 @@ height: 900px;
 
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  height: 700px;
+  height: 560px;
 }
 `
 export const SubBoxPadre = styled.div`
@@ -47,6 +47,7 @@ padding-top: 70px;
    @media (min-width: 768px) and (max-width: 1199px) { 
   height: 100%;
   width: 90%;
+  padding: 0 !important;
 }
 `
 
@@ -74,6 +75,7 @@ background-position-y: center;
       background-position-x: center;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
-  height: 70%;
+  height: 100%;
+  background-size: 100%;
 }
 `

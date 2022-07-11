@@ -16,7 +16,7 @@ background: #F6F6F6;
 
 @media (min-width: 768px) and (max-width: 1199px) { 
   padding: 10px;
-  height: 250px;
+  height: 180px;
 }
 
 `
@@ -57,7 +57,7 @@ height: 1000px;
 
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  height: 800px;
+  height: 600px;
 }
 `
 export const IconosValores = styled.img`

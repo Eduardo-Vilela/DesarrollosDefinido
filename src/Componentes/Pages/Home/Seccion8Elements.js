@@ -45,7 +45,7 @@ top: 60px;
   flex-direction: column;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
- top: 85px;
+ top: 150px;
  }
 `
 

@@ -24,7 +24,7 @@ const [alturaActivacion, setAlturaActivacion] = useState(false)
   
     //navbar scroll changeBackground function
     const changeBackground = () => {
-      if (window.scrollY >= 1700) {
+      if (window.scrollY >= 1300) {
         setAlturaActivacion(true)
 
         

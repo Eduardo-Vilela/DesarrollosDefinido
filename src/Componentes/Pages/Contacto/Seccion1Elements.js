@@ -107,7 +107,7 @@ font-weight: 300;
     font-size: 15px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
-    font-size: 20px;
+    font-size: 15px;
   }
 `
 
@@ -136,7 +136,7 @@ width: 80%;
     font-size: 22px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
-    font-size: 25px;
+    font-size: 22px;
   }
 `
 export const InputArea = styled.textarea`
@@ -163,7 +163,7 @@ outline: none !important;
      font-size: 22px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-        font-size: 25px;
+        font-size: 22px;
       }
 `
 

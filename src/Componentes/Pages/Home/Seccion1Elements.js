@@ -71,9 +71,9 @@ export const BoxHome = styled.div`
       padding: 0px 25px 0px 25px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      width: 100%;
+      width: 85%;
       padding: 0px 25px 0px 25px;
-      align-items: center;
+      align-items: flex-start;
     }
   
   `

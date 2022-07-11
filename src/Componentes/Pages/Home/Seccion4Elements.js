@@ -71,11 +71,23 @@ width: 50%;
       width: 70%;
       column-gap: 10px;
     }
+    @media (min-width: 768px) and (max-width: 1199px) { 
+      column-gap: 0px;
+    }  
 `
 
 export const LogosRedes = styled.img`
    width: 100%;
    padding: 12px;
+
+   @media (max-width: 480px) { 
+      width: 50px ;
+    }
+    @media (max-width: 767px) { 
+      width: 50px ;
+    }
+  
+ 
 `
 export const Titulo = styled.h2`
    font-size: 40px;

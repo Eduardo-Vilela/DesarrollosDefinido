@@ -10,6 +10,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649692306/DESARROLLOSGRUPODELSUD/RENDER_LA_VICTORIA_2_-_Foto_ku9jfc.jpg);
+background-position: center !important;
 `
 export const BoxHomeJuncal = styled.div`
 width: 100%;
@@ -18,6 +19,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1648822621/DESARROLLOSGRUPODELSUD/DJI_0077_3_xewzsu.jpg);
+background-position: center;
 `
 
 export const BoxHomeLatitud34 = styled.div`
@@ -27,6 +29,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637068/DESARROLLOSGRUPODELSUD/Latitud_34_3_1_yomdy4.jpg);
+background-position: center;
 `
 export const BoxHomeLaescondida = styled.div`
 width: 100%;
@@ -232,6 +235,7 @@ export const Imagen1 = styled.img`
 width: 100%;
 height: 70%;
 border-radius: 10px;
+object-fit:cover;
 
 @media (max-width: 480px) { 
     height: 50%;
@@ -472,7 +476,6 @@ background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
-background-position-x: -30%;
 
 @media (max-width: 480px) { 
   width: 100%;
@@ -492,7 +495,7 @@ background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
-background-position-x: -30%;
+
 
 @media (max-width: 480px) { 
   width: 100%;
@@ -656,7 +659,7 @@ font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
 color: #ADADAD;
-padding: 50px 0px;
+padding: 30px 0px;
 
 @media (max-width: 480px) { 
   font-size: 30px;
@@ -780,7 +783,7 @@ line-height: 4em;
 
 export const ItemListaDerecha = styled.li`
 width: 100%;
-padding: 20px 0px 20px 0px;
+padding: 10px 0px 10px 0px;
 color: grey;
 font-family: "Poppins", Sans-serif;
 font-size: 22px;

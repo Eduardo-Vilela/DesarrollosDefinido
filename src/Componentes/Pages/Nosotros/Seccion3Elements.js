@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Principal = styled.div`
 width: 100%;
-height: 650px;
+height: 800px;
 background: #1D2142;
 @media (max-width: 480px) { 
   display: flex;
@@ -24,7 +24,7 @@ background: #1D2142;
 `
 export const Secundario = styled.div`
 width: 90%;
-height: 650px;
+height: 800px;
 margin: auto;
 display: flex;
 flex-direction: row;
@@ -88,6 +88,7 @@ padding: 0px 70px 0px 0px;
  @media (min-width: 768px) and (max-width: 1199px) { 
   height: auto;
   padding: 0;
+  width: 90%;
 }
 `
 export const Card1 = styled.div`
@@ -207,7 +208,7 @@ color: white;
   }
 `
 export const TituloPrincipalLogros = styled.h2`
-font-size: 30px;
+font-size: 40px;
 color: white;
 font-family: Poppins;
 font-weight: 500;
@@ -217,12 +218,12 @@ padding: 0px 0px 300px 80px;
 @media (max-width: 480px) { 
   padding: 0px;
   text-align: left;
-  padding-left: 35px;
+  padding-left: 18px;
 }
 @media (max-width: 767px) { 
   padding: 0px;
   text-align: left;
-  padding-left: 35px;
+  padding-left: 18px;
  }
 
 `

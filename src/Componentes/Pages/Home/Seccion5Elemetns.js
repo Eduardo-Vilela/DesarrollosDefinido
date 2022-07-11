@@ -55,6 +55,7 @@ export const SlideSwiperSeccion5 = styled.div`
         width: 80%;
         height: 50vh;
     }
+    
 `
 export const ButtonSlide5 = styled.a`
 outline: none;

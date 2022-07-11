@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 480px) {
     .accordion-flex{
-        width: 100%;
+        width: 85%;
     }
 .flex-formulario{
     display: flex;
@@ -146,13 +146,13 @@
     border-radius: 20px;
     border: #ffff 2px solid;
     font-family: "Mabry Pro", Sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 1em;
+    line-height: 1.3em;
     letter-spacing: 0.2px;
     fill: #FFFFFF;
     color: #FFFFFF;
-    background-color: #82AB1B;
+    background-color: #82AB1B !important;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
     border-color: #FFFFFF;
@@ -188,6 +188,9 @@
     .buttonFormInicio{
         font-size: 18px;
         width: 50%;
+    }
+    .card-title{
+        font-size: 15px !important;
     }
 }
 

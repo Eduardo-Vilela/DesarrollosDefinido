@@ -40,7 +40,7 @@ background: white;
 `
 export const BoxTituloLotes = styled.div`
 width:80%;
-height:200px;
+height:140px;
 @media (max-width: 480px) { 
     
   height: 100px;
@@ -72,7 +72,7 @@ border-radius: 10px;
   }
 `
 export const TituloDesarrollos = styled.p`
-font-size: 38px;
+font-size: 30px;
 font-family: Poppins;
 font-weight: 400;
 color: #808080;
@@ -83,7 +83,7 @@ color: #808080;
      font-size: 20px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
-    font-size: 20px;
+    font-size: 18px;
   }
 `
 export const AjusteFotos = styled.div`
@@ -92,7 +92,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 text-align: center;
-padding: 50px 0px 50px 0px ;
+padding: 80px 0px 80px 0px ;
 border-bottom: 1px solid #E5E5E5;
 
 @media (max-width: 480px) { 

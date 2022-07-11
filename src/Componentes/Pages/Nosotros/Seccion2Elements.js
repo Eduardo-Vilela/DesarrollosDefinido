@@ -8,16 +8,16 @@ margin: auto;
 
 @media (max-width: 480px) { 
   width: 80%;
-  height: 650px;
+  height: 550px;
   padding-top: 0px;
     }
     @media (max-width: 767px) { 
       width: 80%;
-      height: 650px;
+      height: 550px;
       padding-top: 0px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      height: 1000px;
+      height: 750px;
     }
 `
 export const SubBoxPadre2 = styled.div`
@@ -37,7 +37,7 @@ justify-content: center;
       height: 500px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      height: 1000px;
+      height: 750px;
     }
 `
 export const Contenedor1 = styled.div`
@@ -55,7 +55,7 @@ border-radius: 10px;
       height:auto;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      
+      height: auto;
     }
 `
 
@@ -72,8 +72,8 @@ display: none;
     display: none;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
-    
-  }
+      height: auto;
+    }
 
 `
 
@@ -102,14 +102,22 @@ margin-bottom: 80px;
 export const Video2 = styled.video`
 width: 100%;
 border-radius: 10px;
+
+@media (max-width: 480px) { 
+  padding-top: 20px ;
+  }
+
 @media (max-width: 767px) { 
   width: 100%;
+  padding-top: 20px ;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
   width: 90%;
+ 
 }
 @media (min-width: 1200px) and (max-width: 3000px) { 
   width: 90%;
+  
 }
 `
 

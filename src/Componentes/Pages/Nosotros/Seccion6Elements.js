@@ -2,9 +2,11 @@ import styled from 'styled-components'
 
 export const Principal = styled.div`
 width: 100%;
-height: 300px;
+height: 400px;
 background: #1D2142;
-margin: 0px 0px 150px 0px;
+margin: 0px 0px 100px 0px;
+align-items: center;
+display: flex;
 `
 
 export const Secundario = styled.div`
@@ -17,12 +19,12 @@ justify-content: center;
 align-items: center;
 
 @media (max-width: 480px) { 
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     justify-content: space-around;
   }
   @media (max-width: 767px) { 
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     justify-content: space-around;
    }
@@ -61,10 +63,10 @@ font-family: Poppins;
 font-weight: 500px;
 color: white;
 @media (max-width: 480px) { 
-  font-size: 20px;
+  font-size: 18px;
 }
 @media (max-width: 767px) { 
-  font-size: 20px;
+  font-size: 18px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:25px;
@@ -74,15 +76,15 @@ color: white;
 export const Subtitulo6 = styled.h3`
 font-size: 25px;
 font-family: Poppins;
-font-weight: 200;
+font-weight: 300;
 color: white;
 line-height: 3em;
 
 @media (max-width: 480px) { 
-  font-size: 16px;
+  font-size: 14px;
 }
 @media (max-width: 767px) { 
-  font-size: 16px;
+  font-size: 14px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:22px;
@@ -92,7 +94,7 @@ line-height: 3em;
 export const LinkGrupo = styled.a`
 font-size: 30px;
 font-family: Poppins;
-font-weight: 200;
+font-weight: 500;
 color: #b5b5b5;
 text-decoration: none;
 outline: none;
@@ -100,6 +102,15 @@ outline: none;
   color: #82AB29 ;
 }
 
+
+@media (max-width: 480px) { 
+  font-size: 22px;
+  color: #82AB29 !important;
+}
+@media (max-width: 767px) { 
+  font-size: 22px;
+  color: #82AB29 !important;
+ }
 `
 
 export const Logo6 = styled.img`

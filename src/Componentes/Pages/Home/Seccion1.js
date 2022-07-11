@@ -23,7 +23,7 @@ function Seccion1() {
             />
         </BoxVideo>
         <BoxTitulo>
-            <TituloPrincipal>  Tenemos el terreno ideal  para vos y tu familia  </TituloPrincipal>
+            <TituloPrincipal>  Tenemos el terreno ideal <br/> para vos y tu familia  </TituloPrincipal>
             <SubtituloPrincipal>Contamos con una amplia variedad de terrenos para que <br/> encuentres el que mejor se adapte a tus necesidades.</SubtituloPrincipal>
         </BoxTitulo>
       </BoxHome>

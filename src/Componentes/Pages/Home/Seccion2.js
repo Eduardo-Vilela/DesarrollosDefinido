@@ -11,7 +11,7 @@ import {
 import{Card} from 'react-bootstrap'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
-
+import './Seccion11';
 
 function Seccion2() {
 

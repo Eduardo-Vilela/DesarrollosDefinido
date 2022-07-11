@@ -9,7 +9,7 @@
 .Items2{
     padding: 20px 25px;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #1D2142 !important;
     text-decoration: none;
 }
@@ -18,7 +18,7 @@
     font-size: 16px;
 }
 .navbar-light .navbar-toggler-icon{
-    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1651520903/DESARROLLOSGRUPODELSUD/right_menu_icon_214206_l5dt4e.png) !important;
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1657311165/DESARROLLOSGRUPODELSUD/barras-de-menu-de-la-derecha_1_ui4i1p.png) !important;
 }
 .imagenRedesNav2{
     width: 60px !important;
@@ -84,6 +84,10 @@
         }
         .paddingLogo{
             padding-left: 40px;
+        }
+        .navbar-light .navbar-toggler-icon{
+            filter:none;
+            width: 20px;
         }
 }
 
