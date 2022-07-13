@@ -30,24 +30,19 @@ function Seccion8Lasorianas() {
             </BoxAlto> 
             <BoxBajo>
             <Swiper
-                //   breakpoints={{
-                //     200: {
-                //       slidesPerView: 1,
-                //       spaceBetween: 1,
-                //   },
-                //   480: {
-                //     slidesPerView: 1,
-                //     spaceBetween: 1,
-                // },
-                //       640: {
-                //           slidesPerView: 2,
-                //           spaceBetween: 2,
-                //       },
-                //       769: {
-                //       slidesPerView: 1,
-                //       slidesPerGroup: 3,
-                //       },
-                //   }}
+                breakpoints={{
+                    // when window width is >= 640px
+        320: {
+              slidesPerView: 1.5,
+              centeredSlides:false,
+
+              },
+        480: {
+              slidesPerView: 1.2,
+              centeredSlides:false,
+
+            },
+          }}
                     slidesPerView={2}
                     centeredSlides={true}
                     spaceBetween={2}

@@ -25,24 +25,24 @@ function Seccion5() {
            <Box2>
              <BoxCards>
                  <Valores>
-                  <IconosValores  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647609904/DESARROLLOSGRUPODELSUD/Group_104_xi25hp.svg'/>
+                  <IconosValores  alt='valores' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715499/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_104_xi25hp_sblbna.webp'/>
                   <TituloValores>Transparencia</TituloValores>
                   <Parrafito>Documentamos cada paso en tu proceso de compra para asegurarte de que estás llevando a cabo una compra segura.</Parrafito>
                  </Valores>
                  <Valores>
-                  <IconosValores  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/Group_105_kglmjj.svg'/>
+                  <IconosValores  alt='valores' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715499/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_105_kglmjj_uyzxom.svg'/>
                   <TituloValores>Innovación</TituloValores>
                   <Parrafito>Somos un equipo joven, soñador, abierto a las nuevas ideas. Buscamos estar a la vanguardia en la creación y gestión de inmuebles.</Parrafito>
                  </Valores>
              </BoxCards>
              <BoxCards>    
                  <Valores>
-                   <IconosValores  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/handshake_1_1_q45b5f.svg'/>
+                   <IconosValores  alt='valores' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715424/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/handshake_1_1_q45b5f_ai1lxa.webp'/>
                    <TituloValores>Responsabilidad</TituloValores>
                    <Parrafito>Nos aseguramos de cumplir con todos los estándares exigidos en cada proyecto, en el tiempo y forma preestablecidos.</Parrafito>
                  </Valores>
                  <Valores>
-                   <IconosValores  alt='valores' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648237887/DESARROLLOSGRUPODELSUD/Group_91_pfhrlg.svg'/>
+                   <IconosValores  alt='valores' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715420/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_91_pfhrlg_kgetu4.webp'/>
                    <TituloValores>Compromiso</TituloValores>
                    <Parrafito>Creemos en lo que hacemos y en lo que tenemos para aportarle a la industria, nos caracteriza la vocación y el compromiso</Parrafito>
                  </Valores>
@@ -82,10 +82,10 @@ function Seccion5() {
         
             className="mySwiperMobiInicio swiperMobi"
             >
-                <SwiperSlide><img style={{width:'80%' , heigth:'50vh' , margin: 'auto'}}   alt='555' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649362176/DESARROLLOSGRUPODELSUD/Group_87_evadyb.svg' /></SwiperSlide>
-                <SwiperSlide><img style={{width:'80%' , heigth:'50vh' , margin: 'auto'}}   alt='555' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649362176/DESARROLLOSGRUPODELSUD/Group_88_urdqx8.svg' /></SwiperSlide>
-                <SwiperSlide><img style={{width:'80%' , heigth:'50vh' , margin: 'auto'}}  alt='555' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649362176/DESARROLLOSGRUPODELSUD/Group_90_tfm5z9.svg' /></SwiperSlide>
-                <SwiperSlide><img style={{width:'80%' , heigth:'50vh' , margin: 'auto'}}    alt='555' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649362176/DESARROLLOSGRUPODELSUD/Group_89_tbvvyj.svg' /></SwiperSlide>
+                <SwiperSlide><img style={{width:'80%' , heigth:'50vh' , margin: 'auto'}}   alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715419/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_87_evadyb_crugnj.webp' /></SwiperSlide>
+                <SwiperSlide><img style={{width:'80%' , heigth:'50vh' , margin: 'auto'}}   alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715420/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_88_urdqx8_o7pb0g.webp' /></SwiperSlide>
+                <SwiperSlide><img style={{width:'80%' , heigth:'50vh' , margin: 'auto'}}  alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715420/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_90_tfm5z9_kuw0pf.webp' /></SwiperSlide>
+                <SwiperSlide><img style={{width:'80%' , heigth:'50vh' , margin: 'auto'}}    alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715420/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_89_tbvvyj_mdhaaz.webp' /></SwiperSlide>
         </Swiper>
        </BoxSwiperValores>
      </BoxValoresMobile>

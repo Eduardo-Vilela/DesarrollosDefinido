@@ -30,17 +30,20 @@ function Seccion8Eljuncal() {
              <TituloDerecha>Conocé El Juncal</TituloDerecha> 
             </BoxAlto> 
             <BoxBajo>
-            <Swiper
-                //   breakpoints={{
-                //     200: {
-                //       slidesPerView: 1,
-                //       spaceBetween: 1,
-                //   },
-                //   : {
-                //     slidesPerView: 1,
-                //     spaceBetween: 1,
-                // }
-                //   }}
+             <Swiper
+                breakpoints={{
+                                // when window width is >= 640px
+                    320: {
+                          slidesPerView: 1.5,
+                          centeredSlides:false,
+          
+                          },
+                    480: {
+                          slidesPerView: 1.5,
+                          centeredSlides:false,
+          
+                        },
+                      }}
                     slidesPerView={2}
                     centeredSlides={true}
                     spaceBetween={2}

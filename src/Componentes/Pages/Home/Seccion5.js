@@ -26,7 +26,7 @@ function Seccion5() {
                 >
                <SwiperSlide style={{display: 'flex'}} >
                     <SlideSwiperSeccion5>
-                        <img alt='22'src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655140870/DESARROLLOSGRUPODELSUD/Precios-03_1_picorz.png'/>
+                        <img alt='22'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715504/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_191_x2r2ef_t88nz3.jpg'/>
                         <div style={{paddingTop:'50px'}}>
                         <ButtonSlide5 style={{outline: 'none'}} href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...' >Me interesa →</ButtonSlide5>
                         </div>
@@ -34,7 +34,7 @@ function Seccion5() {
                 </SwiperSlide>
                 <SwiperSlide style={{display: 'flex'}} >
                     <SlideSwiperSeccion5>
-                        <img alt='22'src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648476286/DESARROLLOSGRUPODELSUD/promocion-las-orianas_eef4wz.png'/>
+                        <img alt='22'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_189_zo7ghe_ouxxhx.jpg'/>
                         <div style={{paddingTop:'50px'}}>
                         <ButtonSlide5 style={{outline: 'none'}} href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...' >Me interesa →</ButtonSlide5>
                         </div>
@@ -42,7 +42,7 @@ function Seccion5() {
                 </SwiperSlide>
                 <SwiperSlide style={{display: 'flex'}} >
                     <SlideSwiperSeccion5>
-                        <img alt='22'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648476525/DESARROLLOSGRUPODELSUD/PROMO-02_qw3fke.png'/>
+                        <img alt='22'  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_194_qnrsio_m6iskz.png'/>
                         <div style={{paddingTop:'50px'}}>
                         <ButtonSlide5 href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>Me interesa →</ButtonSlide5>
                         </div>
@@ -50,7 +50,7 @@ function Seccion5() {
                 </SwiperSlide>
                 <SwiperSlide style={{display: 'flex'}}>
                     <SlideSwiperSeccion5>
-                        <img alt='22'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648476525/DESARROLLOSGRUPODELSUD/PROMO-01_uvgbyi.png'/>
+                        <img alt='22'  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_195_jklscp_byfhsh.png'/>
                         <div style={{paddingTop:'50px'}}>
                         <ButtonSlide5 href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>Me interesa →</ButtonSlide5>
                         </div>
@@ -58,7 +58,7 @@ function Seccion5() {
                 </SwiperSlide>
                 <SwiperSlide style={{display: 'flex'}}>
                     <SlideSwiperSeccion5>
-                        <img alt='22'  src='https://res.cloudinary.com/grupo-delsud/image/upload/v1655141064/DESARROLLOSGRUPODELSUD/Precio-Las-Victorias-2022-e1646684669395_ema8m4.png'/>
+                        <img alt='22'  src=''/>
                         <div style={{paddingTop:'50px'}}>
                         <ButtonSlide5 href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>Me interesa →</ButtonSlide5>
                         </div>

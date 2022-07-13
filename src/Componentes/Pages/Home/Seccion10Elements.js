@@ -3,7 +3,7 @@ import styled from "styled-components";
  export const BoxPrincipal10 = styled.div`
  width: 100%;
  height: 30vh;
- background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1657210286/DESARROLLOSGRUPODELSUD/pastito_ahodj9.png);
+ background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657721623/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-128-1_ve6ezh.png);
  background-size: contain;
  background-repeat: no-repeat;
  background-position: bottom;
@@ -35,10 +35,10 @@ color: #808080;
 font-family: 'Poppins';
 
 @media (max-width: 480px) { 
-     font-size: 20px;
+     font-size: 18px;
   }
   @media (max-width: 767px) { 
-    font-size: 20px;
+    font-size: 18px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 20px;

@@ -105,23 +105,20 @@ function Seccion6() {
             </SlideTexto6>
               </SwiperSlide >
                 <SwiperSlide >
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490605/DESARROLLOSGRUPODELSUD/Group_191_x2r2ef.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_195_jklscp_byfhsh.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490217/DESARROLLOSGRUPODELSUD/Group_189_zo7ghe.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_194_qnrsio_m6iskz.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490605/DESARROLLOSGRUPODELSUD/Group_194_qnrsio.png" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715504/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_191_x2r2ef_t88nz3.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490607/DESARROLLOSGRUPODELSUD/Group_195_jklscp.png" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490217/DESARROLLOSGRUPODELSUD/Group_189_zo7ghe.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_189_zo7ghe_ouxxhx.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
                 <Link to='/Desarrollos'>
-                  <ImagenSlide alt="fotodesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1649876110/DESARROLLOSGRUPODELSUD/11-685x1024_cgttsc.jpg" />
+                  <ImagenSlide alt="fotodesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715500/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_113_ft7wch_a6nj8k.jpg" />
                 </Link>
                 </SwiperSlide>
             </Swiper>    
@@ -151,7 +148,7 @@ function Seccion6() {
         <Swiper
             slidesPerView={1}
             centeredSlides={false}
-            slidesPerGroupSkip={1}
+
             grabCursor={true}
             autoplay={{
               delay: 2000,
@@ -177,16 +174,16 @@ function Seccion6() {
 
           >
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490605/DESARROLLOSGRUPODELSUD/Group_191_x2r2ef.jpg" />
+              <ImagenSlide alt="" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_195_jklscp_byfhsh.png" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt="fotoDesarrollos"  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490605/DESARROLLOSGRUPODELSUD/Group_194_qnrsio.png" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_194_qnrsio_m6iskz.png" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt="fotoDesarrollos"  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490607/DESARROLLOSGRUPODELSUD/Group_195_jklscp.png" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715504/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_191_x2r2ef_t88nz3.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt="fotoDesarrollos"  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1648490217/DESARROLLOSGRUPODELSUD/Group_189_zo7ghe.jpg" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_189_zo7ghe_ouxxhx.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5" >
                 <ImagenSlideVacia  to='/Desarrollos'>Ver Desarrollos → </ImagenSlideVacia>

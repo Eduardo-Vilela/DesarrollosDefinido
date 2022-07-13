@@ -56,7 +56,7 @@ width: 70%;
 height: 90vh;
 
 border-radius: 20px;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1647546408/DESARROLLOSGRUPODELSUD/pexels-karolina-grabowska-4207907_1_buv9vz.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715453/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/plantita2_tmojez_k5okl2.webp);
 background-size: 90%;
 background-repeat: no-repeat;
 background-position-x: right;

@@ -17,7 +17,7 @@ justify-content: center;
 `
 export const Box1 = styled.div`
 width: 50%;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1650291416/DESARROLLOSGRUPODELSUD/desarPop_n1ztox.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715478/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/desarPop_n1ztox_hkwpra.jpg);
 background-size: cover;
 background-repeat: no-repeat;   
 background-position: right;

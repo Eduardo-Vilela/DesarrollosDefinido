@@ -10,14 +10,14 @@ function Seccion2() {
             <Video1 loop autoPlay data-aos="fade-up" data-aos-duration="3000">
                 <source
                 style={{borderRadius:'20px !important'}}
-                  src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779825/DESARROLLOSGRUPODELSUD/abajo-izquierda_222_raqdek.mp4"
+                  src="https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657725847/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/abajo-izquierda_222_osnlmn.mp4"
                   type="video/mp4"
                 />
               </Video1>
               <br/>
               <Video2  loop autoPlay data-aos="fade-right" data-aos-duration="3000">
                 <source
-                  src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779829/DESARROLLOSGRUPODELSUD/abajo-izquierda222_yg520l.mp4"
+                  src="https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657725846/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/abajo-izquierda222_w7kr9v.mp4"
                   type="video/mp4"
                 />
               </Video2>
@@ -25,7 +25,7 @@ function Seccion2() {
             <Contenedor2>
                 <Video3  loop autoPlay data-aos="fade-up" data-aos-duration="3000">
                     <source
-                    src="https://res.cloudinary.com/grupo-delsud/video/upload/v1649779687/DESARROLLOSGRUPODELSUD/video-derecha222_dedlp3.mp4"
+                    src="https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657725851/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/video-derecha222.mp4_qfidzh.mp4"
                     type="video/mp4"
                     />
                 </Video3>

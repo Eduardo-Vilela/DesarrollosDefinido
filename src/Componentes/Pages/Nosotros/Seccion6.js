@@ -19,7 +19,7 @@ function Seccion6() {
             </div>
           </BoxTextito>
           <BoxFoto>
-            <Logo6 alt='foto-seccion5-prevfooter' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647614820/DESARROLLOSGRUPODELSUD/Frame_sshhg1.png'/>
+            <Logo6 alt='foto-seccion5-prevfooter' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715492/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Frame_sshhg1_dthcsq.webp'/>
           </BoxFoto>
        </Secundario>
      </Principal>

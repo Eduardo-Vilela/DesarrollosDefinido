@@ -9,7 +9,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649692306/DESARROLLOSGRUPODELSUD/RENDER_LA_VICTORIA_2_-_Foto_ku9jfc.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715428/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/inicio_victorias_g5j4k1_bvudwr.jpg);
 background-position: center !important;
 `
 export const BoxHomeJuncal = styled.div`
@@ -153,7 +153,7 @@ justify-content: center;
 `
 export const AjusteBox = styled.div`
  width: 80%;
- height: 100vh;
+ height: 55vh;
  display: flex;
  flex-direction: column;
  justify-content: space-around;
@@ -177,11 +177,11 @@ line-height: 1.3em;
 
 @media (max-width: 480px) { 
     font-size: 20px;
-    line-height: 15px;
+    line-height: 1.4em;
   }
   @media (max-width: 767px) { 
     font-size: 20px;
-    line-height: 15px;
+    line-height: 1.4em;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
   font-size: 30px;
@@ -246,18 +246,17 @@ object-fit:cover;
 
 `
 export const Imagenslide = styled.img`
-width: 95%;
-height: 100%;
+width: 100%;
 border-radius: 10px;
 
-@media (max-width: 480px) { 
+/* @media (max-width: 480px) { 
   width: 85%;
   height: 70%;
  }
  @media (max-width: 767px) { 
   width: 85%;
   height: 70%;
- }
+ } */
 `
 export const Video1 = styled.video`
 width: 100%;
@@ -396,7 +395,7 @@ background-repeat: no-repeat;
 export const BoxMaps1Victorias = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/Las_Victorias_landing-05_1_dpjkk9.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715437/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Las_Victorias_landing-05_1_dpjkk9_ia6okn.webp);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: contain;
@@ -415,7 +414,7 @@ background-size: contain;
 export const BoxMaps2Victorias = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715441/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Latitud_34_2_1_os8k4l_kac4hg.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -434,7 +433,7 @@ background-repeat: no-repeat;
 export const BoxMaps3Victorias = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/businesspeople-shaking-hands_1_umpbig.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng_ck6w5r.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -957,6 +956,9 @@ export const BoxBajo = styled.div`
 width:100%;
 height: 70%;
 
+
+
+
 @media (max-width: 480px) { 
   width:100%;
 height: 50vh;
@@ -1053,4 +1055,14 @@ top: 0;
 bottom: -50px;
 left: 0;
 right: 0;
+`
+
+export const SwiperFotosDesarrollos = styled(Swiper)`
+align-self: center;
+
+   .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
 `

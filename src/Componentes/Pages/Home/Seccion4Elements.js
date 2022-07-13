@@ -79,6 +79,7 @@ width: 50%;
 export const LogosRedes = styled.img`
    width: 100%;
    padding: 12px;
+   filter: invert(1);
 
    @media (max-width: 480px) { 
       width: 50px ;

@@ -32,7 +32,7 @@ function Seccion1() {
          <BoxSecundario>
              <BoxTitulos>
      
-              <TituloPlan>Plan Canje  <img width='60' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648065960/DESARROLLOSGRUPODELSUD/Group_1337_rctgnn.svg' alt='plancanje'/></TituloPlan>
+              <TituloPlan>Plan Canje  <img width='60' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715500/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_1337_rctgnn_knldh3.webp' alt='plancanje'/></TituloPlan>
               <SubtituloPlanCanje> Tomamos tu auto en parte de pago <br/>por el terreno que siempre soñaste</SubtituloPlanCanje>
                 {/* <div>
                   <span style={{width: '3%'}}></span>
@@ -41,7 +41,7 @@ function Seccion1() {
           */}
              </BoxTitulos>
              <BoxAuto>
-               <FotoAuto alt='aaaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653586516/DESARROLLOSGRUPODELSUD/pngwing.com_lkuost.png'/>
+               <FotoAuto alt='aaaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715454/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/pngwing.com_lkuost_yrzzsv.webp'/>
              </BoxAuto>
          </BoxSecundario>
          <BoxTerceario>

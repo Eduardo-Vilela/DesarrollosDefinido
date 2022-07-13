@@ -50,24 +50,24 @@ return (
         <Box2>
             <BoxCards>
                 <Card1>                    
-                    <IconoAños  alt='logros1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648648236/DESARROLLOSGRUPODELSUD/Group_97_zd0cxi.svg'/>
+                    <IconoAños  alt='logros1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715421/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_97_zd0cxi_txfuzv.webp'/>
                     <TituloLogros >Unidades vendidas</TituloLogros>
                     <NumeroLogros  data-count="150" >{alturaActivacion != false ?<CountUp end={957} /> : ""}</NumeroLogros>
                 </Card1>
                 <Card2>
-                    <IconoUnidades  alt='logros3' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647542851/DESARROLLOSGRUPODELSUD/Group_100_zhcwaz.svg'/>
+                    <IconoUnidades  alt='logros3' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657725345/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-102-2_wnzspd.webp'/>
                     <TituloLogros >Unidades disponibles</TituloLogros>
                     <NumeroLogros data-count="150">{alturaActivacion != false ? <CountUp end={526}/> : ""}</NumeroLogros>
                 </Card2>
             </BoxCards>
             <BoxCards>
                 <Card3>  
-                <IconoAños  alt='logros2' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647542862/DESARROLLOSGRUPODELSUD/Group_129_hmhnsp.svg'/>
+                <IconoAños  alt='logros2' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657725679/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-114_gja1ip.webp'/>
                     <TituloLogros >Proyectos finalizados</TituloLogros> 
                     <NumeroLogros  data-count="150">{alturaActivacion != false ? <CountUp end={6}  /> : ""}</NumeroLogros>  
                 </Card3>
                 <Card4>
-                    <IconoAños  alt='logros3' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1647543194/DESARROLLOSGRUPODELSUD/Group_103_dn4m2u.svg'/>
+                    <IconoAños  alt='logros3' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715498/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_103_dn4m2u_wtzmzi.webp'/>
                     <TituloLogros >Años en el mercado</TituloLogros>
                     <NumeroLogros  data-count="150">{alturaActivacion != false ? <CountUp end={3} /> : ""}</NumeroLogros>
                 </Card4>

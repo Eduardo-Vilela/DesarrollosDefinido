@@ -31,8 +31,9 @@ justify-content: center;
 export const Box1 = styled.div`
 Width: 50%;
 height: 100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1648815416/DESARROLLOSGRUPODELSUD/La_Campi%C3%B1a_edit_hqt4up.jpg);
+/* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715484/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/El_Juncal-8_1_c76ut4_lprsx9.webp); */
 background-position: center center;
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715441/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/La_Campi%C3%B1a_edit_hqt4up_frahbz.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 

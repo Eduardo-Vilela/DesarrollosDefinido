@@ -11,7 +11,7 @@ width: 100%;
 height: 40vh;
 padding-top: 100px;
 background-image:linear-gradient(90deg, rgba(29,33,66,1) 20%, rgba(255,255,255,0) 45%, rgba(255,255,255,0) 55%, rgba(29,33,66,1) 80%), 
-url(https://res.cloudinary.com/grupo-delsud/image/upload/v1653581795/DESARROLLOSGRUPODELSUD/La-Campina-8-edit-2_adlkil.jpg);
+url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/La_Campi%C3%B1a-8_edit_2_muqssy_cm38fd.webp);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -223,7 +223,7 @@ box-shadow: 2px 2px 5px #b9b3b3;
 cursor: pointer;
   &:hover{
       background-color: #1D2142 !important;
-      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1648823298/DESARROLLOSGRUPODELSUD/eljuncalLetras_xlttzf.svg);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715487/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/eljuncalLetras_xlttzf_kp4bnu.webp);
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
@@ -252,7 +252,7 @@ cursor: pointer;
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
-      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649626460/DESARROLLOSGRUPODELSUD/Group_184_j7j7rc.svg);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Logo-Banner-Las-Orianas_qmldsg_y4ed0m.webp);
   }
   @media (max-width: 480px) { 
     width: 30%;
@@ -278,7 +278,7 @@ cursor: pointer;
     background-color: #1D2142;
     background-size: 60%;
     background-position: center center;
-      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649431167/DESARROLLOSGRUPODELSUD/lacampi%C3%B1a_hdxe5y.svg);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715436/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a_hdxe5y_qzvlhe.svg);
   }
   @media (max-width: 480px) { 
     width: 30%;
@@ -303,7 +303,7 @@ cursor: pointer;
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
-      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637673/DESARROLLOSGRUPODELSUD/Groupaaa_vvoggh.svg);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715498/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Groupaaa_vvoggh_mhkmve.webp);
   }
   @media (max-width: 480px) { 
     width: 30%;
@@ -328,7 +328,7 @@ cursor: pointer;
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
-      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649692006/DESARROLLOSGRUPODELSUD/Logo-Banner-Las-Orianas_qmldsg.svg);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_184_j7j7rc_fkyrds.webp);
   } 
   @media (max-width: 480px) { 
     width: 30%;
@@ -353,7 +353,7 @@ cursor: pointer;
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
-      background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1653595256/DESARROLLOSGRUPODELSUD/Logo-La-Escondida-fondo-transparente-con-sombra-17-1024x1024_pwiaxc.png);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657735373/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Logo-La-Escondida-fondo-transparente-con-sombra-17-1024x1024_mkcffm.webp);
   }
   @media (max-width: 480px) { 
     width: 30%;

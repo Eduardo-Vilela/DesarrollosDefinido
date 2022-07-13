@@ -72,7 +72,7 @@ function ModalInicio() {
           </Box1>
           <Box2>
             <BoxLogo>
-            <LogoModal  alt='logoModal'src='https://res.cloudinary.com/grupo-delsud/image/upload/v1646942039/DESARROLLOSGRUPODELSUD/logoNav_h8jfaz.svg'/>
+            <LogoModal  alt='logoModal'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.svg'/>
             </BoxLogo>
             <BoxInputs>
                 <BoxForm onSubmit={handleSubmit(onSubmit)} >
