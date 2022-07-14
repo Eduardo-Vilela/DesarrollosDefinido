@@ -97,7 +97,7 @@ function Seccion11() {
                           {errors?.email?.type === "maxLength" && (
                             <p className='text-danger'>El nombre no puede exceder los 50 caracteres</p>
                           )}
-                          <input className='inputInicio-form' type="number" name='telefono'
+                          <input className='inputInicio-form' type="number" name='telefono' onWheel={(e) => e.target.blur()}
                           {...register("telefono", 
                           { 
                             maxLength: 10,
@@ -128,7 +128,7 @@ function Seccion11() {
 
 
                         <div className='flexButtonFormInicio'>
-                        <input className='buttonFormInicio'  type="submit" value="Enviar →"/>
+                        <input className='buttonFormInicio'  type="submit" value="Enviar ➜"/>
                         </div>
                     </div>     
                 </form>  

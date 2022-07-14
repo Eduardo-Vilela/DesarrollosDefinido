@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import ScrollToTop from '../Componentes/scrollToTop'
 import Home from './Pages/Home/Home'
@@ -23,15 +23,14 @@ import Icono from './Icono'
 function Rutas() {
   return (
     <>
-     <HashRouter data-aos="zoom-in" >
+     <BrowserRouter data-aos="zoom-in" >
      
      <ToastContainer
         position="top-right"
         autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
-        closeOnClick
-        rtl={false}
+        closeOnClickrtl={false}
         pauseOnFocusLoss
         draggable
         pauseOnHover
@@ -68,7 +67,7 @@ function Rutas() {
         <Footer/>
         <Icono/>
       </ScrollToTop>
-     </HashRouter>
+     </BrowserRouter>
     </>
   )
 }

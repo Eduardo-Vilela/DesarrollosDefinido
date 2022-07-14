@@ -10,7 +10,13 @@ function NavbarWhite() {
     <div id='arribaPA'>
         <Navbar  className='navBar2'  fixed="top" expand="lg">
           <Container id="#arriba1" fluid>
-            <Navbar.Brand className='paddingLogo'><Link style={{color:'#1D2142'}} to='/'><Image width='110' height='35' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp' /></Link></Navbar.Brand>
+            <Navbar.Brand >
+              <div className='paddingMobileLogo'>
+              <Link style={{color:'#1D2142'}} to='/'>
+              <img width='90' height='30' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp' />
+              </Link>
+              </div>
+              </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav navbar-collapse2">
             <Nav className="me-auto">

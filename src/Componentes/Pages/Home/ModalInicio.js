@@ -95,6 +95,7 @@ function ModalInicio() {
                       )}
                     <InputModal 
                     type="number"
+                    onWheel={(e) => e.target.blur()}
                     placeholder='Teléfono'
                     {...register("telefono", {
                         required: "Campo requerido",

@@ -100,7 +100,7 @@ function Seccion6() {
                             adapte a tus necesidades.
                             </Parrafo6>
                             <ButtonSlideSeccion6>
-                            <Link to='/Desarrollos' style={{color: '#82AB29'}} className="boton-seccion5">Ver Desarrollos → </Link>             
+                            <Link to='/Desarrollos' style={{color: '#82AB29'}} className="boton-seccion5">Ver Desarrollos ➜ </Link>             
                             </ButtonSlideSeccion6>           
             </SlideTexto6>
               </SwiperSlide >

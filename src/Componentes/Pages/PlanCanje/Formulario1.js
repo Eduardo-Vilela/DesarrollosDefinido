@@ -102,14 +102,14 @@ const onSubmit = (data,e) => {
               <Box1>
                   <TituloPlan>Plan Canje</TituloPlan>
                   <span style={{width: '3%'}}></span>
-                  <img style={{width: '10%'}} src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648065960/DESARROLLOSGRUPODELSUD/Group_1337_rctgnn.svg' alt='plancanje'/>
+                  <img style={{width: '10%'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715500/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_1337_rctgnn_knldh3.webp' alt='plancanje'/>
               </Box1>
               <Box2>
                   <SubtituloPlanCanje> Tomamos tu auto en parte de pago <br/>por el terreno que siempre soñaste</SubtituloPlanCanje>
               </Box2>
              </BoxTitulos>
              <BoxAuto>
-               <FotoAuto alt='aaaa' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1653586516/DESARROLLOSGRUPODELSUD/pngwing.com_lkuost.png'/>
+               <FotoAuto alt='aaaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715454/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/pngwing.com_lkuost_yrzzsv.webp'/>
              </BoxAuto>
          </BoxSecundario>
          <BoxFondoForm>
@@ -157,7 +157,7 @@ const onSubmit = (data,e) => {
                 <BoxIntermedioinputs>
                   <PosicionLabels>
                         <LabelPlanCanje className='label-auto' >Kilometros</LabelPlanCanje>
-                        <InputPlanCanje className='input-formAuto' type="number" name='kilometros'
+                        <InputPlanCanje className='input-formAuto' type="number" name='kilometros' onWheel={(e) => e.target.blur()}
                           {...register("kilometros", 
                           { 
                             required: true, 
@@ -174,7 +174,7 @@ const onSubmit = (data,e) => {
                     </PosicionLabels>
                     <PosicionLabels>
                           <LabelPlanCanje className='label-auto' >Valor del auto</LabelPlanCanje>
-                          <InputPlanCanje className='input-formAuto' type="number" name='valorDelAuto'
+                          <InputPlanCanje className='input-formAuto' type="number" name='valorDelAuto' onWheel={(e) => e.target.blur()}
                           {...register("valorDelAuto", 
                           { 
                             required: true,                  
@@ -234,7 +234,7 @@ const onSubmit = (data,e) => {
                                 
                                 <br/>
                   <LabelPlanCanje className='label-autoform2' >WhatsApp</LabelPlanCanje>
-                  <InputPlanCanje className='input-formAuto' type="number" name='whatsapp'
+                  <InputPlanCanje className='input-formAuto' type="number" name='whatsapp' onWheel={(e) => e.target.blur()}
                   {...register("whatsapp", 
                   { 
                     required: true,      

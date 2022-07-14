@@ -53,7 +53,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
+
 .inputs-form2{
     width: 50%;
     display: flex;
@@ -68,6 +70,10 @@
     height: 20%;
     width: 80%;
     background-color: #FAFAFA !important;
+}
+
+.inputInicio-form:focus{
+    outline: none !important;
 }
 .textarea-formularioInicio{
     outline: 0 !important;
@@ -89,7 +95,15 @@
     font-weight: 500;
     background: transparent !important;
     padding: 0% !important;
+ 
 }
+
+.buttonFormInicio:hover{
+color: #82AB1B !important;
+}
+
+
+
 .flexButtonFormInicio{
     display: flex;
     flex-direction: row;

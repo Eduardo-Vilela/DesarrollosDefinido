@@ -31,7 +31,7 @@ import styled from "styled-components";
  display: flex;
  flex-direction: row;
  justify-content: space-around;
- height: 15vh;
+ height: 17vh;
  width: 100%;
  background-color: #1D2142;
 
@@ -195,6 +195,9 @@ text-decoration: none !important;
  width: 310px;
  border: 0 !important;
  border-bottom: 2px solid #1D2142 !important;
+&:focus{
+  outline: none !important;
+}
  `
 
  export const TituloFooterFinal = styled.h4`

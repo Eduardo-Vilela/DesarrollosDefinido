@@ -44,6 +44,9 @@ border: 0;
 font-size: 18px;
 font-family: 'Poppins';
 border-bottom: 2px solid grey;
+&:focus{
+  outline: none !important;
+}
 
 @media (max-width: 480px) { 
       font-size:  12px !important;

@@ -7,7 +7,6 @@ import styled from "styled-components";
  background-size: contain;
  background-repeat: no-repeat;
  background-position: bottom;
- padding-top: 50px ;
  `
 
 export const SubBox = styled.div`
@@ -15,6 +14,9 @@ width: 90%;
 height: 100%;
 text-align: center;
 margin: auto;
+align-items: center;
+display: flex;
+justify-content: center;
 
 
 @media (max-width: 480px) { 

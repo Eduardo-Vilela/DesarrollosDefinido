@@ -55,7 +55,7 @@ height:140px;
 `
 export const BoxLotes = styled.div`
 width: 100%;
-height: 2600px;
+height: 2650px;
 border: 1px solid #E5E5E5; 
 border-radius: 10px;
 @media (max-width: 480px) { 

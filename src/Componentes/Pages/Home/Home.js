@@ -16,6 +16,7 @@ import Seccion9 from './Seccion9'
 
 
 function Home() {
+  
   return (
     <>
     <NavbarTransparent/>

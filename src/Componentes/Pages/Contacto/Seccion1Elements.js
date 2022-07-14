@@ -55,17 +55,17 @@ background-color: #929292;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 2em 5em 2em 5em;
+padding: 0em 5em 0em 5em;
 
 @media (max-width: 480px) { 
     width: 100%;
     padding: 0px;
-    height: 80vh;
+    height: 100vh;
   }
   @media (max-width: 767px) { 
     width: 100%;
     padding: 0px;
-    height: 80vh;
+    height: 100vh;
    }
 `
 
@@ -73,7 +73,9 @@ export const BoxFormContacto = styled.form`
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: baseline;
+width:70%;
+margin: auto;
 `
 export const TituloContacto = styled.h1`
 color: white;
@@ -94,6 +96,16 @@ export const ContenedorTitulos = styled.div`
 width: 80%;
 text-align: left;
 padding-bottom: 80px;
+@media (max-width: 480px) { 
+    padding:0px;
+    padding-bottom: 35px;
+    width: 100%;
+  }
+  @media (max-width: 767px) { 
+    padding:0px;
+    padding-bottom: 35px;
+    width: 100%;
+   }
 `
 export const SubtituloContacto = styled.p`
 font-size: 20px;
@@ -122,13 +134,16 @@ font-size: 25px;
 font-family: 'Poppins';
 color: #ffff !important;
 outline: none !important;
-width: 80%;
+width: 100%;
 ::placeholder,
 ::-webkit-input-placeholder {
   color: white !important;
 }
 :-ms-input-placeholder {
    color: white  !important;
+}
+&:focus{
+  outline: none !important;
 }
 @media (max-width: 480px) { 
    font-size: 22px;
@@ -147,9 +162,10 @@ border-bottom: solid #ffff 1px !important;
 margin-bottom: 20px;
 font-size: 25px;
 font-family: "Raleway", Sans-serif;
-width: 80%;
+width: 100%;
 color: #ffff !important;
 outline: none !important;
+resize: none !important;
 ::placeholder,
 ::-webkit-input-placeholder {
   color: white !important;
@@ -170,18 +186,27 @@ outline: none !important;
 
 export const Button = styled.input`
 border-radius: 20px;
-border: #ffff 2px solid;
 font-family: "Mabry Pro", Sans-serif;
+color: white;
 font-size: 20px;
 font-weight: 300;
 line-height: 1em;
-letter-spacing: 0.2px;
-fill: #FFFFFF;
-color: #FFFFFF;
-background-color: #82AB1B;
-border-style: solid;
-border-width: 2px 2px 2px 2px;
-border-color: #FFFFFF;
+background-color: transparent;
+border: 1px solid white;
 border-radius: 30px 30px 30px 30px;
 padding: 15px;
+
+@media (max-width: 480px) { 
+  background-color: #82AB1B;
+  border: 1px solid white;
+   }
+   @media (max-width: 767px) { 
+    background-color: #82AB1B;
+  border: 1px solid white;
+    }
+
+&:hover{
+  background-color: #82AB1B;
+  border: 1px solid white;
+}
 `

@@ -66,6 +66,7 @@ function Seccion1() {
              </Box1>
              <Box2>
              <BoxFormContacto  onSubmit={handleSubmit(onSubmit)}>
+
                         <ContenedorTitulos>
                             <TituloContacto>Contacto</TituloContacto>
                             <SubtituloContacto >
@@ -73,7 +74,8 @@ function Seccion1() {
                                 <br/> 
                                 y la resolveremos a la brevedad.
                             </SubtituloContacto>
-                        </ContenedorTitulos>          
+                        </ContenedorTitulos>   
+                        <div style={{width:'100%'}}>    
                           <InputContacto type="text" name='name'
                             {...register("name", {
                               required: "*Campo requerido",
@@ -96,8 +98,8 @@ function Seccion1() {
                             style={{color:'white'}}
                             placeholder="Email"
                             />
-                            {errors.email &&  <p style={{color:'white', fontFamily:'Poppins'}}>*Campo Requerido!</p>}
-                          <InputContacto type="number" name='telefono'
+                            {errors.email &&  <p style={{color:'white', fontFamily:'Poppins'}}>Campo Requerido!</p>}
+                          <InputContacto type="number" name='telefono' onWheel={(e) => e.target.blur()}
                               {...register("telefono", {
                                 required: "*Campo requerido",
                                 maxLength: {
@@ -107,7 +109,7 @@ function Seccion1() {
 
                             placeholder="Teléfono "
                             />
-                            {errors.telefono &&  <p style={{color:'white', fontFamily:'Poppins'}}>*Campo Requerido!</p>}
+                            {errors.telefono &&  <p style={{color:'white', fontFamily:'Poppins'}}>Campo Requerido!</p>}
                         <InputArea  name="w3review" rows="4" cols="10" placeholder='Mensaje'
                         {...register("mensaje", 
                         { 
@@ -116,11 +118,14 @@ function Seccion1() {
                           })}
                         />
                          {errors?.mensaje?.type === "required" && 
-                            <p style={{color: 'white'}}>*Campo requerido</p>}
+                            <p style={{color: 'white'}}>Campo requerido</p>}
                           {errors?.mensaje?.type === "maxLength" && (
                             <p style={{color: 'white'}}>El mensaje no puede exceder los 140 caracteres</p>
                           )}
-                        <Button className='buttonModal'  type="submit" value="Enviar →"/>
+                          </div>   
+                          <div style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'flex-start'}}>
+                          <Button style={{border:'1px solid white'}} className='buttonModal'  type="submit" value="Enviar →"/>
+                          </div>
                   </BoxFormContacto>
              </Box2>
          </SubBoxPadre>

@@ -115,7 +115,7 @@ function Footer() {
             <Seccion3>
                <TitulosFooter>SUSCRIBITE</TitulosFooter>
                <form className='flexFormFooter'onSubmit={handleSubmit(onSubmit)} >
-                    <div style={{ display: 'flex'}}> 
+                    <div style={{ display: 'flex', flexDirection: 'column'}}> 
                     <InputFooter className='input-footer' type="text" name='email'
                         {...register("email", 
                         { 
@@ -130,7 +130,7 @@ function Footer() {
                         {errors?.email?.type === "maxLength" && (
                           <p className='text-danger'>El nombre no puede exceder los 50 caracteres</p>
                         )}                   
-                      < input style={{color:'#1D2142',backgroundColor: '#02010100',fontSize:'13px' , fontWeight:'600'}} type="submit" value="ENVIAR"/>
+                      < input style={{color:'#1D2142',backgroundColor: '#02010100',fontSize:'13px' , fontWeight:'600', alignSelf: 'end'}} type="submit" value="ENVIAR"/>
                       </div> 
                 </form>
             </Seccion3>

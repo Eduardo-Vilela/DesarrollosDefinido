@@ -154,7 +154,7 @@ export const Box1 = styled.div`
 width:100%;
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
 `
 export const Box2 = styled.div`

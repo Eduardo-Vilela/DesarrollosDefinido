@@ -86,11 +86,11 @@ export const BoxHome = styled.div`
   line-height: 1.2em;
   
     @media (max-width: 480px) { 
-      font-size: 20px ;
+      font-size: 24px ;
       line-height: 1.3em;
     }
     @media (max-width: 767px) { 
-      font-size: 30px ;
+      font-size: 24px ;
       line-height: 1.3em;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
