@@ -256,7 +256,7 @@ const onSubmit = (data,e) => {
                 )}
                 {formStep === 2 &&(
               <Parte3>
-                <ImagenFinal  alt='finplancanje' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649855889/DESARROLLOSGRUPODELSUD/send_exit_oluo5s.png'/>
+                <ImagenFinal  alt='finplancanje' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715466/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/send_exit_oluo5s_lxwgxm.webp'/>
               </Parte3>
                 )}
                 {/* <button type="submit" onClick={completeFormStep}>Cotizar →</button> */}

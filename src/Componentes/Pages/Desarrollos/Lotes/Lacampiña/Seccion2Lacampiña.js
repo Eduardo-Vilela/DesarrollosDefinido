@@ -40,7 +40,7 @@ function Seccion2Lacampiña() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Video1 loop autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785728/DESARROLLOSGRUPODELSUD/slidelacampi%C3%B1a/La-Campina222222_iikg4r.mp4'/>
+             <Video1 loop autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657809914/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/La-Campina222222_pmfcqa.mp4'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

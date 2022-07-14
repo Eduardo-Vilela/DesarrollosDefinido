@@ -19,7 +19,7 @@ function Seccion5Lasorianas() {
      <Box2 id='2-proyecto'>
          <SubBox2>
              <BoxMaps>
-              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649076431/DESARROLLOSGRUPODELSUD/Juncal_gtamen.jpg'  ></Imagen2>
+              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715453/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/planoOrianas-1-scaled_ricuel_zngmwj.webp'  ></Imagen2>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>

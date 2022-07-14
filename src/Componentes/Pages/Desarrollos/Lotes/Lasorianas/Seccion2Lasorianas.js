@@ -8,7 +8,8 @@ import {
     Parrafo,
     Button1,
     Video1,
-    Separador
+    Separador,
+    Imagen1
 } from '../LasVictorias/LasVictoriasElements'
 
 
@@ -40,7 +41,7 @@ function Seccion2Lasorianas() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Video1 loop autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649780672/DESARROLLOSGRUPODELSUD/El-Juncal-Landing22222_hx68tk.mp4'/>
+             <Imagen1 loop autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715491/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/foto-inicio--1024x858_ataue4_zwbcrz.jpg'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

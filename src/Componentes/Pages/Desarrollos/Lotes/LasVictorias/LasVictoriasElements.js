@@ -18,7 +18,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1648822621/DESARROLLOSGRUPODELSUD/DJI_0077_3_xewzsu.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715488/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/DJI_0077_3_xewzsu_bnpmqv.webp);
 background-position: center;
 `
 
@@ -28,7 +28,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637068/DESARROLLOSGRUPODELSUD/Latitud_34_3_1_yomdy4.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Latitud_34_3_1_yomdy4_trvu3g.webp);
 background-position: center;
 `
 export const BoxHomeLaescondida = styled.div`
@@ -39,7 +39,7 @@ flex-direction: row;
 justify-content: center;
 background-size: cover;
 background-position: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1651588572/DESARROLLOSGRUPODELSUD/la%20escondida/inicio2_pujbto.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715434/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/inicio2_pujbto_yofib9.webp);
 `
 export const BoxHomeLacampiña = styled.div`
 width: 100%;
@@ -47,7 +47,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649431244/DESARROLLOSGRUPODELSUD/La_Campi%C3%B1a-8_edit_2_muqssy.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/La_Campi%C3%B1a-8_edit_2_muqssy_cm38fd.webp);
 background-position: center;
 `
 
@@ -58,7 +58,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 background-position: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/grupo-delsud/image/upload/v1654780213/DESARROLLOSGRUPODELSUD/slidelasorianas/portada-de-inicio-scaled_gysb5p.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657811087/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/portada-de-inicio-scaled_fvcadl.webp);
 `
 export const BoxTitulo2 = styled.div`
 width: 50%;
@@ -247,16 +247,17 @@ object-fit:cover;
 `
 export const Imagenslide = styled.img`
 width: 100%;
+height: 600px;
 border-radius: 10px;
 
-/* @media (max-width: 480px) { 
-  width: 85%;
-  height: 70%;
+@media (max-width: 480px) { 
+
+  height: 65%;
  }
  @media (max-width: 767px) { 
-  width: 85%;
-  height: 70%;
- } */
+
+  height: 65%;
+ }
 `
 export const Video1 = styled.video`
 width: 100%;
@@ -339,7 +340,7 @@ background-attachment: fixed;
 export const BoxMaps1Latitud = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649637002/DESARROLLOSGRUPODELSUD/Latitud_pup3rf.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715438/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Latitud_pup3rf_rfxez1.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -359,7 +360,7 @@ background-repeat: no-repeat;
 export const BoxMaps2Latitud = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_01_vcappe_gzraox.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -377,7 +378,7 @@ background-repeat: no-repeat;
 export const BoxMaps3Latitud = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1654704292/DESARROLLOSGRUPODELSUD/businessman-handshaking-businesswoman-showing-respect-closeup-view-of-hands-shaking-1_yteozo.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715455/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/businessman-handshaking-businesswoman-showing-respect-closeup-view-of-hands-shaking-1_yteozo_wovrrk.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -452,7 +453,7 @@ background-repeat: no-repeat;
 export const BoxMaps1Laescondida = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1651587525/DESARROLLOSGRUPODELSUD/la%20escondida/444-948x1024_wefged.png);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715431/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/444-948x1024_wefged_lcetzb.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -471,7 +472,7 @@ background-repeat: no-repeat;
 export const BoxMaps2Laescondida = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_01_vcappe_gzraox.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -490,7 +491,7 @@ background-repeat: no-repeat;
 export const BoxMaps3Laescondida = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649075284/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715462/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/businesspeople-shaking-hands_1_umpbig_xrthbu.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -510,7 +511,7 @@ background-repeat: no-repeat;
 export const BoxMaps1Eljuncal = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649076431/DESARROLLOSGRUPODELSUD/Juncal_gtamen.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715431/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Juncal_gtamen_f5z7j8.webp);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: contain;
@@ -529,7 +530,7 @@ background-size: contain;
 export const BoxMaps2Eljuncal = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715449/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_02_xztnn6_g2aimm.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -547,7 +548,7 @@ background-repeat: no-repeat;
 export const BoxMaps3Eljuncal = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649075284/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng_ck6w5r.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -566,7 +567,7 @@ background-repeat: no-repeat;
 export const BoxMaps1Lacampiña = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649432360/DESARROLLOSGRUPODELSUD/La_Campi%C3%B1a_unmfp3.svg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715443/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/La_Campi%C3%B1a_unmfp3_ovpquc.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -585,7 +586,7 @@ background-repeat: no-repeat;
 export const BoxMaps2Lacampiña = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649432434/DESARROLLOSGRUPODELSUD/lomas_04_b8zrms.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_04_b8zrms_ytcbmq.webp);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: contain;
@@ -603,7 +604,7 @@ background-size: contain;
 export const BoxMaps3Lacampiña = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1649432527/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715477/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u_bquphb.webp);
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
@@ -956,9 +957,6 @@ export const BoxBajo = styled.div`
 width:100%;
 height: 70%;
 
-
-
-
 @media (max-width: 480px) { 
   width:100%;
 height: 50vh;
@@ -1059,6 +1057,14 @@ right: 0;
 
 export const SwiperFotosDesarrollos = styled(Swiper)`
 align-self: center;
+
+@media (max-width: 480px) { 
+  height: 100%;
+  
+}
+@media (max-width: 767px) { 
+  height: 100%;
+ }
 
    .swiper-slide{
     display: flex;

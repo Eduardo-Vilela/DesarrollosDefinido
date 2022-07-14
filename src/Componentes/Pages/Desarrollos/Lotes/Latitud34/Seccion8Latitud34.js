@@ -8,7 +8,7 @@ import {
     TituloDerecha,
     VideoSlideJuncal,
     Imagenslide,
-
+    SwiperFotosDesarrollos,
 }  from '../LasVictorias/LasVictoriasElements'
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
@@ -29,37 +29,40 @@ function Seccion8Latitud34() {
              <TituloDerecha>Conocé Latitud 34°</TituloDerecha> 
             </BoxAlto> 
             <BoxBajo>
-            <Swiper
-               breakpoints={{
-                // when window width is >= 640px
-    320: {
-          slidesPerView: 1.5,
-          centeredSlides:false,
-
-          },
-    480: {
-          slidesPerView: 1.2,
-          centeredSlides:false,
-
-        },
-      }}
-                    slidesPerView={2}
-                    centeredSlides={true}
-                    spaceBetween={2}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    className="mySwiper"
-                    style={{width: '100%' , height:'100%'}}
+            <SwiperFotosDesarrollos
+                  slidesPerView={2}
+                  spaceBetween={50}
+                  centeredSlides={true}
+                  navigation={true}
+                  modules={[Navigation]}
+                  breakpoints={{
+                    // when window width is >= 640px
+                  320: {
+                        slidesPerView: 1.8,
+                        // centeredSlides:false,
+                        spaceBetween:10,
+                        },
+                  480: {
+                        slidesPerView: 1.8,
+                        // centeredSlides:false,
+                        spaceBetween:10,
+                      },
+                    }}
+                  className="mySwiper"
                 >
-                    <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4"  width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785281/DESARROLLOSGRUPODELSUD/slidelatitud34/01-Latitud-34_-3_hxrey8.mp4'/></SwiperSlide>
-                    <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4"  width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785286/DESARROLLOSGRUPODELSUD/slidelatitud34/02-Latitud-34_-3_cwhpc3.mp4'/></SwiperSlide>
-                    <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4"  width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785294/DESARROLLOSGRUPODELSUD/slidelatitud34/04-Latitud-34_-3-1_eedfzv.mp4'/></SwiperSlide>
-                    <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4"  width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785284/DESARROLLOSGRUPODELSUD/slidelatitud34/05-Latitud-34_-3_ajfrng.mp4'/></SwiperSlide>
-                    <SwiperSlide><VideoSlideJuncal loop autoPlay  type="video/mp4"  width='940' height='600' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649785287/DESARROLLOSGRUPODELSUD/slidelatitud34/06-Latitud-34_-3_xyucj7.mp4'/></SwiperSlide>
-                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='auto' height='auto' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649703121/DESARROLLOSGRUPODELSUD/slidelatitud34/Construccion_Latitud_34_2_1_iqsgem.jpg'/></SwiperSlide>
-                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='auto' height='auto' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649703122/DESARROLLOSGRUPODELSUD/slidelatitud34/Latitud_34_4_o1m6s0.jpg'/></SwiperSlide>
-                    <SwiperSlide style={{textAlign:'center'}}><Imagenslide width='auto' height='auto' alt='victoriaslide1' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649703128/DESARROLLOSGRUPODELSUD/slidelatitud34/Latitud_34-2_myfyee.jpg'/></SwiperSlide>
-             </Swiper>
+                <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808898/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/01-Latitud-34_-3_waxeq5.mp4'/></SwiperSlide>
+                <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808901/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/06-Latitud-34_-3_ndtocr.mp4'/></SwiperSlide>
+                <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808903/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/02-Latitud-34_-3_g7vrvz.mp4'/></SwiperSlide>
+                <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808903/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/05-Latitud-34_-3_ny4blu.mp4'/></SwiperSlide>
+                <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808896/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/04-Latitud-34_-3-1_ycnoba.mp4'/></SwiperSlide>
+                <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808902/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/03-Latitud-34_-3_flt7fi.mp4'/></SwiperSlide>
+                <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808902/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/03-Latitud-34_-3_flt7fi.mp4'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Latitud_34_3_1_yomdy4_trvu3g.webp'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657809408/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Construccion-Latitud-34_-7-1-1024x768_ung6r5.webp'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657809407/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Construccion-Latitud-34_-3-1-1024x768_eu9eu5.webp'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657809407/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Construccion-Latitud-34_-22222-1024x681_dtqrb7.webp'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657809407/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Construccion-Latitud-34_-2-1-1024x768_lu72tr.webp'/></SwiperSlide>
+              </SwiperFotosDesarrollos>
             </BoxBajo>
          </SubBoxSiper>
      </Box2>

@@ -36,7 +36,7 @@ flex-direction: row;
 justify-content: space-between;
 background-color: white;
 position: absolute;
-top: 60px;
+top: 80px;
 
 @media (max-width: 480px) { 
   flex-direction: column;

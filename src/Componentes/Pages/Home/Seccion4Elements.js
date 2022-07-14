@@ -42,7 +42,7 @@ export const Box1 = styled.div`
 export const Box2 = styled.div`
 width: 50%;
    display: flex;
-   column-gap: 80px;
+   column-gap: 20px;
    padding: 30px;  
     
    .BordesRedondos{
@@ -77,7 +77,7 @@ width: 50%;
 `
 
 export const LogosRedes = styled.img`
-   width: 100%;
+   width: 70px;
    padding: 12px;
    filter: invert(1);
 

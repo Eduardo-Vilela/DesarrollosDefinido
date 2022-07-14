@@ -39,7 +39,7 @@ function Seccion2Latitud34() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-            <Video1 loop autoPlay type="video/mp4"  alt='fotoseccion1-lasvictorias' src='https://res.cloudinary.com/grupo-delsud/video/upload/v1649784924/DESARROLLOSGRUPODELSUD/slideEljuncal/latitud22222_dfdmsj.mp4'/>
+            <Video1 loop autoPlay type="video/mp4"  alt='fotoseccion1-lasvictorias' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808376/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/latitud22222_tuuzuh.mp4'/>
          </BoxTitulo>
        </SubBox>
      </Box2>
