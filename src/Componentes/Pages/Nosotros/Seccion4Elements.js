@@ -79,3 +79,17 @@ background-position-y: center;
   background-size: 100%;
 }
 `
+
+export const BoxIntermedioNos = styled.div`
+width: 65%;
+text-align: left;
+
+`
+
+
+
+
+
+
+
+

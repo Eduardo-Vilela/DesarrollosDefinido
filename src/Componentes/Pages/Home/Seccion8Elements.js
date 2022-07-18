@@ -57,6 +57,7 @@ export const SubBoxLogoMaps = styled.div`
  display: flex;
  flex-direction: row;
  justify-content: center;
+ align-items: center;
 
  @media (max-width: 480px) { 
   justify-content: flex-start;
@@ -104,8 +105,9 @@ export const SubTituloMaps = styled.p`
  `
 
 export const ImagenMaps = styled.img`
-  padding: 20px;
-  aling-items: center;
+  width: 17px;
+  height: 23px;
+  align-items: center;
   @media (max-width: 480px) { 
     width: 3%;
     padding:0;

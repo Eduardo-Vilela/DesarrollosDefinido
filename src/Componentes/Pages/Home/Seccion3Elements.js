@@ -45,7 +45,7 @@ export const SubBox = styled.div`
 `
 export const BoxTexto = styled.div`
   width: 80%;
-
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +148,6 @@ export const Button3 = styled(Link) `
     font-size: 25px;
     text-decoration: none;
     font-weight: 500;
-    line-height: 100px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
    
     &:hover{
@@ -165,8 +164,7 @@ export const Button3 = styled(Link) `
        }
 `
 export const BoxIntermedio = styled.div`
-width: 70%;
-margin: auto;
+width: 69%;
 text-align: left;
 
 
@@ -183,4 +181,8 @@ text-align: left;
         padding-right: 0 !important;
         margin: 0;
        }
+`
+
+export const BoxInterior = styled.div`
+  width: 75%;
 `

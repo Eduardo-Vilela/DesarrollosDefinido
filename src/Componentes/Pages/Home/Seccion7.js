@@ -20,21 +20,21 @@ function Seccion7() {
               <BoxBordesCards  className='bordeMedio '> 
                 <Link to='/Lasorianas'>        
                <div >
-                <ImgCardsDesarrollos src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715443/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Logo-Banner-Las-Orianas-negro_ccoswn_kvqprb.svg" />
+                <ImgCardsDesarrollos src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715443/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Logo-Banner-Las-Orianas-negro_ccoswn_kvqprb.webp" />
                 </div>
                </Link>
             </BoxBordesCards>
             <BoxBordesCards className='bordeMedio'> 
              <Link to='/Latitud34'>  
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715498/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group2_f7py2q_x6dit2.svg" />
+                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715498/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group2_f7py2q_x6dit2.webp" />
                 </div> 
             </Link>    
             </BoxBordesCards> 
             <BoxBordesCards className='bordeMedio'>
               <Link to='/Lacampina'> 
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715497/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-9_lwsyra_cbcwat.png" />
+                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715497/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-9_lwsyra_cbcwat.webp" />
                 </div> 
               </Link>  
             </BoxBordesCards>
@@ -42,28 +42,28 @@ function Seccion7() {
             <BoxBordesCards className='bordeMedio'>
               <Link to='/Eljuncal'>
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1_zjxifn_jbmvde.png" />
+                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1_zjxifn_jbmvde.webp" />
                 </div>
               </Link> 
             </BoxBordesCards>
             <BoxBordesCards className='bordeMedio'>
               <Link to='/Lasvictorias'>
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_185_pn9nz2_wp1w4q.svg" />
+                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_185_pn9nz2_wp1w4q.webp" />
                 </div> 
               </Link>
             </BoxBordesCards>
             <BoxBordesCards className='bordeMedio'>
               <Link to='/Laescondida'>
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448613/Logo_-_La_Escondida_lngc51.svg" />
+                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448613/Logo_-_La_Escondida_lngc51.webp" />
                 </div>   
               </Link>
             </BoxBordesCards>
             <BoxBordesCards className='bordeMedio'>
               <Link to='/LasCatalinas'>
                 <div >
-                    <ImgCardsLasCatalinas  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448614/Logo_-_Las_Catalinas_lakd4u.svg" />
+                    <ImgCardsLasCatalinas  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448614/Logo_-_Las_Catalinas_lakd4u.webp" />
                 </div>   
               </Link>
             </BoxBordesCards>

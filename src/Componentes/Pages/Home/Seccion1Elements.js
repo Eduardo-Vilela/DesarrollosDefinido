@@ -59,7 +59,7 @@ export const BoxHome = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    width: 82%;
+    width: 80%;
     height: 100vh;
 
     @media (max-width: 480px) { 
@@ -77,21 +77,25 @@ export const BoxHome = styled.div`
     }
   
   `
+export const ContainerTittle = styled.div`  
+  width: 65%;
+`
+
   export const TituloPrincipal = styled.h1`
   font-size: 75px;
-  font-weight: 500;
+  font-weight: 600;
   color: white;
   margin-bottom: 25px;
   text-shadow: 0px 0px 10px rgb(0 0 0 / 76%);
   line-height: 1.2em;
   
     @media (max-width: 480px) { 
-      font-size: 24px ;
-      line-height: 1.3em;
+      font-size: 40px ;
+      line-height: 1.2em;
     }
     @media (max-width: 767px) { 
-      font-size: 24px ;
-      line-height: 1.3em;
+      font-size: 30px ;
+      line-height: 1.2em;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 57px ;

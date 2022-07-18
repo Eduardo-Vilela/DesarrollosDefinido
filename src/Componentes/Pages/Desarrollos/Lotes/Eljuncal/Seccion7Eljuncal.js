@@ -32,7 +32,7 @@ function Seccion7Eljuncal() {
                   <div>
                     <TituloDerecha>Forma de pago</TituloDerecha>
                   </div> 
-                  <div style={{width:'60%'}}>
+                  <div style={{width:'70%'}}>
                     <ParrafoDerecha>
                     Contamos con la posibilidad de ofrecer 
                     una financiación propia, bajo requisitos  

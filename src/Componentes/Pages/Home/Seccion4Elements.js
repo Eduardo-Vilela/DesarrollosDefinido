@@ -25,7 +25,7 @@ export const BoxPrincipal = styled.div`
 `
 export const Box1 = styled.div`
    padding: 30px 0px 30px 0px;
-   width: 60%;
+   width: 50%;
    text-align: end;
    @media (max-width: 480px) { 
       padding: 0px;  
@@ -40,8 +40,10 @@ export const Box1 = styled.div`
 
 `
 export const Box2 = styled.div`
-width: 45%;
+   width: 50%;
    display: flex;
+   justify-content: center;
+   column-gap: 50px;
 
    padding: 30px 0px 30px 0px;
     
@@ -77,9 +79,8 @@ width: 45%;
 `
 
 export const LogosRedes = styled.img`
-   width: 70px;
+   width: 60px;
    padding: 12px;
-   filter: invert(1);
 
    @media (max-width: 480px) { 
       width: 50px ;
@@ -91,7 +92,7 @@ export const LogosRedes = styled.img`
  
 `
 export const Titulo = styled.h2`
-   font-size: 40px;
+   font-size: 35px;
     color: white;
     font-family: "Poppins";
     font-weight: 300;
@@ -105,4 +106,11 @@ export const Titulo = styled.h2`
    @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 20px;
    }
+`
+
+export const BoxContent = styled.div`
+   width: 70%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
 `

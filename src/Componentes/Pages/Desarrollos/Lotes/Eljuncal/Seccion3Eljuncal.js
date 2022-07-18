@@ -11,19 +11,19 @@ function Seccion3Eljuncal() {
       <div style={{width: '50%',borderBottom:'1px solid #E0E0E0',borderTop:'1px solid #E0E0E0'}}>
           {/* ASDSDsa */}
         </div>
-        <ContenedorSubNavbar style={{width: '50%',borderBottom:'1px solid #E0E0E0 ',borderTop:'1px solid #E0E0E0'}}>
-          <Navbar  as="ul">
+        <ContenedorSubNavbar style={{width: '52%',borderBottom:'1px solid #E0E0E0 ',borderTop:'1px solid #E0E0E0'}}>
+          <Navbar as="ul" style={{paddingBottom: '0px'}} >
             <NavItems >
-            <HashLink style={{color: 'grey', fontWeight: '500'}}  to="#1-ubicacion">1. Ubicación</HashLink>
+            <HashLink style={{color: 'grey', fontWeight: '500', textDecoration: 'none'}}  to="#1-ubicacion">1. Ubicación</HashLink>
             </NavItems>
             <NavItems >
-              <HashLink style={{color: 'grey', fontWeight: '500'}}  to="#2-proyecto">2. Proyecto</HashLink>
+              <HashLink style={{color: 'grey', fontWeight: '500', textDecoration: 'none'}}  to="#2-proyecto">2. Proyecto</HashLink>
             </NavItems>
             <NavItems >
-              <HashLink style={{color: 'grey', fontWeight: '500'}}  to="#3-servicios">3. Servicios</HashLink>
+              <HashLink style={{color: 'grey', fontWeight: '500', textDecoration: 'none'}}  to="#3-servicios">3. Servicios</HashLink>
             </NavItems>
             <NavItems >
-              <HashLink style={{color: 'grey', fontWeight: '500'}}  to="#4-formadepago">4. Forma de pago</HashLink>
+              <HashLink style={{color: 'grey', fontWeight: '500', textDecoration: 'none'}}  to="#4-formadepago">4. Forma de pago</HashLink>
             </NavItems>
           </Navbar>
         </ContenedorSubNavbar>

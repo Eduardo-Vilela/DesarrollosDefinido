@@ -17,7 +17,7 @@ export const BoxSwiper9 = styled.div`
 
 `
 export const SubBox9 = styled.div`
-width: 80%;
+width: 81%;
 height: 60vh;
 margin: auto;
 display: flex;
@@ -65,9 +65,7 @@ justify-content: center ;
 border-radius: 8px;
 background-color: white;
 box-shadow: 5px 5px 5px  rgb(0 0 0 / 10%);  
--webkit-filter: grayscale(100%); 
-filter: grayscale(100%);
-height: 160px;
+
 
   &:hover{
     transform: scale(1.1); 

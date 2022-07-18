@@ -62,10 +62,10 @@ height: 1000px;
 }
 `
 export const IconosValores = styled.img`
-width: 50px;
-height: 50px;
+width: 40px;
+height: 42px;
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 35px;
+  width: 55px;
 }
 `
 export const SubBoxPadre3 = styled.div`
@@ -130,4 +130,8 @@ justify-content: space-evenly;
   @media (min-width: 768px) and (max-width: 1199px) { 
     padding: 50px;
   }
+`
+
+export const BoxInterno = styled.div`
+  width: 75%;
 `

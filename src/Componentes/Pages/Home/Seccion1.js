@@ -8,6 +8,7 @@ BoxTitulo,
 TituloPrincipal,
 Container,
 SubtituloPrincipal,
+ContainerTittle,
 } from '../Home/Seccion1Elements'
 
 
@@ -23,8 +24,10 @@ function Seccion1() {
             />
         </BoxVideo>
         <BoxTitulo>
-            <TituloPrincipal>  Tenemos el terreno ideal <br/> para vos y tu familia  </TituloPrincipal>
-            <SubtituloPrincipal>Contamos con una amplia variedad de terrenos para que <br/> encuentres el que mejor se adapte a tus necesidades.</SubtituloPrincipal>
+          <ContainerTittle>
+            <TituloPrincipal>  Tenemos el terreno ideal para vos y tu familia  </TituloPrincipal>
+            <SubtituloPrincipal>Contamos con una amplia variedad de terrenos para que encuentres el que mejor se adapte a tus necesidades.</SubtituloPrincipal>
+          </ContainerTittle>
         </BoxTitulo>
       </BoxHome>
      </Container>

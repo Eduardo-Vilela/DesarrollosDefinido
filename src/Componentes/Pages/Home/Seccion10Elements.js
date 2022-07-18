@@ -2,8 +2,8 @@ import styled from "styled-components";
 
  export const BoxPrincipal10 = styled.div`
  width: 100%;
- height: 30vh;
- background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657721623/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-128-1_ve6ezh.png);
+ height: 350px;
+ background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657721623/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-128-1_ve6ezh.webp);
  background-size: contain;
  background-repeat: no-repeat;
  background-position: bottom;
@@ -11,7 +11,6 @@ import styled from "styled-components";
 
 export const SubBox = styled.div`
 width: 90%;
-height: 100%;
 text-align: center;
 margin: auto;
 align-items: center;

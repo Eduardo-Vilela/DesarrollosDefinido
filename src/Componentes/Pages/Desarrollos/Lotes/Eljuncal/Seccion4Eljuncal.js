@@ -21,7 +21,7 @@ function Seccion4Eljuncal() {
                   <div>
                     <TituloDerecha>Ubicación</TituloDerecha>
                   </div> 
-                  <div style={{width:'60%'}}>
+                  <div style={{width:'70%'}}>
                     <ParrafoDerecha>
                     Se encuentra en una zona con cercanía a comercios y servicios, 
                     y a sólo 20 minutos del centro de la ciudad de La Plata. Al ser
@@ -34,7 +34,7 @@ function Seccion4Eljuncal() {
                     <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
                   </div>
                   <div>
-                    <ul>
+                    <ul style={{paddingLeft: '22px'}}>
                         <ItemListaDerecha  >Colegios</ItemListaDerecha>
                         <ItemListaDerecha  >Comercios</ItemListaDerecha>
                         <ItemListaDerecha  >Entidades Bancarias</ItemListaDerecha>

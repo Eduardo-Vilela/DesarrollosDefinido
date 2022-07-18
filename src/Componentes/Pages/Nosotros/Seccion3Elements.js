@@ -3,8 +3,12 @@ import styled from 'styled-components'
 
 export const Principal = styled.div`
 width: 100%;
-height: 800px;
+height: 900px;
 background: #1D2142;
+align-items: center;
+display: flex;
+justify-content: center;
+
 @media (max-width: 480px) { 
   display: flex;
   flex-direction: column;
@@ -23,9 +27,7 @@ background: #1D2142;
 
 `
 export const Secundario = styled.div`
-width: 90%;
-height: 800px;
-margin: auto;
+width: 80%;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -67,13 +69,15 @@ justify-content: center;
 }
 `
 
+export const BoxLogros = styled.div`
+  height: 400px;
+`
+
 export const Box2 = styled.div`
 width: 50%;
-height: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 0px 70px 0px 0px;
 
 @media (max-width: 480px) { 
   width: 100%;
@@ -209,11 +213,10 @@ color: white;
 `
 export const TituloPrincipalLogros = styled.h2`
 font-size: 40px;
-color: white;
 font-family: Poppins;
 font-weight: 500;
 text-align: left;
-padding: 0px 0px 300px 80px;
+color: white;
 
 @media (max-width: 480px) { 
   padding: 0px;

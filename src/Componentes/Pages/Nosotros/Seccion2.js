@@ -23,7 +23,7 @@ function Seccion2() {
               </Video2>
             </Contenedor1>
             <Contenedor2>
-                <Video3  loop autoPlay data-aos="fade-up" data-aos-duration="3000">
+                <Video3  loop autoPlay data-aos="fade-left" data-aos-duration="3000">
                     <source
                     src="https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657725851/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/video-derecha222.mp4_qfidzh.mp4"
                     type="video/mp4"

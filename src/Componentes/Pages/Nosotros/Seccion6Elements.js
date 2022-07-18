@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const Principal = styled.div`
-width: 100%;
-height: 400px;
-background: #1D2142;
-margin: 0px 0px 100px 0px;
-align-items: center;
-display: flex;
+  width: 100%;
+  height: 400px;
+  background: #1D2142;
+  margin: 0px 0px 150px 0px;
+  align-items: center;
+  display: flex;
 `
 
 export const Secundario = styled.div`
@@ -60,7 +60,7 @@ text-align: center;
 export const Titulo6 = styled.h2`
 font-size: 40px;
 font-family: Poppins;
-font-weight: 500px;
+font-weight: 500px !important;
 color: white;
 @media (max-width: 480px) { 
   font-size: 18px;

@@ -57,16 +57,12 @@ border-bottom: 2px solid grey;
      }
 `
 export const LogoModal = styled.img`
-width: 120px;
-height: 150px;
+width: 100px;
+height: 35px;
 
-@media (max-width: 480px) { 
-    width: 90px;
-    height: 140px;
-    }
     @media (max-width: 767px) { 
-    width: 90px;
-    height: 140px;
+    width: 80px;
+    height: 30px;
      }
 `
 
@@ -76,6 +72,7 @@ height: 20%;
 display: flex;
 flex-direction: row;
 justify-content: end;
+align-items: end;
 `
 
 export const BoxInputs = styled.div`

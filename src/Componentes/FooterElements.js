@@ -216,7 +216,7 @@ text-decoration: none !important;
   font-size: 10px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 10px;
+  font-size: 14px;
 }
  `
 

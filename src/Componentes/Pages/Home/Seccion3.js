@@ -7,7 +7,8 @@ import {
     SubBox,
     Parrafo3,
     Button3,
-    BoxIntermedio
+    BoxIntermedio,
+    BoxInterior
 } from './Seccion3Elements'
 
 
@@ -20,17 +21,19 @@ function Seccion3() {
       <SubBox>
         <BoxTexto>
           <BoxIntermedio>
-          <Titulo3>Nosotros</Titulo3>
-          <Parrafo3>
-            Somos una de las empresas desarrolladoras urbanísticas más completas
-            y eficientes del mercado.
-            </Parrafo3>
+            <BoxInterior>
+            <Titulo3>Nosotros</Titulo3>
             <Parrafo3>
-            Nuestro objetivo es que accedas a tu terreno de forma rápida y con la mejor financiación.
-            Disponemos de maquinarias y personal permanente para cubrir todas las etapas del proceso en tiempos 
-            inmejorables, haciendo de nuestros desarrollos, tu alternativa más rentable.
-            </Parrafo3> 
-          <Button3 to='/Nosotros'>Conocenos →</Button3>
+              Somos una de las empresas desarrolladoras urbanísticas más completas
+              y eficientes del mercado.
+              </Parrafo3>
+              <Parrafo3>
+              Nuestro objetivo es que accedas a tu terreno de forma rápida y con la mejor financiación.
+              Disponemos de maquinarias y personal permanente para cubrir todas las etapas del proceso en tiempos 
+              inmejorables, haciendo de nuestros desarrollos, tu alternativa más rentable.
+              </Parrafo3> 
+            <Button3 to='/Nosotros'>Conocenos →</Button3>
+            </BoxInterior>
           </BoxIntermedio>  
         </BoxTexto>
         <BoxBack>

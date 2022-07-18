@@ -278,7 +278,7 @@ cursor: pointer;
     background-color: #1D2142;
     background-size: 60%;
     background-position: center center;
-      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715436/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a_hdxe5y_qzvlhe.svg);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715436/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a_hdxe5y_qzvlhe.webp);
   }
   @media (max-width: 480px) { 
     width: 30%;

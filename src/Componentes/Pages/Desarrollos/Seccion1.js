@@ -2,24 +2,43 @@ import React from 'react'
 import Seccion10 from '../Home/Seccion10'
 import Seccion11 from '../Home/Seccion11'
 import {
-BoxPrincipal,
-SubBoxLotes,
-BoxTituloLotes,
-BoxLotes,
-TituloDesarrollos,
-AjusteFotos,
-Lote,
-ContenedorFotoLotes,
-TituloFlips,
-SubtituloFlips,
-LinkFlip,
+  BoxPrincipal,
+  SubBoxLotes,
+  BoxTituloLotes,
+  BoxLotes,
+  TituloDesarrollos,
+  AjusteFotos,
+  Lote,
+  ContenedorFotoLotes,
+  TituloFlips,
+  SubtituloFlips,
+  LinkFlip,
 } from './Seccion1Elements'
+import ReactHoverFlip from 'react-hover-flip'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './Lotes/rotation.css';
 AOS.init();
 
 
 function Seccion1() {
+
+  const FrontLasVictorias 
+  = <> 
+    <ContenedorFotoLotes alt='fotoDesarrollo' 
+    src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715416/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_201_c7pyuc_m4icki.webp'/>
+  </>
+  const BackLasVictorias 
+  =<>
+    <div className='backHover'>
+    <TituloFlips>Las Victorias</TituloFlips>
+    <SubtituloFlips>Calle 492 entre 202 y 208</SubtituloFlips>
+    <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
+    src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/RENDER_LA_VICTORIA_2_-_Foto_2_tgiwqb_idt4tv.webp'/>   
+    </div>         
+  </>
+  
 
   return (
     <>
@@ -29,7 +48,30 @@ function Seccion1() {
             <TituloDesarrollos>Elegí la opción que mejor se adapte a vos</TituloDesarrollos>
          </BoxTituloLotes>
          <BoxLotes>
-           <AjusteFotos>
+
+         <AjusteFotos >
+            <ReactHoverFlip
+                front={FrontLasVictorias}
+                back={BackLasVictorias}
+                direction="horizontal"
+                className="FlipHover"
+                width={100}
+                height={100}
+              />
+
+              <ReactHoverFlip
+              style={{borderRight: 'solid 1px #E5E5E5'}}
+                front={FrontLasVictorias}
+                back={BackLasVictorias}
+                direction="horizontal"
+                className="FlipHover"
+                width={100}
+                height={100}
+                
+              />
+         </AjusteFotos>
+
+           {/* <AjusteFotos>
            <LinkFlip to='/Lasvictorias'>
               <Lote data-aos="flip-up " data-aos-duration="1000"  >
                 <div className='front' >
@@ -42,7 +84,8 @@ function Seccion1() {
                 </div>
               </Lote>
             </LinkFlip>
-            <LinkFlip to='/Eljuncal'>
+
+            <LinkFlip to='/Eljuncal' style={{borderRight: 'solid 1px #E5E5E5'}}>
               <Lote  data-aos="flip-up " data-aos-duration="1000" >
                 <div className='front'>
                   <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715458/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-01_sxqfl8_dsv6nf.webp'/>
@@ -54,7 +97,9 @@ function Seccion1() {
                 </div>
               </Lote>
             </LinkFlip>
+
            </AjusteFotos>
+
            <AjusteFotos>
            <LinkFlip to='/Latitud34'>
               <Lote data-aos="flip-up " data-aos-duration="1000" >
@@ -68,15 +113,15 @@ function Seccion1() {
                 </div>
               </Lote>
             </LinkFlip>  
-            <LinkFlip to='/Lacampina'>
+            <LinkFlip to='/Lacampina' style={{borderRight: 'solid 1px #E5E5E5'}}>
               <Lote data-aos="flip-up " data-aos-duration="1000" >
                 <div className='front'>
-                   <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715459/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-02_knbvxl_nmvbcd.png'/>
+                   <ContenedorFotoLotes  alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715459/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-02_knbvxl_nmvbcd.webp'/>
                 </div>
                 <div className='back'>
                  <TituloFlips>La Campiña</TituloFlips>
                  <SubtituloFlips>calle 229 entre 38 y 42</SubtituloFlips>
-                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715436/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi1_qxte9w_lopuuo.jpg'/>
+                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715436/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi1_qxte9w_lopuuo.webp'/>
                 </div>
               </Lote>
             </LinkFlip>  
@@ -85,42 +130,42 @@ function Seccion1() {
             <LinkFlip to='/Lasorianas'>
               <Lote data-aos="flip-up " data-aos-duration="1000" >
                 <div className='front'>
-                  <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715458/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-03_ddaifm_jgeowb.png'/>
+                  <ContenedorFotoLotes alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715458/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-03_ddaifm_jgeowb.webp'/>
                </div> 
                 <div className='back'>
                  <TituloFlips>Las Orianas</TituloFlips>
                  <SubtituloFlips>Calle 515 entre 168 y 170</SubtituloFlips>
-                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715428/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Intro-Card-Las-Orianas-Dorso_axmuf8_wtrnsj.jpg'/>
+                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715428/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Intro-Card-Las-Orianas-Dorso_axmuf8_wtrnsj.webp'/>
                 </div>
               </Lote>
             </LinkFlip>
-            <LinkFlip to='/Laescondida'>
+            <LinkFlip to='/Laescondida' style={{borderRight: 'solid 1px #E5E5E5'}}>
               <Lote data-aos="flip-up " data-aos-duration="1000"  >
                 <div className='front'>
-                  <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715487/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/dsadasdasd-1024x877_f59iqi_kg9flb.png'/>
+                  <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715487/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/dsadasdasd-1024x877_f59iqi_kg9flb.webp'/>
                 </div>  
                 <div className='back'>
                  <TituloFlips>La Escondida</TituloFlips>
                  <SubtituloFlips>Calle 84 entre 161 y 167</SubtituloFlips>
-                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715464/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Render05-1024x576_xfqrrc_hzwgp3.jpg'/>
+                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715464/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Render05-1024x576_xfqrrc_hzwgp3.webp'/>
                 </div>
               </Lote>
             </LinkFlip>  
            </AjusteFotos>
            <AjusteFotos style={{border:'0'}}>
-            <LinkFlip to=''>
+            <LinkFlip to='' style={{borderRight: 'solid 1px #E5E5E5'}}>
               <Lote data-aos="flip-up " data-aos-duration="1000" >
                 <div className='front'>
-                   <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715437/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Las-Catalinas_q5xlrv_wywhmh.png'/>
+                   <ContenedorFotoLotes className='front' alt='fotoDesarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715437/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Las-Catalinas_q5xlrv_wywhmh.webp'/>
                 </div>
                 <div className='back'>
                  <TituloFlips>PROXIMAMENTE</TituloFlips>
                  <SubtituloFlips>Ruta Provincial N°36 entre 425 y 428</SubtituloFlips>
-                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715491/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Fotos_9-Foto-1024x576_l2isyq_fjvmzv.jpg'/>
+                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715491/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Fotos_9-Foto-1024x576_l2isyq_fjvmzv.webp'/>
                 </div>
               </Lote>
             </LinkFlip>  
-            <LinkFlip to='/'>
+            <LinkFlip to='/' style={{borderRight: 'solid 1px #E5E5E5'}}>
               <Lote style={{display:'none'}}  data-aos="flip-up "  data-aos-duration="1000">
               <div className='front'>
  
@@ -129,7 +174,11 @@ function Seccion1() {
               </div>  
               </Lote>
             </LinkFlip>  
-           </AjusteFotos>
+           </AjusteFotos> */}
+
+
+
+
          </BoxLotes>
        </SubBoxLotes>
      </BoxPrincipal>

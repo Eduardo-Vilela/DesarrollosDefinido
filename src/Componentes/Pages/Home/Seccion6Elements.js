@@ -6,7 +6,7 @@ export const BoxPrincipal = styled.div`
   width: 100%;
   height: 100vh;
   background-color: #1D2142;
-    transition: background-color 3s ease;
+    transition: background-color 2s ease;
 
 
     
@@ -44,12 +44,12 @@ export const BoxSecundario = styled.div`
 
 `
 export const SlideTexto6 = styled.div`
-   width: 70%;
+   width: 62%;
    height: 100%;
-   padding-left: 175px;
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
+   text-align: left;
 
    @media (max-width: 480px) { 
     width: 86%;
@@ -101,13 +101,13 @@ export const Titulo6 = styled.h1`
    font-size: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
- font-size: 24px;
+ font-size: 20px;
 }
     
 `
 
 export const Parrafo6 = styled.p`
- font-size: 25px;
+ font-size: 20px;
  font-family: "Poppins";
  font-weight: 200;
  color: white;
@@ -119,7 +119,7 @@ export const Parrafo6 = styled.p`
  font-size: 15px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 14px;
+  font-size: 10px;
  }
 `
 export const ButtonSlideSeccion6 = styled.a`
@@ -179,61 +179,42 @@ export const BoxSwiperMobile = styled.div`
 
 export const ImagenSlideVacia = styled(Link)`
  width: 80%;
- height: 80vh;
+ height: 100%;
+ text-decoration: none !important;
+ font-family: 'Poppins';
+ font-size: 25px;
+ color: white;
+ outline: none !important;
  border-radius: 10px;
  border: solid 1px white;
  display: flex;
-    flex-direction: column;
-    justify-content: center;
+ flex-direction: column;
+ justify-content: center;
+
+&:hover{
+  color: rgb(130,171,41);
+}
+
 
  @media (max-width: 480px) { 
-  width:80% ;
-  height:55vh ;
-  margin: auto;
-
+  width:70% ;
+  height: 50vh;
+  font-size: 20px;
 }
 @media (max-width: 767px) { 
- width: 80% ;
- height: 55vh ;
- margin: auto;
+ width: 70% ;
+ height: 50vh;
+ font-size: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 80% ;
-  height: 75vh ;
-  margin: auto;
+
  }
 `
 
-export const Ajuste = styled.div`
-width: 100%;
-padding: 0px 0px 100px 0px;
-  .mySwiper2{
-       width: 100%;
-       padding-top:100px ;
-  .swiper-button-disabled{
-      background: transparent !important;
-    }
-    .swiper-slide{
-      width: 25% !important;
-      height: 90%;
-    }
-     .SlideParrafo{
-      width: 50% !important;
-     }
-  }
-  .mySwiper7{
-       width: 100%;
-       padding-top:100px ;
-  .swiper-button-disabled{
-      background: transparent !important;
-    }
-    .swiper-slide{
-      width: 25% !important;
-      height:90% ;
-    }
-     .SlideParrafo{
-      width: 50% !important;
-     }
-  }
-`
 
+
+export const ContenedorDesarrollos = styled.div`
+width: 100%;
+height: 100%;
+background-color: aqua;
+`

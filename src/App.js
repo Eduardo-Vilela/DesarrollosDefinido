@@ -13,8 +13,7 @@ import "rsuite/dist/rsuite.min.css";
 function App() {
   return (
     <>
-     <Rutas/>
-     
+    <Rutas/>
     </>
   );
 }

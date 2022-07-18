@@ -31,7 +31,7 @@ function Seccion6Eljuncal() {
                   <div>
                     <TituloDerecha>Servicios</TituloDerecha>
                   </div> 
-                  <div style={{width:'60%'}}>
+                  <div style={{width:'70%'}}>
                     <ParrafoDerecha>
                     Contará con los servicios de electricidad y agua potable, 
                     suministrado por reconocida empresa de la zona,
@@ -47,7 +47,7 @@ function Seccion6Eljuncal() {
                   </div>
                   <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
-                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/destello-1-1-1_xrlv3z.webp'/></span>Electricidad</ItemListaDerecha3>
+                        <ItemListaDerecha3 style={{borderTop: '1px solid #6464643B'}}><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/destello-1-1-1_xrlv3z.webp'/></span>Electricidad</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/difuminar-1-1_nd7w9v.webp'/></span>Agua Potable</ItemListaDerecha3>
                         <ItemListaDerecha3><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715466/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/road_1_qqkxci_e1cu4d.webp'/></span>Mejorado de calles</ItemListaDerecha3>
                     </ul>

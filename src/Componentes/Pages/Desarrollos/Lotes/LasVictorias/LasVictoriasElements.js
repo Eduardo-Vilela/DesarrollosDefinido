@@ -9,7 +9,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715428/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/inicio_victorias_g5j4k1_bvudwr.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715428/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/inicio_victorias_g5j4k1_bvudwr.webp);
 background-position: center !important;
 `
 export const BoxHomeJuncal = styled.div`
@@ -76,7 +76,7 @@ align-items: center;
 }
 `
 export const BoxTitulo = styled.div`
-width: 50%;
+width: 80%;
 height: 70vh;
 margin: auto;
 display: flex;
@@ -95,9 +95,13 @@ align-items: center;
     width: 90%;
     height: 50vh;
     margin: auto;
-    align-items: baseline;
+    align-items: center;
   }
 
+`
+
+export const BoxTituloJuncal = styled.div`
+  width: 100%;
 `
 
 export const LetrasLasVictorias = styled.img`
@@ -124,6 +128,7 @@ width: 400px;
 export const Box2 = styled.div`
 width: 100%;
 height: 100vh;
+
 
 @media (max-width: 480px) { 
   height: auto;
@@ -241,23 +246,30 @@ object-fit:cover;
     height: 50%;
 }
   @media (max-width: 767px) { 
+    width: 100%;
     height: 50%;
   }
 
 `
 export const Imagenslide = styled.img`
-width: 100%;
-height: 600px;
-border-radius: 10px;
+  width: 95% !important;
+  height: 564px !important;
+  object-fit: cover;
 
-@media (max-width: 480px) { 
+  border-radius: 10px;
 
-  height: 65%;
- }
- @media (max-width: 767px) { 
-
-  height: 65%;
- }
+  @media (max-width: 480px) { 
+    width: 95% !important;
+    height: 300px !important;
+  }
+  @media (max-width: 767px) { 
+    width: 95% !important;
+    height: 300px !important;
+  }
+  @media (max-width: 1700px) { 
+    width: 100%;
+    height: 453px;
+  }
 `
 export const Video1 = styled.video`
 width: 100%;
@@ -768,7 +780,7 @@ color: #1D2142;
 font-family: "Raleway", Sans-serif;
 font-size: 23px;
 font-weight: 600;
-line-height: 4em;
+padding: 20px 0px;
 
 @media (max-width: 480px) { 
   font-size: 16px;
@@ -787,7 +799,7 @@ padding: 10px 0px 10px 0px;
 color: grey;
 font-family: "Poppins", Sans-serif;
 font-size: 22px;
-font-weight: 400;
+font-weight: 300;
 line-height: 1em;
 
 @media (max-width: 480px) { 
@@ -809,7 +821,7 @@ line-height: 1em;
 
 export const BoxTarjeton = styled.div`
 
-width: 60%;
+width: 70%;
 height: 90px;
 border: 1px solid #E5E5E5;
 border-radius: 10px;
@@ -869,10 +881,10 @@ width: 100%;
 color: #1D2142;
 font-family: "Poppins", Sans-serif;
 font-size: 20px;
-font-weight: 400;
-line-height: 1.4em;
-
-padding-top: 30px;
+font-weight: 300;
+line-height: 1.2em;
+border-bottom: 1px solid #6464643B;
+padding: 25px 0px;
 
 
 @media (max-width: 480px) { 
@@ -891,7 +903,7 @@ padding-top: 30px;
 
 export const ButtonArmaTuPago = styled.button`
 font-family: "Mabry Pro", Sans-serif;
-font-size: 25px;
+font-size: 20px;
 font-weight: 300;
 line-height: 1em;
 letter-spacing: 0.2px;
@@ -936,7 +948,7 @@ height: 60vh;
  }
 `
 export const BoxAlto = styled.div`
-width: 80%;
+width: 81%;
 height: 30%;
 margin: auto;
 display: flex;
@@ -970,20 +982,21 @@ height: 50vh;
 /* el juncal */
 
 export const VideoSlideJuncal = styled.video`
-  width: 95%;
-object-fit: cover;
-border-radius: 10px;
+  width: 1000px;
+  border-radius: 10px;
 @media (max-width: 480px) { 
-width: 90%;
-eight: 100%;
+  width: 95%;
+    height: 300px !important;
+    object-fit: cover;
 }
 @media (max-width: 767px) { 
-  width:90%;
-height: 100%;
+  width: 95%;
+    height: 300px !important;
+    object-fit: cover;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
    width:90%;
-height: 100%;
+  height: 100%;
 }
 
 `
@@ -995,7 +1008,7 @@ export const NavItems = styled.div`
  font-weight: 600;
  color: #E0E0E0;
  margin-right: 30px;
- text-decoration: none;
+ text-decoration: none !important;
   .hover{
     &:hover{
       text-decoration: none !important;
@@ -1066,10 +1079,12 @@ export const SwiperFotosDesarrollos = styled(Swiper)`
 align-self: center;
 
 @media (max-width: 480px) { 
+  width: 85%;
   height: 100%;
   
 }
 @media (max-width: 767px) { 
+  width: 85%;
   height: 100%;
  }
 

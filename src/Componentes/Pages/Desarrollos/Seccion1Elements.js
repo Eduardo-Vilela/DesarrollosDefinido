@@ -3,7 +3,9 @@ import styled from 'styled-components'
 
 export const BoxPrincipal = styled.div`
 width: 100%;
-height: 2900px;
+align-items: center;
+display: flex;
+justify-content: center;
 margin-bottom: 200px;
 
 @media (max-width: 480px) { 
@@ -21,9 +23,7 @@ margin-bottom: 200px;
 `
 
 export const SubBoxLotes = styled.div`
-width: 80%;
-height: 2900px;
-margin: auto;
+width: 81%;
 padding-top: 180px;
 background: white;
 @media (max-width: 480px) { 
@@ -54,10 +54,9 @@ height:140px;
 }
 `
 export const BoxLotes = styled.div`
-width: 100%;
-height: 2650px;
-border: 1px solid #E5E5E5; 
-border-radius: 10px;
+  width: 100%;
+  border-top: 1px solid #E5E5E5; 
+  border-bottom: 1px solid #E5E5E5; 
 @media (max-width: 480px) { 
     width: 100%;
     height: auto;
@@ -72,9 +71,9 @@ border-radius: 10px;
   }
 `
 export const TituloDesarrollos = styled.p`
-font-size: 30px;
+font-size: 40px;
 font-family: Poppins;
-font-weight: 400;
+font-weight: 200;
 color: #808080;
 @media (max-width: 480px) { 
     font-size: 18px;
@@ -115,11 +114,11 @@ transform-style: preserve-3d;
 margin: auto;
 
    &:hover{
-   transform: rotateX(180deg);
+   transform: rotateY(180deg);
    }
    
   .back{
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
   }
 
    .front, .back{
@@ -155,7 +154,7 @@ margin: auto;
 
 `
 export const ContenedorFotoLotes = styled.img`
-width: 100%;
+width: 80%;
 border-radius: 10px;
 `
 

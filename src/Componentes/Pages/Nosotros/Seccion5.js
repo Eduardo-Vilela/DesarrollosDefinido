@@ -1,25 +1,27 @@
 import React from 'react'
 import { BoxIntermedio, BoxTexto, Parrafo3, Titulo3 } from '../Home/Seccion3Elements'
 import { Box2, BoxCards} from './Seccion3Elements'
-import {Valores, TituloValores , Parrafito,BoxPadre3,SubBoxPadre3,BoxValoresMobile, BoxSwiperValores,BoxTexto3,IconosValores } from './Seccion5Elements'
+import {Valores, TituloValores , Parrafito,BoxPadre3,SubBoxPadre3,BoxValoresMobile, BoxSwiperValores,BoxTexto3,IconosValores,BoxInterno } from './Seccion5Elements'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 
 function Seccion5() {
   return (
     <>
-     <BoxPadre3>
+     <BoxPadre3 data-aos="fade-up"  data-aos-duration="3000">
          <SubBoxPadre3>
            <BoxTexto>
             <BoxIntermedio>
-             <Titulo3 >Valores</Titulo3>
-             <Parrafo3 className='parrafo-seccion5-nosotros'>
-             En Delsud nos distinguimos por 
-              proporcionar a nuestros clientes una     
-              calidad de atención excepcional,    
-              ofreciendo servicios personalizados sobre         
-              la base de la confianza y la seriedad.
-             </Parrafo3>
+              <BoxInterno>
+                  <Titulo3 >Valores</Titulo3>
+                  <Parrafo3 className='parrafo-seccion5-nosotros'>
+                      En Delsud nos distinguimos por 
+                      proporcionar a nuestros clientes una     
+                      calidad de atención excepcional,    
+                      ofreciendo servicios personalizados sobre         
+                      la base de la confianza y la seriedad.
+                  </Parrafo3>
+              </BoxInterno>
              </BoxIntermedio> 
            </BoxTexto>
            <Box2>
@@ -30,7 +32,7 @@ function Seccion5() {
                   <Parrafito>Documentamos cada paso en tu proceso de compra para asegurarte de que estás llevando a cabo una compra segura.</Parrafito>
                  </Valores>
                  <Valores>
-                  <IconosValores  alt='valores' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715499/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_105_kglmjj_uyzxom.svg'/>
+                  <IconosValores  alt='valores' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715499/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_105_kglmjj_uyzxom.webp'/>
                   <TituloValores>Innovación</TituloValores>
                   <Parrafito>Somos un equipo joven, soñador, abierto a las nuevas ideas. Buscamos estar a la vanguardia en la creación y gestión de inmuebles.</Parrafito>
                  </Valores>
