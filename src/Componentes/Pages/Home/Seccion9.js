@@ -61,25 +61,25 @@ function Seccion9() {
                 loop={true}          
         >   
                 <SwiperSlide>
-                    <a href='https://www.eleditorplatense.com.ar/'><EmpresasLogo><img  style={{width:'100%'}} alt='eleditor' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648472287/EUGENIE/marcas/marca-4_fumybn_lexght.svg'/></EmpresasLogo></a>
+                    <a href='https://www.eleditorplatense.com.ar/'><EmpresasLogo><img  style={{width:'100%'}} alt='eleditor' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899646/marcas/marca-4_fumybn_lexght_e2sfsy_g9mekb.svg'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://elementalconstructora.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='elemental' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648061818/EUGENIE/marcas/marca-5_i2vi7q.svg'/></EmpresasLogo></a>
+                    <a href='https://elementalconstructora.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='elemental' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/marca-5_i2vi7q_orv4sh_iblfhz.svg'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://desarrollosdelsud.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='desarrollo' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648061827/EUGENIE/marcas/marca-6_izsi6k.svg'/></EmpresasLogo></a>
+                    <a href='https://desarrollosdelsud.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='desarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899645/marcas/marca-6_izsi6k_w4hhgm_jksv2b.svg'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://eugenie.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='eugenie' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648499301/EUGENIE/marcas/eugenie_zfirr3.svg'/></EmpresasLogo></a>
+                    <a href='https://eugenie.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='eugenie' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/eugenie_zfirr3_tse5uk_hphaqm.svg'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://www.trustfund.com.ar/'><EmpresasLogo><img style={{width:'100%'}} alt=' trust' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648472381/EUGENIE/marcas/marca-1_kjjq86_qtyhar.svg'/></EmpresasLogo></a>
+                    <a href='https://www.trustfund.com.ar/'><EmpresasLogo><img style={{width:'100%'}} alt=' trust' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899646/marcas/marca-1_kjjq86_qtyhar_y0vxpl_zjg4da.svg'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://blick.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='blick' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648473561/EUGENIE/marcas/blick-01_fowsgk.svg'/></EmpresasLogo></a>
+                    <a href='https://blick.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='blick' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899645/marcas/blick-01_fowsgk_yfqepc_pphaq9.svg'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://grava.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='grava' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1648061819/EUGENIE/marcas/marca-7_rpdjbu.svg'/></EmpresasLogo></a>
+                    <a href='https://grava.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='grava' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/marca-7_rpdjbu_sz1m3o_xopgqx.svg'/></EmpresasLogo></a>
                 </SwiperSlide>
         
         </SwiperEmpresas>

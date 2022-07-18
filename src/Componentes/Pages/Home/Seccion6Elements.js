@@ -26,7 +26,7 @@ export const BoxSecundario = styled.div`
     height: 100vh;
     margin: auto;
     display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
     @media (max-width: 480px) { 
       padding:0px;

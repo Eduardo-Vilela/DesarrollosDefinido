@@ -9,7 +9,9 @@ function LasVictorias() {
     <>
      <BoxHomeVictorias>
        <BoxTitulo>
-         <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_184_j7j7rc_fkyrds.webp'/>
+        <div style={{width:'60%'}}>
+        <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_184_j7j7rc_fkyrds.webp'/>
+        </div>
        </BoxTitulo>
        <BoxTitulo2>
 

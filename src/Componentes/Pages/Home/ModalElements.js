@@ -40,6 +40,7 @@ height: 100%;
 `
 export const InputModal  = styled.input`
 color: grey;
+width: 100%;
 border: 0;
 font-size: 18px;
 font-family: 'Poppins';

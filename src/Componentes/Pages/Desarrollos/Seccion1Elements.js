@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const BoxPrincipal = styled.div`
 width: 100%;
 height: 2900px;
-margin-bottom: 90px;
+margin-bottom: 200px;
 
 @media (max-width: 480px) { 
     width: 100%;
@@ -109,7 +109,8 @@ export const Lote = styled.div`
 width: 80%;
 height: 500px;
 padding: 20px;
-transition:all 0.6s ease;
+perspective: 1000px;
+transition:all 0.9s ease;
 transform-style: preserve-3d;
 margin: auto;
 
@@ -133,7 +134,7 @@ margin: auto;
      backface-visibility:hidden;
      display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-align: left;
    }
 
@@ -163,7 +164,7 @@ color: #1D2142;
 font-family: Poppins;
 font-size: 30px;
 font-weight: 600;
-line-height: 1em;
+line-height: 0.5em;
 `
 
 export const SubtituloFlips = styled.h3`
@@ -171,7 +172,6 @@ color: #AEAEAE;
 font-family: Poppins;
 font-size: 20px;
 font-weight: 300;
-line-height: 1.5em;
 `
 
 export const LinkFlip = styled(Link)`

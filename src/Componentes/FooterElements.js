@@ -74,7 +74,7 @@ import styled from "styled-components";
 
  export const Seccion4 = styled.div`
     padding: 20px 0px 20px 0px;
-    width: 83%;
+    width: 80%;
     margin: auto;
     display: flex;
     height: 100%;
@@ -170,7 +170,9 @@ import styled from "styled-components";
  line-height: 1.8em;
 text-decoration: none !important;
 &:hover{
-  color: #1D2142 !important;
+  border-bottom: 1px solid #1D2142;
+  text-decoration: #1D2142 !important;
+  color: #1D2142;
 }
 
 
@@ -195,6 +197,7 @@ text-decoration: none !important;
  width: 310px;
  border: 0 !important;
  border-bottom: 2px solid #1D2142 !important;
+ background-color: #FAFAFA;
 &:focus{
   outline: none !important;
 }

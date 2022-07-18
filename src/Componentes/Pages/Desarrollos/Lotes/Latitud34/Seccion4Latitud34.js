@@ -4,7 +4,7 @@ import { Box2,BoxUbicacion, SubBox2,BoxMaps, SubBoxUbicacion,Numero1,TituloDerec
 function Seccion4Latitud34() {
   return (
     <>
-     <Box2 >
+     <Box2 id='1-ubicacion' >
          <SubBox2>
              <BoxMaps>
                <ContenedorIframe>
@@ -16,7 +16,7 @@ function Seccion4Latitud34() {
              <BoxUbicacion>
                  <SubBoxUbicacion>
                   <div>
-                    <Numero1 id='1-ubicacion'>1.</Numero1>
+                    <Numero1 >1.</Numero1>
                   </div>  
                   <div>
                     <TituloDerecha>Ubicación</TituloDerecha>

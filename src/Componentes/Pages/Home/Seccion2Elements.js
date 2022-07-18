@@ -49,7 +49,8 @@ position: relative;
 `
 export const TarjetaVerde = styled.div`
 display: none;
-
+width: 100%;
+margin: auto;
 
 ${CardsBox}:hover & {
 
@@ -79,9 +80,9 @@ export const ContenidoVerde = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: baseline;
+align-items: flex-start;
 text-align: left;
-width: 65%;
+width: 85%;
 margin: auto;
 
 `

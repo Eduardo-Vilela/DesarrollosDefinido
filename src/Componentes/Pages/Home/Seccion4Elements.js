@@ -24,8 +24,8 @@ export const BoxPrincipal = styled.div`
    }
 `
 export const Box1 = styled.div`
-   padding: 30px;
-   width: 50%;
+   padding: 30px 0px 30px 0px;
+   width: 60%;
    text-align: end;
    @media (max-width: 480px) { 
       padding: 0px;  
@@ -40,10 +40,10 @@ export const Box1 = styled.div`
 
 `
 export const Box2 = styled.div`
-width: 50%;
+width: 45%;
    display: flex;
-   column-gap: 20px;
-   padding: 30px;  
+
+   padding: 30px 0px 30px 0px;
     
    .BordesRedondos{
       @media (max-width: 480px) { 

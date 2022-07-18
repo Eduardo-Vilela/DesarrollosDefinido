@@ -35,7 +35,7 @@ function Seccion2Lacampiña() {
                     </Parrafo>
                 </Separador>
                 <Separador>
-                <Button1> Me interesa → </Button1>
+                <Button1><a target="_blank" rel="noreferrer" href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'style={{textDecoration:'none',color:'white'}}>Me interesa → </a></Button1>
                 </Separador>
             </AjusteBox>    
          </BoxTitulo>

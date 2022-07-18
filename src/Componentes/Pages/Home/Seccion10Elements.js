@@ -17,6 +17,7 @@ margin: auto;
 align-items: center;
 display: flex;
 justify-content: center;
+align-items: baseline;
 
 
 @media (max-width: 480px) { 

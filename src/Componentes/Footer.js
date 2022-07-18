@@ -93,19 +93,19 @@ function Footer() {
             </Seccion1>
             <Seccion2>
                <TitulosFooter >CONTACTO</TitulosFooter>
-                <div >
+                <div  style={{marginBottom:'8px'}}>
                   <Redes target="_blank" href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>
                   <LogoRedes alt='whatsapp' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715425/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/icons8-whatsapp_cpftke_v1ms2v.svg'/>
                      WHATSAPP
                   </Redes>
                 </div>
-                 <div>
+                 <div style={{marginBottom:'8px'}}>
                   <Redes target="_blank" href='https://www.facebook.com/DesarrollosDelsud.LaPlata/' >
                   <LogoRedes alt='facebbok' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715424/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/icons8-facebook_zdanr8_keyoai.svg'/>
                     FACEBOOK
                   </Redes>
                 </div>
-                 <div  >
+                 <div style={{marginBottom:'8px'}} >
                    <Redes target="_blank" href='https://www.instagram.com/desarrollos.delsud/' >
                    <LogoRedes alt='instagram' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715424/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/icons8-instagram_kncmsb_hnxblb.svg'/>
                     INSTAGRAM

@@ -146,14 +146,14 @@ export const Button3 = styled(Link) `
     color: #b5b5b5 !important;
     font-family: "Poppins";
     font-size: 25px;
-    color: #767676 !important;
     text-decoration: none;
     font-weight: 500;
     line-height: 100px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-     &:hover{
-      color: #82AB29 ;
-     }
+   
+    &:hover{
+      color: rgb(130, 171, 41) !important;
+    }
     @media (max-width: 480px) { 
         font-size: 20px;
       }

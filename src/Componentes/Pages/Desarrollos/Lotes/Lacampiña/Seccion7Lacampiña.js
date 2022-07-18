@@ -30,7 +30,7 @@ function Seccion7Lacampiña() {
                   <div>
                     <TituloDerecha>Forma de pago</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'60%'}}>
                     <ParrafoDerecha>
                     Contamos con la posibilidad de ofrecer 
                     una financiación propia, bajo requisitos  

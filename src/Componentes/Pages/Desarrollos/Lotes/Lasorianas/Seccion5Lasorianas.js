@@ -29,12 +29,12 @@ function Seccion5Lasorianas() {
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'70%'}}>
                     <ParrafoDerecha>
-                    El Juncal cuenta con 437 terrenos de variadas medidas, <br/>
-                    conectados entre sí por calles internas, convirtiéndolo<br/>
-                     en el barrio ideal para llevar a cabo tu rutina diaria. <br/>
-                     Es una zona en constante evolución y desarrollo.<br/>
+                    El Juncal cuenta con 437 terrenos de variadas medidas, 
+                    conectados entre sí por calles internas, convirtiéndolo
+                     en el barrio ideal para llevar a cabo tu rutina diaria. 
+                     Es una zona en constante evolución y desarrollo.
                     </ParrafoDerecha>
                   </div>
                   <div>
@@ -42,7 +42,7 @@ function Seccion5Lasorianas() {
                   </div>
                   <BoxTarjeton>
                    <NumerosAzules>437</NumerosAzules>
-                   <TextoGris>Unidades</TextoGris>
+                   <TextoGris>unidades</TextoGris>
                    <TextoGris>/</TextoGris>
                    <TextoGris>desde</TextoGris>
                    <NumerosAzules>222m²</NumerosAzules>

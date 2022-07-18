@@ -76,6 +76,7 @@ function ModalInicio() {
             </BoxLogo>
             <BoxInputs>
                 <BoxForm onSubmit={handleSubmit(onSubmit)} >
+                  <div>
                 <InputModal 
                     placeholder='Nombre'
                     
@@ -93,6 +94,8 @@ function ModalInicio() {
                     {errors?.name?.type === "pattern" && (
                         <p className='text-danger'>Solo caracteres alfabéticos</p>
                       )}
+                      </div>
+                      <div>
                     <InputModal 
                     type="number"
                     onWheel={(e) => e.target.blur()}
@@ -106,6 +109,8 @@ function ModalInicio() {
                     })}
                     />
                     {errors.telefono && <p className='text-danger'>{errors.telefono.message}</p>}
+                    </div>
+                    <div>
                     <InputModal 
                     type="text"
                     placeholder='Email'
@@ -118,10 +123,11 @@ function ModalInicio() {
                     })}
                     />
                     {errors.email && <p className='text-danger'>{errors.email.message}</p>}
-                   <BoxButtonModal>
+                    </div>
+                    <BoxButtonModal>
                      <ButtonInput className='buttonModal'  type="submit" value="Enviar"/>
-                   </BoxButtonModal>  
-                </BoxForm>
+                   </BoxButtonModal> 
+                </BoxForm> 
              </BoxInputs>
           </Box2>
         </BoxPrincipal>

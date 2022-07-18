@@ -29,11 +29,11 @@ function Seccion5Laescondida() {
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'60%'}}>
                     <ParrafoDerecha>
-                    La Escondida ubicado sobre la calle 84 entre <br/>
-                    las calles 161 y 167, cuenta con un rápido <br/>
-                    acceso desde Av. 66 y Av. 167 o Av. 161.<br/>
+                    La Escondida ubicado sobre la calle 84 entre 
+                    las calles 161 y 167, cuenta con un rápido 
+                    acceso desde Av. 66 y Av. 167 o Av. 161.
                     </ParrafoDerecha>
                   </div>
                   <div>
@@ -41,7 +41,7 @@ function Seccion5Laescondida() {
                   </div>
                   <BoxTarjeton>
                    <NumerosAzules>148</NumerosAzules>
-                   <TextoGris>Unidades</TextoGris>
+                   <TextoGris>unidades</TextoGris>
                    <TextoGris>/</TextoGris>
                    <TextoGris>desde</TextoGris>
                    <NumerosAzules>251m²</NumerosAzules>

@@ -29,26 +29,23 @@ function Seccion6Lacampiña() {
                   <div>
                     <TituloDerecha>Servicios</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'60%'}}>
                     <ParrafoDerecha>
-                    Contará con los servicios de electricidad subterránea <br/>
-                    y agua potable; además de un cerco perimetral que rodea <br/>
+                    Contará con los servicios de electricidad subterránea  
+                    y agua potable; además de un cerco perimetral que rodea                
                     todo el desarrollo y portón automatizado para el ingreso y egreso.
-                    <br></br>
-                    <br>
-                    </br>
-                    Desde Desarrollos Delsud nos ocupamos del <br/>
-                    mejorado de las calles, cuyo final de obra <br/>
-                    cuenta con tosca y calcáreo.<br/>
+                    Desde Desarrollos Delsud nos ocupamos del 
+                    mejorado de las calles, cuyo final de obra
+                    cuenta con tosca y calcáreo.
                     </ParrafoDerecha>
                   </div>
                   <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/destello-1-1-1_xrlv3z.webp'/></span>Electricidad</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/difuminar-1-1_nd7w9v.webp'/></span>Agua Potable</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715466/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/road_1_qqkxci_e1cu4d.webp'/></span>Mejorado de calles</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715491/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Frame-4-1_isnljh_xnvdoc.webp'/></span>Portones de ingreso y egreso</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{margin:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715490/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Frame-3_rxikyf_hv4fp9.webp'/></span>Cerco perimetral</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/destello-1-1-1_xrlv3z.webp'/></span>Electricidad</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/difuminar-1-1_nd7w9v.webp'/></span>Agua Potable</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715466/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/road_1_qqkxci_e1cu4d.webp'/></span>Mejorado de calles</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715491/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Frame-4-1_isnljh_xnvdoc.webp'/></span>Portones de ingreso y egreso</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img className='icono4-lasvictorias' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715490/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Frame-3_rxikyf_hv4fp9.webp'/></span>Cerco perimetral</ItemListaDerecha3>
                     </ul>
                   </ContenedorLista>
                  </SubBoxUbicacion>

@@ -21,13 +21,13 @@ function Seccion4Eljuncal() {
                   <div>
                     <TituloDerecha>Ubicación</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'60%'}}>
                     <ParrafoDerecha>
-                    Se encuentra en una zona con cercanía a comercios y servicios,<br/> 
-                    y a sólo 20 minutos del centro de la ciudad de La Plata. Al ser<br/>
-                    una zona rodeada por la naturaleza es ideal para proyectar un<br/>
-                    en el cual poder disfrutar de un descanso de fin de <br/>
-                    semana, como también la rutina del día a día.<br/>
+                    Se encuentra en una zona con cercanía a comercios y servicios, 
+                    y a sólo 20 minutos del centro de la ciudad de La Plata. Al ser
+                    una zona rodeada por la naturaleza es ideal para proyectar un
+                    en el cual poder disfrutar de un descanso de fin de 
+                    semana, como también la rutina del día a día.
                     </ParrafoDerecha>
                   </div>
                   <div>

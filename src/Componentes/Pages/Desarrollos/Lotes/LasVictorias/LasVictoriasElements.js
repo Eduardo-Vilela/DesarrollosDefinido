@@ -134,7 +134,7 @@ height: 100vh;
 `
 
 export const SubBox = styled.div`
-width: 80%;
+width: 90%;
 height: 100vh;
 margin: auto;
 display: flex;
@@ -219,7 +219,7 @@ border-width: 2px ;
 border-color: #FFFFFF;
 border-radius: 30px ;
 padding: 12px 20px 13px 20px;
-
+cursor: pointer;
 
 @media (max-width: 480px) { 
     font-size: 12px;
@@ -232,7 +232,7 @@ padding: 12px 20px 13px 20px;
 }
 `
 export const Imagen1 = styled.img`
-width: 100%;
+width: 70%;
 height: 70%;
 border-radius: 10px;
 object-fit:cover;
@@ -626,8 +626,8 @@ height:100vh;
 margin: auto;
 align-items: center;
 display: flex;
+flex-direction: column;
 justify-content: center;
-padding-bottom: 50px;
 background-color: white;
 
 @media (max-width: 480px) { 
@@ -809,7 +809,7 @@ line-height: 1em;
 
 export const BoxTarjeton = styled.div`
 
-width: 75%;
+width: 60%;
 height: 90px;
 border: 1px solid #E5E5E5;
 border-radius: 10px;
@@ -995,6 +995,13 @@ export const NavItems = styled.div`
  font-weight: 600;
  color: #E0E0E0;
  margin-right: 30px;
+ text-decoration: none;
+  .hover{
+    &:hover{
+      text-decoration: none !important;
+      color: #1D2142 !important;
+    }
+  }
 
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size: 12px;
@@ -1020,7 +1027,7 @@ height: 100%;
 
 export const ContenedorLista = styled.div`
 width: 70%;
-padding-top: 80px;
+padding-top: 40px;
 @media (max-width: 480px) { 
   width: 100%;
   
@@ -1050,7 +1057,7 @@ flex-direction: row;
 background-color: white;
 position: absolute;
 top: 0;
-bottom: -50px;
+bottom: -60px;
 left: 0;
 right: 0;
 `

@@ -41,7 +41,7 @@ function Seccion5Victorias() {
                   </div>
                   <BoxTarjeton>
                    <NumerosAzules>72</NumerosAzules>
-                   <TextoGris>Unidades</TextoGris>
+                   <TextoGris>unidades</TextoGris>
                    <TextoGris>/</TextoGris>
                    <TextoGris>desde</TextoGris>
                    <NumerosAzules>251m²</NumerosAzules>

@@ -21,7 +21,7 @@ function Seccion4Lasorianas() {
                   <div>
                     <TituloDerecha>Ubicación</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'60%'}}>
                     <ParrafoDerecha>
                     Se encuentra en una zona con cercanía a comercios y servicios, 
                     y a sólo 20 minutos del centro de la ciudad de La Plata. Al ser

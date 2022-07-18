@@ -194,7 +194,7 @@ line-height: 1em;
 background-color: transparent;
 border: 1px solid white;
 border-radius: 30px 30px 30px 30px;
-padding: 15px;
+padding: 18px;
 
 @media (max-width: 480px) { 
   background-color: #82AB1B;

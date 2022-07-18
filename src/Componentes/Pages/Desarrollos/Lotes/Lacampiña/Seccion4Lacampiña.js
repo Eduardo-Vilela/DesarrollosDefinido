@@ -21,7 +21,7 @@ function Seccion4Lacampiña() {
                   <div>
                     <TituloDerecha>Ubicación</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'60%'}}>
                     <ParrafoDerecha>
                     Este nuevo lanzamiento está ubicado <br/>
                     en la localidad Ángel Etcheverry, <br/>

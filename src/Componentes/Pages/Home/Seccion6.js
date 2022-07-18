@@ -16,7 +16,8 @@ import {
    Ajuste
 } from './Seccion6Elements'
 
-import './Seccion11.css'
+import './SwiperSeccion6.css'
+import { Button3 } from "./Seccion3Elements";
 
 function Seccion6() {
       //navbar scroll when active state
@@ -62,9 +63,12 @@ function Seccion6() {
                             </ButtonSlideSeccion6>           
             </SlideTexto6>
           </Ajuste> */}
-          <Ajuste>
+          
 
-         <Swiper data-aos="fade-up" data-aos-duration="2000"
+
+
+
+         {/* <Swiper data-aos="fade-up" data-aos-duration="2000"
                 slidesPerView={1}
                 centeredSlides={false}
 
@@ -100,7 +104,7 @@ function Seccion6() {
                             adapte a tus necesidades.
                             </Parrafo6>
                             <ButtonSlideSeccion6>
-                            <Link to='/Desarrollos' style={{color: '#82AB29'}} className="boton-seccion5">Ver Desarrollos ➜ </Link>             
+                            <Button3 to='/Desarrollos'className="boton-seccion5">Ver Desarrollos ➜ </Button3>             
                             </ButtonSlideSeccion6>           
             </SlideTexto6>
               </SwiperSlide >
@@ -121,8 +125,55 @@ function Seccion6() {
                   <ImagenSlide alt="fotodesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715500/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_113_ft7wch_a6nj8k.jpg" />
                 </Link>
                 </SwiperSlide>
-            </Swiper>    
-          </Ajuste>
+            </Swiper>     */}
+            <Swiper
+        slidesPerView={"auto"}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Navigation]}
+        className="SwiperHome"
+      >
+           <SwiperSlide className="SlideParrafo">
+              <SlideTexto6 className='seccion5-flex'>
+                        <Titulo6 className='seccion5-Titulo'>
+                            Nuestros
+                            <br/>
+                            Desarrollos
+                        </Titulo6>
+                        <Parrafo6 className='seccion5-parrafo'>
+                            Comercializamos distintos desarrollos
+                            en diversas ubicaciones, con más
+                            de 800 terrenos disponibles para que
+                            encuentres el terreno que mejor se 
+                            adapte a tus necesidades.
+                            </Parrafo6>
+                            <ButtonSlideSeccion6>
+                            <Button3 to='/Desarrollos'className="boton-seccion5">Ver Desarrollos ➜ </Button3>             
+                            </ButtonSlideSeccion6>           
+            </SlideTexto6>
+              </SwiperSlide >
+                <SwiperSlide >
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_195_jklscp_byfhsh.png" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_194_qnrsio_m6iskz.png" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715504/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_191_x2r2ef_t88nz3.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_189_zo7ghe_ouxxhx.jpg" />
+                </SwiperSlide>
+                <SwiperSlide>
+                <Link to='/Desarrollos'>
+                  <ImagenSlide alt="fotodesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715500/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_113_ft7wch_a6nj8k.jpg" />
+                </Link>
+                </SwiperSlide>
+      </Swiper>
+
          </BoxSecundario>
      </BoxPrincipal>
 

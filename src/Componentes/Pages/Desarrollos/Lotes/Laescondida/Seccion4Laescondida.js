@@ -19,13 +19,13 @@ function Seccion4Laescondida() {
                   <div>
                     <TituloDerecha>Ubicación</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'60%'}}>
                     <ParrafoDerecha>
-                    La Escondida es un gran lugar para aquellos <br/>
-                    que buscan salir de la ciudad, y respirar aire puro, <br/>
-                    ideal para vivienda de fin de semana o permanente.<br/> 
-                    Se encuentra a tan solo veinte minutos <br/>
-                    del casco urbano, en la localidad de Los Hornos.<br/>
+                    La Escondida es un gran lugar para aquellos  
+                    que buscan salir de la ciudad, y respirar aire puro,   
+                    ideal para vivienda de fin de semana o permanente. 
+                    Se encuentra a tan solo veinte minutos 
+                    del casco urbano, en la localidad de Los Hornos.
                     </ParrafoDerecha>
                   </div>
                   <div>

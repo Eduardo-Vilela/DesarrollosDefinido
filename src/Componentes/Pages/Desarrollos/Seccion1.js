@@ -38,7 +38,7 @@ function Seccion1() {
                 <div className='back' >
                  <TituloFlips>Las Victorias</TituloFlips>
                  <SubtituloFlips>Calle 492 entre 202 y 208</SubtituloFlips>
-                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/RENDER_LA_VICTORIA_2_-_Foto_2_k9fr2h_fwvrqm.webp'/>
+                 <img alt='aaaa' style={{width: '100%', borderRadius:'10px'}} src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/RENDER_LA_VICTORIA_2_-_Foto_2_tgiwqb_idt4tv.webp'/>
                 </div>
               </Lote>
             </LinkFlip>
@@ -123,7 +123,7 @@ function Seccion1() {
             <LinkFlip to='/'>
               <Lote style={{display:'none'}}  data-aos="flip-up "  data-aos-duration="1000">
               <div className='front'>
-                {/* <ContenedorFotoLotes alt='fotoDesarrollo' src=''/> */}
+ 
               </div>
               <div className='back'>
               </div>  

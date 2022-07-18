@@ -2,16 +2,17 @@ import styled from 'styled-components'
 
 export const Valores = styled.div`
 width: 50%;
-height: 300px;
+height: 250px;
 margin-bottom: 10px;
 margin-right: 10px;
 border-radius: 10px;
 text-align: left;
 padding-left: 30px;
-padding-top: 30px;
 padding-right: 30px;
 background: #F6F6F6;
-
+display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
 @media (min-width: 768px) and (max-width: 1199px) { 

@@ -9,7 +9,9 @@ function LasVictorias() {
     <>
      <BoxHomeVictorias>
        <BoxTitulo>
+       <div style={{width:'60%'}}>
          <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src=''/>
+         </div>
        </BoxTitulo>
        <BoxTitulo2>
 

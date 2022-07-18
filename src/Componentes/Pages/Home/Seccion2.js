@@ -28,7 +28,7 @@ return (
             <TarjetaVerde>
                         <Card style={{ width: 'auto', height:'100%',border:'0' }} >
                             <ContenidoVerde >
-                            <LogoVerde style={{paddingBottom:'20px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-5_epscre_x68fqz.webp" />
+                            <LogoVerde style={{paddingBottom:'10px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-5_epscre_x68fqz.webp" />
                                 <Card.Subtitle style={{background: 'white',color:'#767676'}} >
                                 Financiá tu terreno
                                 en cuotas fijas en pesos o 
@@ -50,7 +50,7 @@ return (
             <TarjetaVerde>
                 <Card style={{width: 'auto', height:'100%',border:'0' }}>
                     <ContenidoVerde >
-                    <LogoVerde style={{paddingBottom:'20px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-2-1_naohwr_dilydi.webp" />
+                    <LogoVerde style={{paddingBottom:'15px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-2-1_naohwr_dilydi.webp" />
                         <Card.Subtitle  style={{background: 'white',color:'#767676'}}>
                         Armá tu propio plan de 
                         financiación a medida, 
@@ -64,13 +64,13 @@ return (
             </CardsBox>
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
             <Card.Body >
-            <img   alt='aaa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715418/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/018-bank-check-1_jnjhh6_tb6n1y.webp' />
+            <img width='80'  alt='aaa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715418/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/018-bank-check-1_jnjhh6_tb6n1y.webp' />
             <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}  >Accedé sólo <br/> con DNI</Card.Title>              
             </Card.Body>
             <TarjetaVerde >
                 <Card style={{width: 'auto', height:'100%',border:'0' }}>
                     <ContenidoVerde >
-                    <img alt='65651' width='50' height='50' style={{background: 'white' , marginBottom:'20px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-28_bouhbg_hykndw.webp" />
+                    <img alt='65651' style={{background: 'white' , marginBottom:'20px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-28_bouhbg_hykndw.webp" />
                         <Card.Subtitle  style={{background: 'white',color:'#767676'}}>
                             Podés acceder a
                             tu propio terreno 

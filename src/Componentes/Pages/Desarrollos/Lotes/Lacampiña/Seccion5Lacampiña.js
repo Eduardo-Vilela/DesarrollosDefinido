@@ -29,11 +29,11 @@ function Seccion5Lacampiña() {
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>
                   </div> 
-                  <div>
+                  <div style={{width:'60%'}}>
                     <ParrafoDerecha>
-                    La Campiña cuenta con 168 desarrollos de variadas<br/>
-                     medidas, que llegan hasta los 450 m², conectados <br/>
-                     entre sí por calles internas.<br/>
+                    La Campiña cuenta con 168 desarrollos de variadas
+                     medidas, que llegan hasta los 450 m², conectados 
+                     entre sí por calles internas.
                     </ParrafoDerecha>
                   </div>
                   <div>
@@ -41,7 +41,7 @@ function Seccion5Lacampiña() {
                   </div>
                   <BoxTarjeton>
                    <NumerosAzules>168</NumerosAzules>
-                   <TextoGris>Unidades</TextoGris>
+                   <TextoGris>unidades</TextoGris>
                    <TextoGris>/</TextoGris>
                    <TextoGris>desde</TextoGris>
                    <NumerosAzules>280m²</NumerosAzules>

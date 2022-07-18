@@ -124,7 +124,7 @@ function Seccion1() {
                           )}
                           </div>   
                           <div style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'flex-start'}}>
-                          <Button style={{border:'1px solid white'}} className='buttonModal'  type="submit" value="Enviar →"/>
+                          <Button style={{border:'1px solid white'}} className='buttonModal'  type="submit" value="Enviar ➜"/>
                           </div>
                   </BoxFormContacto>
              </Box2>
