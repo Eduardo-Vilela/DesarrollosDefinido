@@ -29,16 +29,22 @@ justify-content: center;
 export const Box2 = styled.div`
 width: 50%;
 display: flex;
-flex-direction: column;
-justify-content: space-evenly;
+flex-direction: row;
+justify-content: center;
 `
 export const BoxForm = styled.form`
 display: flex;
 flex-direction: column;
-justify-content: space-evenly;
+justify-content: center;
+row-gap: 50px;
 height: 100%;
+
+@media (max-width: 767px) { 
+      row-gap: 20px;
+     }
 `
 export const InputModal  = styled.input`
+height: 45px;
 color: grey;
 width: 100%;
 border: 0;
@@ -59,11 +65,11 @@ border-bottom: 2px solid grey;
 export const LogoModal = styled.img`
 width: 100px;
 height: 35px;
-
+/* 
     @media (max-width: 767px) { 
     width: 80px;
     height: 30px;
-     }
+     } */
 `
 
 export const BoxLogo = styled.div`
@@ -77,8 +83,6 @@ align-items: end;
 
 export const BoxInputs = styled.div`
 width: 80%;
-height: 80%;
-margin: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;

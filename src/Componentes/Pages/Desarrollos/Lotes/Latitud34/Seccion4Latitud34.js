@@ -34,9 +34,7 @@ function Seccion4Latitud34() {
                   </div>
                   <div>
                     <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
-                  <div>
-                    <ul>
+                    <ul style={{paddingLeft: '22px'}}>
                         <ItemListaDerecha  >Colegios</ItemListaDerecha>
                         <ItemListaDerecha  >Comercios</ItemListaDerecha>
                         <ItemListaDerecha  >Gastronomía</ItemListaDerecha>

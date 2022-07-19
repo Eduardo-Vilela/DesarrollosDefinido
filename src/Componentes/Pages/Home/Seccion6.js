@@ -23,8 +23,8 @@ function Seccion6() {
       const [color, setColor] = useState(false)
   
       //navbar scroll changeBackground function
-      const changeBackground = () => {
-        if (window.scrollY = 2000) {
+      const changeBackgroundNuestros = () => {
+        if (window.scrollY >= 2000) {
           setColor(true)
           
         } else {
@@ -33,9 +33,9 @@ function Seccion6() {
       }
   
       useEffect(() => {
-        changeBackground()
+        changeBackgroundNuestros()
         // adding the event when scroll change background
-        window.addEventListener("scroll", changeBackground)
+        window.addEventListener("scroll", changeBackgroundNuestros)
       })
 
 
@@ -47,7 +47,7 @@ function Seccion6() {
          <BoxSecundario >
             <Swiper 
             slidesPerView={"auto"}
-            spaceBetween={20}
+            spaceBetween={0}
             pagination={{
               clickable: true,
             }}
@@ -55,7 +55,7 @@ function Seccion6() {
             modules={[Navigation]}
             className="SwiperHome"
           >
-           <SwiperSlide >
+           <SwiperSlide>
               <SlideTexto6 >
                         <Titulo6 >
                             Nuestros

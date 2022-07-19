@@ -40,8 +40,8 @@ function Seccion7Latitud34() {
                     </ParrafoDerecha>
                   </div>
 
-                  <div style={{paddingTop:'80px'}}>
-                  <ButtonArmaTuPago href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos  → </ButtonArmaTuPago>
+                  <div>
+                    <ButtonArmaTuPago href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos  → </ButtonArmaTuPago>
                   </div>
                  </SubBoxUbicacion>
              </BoxUbicacion>

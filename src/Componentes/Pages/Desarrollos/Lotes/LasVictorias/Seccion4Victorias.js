@@ -24,24 +24,22 @@ function Seccion4Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Las Victorias se encuentra ubicado <br/>
-                    en la calle 492 e/ 202 y 208 de la <br/>
-                    Localidad de Abasto en el partido de <br/>
-                    La Plata, posee una privilegiada conexión <br/>
-                    con la R.P. N° 36, permitiendo un acceso <br/>
-                    fácil y rápido tanto al casco urbano de la <br/>
-                    ciudad de La Plata, como a CABA.<br/>
+                    Las Victorias se encuentra ubicado
+                    en la calle 492 e/ 202 y 208 de la
+                    Localidad de Abasto en el partido de 
+                    La Plata, posee una privilegiada conexión 
+                    con la R.P. N° 36, permitiendo un acceso
+                    fácil y rápido tanto al casco urbano de la 
+                    ciudad de La Plata, como a CABA.
                     </ParrafoDerecha>
                   </div>
                   <div>
                     <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
-                  <div>
-                    <ul>
-                        <ItemListaDerecha  >Colegios</ItemListaDerecha>
-                        <ItemListaDerecha  >Comercios</ItemListaDerecha>
-                        <ItemListaDerecha  >Entidades Bancarias</ItemListaDerecha>
-                        <ItemListaDerecha  >Avenidas y Rutas cercanas</ItemListaDerecha>
+                    <ul style={{paddingLeft: '22px'}}>
+                        <ItemListaDerecha>Colegios</ItemListaDerecha>
+                        <ItemListaDerecha>Comercios</ItemListaDerecha>
+                        <ItemListaDerecha>Entidades Bancarias</ItemListaDerecha>
+                        <ItemListaDerecha>Avenidas y Rutas cercanas</ItemListaDerecha>
                     </ul>
                   </div>
                  </SubBoxUbicacion>

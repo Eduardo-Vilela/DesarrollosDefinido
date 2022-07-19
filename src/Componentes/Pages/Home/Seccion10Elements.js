@@ -7,6 +7,10 @@ import styled from "styled-components";
  background-size: contain;
  background-repeat: no-repeat;
  background-position: bottom;
+
+ @media (max-width: 767px) { 
+    height: 50px;
+   }
  `
 
 export const SubBox = styled.div`

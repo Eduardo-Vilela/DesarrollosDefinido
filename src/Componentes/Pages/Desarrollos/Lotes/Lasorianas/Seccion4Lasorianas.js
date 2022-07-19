@@ -8,9 +8,9 @@ function Seccion4Lasorianas() {
          <SubBox2>
              <BoxMaps>
                <ContenedorIframe>
-             <iframe className='ajusteMobileIframe' title='mapa' src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.94496460627%2C-58.05325918310052&z=19" 
-                style={{width:'100%',height:'100%'}}
-                />
+                  <iframe className='ajusteMobileIframe' title='mapa' src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.94496460627%2C-58.05325918310052&z=19" 
+                  style={{width:'100%',height:'100%'}}
+                  />
                 </ContenedorIframe>
              </BoxMaps>
              <BoxUbicacion>
@@ -32,9 +32,7 @@ function Seccion4Lasorianas() {
                   </div>
                   <div>
                     <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
-                  <div>
-                    <ul>
+                    <ul style={{paddingLeft: '22px'}}>
                         <ItemListaDerecha  >Colegios</ItemListaDerecha>
                         <ItemListaDerecha  >Comercios</ItemListaDerecha>
                         <ItemListaDerecha  >Entidades Bancarias</ItemListaDerecha>

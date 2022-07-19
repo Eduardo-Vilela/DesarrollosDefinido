@@ -32,8 +32,6 @@ function Seccion4Eljuncal() {
                   </div>
                   <div>
                     <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
-                  <div>
                     <ul style={{paddingLeft: '22px'}}>
                         <ItemListaDerecha  >Colegios</ItemListaDerecha>
                         <ItemListaDerecha  >Comercios</ItemListaDerecha>

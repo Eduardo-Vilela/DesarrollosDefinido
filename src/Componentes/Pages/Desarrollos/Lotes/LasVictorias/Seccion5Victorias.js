@@ -36,9 +36,6 @@ function Seccion5Victorias() {
                     y verde para que cambies tu estilo de vida.<br/> 
                     </ParrafoDerecha>
                   </div>
-                  <div>
-                    <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
                   <BoxTarjeton>
                    <NumerosAzules>72</NumerosAzules>
                    <TextoGris>unidades</TextoGris>

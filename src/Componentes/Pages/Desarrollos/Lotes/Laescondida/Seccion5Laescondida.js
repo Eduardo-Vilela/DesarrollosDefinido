@@ -36,9 +36,6 @@ function Seccion5Laescondida() {
                     acceso desde Av. 66 y Av. 167 o Av. 161.
                     </ParrafoDerecha>
                   </div>
-                  <div>
-                    <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
                   <BoxTarjeton>
                    <NumerosAzules>148</NumerosAzules>
                    <TextoGris>unidades</TextoGris>

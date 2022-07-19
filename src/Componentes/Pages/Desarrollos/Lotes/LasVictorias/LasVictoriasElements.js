@@ -84,17 +84,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
-
-@media (max-width: 480px) { 
-    width: 90%;
-    height: 50vh;
-    margin: auto;
-    align-items: baseline;
-  }
   @media (max-width: 767px) { 
     width: 90%;
-    height: 50vh;
-    margin: auto;
+    height: auto;
     align-items: center;
   }
 
@@ -107,16 +99,9 @@ export const BoxTituloJuncal = styled.div`
 export const LetrasLasVictorias = styled.img`
 width: 400px;
 
-
-@media (max-width: 480px) { 
-    width: 50%;
-    height: auto;
-    margin-left: 37px;
-  }
   @media (max-width: 767px) { 
     width: 50%;
     height: auto;
-    margin-left: 37px;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
   width: 300px;
@@ -146,11 +131,8 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 
-@media (max-width: 480px) { 
-    flex-direction: column;
-    padding: 40px 0px 20px 0px;
-  }
   @media (max-width: 767px) { 
+    height: auto;
     flex-direction: column;
     padding: 40px 0px 20px 0px;
   }
@@ -180,13 +162,9 @@ color: #1D2142;
 font-weight: 600;
 line-height: 1.3em;
 
-@media (max-width: 480px) { 
-    font-size: 20px;
-    line-height: 1.4em;
-  }
   @media (max-width: 767px) { 
-    font-size: 20px;
-    line-height: 1.4em;
+    font-size: 26px;
+    line-height: 1.3em;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
   font-size: 30px;
@@ -197,13 +175,10 @@ export const Parrafo = styled.p`
  color: #646464;
  font-family: "Poppins", Sans-serif;
  font-size: 22px;
- font-weight: 200;
+ font-weight: 300;
 
- @media (max-width: 480px) { 
-    font-size: 12px;
-  }
   @media (max-width: 767px) { 
-    font-size: 12px;
+    font-size: 16px;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
   font-size: 16px;
@@ -211,7 +186,7 @@ export const Parrafo = styled.p`
 
 `
 export const Button1 = styled.button`
-font-family: "Mabry Pro", Sans-serif;
+font-family: 'Mabry Pro', Sans-serif;
 font-size: 20px;
 font-weight: 300;
 line-height: 1em;
@@ -226,13 +201,12 @@ border-radius: 30px ;
 padding: 12px 20px 13px 20px;
 cursor: pointer;
 
-@media (max-width: 480px) { 
-    font-size: 12px;
-  }
-  @media (max-width: 767px) { 
-    font-size: 12px;
-  }
-  @media (min-width: 768px) and (max-width: 1199px) { 
+@media (max-width: 767px) { 
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
   font-size: 16px;
 }
 `
@@ -242,12 +216,9 @@ height: 70%;
 border-radius: 10px;
 object-fit:cover;
 
-@media (max-width: 480px) { 
-    height: 50%;
-}
   @media (max-width: 767px) { 
     width: 100%;
-    height: 50%;
+    height: 250px;
   }
 
 `
@@ -288,15 +259,14 @@ border-radius: 10px !important;
 
 `
 export const Separador = styled.div`
-margin-bottom: 2px;
-padding-top: 20px;
+margin-bottom: 20px;
 `
 
 /*SECCION3*/
 
 export const Box3 = styled.div`
 width: 100%;
-height: 5vh;
+height: 80px;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -335,7 +305,8 @@ justify-content: center;
 
 export const BoxMaps = styled.div`
 width: 45%;
-height:100vh;
+height: 107vh;
+margin-top: -50px;
 background-attachment: fixed;
 
 @media (max-width: 480px) { 
@@ -642,15 +613,11 @@ flex-direction: column;
 justify-content: center;
 background-color: white;
 
-@media (max-width: 480px) { 
-  width: 100%;
-  height:50%;
-  z-index: 99;
-}
 @media (max-width: 767px) { 
   width: 100%;
-  height:50%;
+  height: auto;
   z-index: 99;
+  padding: 50px 0px;
  }
 
  @media (min-width: 768px) and (max-width: 1199px) { 
@@ -664,6 +631,11 @@ display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 align-items: flex-start;
+row-gap: 40px;
+
+@media (max-width: 767px) { 
+  row-gap: 20px;
+ }
 `
 
 export const Numero1 = styled.h2`
@@ -671,26 +643,21 @@ font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
 color: #ADADAD;
-padding: 30px 0px;
 
 @media (max-width: 480px) { 
   font-size: 30px;
-  padding: 25px 0px;
 }
 @media (max-width: 767px) { 
   font-size: 30px;
-  padding: 25px 0px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:35px;
-  padding: 0;
 }
 `
 export const Numero2 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
-padding: 50px 0px;
 color: #ADADAD;
 @media (max-width: 480px) { 
   font-size: 30px;
@@ -707,7 +674,6 @@ export const Numero3 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
-padding: 50px 0px;
 color: #ADADAD;
 @media (max-width: 480px) { 
   font-size: 30px;
@@ -727,7 +693,6 @@ export const Numero4 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
-padding: 50px 0px;
 color: #ADADAD;
 @media (max-width: 480px) { 
   font-size: 30px;
@@ -745,7 +710,7 @@ color: #1D2142;
 font-family: "Raleway", Sans-serif;
 font-size: 35px;
 font-weight: 600;
-line-height: 2em;
+line-height: 1.3em;
 
 @media (max-width: 480px) { 
   font-size: 19px;
@@ -762,17 +727,14 @@ export const ParrafoDerecha = styled.p`
 text-align: left;
 font-family: "Poppins", Sans-serif;
 font-size: 22px;
-font-weight: 200;
+font-weight: 300;
 line-height: 1.25em;
 
-@media (max-width: 480px) { 
-  font-size: 15px;
-}
 @media (max-width: 767px) { 
-  font-size: 15px;
+  font-size: 16px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:15px;
+  font-size: 16px;
 }
 `
 export const SubtituloDerecha = styled.h4`
@@ -780,7 +742,6 @@ color: #1D2142;
 font-family: "Raleway", Sans-serif;
 font-size: 23px;
 font-weight: 600;
-padding: 20px 0px;
 
 @media (max-width: 480px) { 
   font-size: 16px;
@@ -802,16 +763,11 @@ font-size: 22px;
 font-weight: 300;
 line-height: 1em;
 
-@media (max-width: 480px) { 
-  font-size: 12px;
-  margin: 10px 0px 10px 0px;
-}
 @media (max-width: 767px) { 
-  font-size: 12px;
-  margin: 10px 0px 10px 0px;
- }
+  font-size: 16px;
+}
  @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:14px;
+  font-size: 16px;
   margin: 0px;
   padding: 5px;
 }
@@ -884,17 +840,17 @@ font-size: 20px;
 font-weight: 300;
 line-height: 1.2em;
 border-bottom: 1px solid #6464643B;
-padding: 25px 0px;
+padding: 20px 0px;
 
 
 @media (max-width: 480px) { 
-  font-size: 10px;
+  font-size: 14px;
 }
 @media (max-width: 767px) { 
-  font-size: 10px;
+  font-size: 14px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:12px;
+  font-size:14px;
   padding-top: 17px;
 }
 `
@@ -1040,7 +996,6 @@ height: 100%;
 
 export const ContenedorLista = styled.div`
 width: 70%;
-padding-top: 40px;
 @media (max-width: 480px) { 
   width: 100%;
   
@@ -1068,11 +1023,6 @@ width: 100%;
 display: flex;
 flex-direction: row;
 background-color: white;
-position: absolute;
-top: 0;
-bottom: -60px;
-left: 0;
-right: 0;
 `
 
 export const SwiperFotosDesarrollos = styled(Swiper)`

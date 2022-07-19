@@ -79,6 +79,10 @@ export const BoxHome = styled.div`
   `
 export const ContainerTittle = styled.div`  
   width: 65%;
+
+  @media (max-width: 768px) { 
+    width: 100%;
+  }
 `
 
   export const TituloPrincipal = styled.h1`

@@ -11,10 +11,12 @@ margin-bottom: 200px;
 @media (max-width: 480px) { 
     width: 100%;
     height: auto;
+    margin-bottom: 0px;
   }
   @media (max-width: 767px) { 
     width: 100%;
     height: auto;
+    margin-bottom: 0px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
     width: 100%;
@@ -27,7 +29,7 @@ width: 81%;
 padding-top: 180px;
 background: white;
 @media (max-width: 480px) { 
-    
+    padding-top: 120px;
     height: auto;
   }
   @media (max-width: 767px) { 
@@ -161,9 +163,13 @@ border-radius: 10px;
 export const TituloFlips = styled.h2`
 color: #1D2142;
 font-family: Poppins;
-font-size: 30px;
+font-size: 24px;
 font-weight: 600;
 line-height: 0.5em;
+@media (max-width: 767px) { 
+    font-size: 18px;
+    line-height: 1.2em;
+  }
 `
 
 export const SubtituloFlips = styled.h3`
@@ -171,18 +177,12 @@ color: #AEAEAE;
 font-family: Poppins;
 font-size: 20px;
 font-weight: 300;
+  @media (max-width: 767px) { 
+    font-size: 14px;
+    line-height: 1.4em;
+  }
 `
 
 export const LinkFlip = styled(Link)`
-width: 50%;
-border-left: solid 1px #E5E5E5;
-@media (max-width: 480px) { 
-  width:85%;
-  border: 0;
-}
-@media (max-width: 767px) { 
-  width:85%;
-  border: 0;
- }
 
 `

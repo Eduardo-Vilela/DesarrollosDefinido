@@ -3,21 +3,18 @@ import styled from "styled-components";
 
 export const BoxPrincipal8 = styled.div`
  width: 100%;
- height: 100vh;
 
- @media (min-width: 768px) and (max-width: 1199px) { 
- height: 800px;
+ @media (max-width: 767px) { 
+  padding: 25px 0px;
  }
 `
 
 export const BoxSecundario8 =styled.div`
 width: 81% ;
-height: 100vh;
 margin: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
-position: relative;
 
 @media (max-width: 480px) { 
   width: 88% ;
@@ -25,9 +22,7 @@ position: relative;
 @media (max-width: 767px) { 
   width: 88% ;
  }
-@media (min-width: 768px) and (max-width: 1199px) { 
- height: 800px;
- }
+
 `
 export const Boxhijo1 = styled.div`
 width: 100%;
@@ -35,8 +30,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 background-color: white;
-position: absolute;
-top: 70px;
+z-index: 3;
 
 @media (max-width: 480px) { 
   flex-direction: column;
@@ -50,7 +44,10 @@ top: 70px;
 `
 
 export const Boxhijo2 = styled.div`
-width: 100%;
+margin-top: -47px;
+  width: 99%;
+  display: flex;
+  align-items: center;
 `
 
 export const SubBoxLogoMaps = styled.div`
@@ -109,11 +106,13 @@ export const ImagenMaps = styled.img`
   height: 23px;
   align-items: center;
   @media (max-width: 480px) { 
-    width: 3%;
+    width: 4%;
+    height: 20px;
     padding:0;
   }
   @media (max-width: 767px) { 
-    width: 3%;
+    width: 4%;
     padding:0;
+    height: 20px;
    }
 `

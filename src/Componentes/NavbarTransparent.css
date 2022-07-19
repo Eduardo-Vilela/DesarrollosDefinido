@@ -30,6 +30,7 @@
 .navbar77{
     border-bottom: 1px white solid;
     width: 100%;
+    background-color: transparent;
 }
 .navbar77 a{    
     color: white !important;

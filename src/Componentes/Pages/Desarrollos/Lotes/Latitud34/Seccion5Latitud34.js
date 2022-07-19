@@ -38,9 +38,6 @@ function Seccion5Latitud34() {
                         una vida en tranquilidad. <br/>
                     </ParrafoDerecha>
                   </div>
-                  <div>
-                    <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
                   <BoxTarjeton>
                    <NumerosAzules>122</NumerosAzules>
                    <TextoGris>unidades</TextoGris>

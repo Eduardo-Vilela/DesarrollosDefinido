@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const BoxCardsDesarrollos = styled.div`
 width: 100%;
 height:50vh;
-display: flex;
 padding-top: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
 
 
 @media (max-width: 480px) { 
@@ -20,8 +22,6 @@ padding-top: 90px;
 
 export const BoxCards2 = styled.div`
 width:80%;
-height: auto;
-margin: auto;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -29,11 +29,11 @@ border: solid 1px #dadadaba;
 border-radius: 10px;
 
 @media (max-width: 480px) { 
-    height: 60vh;
+    height: auto;
     width: 100%;
   }
   @media (max-width: 767px) { 
-    height: 60vh;
+    height: auto;
     width: 100%;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
@@ -69,12 +69,9 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
 border-right: 1px solid #dadada40;
-    @media (max-width: 480px) { 
-        border: 0px;
-        width: 100%;
-        border-bottom: 1px solid #dadada40 !important;
-      }
+
       @media (max-width: 767px) { 
+        height: 150px;
         border: 0px;
         width: 100%;
         border-bottom: 1px solid #dadada40 !important;

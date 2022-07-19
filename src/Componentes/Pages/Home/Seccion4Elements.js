@@ -64,13 +64,13 @@ export const Box2 = styled.div`
    @media (max-width: 480px) { 
       justify-content: center;
       padding: 0;
-      width: 70%;
+      width: 100%;
       column-gap: 10px;
     }
     @media (max-width: 767px) { 
       justify-content: center;
       padding: 0;
-      width: 70%;
+      width: 100%;
       column-gap: 10px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
@@ -113,4 +113,9 @@ export const BoxContent = styled.div`
    display: flex;
    flex-direction: row;
    justify-content: center;
+
+   @media (max-width: 767px) { 
+      width: 100%;
+      flex-direction: column;
+   }
 `

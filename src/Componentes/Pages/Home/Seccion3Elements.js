@@ -52,13 +52,10 @@ export const BoxTexto = styled.div`
 
     @media (max-width: 480px) { 
         width: 100%;
-        height: 80%;
-      
     }
     @media (max-width: 767px) { 
         width: 100%;
-      
-        height: 80%;
+        height: 400px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
@@ -129,13 +126,13 @@ export const Parrafo3 = styled.p `
     line-height: 1.3em;
 
     @media (max-width: 480px) { 
-        font-size: 12px;
+        font-size: 18px;
       }
       @media (max-width: 767px) { 
-        font-size: 15px;
+        font-size: 18px;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
-         font-size: 14px;
+         font-size: 18px;
          
        }
        @media (min-width: 1025px) and (max-width: 1280px) {
@@ -146,6 +143,7 @@ export const Button3 = styled(Link) `
     color: #b5b5b5 !important;
     font-family: "Poppins";
     font-size: 25px;
+    line-height: 1.3em;
     text-decoration: none;
     font-weight: 500;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
@@ -154,10 +152,12 @@ export const Button3 = styled(Link) `
       color: rgb(130, 171, 41) !important;
     }
     @media (max-width: 480px) { 
-        font-size: 20px;
+        font-size: 18px;
+        line-height: 2em;
       }
       @media (max-width: 767px) { 
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 2em;
        }
        @media (min-width: 768px) and (max-width: 1199px) { 
          font-size:20px;
@@ -169,11 +169,11 @@ text-align: left;
 
 
 @media (max-width: 480px) { 
-  width: 90%;
+  width: 100%;
   padding: 0;
 }
 @media (max-width: 767px) { 
-  width: 90%;
+  width: 100%;
   padding: 0;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
@@ -184,5 +184,11 @@ text-align: left;
 `
 
 export const BoxInterior = styled.div`
-  width: 75%;
+  width: 80%;
+
+  @media (max-width: 767px) { 
+  width: 90%;
+  padding: 0;
+ }
+
 `

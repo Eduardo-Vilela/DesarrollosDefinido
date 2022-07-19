@@ -1,6 +1,14 @@
+
+a{
+    text-decoration: none !important;
+}
 .rs-modal-content {
 
     padding:0 !important;
+}
+
+.box3, .navbar{
+    padding-bottom: 0px !important;
 }
 
 .rs-modal-wrapper {
@@ -38,4 +46,13 @@ input[type=number]::-webkit-outer-spin-button {
 
 input[type=number] { -moz-appearance:textfield; }
 
+@media (max-width: 768px) {
+    .iframeMaps{
+        height: 400px !important;
+    }
 
+    .boton-seccion5{
+        color: rgb(130,171,41) !important;
+    }
+
+}

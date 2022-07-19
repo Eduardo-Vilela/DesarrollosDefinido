@@ -30,8 +30,7 @@ function Seccion5Eljuncal() {
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>
                   </div> 
-                  <div style={{paddingBottom:'80px'
-                  ,width:'70%'}}>
+                  <div style={{width:'70%'}}>
                     <ParrafoDerecha>
                     El Juncal cuenta con 437 terrenos de variadas medidas, 
                     conectados entre sí por calles internas, convirtiéndolo

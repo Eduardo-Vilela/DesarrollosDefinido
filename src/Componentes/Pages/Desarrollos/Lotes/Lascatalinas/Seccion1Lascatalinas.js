@@ -9,13 +9,10 @@ function LasVictorias() {
     <>
      <BoxHomeVictorias>
        <BoxTitulo>
-       <div style={{width:'60%'}}>
+        <BoxTituloJuncal>
          <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src=''/>
-         </div>
+        </BoxTituloJuncal>
        </BoxTitulo>
-       <BoxTitulo2>
-
-       </BoxTitulo2>
      </BoxHomeVictorias>
     </>
   )

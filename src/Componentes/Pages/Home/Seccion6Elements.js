@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 export const BoxPrincipal = styled.div`
   width: 100%;
-  height: 100vh;
   background-color: #1D2142;
     transition: background-color 2s ease;
 
@@ -28,14 +27,12 @@ export const BoxSecundario = styled.div`
     display: flex;
   flex-direction: column;
   justify-content: center;
-    @media (max-width: 480px) { 
-      padding:0px;
-      flex-direction: column;
-  }
+
   @media (max-width: 767px) { 
     padding:0px;
+    height: auto;
     flex-direction: column;
-}
+  }
 @media (min-width: 768px) and (max-width: 1199px) { 
   flex-direction: column;
     padding:0px;
@@ -53,15 +50,16 @@ export const SlideTexto6 = styled.div`
 
    @media (max-width: 480px) { 
     width: 86%;
-    height: 40vh;
+    height: 30vh;
     margin: auto;
     padding-left: 0;
   }
   @media (max-width: 767px) { 
     width: 86%;
-    height: 40vh;
+    height: 30vh;
     margin: auto;
     padding-left: 0;
+    justify-content: space-evenly;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
     width: 80%;
@@ -148,12 +146,10 @@ export const BoxMobile6 = styled.div`
     display: block;
     background-color: #1D2142;
     width: 100%;
-    height: 100vh ;
   }
   @media (max-width: 767px) { 
     display: block;
     width: 100%;
-    height: 100vh ;
     background-color: #1D2142;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
@@ -169,10 +165,15 @@ export const BoxSwiperMobile = styled.div`
  height: 60vh;
  text-align: center;
 
- @media (min-width: 768px) and (max-width: 1199px) { 
+  @media (min-width: 768px) and (max-width: 1199px) { 
     width: 80%;
-    height: 60vh;
-    margin: auto;
+    height: auto;
+  }
+
+  @media (max-width: 768px){
+    height: 550px;
+    display: flex;
+    align-items: center;
   }
 
 `
@@ -191,24 +192,17 @@ export const ImagenSlideVacia = styled(Link)`
  flex-direction: column;
  justify-content: center;
 
+ color: rgb(130,171,41) !important;
 &:hover{
   color: rgb(130,171,41);
 }
 
-
- @media (max-width: 480px) { 
-  width:70% ;
-  height: 50vh;
-  font-size: 20px;
-}
 @media (max-width: 767px) { 
- width: 70% ;
- height: 50vh;
- font-size: 20px;
+  width: 70% ;
+  font-size: 20px;
+  height: 430px;
+  color: rgb(130,171,41) !important;
 }
-@media (min-width: 768px) and (max-width: 1199px) { 
-
- }
 `
 
 

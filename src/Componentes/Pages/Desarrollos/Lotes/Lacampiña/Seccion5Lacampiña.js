@@ -36,9 +36,6 @@ function Seccion5Lacampiña() {
                      entre sí por calles internas.
                     </ParrafoDerecha>
                   </div>
-                  <div>
-                    <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
                   <BoxTarjeton>
                    <NumerosAzules>168</NumerosAzules>
                    <TextoGris>unidades</TextoGris>

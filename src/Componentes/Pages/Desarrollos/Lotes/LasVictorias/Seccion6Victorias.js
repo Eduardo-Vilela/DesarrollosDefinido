@@ -33,13 +33,13 @@ function Seccion6Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Este proyecto contará con los servicios<br/>
-                    de electricidad aérea; además de un cerco <br/>
-                    perimetral que rodea todo el desarrollo<br/>
-                    y un portón para el ingreso y egreso al<br/>
-                    predio. Desde Desarrollos Delsud nos <br/>
-                    ocupamos del mejorado de las calles, <br/>
-                    cuyo final de obra cuenta con tosca y calcáreo.<br/>
+                    Este proyecto contará con los servicios
+                    de electricidad aérea; además de un cerco 
+                    perimetral que rodea todo el desarrollo
+                    y un portón para el ingreso y egreso al
+                    predio. Desde Desarrollos Delsud nos 
+                    ocupamos del mejorado de las calles, 
+                    cuyo final de obra cuenta con tosca y calcáreo.
                     </ParrafoDerecha>
                   </div>
                   <ContenedorLista>

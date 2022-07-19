@@ -5,11 +5,9 @@ import { Swiper } from 'swiper/react';
 export const BoxSwiper9 = styled.div`
  width: 100%;
  height: 60vh;
- @media (max-width: 480px) { 
- height: 60vh;
-}
+
 @media (max-width: 767px) { 
-  height: 60vh;
+  height: 250px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   height: 350px;
@@ -24,11 +22,11 @@ display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 @media (max-width: 480px) { 
-  height: 60vh;
+  height: 300px;
   width: 86% ;
  }
  @media (max-width: 767px) { 
-   height: 60vh;
+   height: 300px;
    width: 86% ;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
@@ -84,4 +82,7 @@ height: 400px;
       flex-direction: column;
       justify-content: center;
     }
+  @media (max-width: 767px) { 
+    height: 200px;
+  }
 `

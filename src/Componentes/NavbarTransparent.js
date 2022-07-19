@@ -10,7 +10,7 @@ function NavbarTransparent() {
 
     //navbar scroll when active state
     const [navbar, setNavbar] = useState(false)
-  
+   console.log(window.scrollY );
     //navbar scroll changeBackground function
     const changeBackground = () => {
       if (window.scrollY >= 200) {

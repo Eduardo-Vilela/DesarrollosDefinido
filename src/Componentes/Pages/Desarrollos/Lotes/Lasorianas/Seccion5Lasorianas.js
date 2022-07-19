@@ -37,9 +37,6 @@ function Seccion5Lasorianas() {
                      Es una zona en constante evolución y desarrollo.
                     </ParrafoDerecha>
                   </div>
-                  <div>
-                    <SubtituloDerecha>¿Qué hay en la zona?</SubtituloDerecha>
-                  </div>
                   <BoxTarjeton>
                    <NumerosAzules>437</NumerosAzules>
                    <TextoGris>unidades</TextoGris>

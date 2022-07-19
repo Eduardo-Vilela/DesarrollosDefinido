@@ -12,7 +12,7 @@ function Seccion3Eljuncal() {
           {/* ASDSDsa */}
         </div>
         <ContenedorSubNavbar style={{width: '52%',borderBottom:'1px solid #E0E0E0 ',borderTop:'1px solid #E0E0E0'}}>
-          <Navbar as="ul" style={{paddingBottom: '0px'}} >
+          <Navbar className='navbarDesarrollos box3' as="ul" style={{paddingBottom: '0px !important'}} >
             <NavItems >
             <HashLink style={{color: 'grey', fontWeight: '500', textDecoration: 'none'}}  to="#1-ubicacion">1. Ubicación</HashLink>
             </NavItems>

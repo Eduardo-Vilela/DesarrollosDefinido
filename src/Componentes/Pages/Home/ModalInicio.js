@@ -57,23 +57,21 @@ function ModalInicio() {
   return (
     <>
       <Modal style={{top:'0px !important'}}  size={'md'} open={open} onClose={handleClose}  >
-        <Modal.Header>
-        </Modal.Header>
         <BoxPrincipal>
           <Box1>
-           <SubBox>
+            <SubBox>
             <Titulo>¿Buscás un terreno?</Titulo>
             <Parrafo >
               Registrate para  <b>conocer los 
               valores</b>  y nuestras <b>   opciones de 
               financiación.</b> 
             </Parrafo>
-           </SubBox>
+            </SubBox>
           </Box1>
           <Box2>
-            <BoxLogo>
-            <LogoModal  alt='logoModal'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp'/>
-            </BoxLogo>
+            {/* <BoxLogo>
+            <LogoModal  alt='logoModal'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.svg'/>
+            </BoxLogo> */}
             <BoxInputs>
                 <BoxForm onSubmit={handleSubmit(onSubmit)} >
                   <div>
@@ -125,10 +123,10 @@ function ModalInicio() {
                     {errors.email && <p className='text-danger'>{errors.email.message}</p>}
                     </div>
                     <BoxButtonModal>
-                     <ButtonInput className='buttonModal'  type="submit" value="Enviar"/>
-                   </BoxButtonModal> 
+                      <ButtonInput className='buttonModal'  type="submit" value="Enviar"/>
+                    </BoxButtonModal> 
                 </BoxForm> 
-             </BoxInputs>
+              </BoxInputs>
           </Box2>
         </BoxPrincipal>
       </Modal>
