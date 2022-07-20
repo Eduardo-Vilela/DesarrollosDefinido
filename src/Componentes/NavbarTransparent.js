@@ -36,9 +36,9 @@ function NavbarTransparent() {
                 <Link to='/'>
                   {
                     window.scrollY >= 200 ? 
-                    <img width='100' height='40'  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.svg ' alt="lala2"/>
+                    <img width='90' height='30' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp' />
                     :
-                    <img width='100' height='40'  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715423/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_s8dqa5_cgbxhd.svg' alt="lala"/> 
+                    <img style={{filter:'brightness(0) invert(1)'}} width='90' height='30' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp' />
                   }
                 </Link>
               </div>

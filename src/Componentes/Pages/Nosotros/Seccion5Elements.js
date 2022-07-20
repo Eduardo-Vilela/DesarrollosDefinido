@@ -1,16 +1,14 @@
 import styled from 'styled-components'
 
 export const Valores = styled.div`
-width: 50%;
-height: 250px;
-margin-bottom: 10px;
-margin-right: 10px;
+width: 300px;
+height: 260px;
+margin: 10px;
+padding: 0px 30px;
 border-radius: 10px;
 text-align: left;
-padding-left: 30px;
-padding-right: 30px;
 background: #F6F6F6;
-display: flex;
+  display: flex;
     flex-direction: column;
     justify-content: center;
 

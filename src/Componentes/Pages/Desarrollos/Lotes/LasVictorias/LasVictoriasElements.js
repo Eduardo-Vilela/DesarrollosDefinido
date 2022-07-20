@@ -93,7 +93,7 @@ align-items: center;
 `
 
 export const BoxTituloJuncal = styled.div`
-  width: 100%;
+  width: 95%;
 `
 
 export const LetrasLasVictorias = styled.img`
@@ -243,10 +243,9 @@ export const Imagenslide = styled.img`
   }
 `
 export const Video1 = styled.video`
-width: 100%;
-height: 100%;
-border-radius: 10px !important;
-
+  height: 100%;
+  border-radius: 10px !important;
+  object-fit: contain;
 
 @media (max-width: 480px) { 
    width: 100%;
@@ -626,14 +625,15 @@ background-color: white;
 `
 
 export const SubBoxUbicacion = styled.div`
-width: 80%;
+width: 65%;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 align-items: flex-start;
 row-gap: 40px;
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
+  width : 82%;
   row-gap: 20px;
  }
 `
@@ -674,14 +674,16 @@ export const Numero3 = styled.h2`
 font-family: 'Mabry Pro', Sans-serif;
 font-size: 90px;
 font-weight: 300;
+line-height: 50px;
 color: #ADADAD;
+
 @media (max-width: 480px) { 
   font-size: 30px;
-  line-height: 0;
+  line-height: 50px;
 }
 @media (max-width: 767px) { 
   font-size: 30px;
-  line-height: 0;
+  line-height: 50px;
 
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
@@ -777,7 +779,7 @@ line-height: 1em;
 
 export const BoxTarjeton = styled.div`
 
-width: 70%;
+width: 75%;
 height: 90px;
 border: 1px solid #E5E5E5;
 border-radius: 10px;
@@ -857,20 +859,21 @@ padding: 20px 0px;
 
 /*seccion7*/
 
-export const ButtonArmaTuPago = styled.button`
-font-family: "Mabry Pro", Sans-serif;
-font-size: 20px;
-font-weight: 300;
-line-height: 1em;
-letter-spacing: 0.2px;
-fill: #FFFFFF;
-color: #FFFFFF;
-background-color: #82AB1B;
-border-style: solid;
-border-width: 2px 2px 2px 2px;
-border-color: #FFFFFF;
-border-radius: 30px 30px 30px 30px;
-padding: 12px 20px 13px 20px;
+export const ButtonArmaTuPago = styled.a`
+
+  font-family: "Mabry Pro", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1em;
+  letter-spacing: 0.2px;
+  fill: #FFFFFF;
+  color: #FFFFFF !important;
+  background-color: #82AB1B;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #FFFFFF;
+  border-radius: 30px 30px 30px 30px;
+  padding: 12px 20px 13px 20px;
 
 
 @media (max-width: 480px) { 
@@ -940,19 +943,15 @@ height: 50vh;
 export const VideoSlideJuncal = styled.video`
   width: 1000px;
   border-radius: 10px;
-@media (max-width: 480px) { 
+@media (max-width: 768px) { 
   width: 95%;
-    height: 300px !important;
-    object-fit: cover;
+  height: 300px !important;
+  object-fit: cover;
 }
-@media (max-width: 767px) { 
-  width: 95%;
-    height: 300px !important;
+@media (max-width: 1700px) { 
+    width: 95%;
+    height: 564px;
     object-fit: cover;
-}
-@media (min-width: 768px) and (max-width: 1199px) { 
-   width:90%;
-  height: 100%;
 }
 
 `
@@ -977,6 +976,7 @@ export const NavItems = styled.div`
 }
 `
 export const ContenedorSubNavbar = styled.div`
+padding-top: .5em;
 display:flex;
 flex-direction: column;
 justify-content: center;
@@ -995,7 +995,7 @@ height: 100%;
 `
 
 export const ContenedorLista = styled.div`
-width: 70%;
+width: 100%;
 @media (max-width: 480px) { 
   width: 100%;
   
@@ -1028,13 +1028,8 @@ background-color: white;
 export const SwiperFotosDesarrollos = styled(Swiper)`
 align-self: center;
 
-@media (max-width: 480px) { 
-  width: 85%;
-  height: 100%;
-  
-}
 @media (max-width: 767px) { 
-  width: 85%;
+  width: 100%;
   height: 100%;
  }
 

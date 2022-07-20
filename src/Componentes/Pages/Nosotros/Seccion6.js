@@ -15,7 +15,7 @@ function Seccion6() {
               <Subtitulo6>Estamos esperando que seas parte</Subtitulo6>
             </div>
             <div>
-              <LinkGrupo href='https://grupodelsud.com/'> Ir a Grupo Delsud ➜ </LinkGrupo>
+              <LinkGrupo href='https://grupodelsud.com/'> Ir a Grupo Delsud</LinkGrupo>
             </div>
           </BoxTextito>
           <BoxFoto>

@@ -29,7 +29,7 @@ function Seccion5Lasorianas() {
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>
                   </div> 
-                  <div style={{width:'70%'}}>
+                  <div>
                     <ParrafoDerecha>
                     El Juncal cuenta con 437 terrenos de variadas medidas, 
                     conectados entre sí por calles internas, convirtiéndolo

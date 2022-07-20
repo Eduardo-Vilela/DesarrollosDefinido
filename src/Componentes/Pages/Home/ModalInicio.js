@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 
 
 function ModalInicio() {
-    const [open, setOpen] = React.useState(true);
+    const [open, setOpen] = React.useState(false);
     const [size, setSize] = React.useState();
     const handleOpen = value => {
       setSize(value);

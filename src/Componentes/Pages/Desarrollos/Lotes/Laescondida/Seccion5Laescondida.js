@@ -29,7 +29,7 @@ function Seccion5Laescondida() {
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>
                   </div> 
-                  <div style={{width:'60%'}}>
+                  <div>
                     <ParrafoDerecha>
                     La Escondida ubicado sobre la calle 84 entre 
                     las calles 161 y 167, cuenta con un rápido 

@@ -78,13 +78,13 @@ function Seccion8Eljuncal() {
                   navigation={true}
                   modules={[Navigation]}
                   breakpoints={{
-                    // when window width is >= 640px
-                  320: {
-                        slidesPerView: 1,
+                  
+                    320: {
+                        slidesPerView: 1.8,
                         // centeredSlides:false,
                         spaceBetween:10,
                         },
-                  480: {
+                    480: {
                         slidesPerView: 1,
                         // centeredSlides:false,
                         spaceBetween:10,
@@ -95,6 +95,7 @@ function Seccion8Eljuncal() {
                         // centeredSlides:false,
                         spaceBetween:10,
                       },
+                      
                     }}
                     
                   className="mySwiper"

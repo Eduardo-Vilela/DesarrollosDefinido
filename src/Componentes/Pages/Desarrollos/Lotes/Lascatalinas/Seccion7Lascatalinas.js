@@ -33,13 +33,13 @@ function Seccion7Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Contamos con la posibilidad de ofrecer<br/> 
-                    una financiación propia, bajo requisitos <br/> 
-                    mínimos y con planes realmente a medida.<br/> 
+                    Contamos con la posibilidad de ofrecer
+                    una financiación propia, bajo requisitos 
+                    mínimos y con planes realmente a medida.
                     </ParrafoDerecha>
                   </div>
                   <div>
-                    <ButtonArmaTuPago href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos  → </ButtonArmaTuPago>
+                    <ButtonArmaTuPago target="_blank" href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos</ButtonArmaTuPago>
                   </div>
                  </SubBoxUbicacion>
              </BoxUbicacion>

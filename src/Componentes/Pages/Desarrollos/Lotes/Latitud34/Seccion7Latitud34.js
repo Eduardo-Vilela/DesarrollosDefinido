@@ -32,7 +32,7 @@ function Seccion7Latitud34() {
                   <div>
                     <TituloDerecha>Forma de pago</TituloDerecha>
                   </div> 
-                  <div style={{width:'60%'}}>
+                  <div>
                     <ParrafoDerecha>
                     Contamos con la posibilidad de ofrecer 
                     una financiación propia, bajo requisitos  
@@ -41,7 +41,7 @@ function Seccion7Latitud34() {
                   </div>
 
                   <div>
-                    <ButtonArmaTuPago href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos  → </ButtonArmaTuPago>
+                    <ButtonArmaTuPago target="_blank" href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos</ButtonArmaTuPago>
                   </div>
                  </SubBoxUbicacion>
              </BoxUbicacion>

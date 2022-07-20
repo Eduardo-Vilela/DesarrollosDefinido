@@ -76,7 +76,7 @@ box-shadow: 5px 5px 5px  rgb(0 0 0 / 10%);
 
 export const SwiperEmpresas = styled(Swiper)`
 width: 100%;
-height: 400px;
+height: 300px;
     .swiper-slide{
       display: flex;
       flex-direction: column;

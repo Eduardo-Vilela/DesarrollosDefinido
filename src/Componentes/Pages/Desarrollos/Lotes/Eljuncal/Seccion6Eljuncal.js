@@ -31,7 +31,7 @@ function Seccion6Eljuncal() {
                   <div>
                     <TituloDerecha>Servicios</TituloDerecha>
                   </div> 
-                  <div style={{width:'70%'}}>
+                  <div>
                     <ParrafoDerecha>
                     Contará con los servicios de electricidad y agua potable, 
                     suministrado por reconocida empresa de la zona,

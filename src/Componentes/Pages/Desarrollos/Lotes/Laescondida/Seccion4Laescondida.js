@@ -7,9 +7,12 @@ function Seccion4Laescondida() {
      <Box2 id='1-ubicacion' >
          <SubBox2>
              <BoxMaps>
-               <ContenedorIframe>
-                <iframe title='mapaDesarrollo' style={{width:'100%',height:'100%'}} src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.991774368099954%2C-57.97178732995529&z=17" />
+             <a target="_blank" href='https://www.google.com/maps/d/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&hl=es&ehbc=2E312F&ll=-34.96304583639384%2C-58.024891572119124&z=12'>
+               <ContenedorIframe className='boxMapita'>
+                  <iframe title='mapaDesarrollo' style={{width:'100%',height:'100%'}} src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.991774368099954%2C-57.97178732995529&z=17" />
+         
                 </ContenedorIframe>
+              </a>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -19,7 +22,7 @@ function Seccion4Laescondida() {
                   <div>
                     <TituloDerecha>Ubicación</TituloDerecha>
                   </div> 
-                  <div style={{width:'60%'}}>
+                  <div>
                     <ParrafoDerecha>
                     La Escondida es un gran lugar para aquellos  
                     que buscan salir de la ciudad, y respirar aire puro,   

@@ -5,6 +5,9 @@ import styled from "styled-components";
   width: 100%;
   height: 50vh;
   background-color: #FAFAFA;;
+  @media (max-width: 767px) { 
+  height: auto;
+ }
  `
 
  export const BoxSecundario = styled.div`
@@ -14,11 +17,22 @@ import styled from "styled-components";
  flex-direction: column;
  justify-content: center;
  margin: auto;
+ @media (max-width: 767px) { 
+  height: auto;
+ }
  `
  export const Box1 = styled.div`
- width: 100% ;
- margin: auto;
- 
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media (max-width: 767px) { 
+      height: 160px;
+      text-align: end;
+    }
  `
 
  export const Box2 = styled.div`
@@ -31,7 +45,7 @@ import styled from "styled-components";
  display: flex;
  flex-direction: row;
  justify-content: space-around;
- height: 17vh;
+ height: 120px;
  width: 100%;
  background-color: #1D2142;
 
@@ -39,25 +53,17 @@ import styled from "styled-components";
 
  export const Seccion1 = styled.div`
  
- @media (max-width: 480px) { 
-  
-  text-align: end;
- }
  @media (max-width: 767px) { 
- 
- text-align: end;
+  height: 140px;
+  text-align: end;
  }
  `
 
  export const Seccion2 = styled.div`
- @media (max-width: 480px) { 
-  
-  text-align: left;
- }
- @media (max-width: 767px) { 
- 
- text-align: left;
- }
+  @media (max-width: 767px) { 
+    height: 140px;
+    text-align: left;
+  }
  `
 
  export const Seccion3 = styled.div`
@@ -163,14 +169,15 @@ import styled from "styled-components";
      }
  `
  export const Redes = styled.a`
- color: #1D2142;
- font-family: "Poppins", Sans-serif;
- font-size: 13px;
- font-weight: 400;
- line-height: 1.8em;
-text-decoration: none !important;
+  color: #1D2142;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.8em;
+  text-decoration: none !important;
+  display: flex;
+  column-gap: 15px;
 &:hover{
-  border-bottom: 1px solid #1D2142;
   text-decoration: #1D2142 !important;
   color: #1D2142;
 }
@@ -188,16 +195,17 @@ text-decoration: none !important;
  `
 
  export const LogoRedes = styled.img`
- width: 20%;
- height: auto;
- padding: 2px;
+  width: 20%;
+  height: auto;
+  padding: 2px;
  `
-
+ 
  export const InputFooter = styled.input`
- width: 310px;
- border: 0 !important;
- border-bottom: 2px solid #1D2142 !important;
- background-color: #FAFAFA;
+  width: 310px;
+  height: 35px;
+  border: 0;
+  background-color: #FAFAFA;
+  border-bottom: 2px solid #1D2142;
 &:focus{
   outline: none !important;
 }
@@ -256,23 +264,18 @@ text-decoration: none !important;
 
  export const BoxAjusteFooter = styled.div`
  display: flex;
- max-width: 80%;
+ width: 80%;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
  justify-content: space-between;
- height: 170px;
+ height: 140px;
  align-content: end;
  
- @media (max-width: 480px) { 
-   flex-direction: row-reverse;
-   align-items: center;
-   height: 25vh;
-  }
   @media (max-width: 767px) { 
   flex-direction: row-reverse;
   align-items: center;
-  height: 25vh;
+  height: 140px;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
   flex-direction: row-reverse;

@@ -56,21 +56,19 @@ function Seccion6() {
             className="SwiperHome"
           >
            <SwiperSlide>
-              <SlideTexto6 >
-                        <Titulo6 >
-                            Nuestros
-                            <br/>
-                            Desarrollos
-                        </Titulo6>
-                        <Parrafo6 className=''>
-                            Comercializamos distintos desarrollos<br/>
-                            en diversas ubicaciones, con más<br/>
-                            de 800 terrenos disponibles para que<br/>
-                            encuentres el terreno que mejor se <br/>
-                            adapte a tus necesidades.<br/>
-                        </Parrafo6>
-                        
-                        <Button3 to='/Desarrollos'>Ver Desarrollos ➜ </Button3>                     
+              <SlideTexto6>
+                  <Titulo6>
+                    Nuestros <br></br>
+                    Desarrollos
+                  </Titulo6>
+                  <Parrafo6 className=''>
+                    Comercializamos distintos Desarrollos
+                    en diversas ubicaciones, con más
+                    de 800 terrenos disponibles para que
+                    encuentres el terreno que mejor se 
+                    adapte a tus necesidades.
+                  </Parrafo6>
+                  <Button3 to='/Desarrollos'>Ver Desarrollos</Button3>                     
               </SlideTexto6>
             </SwiperSlide >
             <SwiperSlide >
@@ -86,7 +84,7 @@ function Seccion6() {
                   <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_189_zo7ghe_ouxxhx.jpg" />
             </SwiperSlide>
             <SwiperSlide>
-               <ImagenSlideVacia to='/Desarrollos'>Ver Desarrollos → </ImagenSlideVacia>
+               <ImagenSlideVacia to='/Desarrollos'>Ver Desarrollos</ImagenSlideVacia>
             </SwiperSlide>
       </Swiper>
 

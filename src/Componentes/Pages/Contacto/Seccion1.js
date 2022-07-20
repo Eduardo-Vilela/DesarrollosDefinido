@@ -29,7 +29,7 @@ function Seccion1() {
       });
       const onSubmit = (data,e) => {
         //alert(JSON.stringify(data));
-        axios.post(`https://prueba.desarrollosdelsud.com.ar/webApi/public/FormularioContacto`, data)
+        axios.post(`https://desarrollosdelsud.com.ar/webApi/public/FormularioContacto`, data)
           .then(function (response) {
             console.log(response.data);
             toast.success('Formulario enviado!', {
@@ -124,7 +124,7 @@ function Seccion1() {
                           )}
                           </div>   
                           <div style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'flex-start'}}>
-                          <Button style={{border:'1px solid white'}} className='buttonModal'  type="submit" value="Enviar ➜"/>
+                          <Button style={{border:'1px solid white'}} className='buttonModal'  type="submit" value="Enviar"/>
                           </div>
                   </BoxFormContacto>
              </Box2>

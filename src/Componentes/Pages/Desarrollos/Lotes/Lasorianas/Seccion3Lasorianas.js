@@ -8,7 +8,7 @@ function Seccion3Lasorianas() {
     <>
     <Box3>
       <OcultarBorderIframe>
-      <div style={{width: '50%',borderBottom:'1px solid #E0E0E0',borderTop:'1px solid #E0E0E0'}}>
+      <div style={{width: '54%',borderBottom:'1px solid #E0E0E0',borderTop:'1px solid #E0E0E0'}}>
           {/* ASDSDsa */}
         </div>
         <ContenedorSubNavbar style={{width: '50%',borderBottom:'1px solid #E0E0E0 ',borderTop:'1px solid #E0E0E0'}}>

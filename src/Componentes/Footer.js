@@ -95,8 +95,8 @@ function Footer() {
                <TitulosFooter >CONTACTO</TitulosFooter>
                 <div  style={{marginBottom:'8px'}}>
                   <Redes target="_blank" href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>
-                  <LogoRedes alt='whatsapp' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715425/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/icons8-whatsapp_cpftke_v1ms2v.svg'/>
-                     WHATSAPP
+                    <LogoRedes alt='whatsapp' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715425/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/icons8-whatsapp_cpftke_v1ms2v.svg'/>
+                    WHATSAPP
                   </Redes>
                 </div>
                  <div style={{marginBottom:'8px'}}>
@@ -130,7 +130,7 @@ function Footer() {
                         {errors?.email?.type === "maxLength" && (
                           <p className='text-danger'>El nombre no puede exceder los 50 caracteres</p>
                         )}                   
-                      < input style={{color:'#1D2142',backgroundColor: '#02010100',fontSize:'13px' , fontWeight:'600', alignSelf: 'end'}} type="submit" value="ENVIAR"/>
+                      < input style={{color:'#1D2142', padding: '10px 0px', backgroundColor: '#02010100',fontSize:'14px' , fontWeight:'600', alignSelf: 'end'}} type="submit" value="ENVIAR"/>
                       </div> 
                 </form>
             </Seccion3>

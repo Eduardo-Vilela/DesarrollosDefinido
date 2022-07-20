@@ -45,7 +45,8 @@ export const SlideTexto6 = styled.div`
    height: 100%;
    display: flex;
    flex-direction: column;
-   justify-content: space-evenly;
+   justify-content: center;
+   row-gap: 50px;
    text-align: left;
 
    @media (max-width: 480px) { 
@@ -88,9 +89,10 @@ export const ImagenSlide = styled.img`
  }
 `
 export const Titulo6 = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Poppins";
   font-weight: 500;
+  line-height: 1.2em;
   color: white;
   @media (max-width: 480px) { 
     font-size:40px;

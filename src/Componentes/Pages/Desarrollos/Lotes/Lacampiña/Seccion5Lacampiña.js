@@ -29,7 +29,7 @@ function Seccion5Lacampiña() {
                   <div>
                     <TituloDerecha>Proyecto</TituloDerecha>
                   </div> 
-                  <div style={{width:'60%'}}>
+                  <div>
                     <ParrafoDerecha>
                     La Campiña cuenta con 168 desarrollos de variadas
                      medidas, que llegan hasta los 450 m², conectados 

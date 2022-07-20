@@ -7,11 +7,14 @@ function Seccion4Eljuncal() {
      <Box2 id='1-ubicacion' >
          <SubBox2>
              <BoxMaps>
-               <ContenedorIframe>
-                <iframe title='mapa' src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.97131511231089%2C-58.03725295015823&z=19" 
-                    style={{width:'100%',height:'100%'}}
-                    />
+             <a target="_blank" href='https://www.google.com/maps/d/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&hl=es&ehbc=2E312F&ll=-34.96304583639384%2C-58.024891572119124&z=12'>
+               <ContenedorIframe className='boxMapita'>
+                  <iframe title='mapa' src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.97131511231089%2C-58.03725295015823&z=19" 
+                      style={{width:'100%',height:'100%'}}
+                      />
+                
                 </ContenedorIframe>
+              </a>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -21,7 +24,7 @@ function Seccion4Eljuncal() {
                   <div>
                     <TituloDerecha>Ubicación</TituloDerecha>
                   </div> 
-                  <div style={{width:'70%'}}>
+                  <div>
                     <ParrafoDerecha>
                     Se encuentra en una zona con cercanía a comercios y servicios, 
                     y a sólo 20 minutos del centro de la ciudad de La Plata. Al ser

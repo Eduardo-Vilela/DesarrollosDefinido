@@ -44,10 +44,11 @@ z-index: 3;
 `
 
 export const Boxhijo2 = styled.div`
-margin-top: -47px;
+  margin-top: -60px;
   width: 99%;
   display: flex;
   align-items: center;
+
 `
 
 export const SubBoxLogoMaps = styled.div`

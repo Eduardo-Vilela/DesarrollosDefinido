@@ -2,12 +2,27 @@
 a{
     text-decoration: none !important;
 }
+
+.boxMapita a{
+    width: 100%;
+}
+
+.boxMapita iframe{
+  pointer-events: none;
+}
+
+
+/* 
+.boxMapita iframe.clicked{
+	pointer-events: auto;
+} */
+
 .rs-modal-content {
 
     padding:0 !important;
 }
 
-.box3, .navbar{
+.box3 .navbar{
     padding-bottom: 0px !important;
 }
 
@@ -46,8 +61,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 input[type=number] { -moz-appearance:textfield; }
 
+.iframeMaps{
+    width: 100%;
+    height: 750px !important;
+}
+
 @media (max-width: 768px) {
     .iframeMaps{
+        width: 100%;
         height: 400px !important;
     }
 

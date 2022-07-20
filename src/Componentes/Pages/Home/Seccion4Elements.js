@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BoxPrincipal = styled.div`
    width: 100%;
-   height: 20vh;
+   height: 200px;
    background-color:#1D2142; 
    display: flex;
    flex-direction: row;
@@ -20,13 +20,16 @@ export const BoxPrincipal = styled.div`
          justify-content: space-evenly;
       }
       @media (min-width: 768px) and (max-width: 1199px) { 
-      height: 15vh;
+      height: 200px;
    }
 `
 export const Box1 = styled.div`
    padding: 30px 0px 30px 0px;
    width: 50%;
-   text-align: end;
+   align-items: center;
+   display: flex;
+   justify-content: flex-end;
+
    @media (max-width: 480px) { 
       padding: 0px;  
       width: 100%; 
@@ -42,23 +45,22 @@ export const Box1 = styled.div`
 export const Box2 = styled.div`
    width: 50%;
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    column-gap: 50px;
-
-   padding: 30px 0px 30px 0px;
+   display: flex;
+   align-items: center;
     
    .BordesRedondos{
-      @media (max-width: 480px) { 
-
-         border: 1px solid white;
-         border-radius: 30px;
-    }
-    @media (max-width: 767px) { 
+   @media (max-width: 480px) { 
       border: 1px solid white;
       border-radius: 30px;
-    }   
-
    }
+   @media (max-width: 767px) { 
+      border: 1px solid white;
+      border-radius: 30px;
+   }   
+
+}
 
      
    @media (max-width: 480px) { 
@@ -80,13 +82,10 @@ export const Box2 = styled.div`
 
 export const LogosRedes = styled.img`
    width: 60px;
-   padding: 12px;
+   padding: 15px;
 
-   @media (max-width: 480px) { 
-      width: 50px ;
-    }
     @media (max-width: 767px) { 
-      width: 50px ;
+      width: 50px;
     }
   
  
@@ -109,10 +108,11 @@ export const Titulo = styled.h2`
 `
 
 export const BoxContent = styled.div`
-   width: 70%;
+   width: 80%;
    display: flex;
    flex-direction: row;
    justify-content: center;
+   column-gap: 40px;
 
    @media (max-width: 767px) { 
       width: 100%;

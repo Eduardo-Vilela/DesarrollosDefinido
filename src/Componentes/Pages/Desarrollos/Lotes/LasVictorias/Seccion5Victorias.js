@@ -31,9 +31,9 @@ function Seccion5Victorias() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Las Victorias cuenta con 72 terrenos<br/> 
-                    de 251m², ofreciendote un lugar amplio <br/> 
-                    y verde para que cambies tu estilo de vida.<br/> 
+                    Las Victorias cuenta con 72 terrenos
+                    de 251m², ofreciendote un lugar amplio
+                    y verde para que cambies tu estilo de vida.
                     </ParrafoDerecha>
                   </div>
                   <BoxTarjeton>

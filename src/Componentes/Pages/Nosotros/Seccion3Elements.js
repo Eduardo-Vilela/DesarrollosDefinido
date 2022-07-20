@@ -74,7 +74,7 @@ export const BoxLogros = styled.div`
 `
 
 export const Box2 = styled.div`
-width: 50%;
+width: 80%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -176,9 +176,10 @@ align-items: center;
  }
 `
 export const BoxCards = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: center;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `
 
 export const TituloLogros = styled.h2`

@@ -36,13 +36,18 @@ function Seccion8Victorias() {
                   navigation={true}
                   modules={[Navigation]}
                   breakpoints={{
-                    // when window width is >= 640px
-                  320: {
-                        slidesPerView: 1.8,
+                    320: {
+                      slidesPerView: 1.8,
+                      // centeredSlides:false,
+                      spaceBetween:10,
+                      },
+                    480: {
+                        slidesPerView: 1,
                         // centeredSlides:false,
                         spaceBetween:10,
-                        },
-                  480: {
+                      },
+
+                    481: {
                         slidesPerView: 1.8,
                         // centeredSlides:false,
                         spaceBetween:10,
@@ -59,8 +64,8 @@ function Seccion8Victorias() {
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741110/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/RENDER-LA-VICTORIA_2-Foto-1-1024x681_xna5u0.webp'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741110/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/RENDER-LA-VICTORIA_5-Foto-3-1024x681_terach.webp'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741110/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/RENDER-LA-VICTORIA_4-Foto-2-1024x681_amlfw6.webp'/></SwiperSlide>
-                <SwiperSlide ><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741110/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/RENDER-LA-VICTORIA_6-Foto-5-1024x681_oqt0bm.webp'/></SwiperSlide>
-                <SwiperSlide ><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741110/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/RENDER-LA-VICTORIA_1-Foto-6-1024x681_yxaymc.webp'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741110/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/RENDER-LA-VICTORIA_6-Foto-5-1024x681_oqt0bm.webp'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741110/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/RENDER-LA-VICTORIA_1-Foto-6-1024x681_yxaymc.webp'/></SwiperSlide>
               </SwiperFotosDesarrollos>
             </BoxBajo>
          </SubBoxSiper>

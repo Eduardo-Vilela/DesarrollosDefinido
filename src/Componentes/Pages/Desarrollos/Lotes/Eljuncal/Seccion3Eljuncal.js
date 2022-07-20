@@ -8,10 +8,10 @@ function Seccion3Eljuncal() {
     <>
      <Box3>
       <OcultarBorderIframe>
-      <div style={{width: '50%',borderBottom:'1px solid #E0E0E0',borderTop:'1px solid #E0E0E0'}}>
+      <div style={{width: '54%',borderBottom:'1px solid #E0E0E0',borderTop:'1px solid #E0E0E0'}}>
           {/* ASDSDsa */}
         </div>
-        <ContenedorSubNavbar style={{width: '52%',borderBottom:'1px solid #E0E0E0 ',borderTop:'1px solid #E0E0E0'}}>
+        <ContenedorSubNavbar className='navbarDesarrollos2' style={{width: '54%',borderBottom:'1px solid #E0E0E0 ',borderTop:'1px solid #E0E0E0'}}>
           <Navbar className='navbarDesarrollos box3' as="ul" style={{paddingBottom: '0px !important'}} >
             <NavItems >
             <HashLink style={{color: 'grey', fontWeight: '500', textDecoration: 'none'}}  to="#1-ubicacion">1. Ubicación</HashLink>

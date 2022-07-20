@@ -36,17 +36,23 @@ function Seccion8Laescondida() {
                   navigation={true}
                   modules={[Navigation]}
                   breakpoints={{
-                    // when window width is >= 640px
-                  320: {
-                        slidesPerView: 1.8,
+                    
+                    320: {
+                      slidesPerView: 1.8,
+                      // centeredSlides:false,
+                      spaceBetween:10,
+                      },
+                    480: {
+                        slidesPerView: 1,
                         // centeredSlides:false,
                         spaceBetween:10,
-                        },
-                  480: {
+                      },
+                    481: {
                         slidesPerView: 1.8,
                         // centeredSlides:false,
                         spaceBetween:10,
                       },
+
                     }}
                   className="mySwiper"
                 >

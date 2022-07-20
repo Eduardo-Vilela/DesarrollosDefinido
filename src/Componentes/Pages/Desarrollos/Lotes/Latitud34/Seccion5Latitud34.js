@@ -31,11 +31,11 @@ function Seccion5Latitud34() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                        Latitud 34° cuenta con 112 terrenos <br/>
-                        de variadas medidas,que llegan hasta<br/> 
-                        los 361 m² convirtiéndolo en el barrio <br/>
-                        perfecto para llevar <br/>
-                        una vida en tranquilidad. <br/>
+                        Latitud 34° cuenta con 112 terrenos
+                        de variadas medidas,que llegan hasta
+                        los 361 m² convirtiéndolo en el barrio
+                        perfecto para llevar
+                        una vida en tranquilidad.
                     </ParrafoDerecha>
                   </div>
                   <BoxTarjeton>

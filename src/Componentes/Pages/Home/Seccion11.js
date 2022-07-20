@@ -21,7 +21,7 @@ function Seccion11() {
       });
       const onSubmit = (data,e) => {
         //alert(JSON.stringify(data));
-        axios.post(`https://prueba.desarrollosdelsud.com.ar/webApi/public/FormularioAcordion`, data)
+        axios.post(`https://desarrollosdelsud.com.ar/webApi/public/FormularioAcordion`, data)
           .then(function (response) {
             console.log(response.data);
             toast.success('Formulario enviado!', {
@@ -128,7 +128,7 @@ function Seccion11() {
 
 
                         <div className='flexButtonFormInicio'>
-                        <input className='buttonFormInicio'  type="submit" value="Enviar ➜"/>
+                          <input className='buttonFormInicio'  type="submit" value="Enviar"/>
                         </div>
                     </div>     
                 </form>  

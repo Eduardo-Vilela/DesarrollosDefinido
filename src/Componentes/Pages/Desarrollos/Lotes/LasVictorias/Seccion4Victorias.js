@@ -7,12 +7,17 @@ function Seccion4Victorias() {
      <Box2 id='1-ubicacion'>
          <SubBox2>
              <BoxMaps>
-               <ContenedorIframe>
-                <iframe className='ajusteMobileIframe' title='mapa' src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.96171380196507%2C-58.11148728866966&z=17" 
-                    style={{width:'100%',height:'100%'}}
-                    ></iframe>
-                    {/* <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.9620918853923%2C-58.10999598045738&z=17" width="640" height="480"></iframe> */}
+              <a target="_blank" href='https://www.google.com/maps/d/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&hl=es&ehbc=2E312F&ll=-34.96304583639384%2C-58.024891572119124&z=12'>
+                <ContenedorIframe className='boxMapita'>
+                  <iframe className='ajusteMobileIframe' 
+                    title='mapa' 
+                    allowfullscreen=""
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1keodqSNQEChYKXkx-ONczj4ixnFmzyNr&ehbc=2E312F&ll=-34.96171380196507%2C-58.11148728866966&z=17" 
+                    style={{width:'100%',height:'100%'}}>
+                  </iframe>
+                
                 </ContenedorIframe>
+              </a>
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>

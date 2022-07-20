@@ -98,8 +98,7 @@ export const Titulo3 = styled.h2 `
     font-family: "Poppins";
     color: #1D2142;
     font-weight: 500;
-    line-height: 1.4em;
-    padding-bottom: 20px;
+    line-height: 1.3em;
     
     @media (max-width: 480px) { 
         font-size: 24px;
@@ -126,18 +125,17 @@ export const Parrafo3 = styled.p `
     line-height: 1.3em;
 
     @media (max-width: 480px) { 
-        font-size: 18px;
-      }
-      @media (max-width: 767px) { 
-        font-size: 18px;
-       }
-       @media (min-width: 768px) and (max-width: 1199px) { 
-         font-size: 18px;
-         
-       }
-       @media (min-width: 1025px) and (max-width: 1280px) {
-        font-size:14px;
-       }
+      font-size: 18px;
+    }
+    @media (max-width: 767px) { 
+      font-size: 18px;
+    }
+    @media (min-width: 768px) and (max-width: 1199px) { 
+      font-size: 18px; 
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size:14px;
+    }
 `
 export const Button3 = styled(Link) `
     color: #b5b5b5 !important;
@@ -164,7 +162,7 @@ export const Button3 = styled(Link) `
        }
 `
 export const BoxIntermedio = styled.div`
-width: 69%;
+width: 62%;
 text-align: left;
 
 
@@ -185,10 +183,12 @@ text-align: left;
 
 export const BoxInterior = styled.div`
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
 
   @media (max-width: 767px) { 
   width: 90%;
-  padding: 0;
  }
 
 `
