@@ -1,4 +1,6 @@
-
+a{
+    text-decoration: none !important;
+}
 
 .navBar2{
     background-color: white;
@@ -39,6 +41,9 @@
 .navbar-light .navbar-toggler-icon{
     filter: invert(1);
 }
+.mobile-nav{
+    display: none !important;
+}
 
 
 
@@ -56,16 +61,18 @@
         color: white;
         text-decoration: none;
     }
-    .navbar-collapse2{
-        background-color: #1D2142;
-        color: white !important;
-        height: 100vh !important;
+    .mobile-nav .container-fluid{
+        width: 80% !important;
     }
+
     .me-auto{
         height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        }
+        .me-auto.navbar-nav{
+            height: 80% !important;
         }
         .redesWhite{
             display: flex;
@@ -75,12 +82,12 @@
             padding-top: 50px
         }
         .imagenRedesNav2{   
-             
+             width: 50px !important;
             padding-top: 50px;
             border: 2px solid black;
             border-radius: 50px;
             padding: 10px;
-
+            background: white;
         }
         .paddingLogo{
             padding-left: 40px;
@@ -88,6 +95,14 @@
         .navbar-light .navbar-toggler-icon{
             filter:none;
             width: 20px;
+        }
+        .mobile-nav{
+            display: block !important;
+            display: flex !important;
+            width: 80% !important;
+        }
+        .navbarDisable{
+            display: none !important;
         }
 }
 

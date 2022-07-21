@@ -100,6 +100,10 @@ function Seccion8Eljuncal() {
                     
                   className="mySwiper"
                 >
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658428693/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/El_Juncal_8_impoan.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658428692/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/El_Juncal_6_rzg9lj.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658428693/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/El_Juncal_5_juxmmn.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658428693/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/El_Juncal_4_fiw5dy.jpg'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657807019/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/Juncal_-_1_-_jpg_oh50fu.webp'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657807019/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/Juncal_-_2_-_jpg_i0paj6.webp'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657807019/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/Juncal_-_3_-_jpg_mslj2f.webp'/></SwiperSlide>

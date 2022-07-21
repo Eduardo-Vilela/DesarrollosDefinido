@@ -58,11 +58,11 @@ justify-content: center;
 
 @media (max-width: 480px) { 
   width: 100%;
-  height: 30vh;
+  height: 15vh;
 }
 @media (max-width: 767px) { 
   width: 100%;
-  height: 30vh;
+  height: 15vh;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   height: auto;
@@ -180,6 +180,15 @@ export const BoxCards = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+  @media (max-width: 480px) { 
+  width: 100%;
+  padding: 0px;
+}
+@media (max-width: 767px) { 
+  width: 100%;
+  padding: 0px;
+ }
 `
 
 export const TituloLogros = styled.h2`
@@ -220,11 +229,13 @@ text-align: left;
 color: white;
 
 @media (max-width: 480px) { 
+  font-size: 24px;
   padding: 0px;
   text-align: left;
   padding-left: 18px;
 }
 @media (max-width: 767px) { 
+  font-size: 24px;
   padding: 0px;
   text-align: left;
   padding-left: 18px;

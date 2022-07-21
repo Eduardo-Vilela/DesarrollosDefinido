@@ -26,11 +26,7 @@ function Seccion4Lasorianas() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Se encuentra en una zona con cercanía a comercios y servicios, 
-                    y a sólo 20 minutos del centro de la ciudad de La Plata. Al ser
-                    una zona rodeada por la naturaleza es ideal para proyectar un
-                    en el cual poder disfrutar de un descanso de fin de 
-                    semana, como también la rutina del día a día.
+                    Está ubicado sobre calle 515 entre 168 y 170 a sólo pocos minutos del casco urbano de la ciudad de La Plata.
                     </ParrafoDerecha>
                   </div>
                   <div>

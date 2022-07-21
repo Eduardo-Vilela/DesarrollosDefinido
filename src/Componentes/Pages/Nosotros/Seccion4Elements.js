@@ -8,14 +8,14 @@ height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 740px;
+  height: 850px;
 
 }
 @media (max-width: 767px) { 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 740px;
+  height: 850px;
 
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
@@ -83,7 +83,14 @@ background-position-y: center;
 export const BoxIntermedioNos = styled.div`
 width: 65%;
 text-align: left;
+@media (max-width: 480px) { 
+      width: 80%;
 
+  }
+  @media (max-width: 767px) { 
+      width: 80%;
+
+  }
 `
 
 

@@ -32,11 +32,10 @@ padding: 70px 0px 70px 0px;
 text-align: center;
 align-items: center;
 margin: auto;
-@media (max-width: 480px) { 
-  padding: 30px 0px 30px 0px;
-    }
+
     @media (max-width: 767px) { 
-      padding: 30px 0px 30px 0px;
+      width: 100%;
+      align-items: normal;
     }
 @media (min-width: 768px) and (max-width: 1199px) { 
         padding: 20px 0px 20px 0px;
@@ -85,6 +84,8 @@ text-align: left;
 width: 85%;
 margin: auto;
 
+
+
 `
 
 
@@ -95,12 +96,12 @@ export const BoxCardsMobile = styled.div`
     @media (max-width: 480px) { 
       display: block;
       text-align: center;
-      padding: 20px;
+      padding: 0px;
     }
     @media (max-width: 767px) { 
       display: block;
       text-align: center;
-      padding: 20px;
+      padding: 0px;
      }
      @media (min-width: 768px) and (max-width: 1199px) { 
         display: none;

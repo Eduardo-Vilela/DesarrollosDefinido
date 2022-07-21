@@ -55,7 +55,7 @@ export const BoxTexto = styled.div`
     }
     @media (max-width: 767px) { 
         width: 100%;
-        height: 400px;
+        height: 730px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       padding: 50px;
@@ -189,6 +189,7 @@ export const BoxInterior = styled.div`
 
   @media (max-width: 767px) { 
   width: 90%;
+  row-gap: 30px;
  }
 
 `

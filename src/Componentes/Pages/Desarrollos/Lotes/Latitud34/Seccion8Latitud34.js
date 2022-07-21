@@ -49,7 +49,13 @@ function Seccion8Latitud34() {
                       },
                     }}
                   className="mySwiper"
-                >
+                >                
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430282/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_6_mkky3o.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430281/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_5_rdl0rx.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430280/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_4_rnhsnz.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430280/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_3_docn0l.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430281/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_2_nkwplq.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430281/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_1_jdfozz.jpg'/></SwiperSlide>
                 <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808898/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/01-Latitud-34_-3_waxeq5.mp4'/></SwiperSlide>
                 <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808901/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/06-Latitud-34_-3_ndtocr.mp4'/></SwiperSlide>
                 <SwiperSlide><VideoSlideJuncal loop autoPlay alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808903/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/02-Latitud-34_-3_g7vrvz.mp4'/></SwiperSlide>

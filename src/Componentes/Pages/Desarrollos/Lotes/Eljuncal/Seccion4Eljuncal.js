@@ -26,11 +26,7 @@ function Seccion4Eljuncal() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    Se encuentra en una zona con cercanía a comercios y servicios, 
-                    y a sólo 20 minutos del centro de la ciudad de La Plata. Al ser
-                    una zona rodeada por la naturaleza es ideal para proyectar un
-                    en el cual poder disfrutar de un descanso de fin de 
-                    semana, como también la rutina del día a día.
+                    Este proyecto de grandes dimensiones, se encuentra ubicado en la localidad de Lisandro Olmos. El mismo, abarca desde la calle 32 hasta 37 y desde 177 a 179.
                     </ParrafoDerecha>
                   </div>
                   <div>

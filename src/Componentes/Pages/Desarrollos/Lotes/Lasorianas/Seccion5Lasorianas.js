@@ -31,18 +31,15 @@ function Seccion5Lasorianas() {
                   </div> 
                   <div>
                     <ParrafoDerecha>
-                    El Juncal cuenta con 437 terrenos de variadas medidas, 
-                    conectados entre sí por calles internas, convirtiéndolo
-                     en el barrio ideal para llevar a cabo tu rutina diaria. 
-                     Es una zona en constante evolución y desarrollo.
+                    Las Orianas cuenta con 85 terrenos que arrancan desde los 250 m2. Dándote la posibilidad de elegir tu lote ideal.
                     </ParrafoDerecha>
                   </div>
                   <BoxTarjeton>
-                   <NumerosAzules>437</NumerosAzules>
+                   <NumerosAzules>85</NumerosAzules>
                    <TextoGris>unidades</TextoGris>
                    <TextoGris>/</TextoGris>
                    <TextoGris>desde</TextoGris>
-                   <NumerosAzules>222m²</NumerosAzules>
+                   <NumerosAzules>250m²</NumerosAzules>
                   </BoxTarjeton>
                  </SubBoxUbicacion>
              </BoxUbicacion>

@@ -185,9 +185,11 @@ import styled from "styled-components";
 
  @media (max-width: 480px) { 
    font-size:12px;
+   column-gap: 0px;
   }
   @media (max-width: 767px) { 
    font-size:12px;
+   column-gap: 0px;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
    font-size:12px;

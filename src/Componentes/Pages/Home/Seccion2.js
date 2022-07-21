@@ -8,7 +8,7 @@ import {
     ContenidoVerde,
     LogoVerde,
 } from '../Home/Seccion2Elements'
-import{Card} from 'react-bootstrap'
+import{Card,ListGroup} from 'react-bootstrap'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import './Seccion11';
@@ -32,8 +32,7 @@ return (
                                 <Card.Subtitle style={{background: 'white',color:'#767676'}} >
                                 Financiá tu terreno
                                 en cuotas fijas en pesos o 
-                                cuotas en dólares 
-                                sin interés
+                                cuotas en dólares.
                                 </Card.Subtitle>
                             </ContenidoVerde>     
                         </Card>
@@ -55,7 +54,7 @@ return (
                         Armá tu propio plan de 
                         financiación a medida, 
                         adaptado a tus 
-                        necesidades
+                        necesidades.
                         </Card.Subtitle>
                     </ContenidoVerde>
                 </Card>
@@ -75,7 +74,7 @@ return (
                             Podés acceder a
                             tu propio terreno 
                             financiado, con mínimos 
-                            requisitos
+                            requisitos.
                         </Card.Subtitle>
                     </ContenidoVerde>
                 </Card>
@@ -95,7 +94,7 @@ return (
                         maquinaria necesaria 
                         para el tratamiento del 
                         suelo y la colocación de 
-                        servicios
+                        servicios.
                         </Card.Subtitle>
                     </ContenidoVerde>
                 </Card>
@@ -114,7 +113,7 @@ return (
                         Todos nuestros 
                         desarrollos cuentan con 
                         la posibilidad de una 
-                        escrituración inmediata
+                        escrituración inmediata.
                         </Card.Subtitle>
                     </ContenidoVerde>
                 </Card>
@@ -127,30 +126,117 @@ return (
     <SubBoxCards>
     <Swiper  
         modules={[Autoplay]} 
-        
         autoplay={{
             delay: 2200,
             disableOnInteraction: false,
         }}
+        slidesPerView={1.5}
+        centeredSlides={true}
+        spaceBetween={20}
+        loop={true}
+        loopFillGroupWithBlank={true}
+        className="mySwiperMobiInicio swiperMobi"
         breakpoints={{
-            640: {
-                slidesPerView: 2,
-                spaceBetween: 15,
+            480: {
+                slidesPerView: 5,
+                spaceBetween: 0,
             },
             769: {
             slidesPerView: 2,
             slidesPerGroup: 2,
             },
         }}
-        loop={true}
-        loopFillGroupWithBlank={true}
-        className="mySwiperMobiInicio swiperMobi"
         >
-            <SwiperSlide><img style={{width:'100%' , heigth:'60vh' , margin: 'auto'}}   alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1308_aeuclg_c8i4yb.webp' /></SwiperSlide>
-            <SwiperSlide><img style={{width:'100%' , heigth:'60vh' , margin: 'auto'}}   alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1310_o7g5p7_klemqr.webp' /></SwiperSlide>
-            <SwiperSlide><img style={{width:'100%' , heigth:'60vh' , margin: 'auto'}}  alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715494/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1307_whf2db_oonerj.webp' /></SwiperSlide>
-            <SwiperSlide><img style={{width:'100%' , heigth:'60vh' , margin: 'auto'}}    alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715493/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1305_dpfaww_cvftjj.webp' /></SwiperSlide>
-            <SwiperSlide><img style={{width:'100%' , heigth:'60vh' , margin: 'auto'}}    alt='555' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715493/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1306_aexy8d_sl5eog.webp' /></SwiperSlide>
+            <SwiperSlide>
+                <Card style={{width:'15rem',height:'250px',borderRadius:'10px',border:'1px solid rgb(130 130 130 / 23%)'}}>
+                    <ContenidoVerde >
+                    <Card.Img variant="top" style={{width:'50px',height:'auto',paddingBottom:'10px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-5_epscre_x68fqz.webp" />
+                    <Card.Body style={{padding:'0',width:'100%'}} >
+                        <Card.Title style={{color:'#1D2142',FontFamily:'Poppins',fontSize:'20px',fontWeight:'400',borderBottom:'1px solid rgb(130 130 130 / 23%)',paddingBottom:'10px'}}  >Cuotas en pesos <br/> y/o dólares</Card.Title>             
+                    </Card.Body>
+                    <Card.Body style={{padding:'0'}}>
+                        <Card.Subtitle  style={{background: 'white',color:'#828282',fontFamily:'Poppins',fontSize:'15px',fontWeight:'200'}}>
+                            Financiá tu terreno <br/> 
+                            en cuotas fijas en<br/>
+                            pesos o cuotas en <br/>
+                            dolares.
+                        </Card.Subtitle>
+                    </Card.Body>
+                    </ContenidoVerde>
+                </Card>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card style={{width:'15rem',height:'250px',borderRadius:'10px',border:'1px solid rgb(130 130 130 / 23%)'}}>
+                    <ContenidoVerde >
+                    <Card.Img variant="top" style={{width:'50px',height:'auto',paddingBottom:'10px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-2-1_naohwr_dilydi.webp" />
+                    <Card.Body style={{padding:'0',width:'100%'}} >
+                        <Card.Title style={{color:'#1D2142',FontFamily:'Poppins',fontSize:'20px',fontWeight:'400',borderBottom:'1px solid rgb(130 130 130 / 23%)',paddingBottom:'10px'}}  >Financiación <br/>Personalizada</Card.Title>             
+                    </Card.Body>
+                    <Card.Body style={{padding:'0'}}>
+                        <Card.Subtitle  style={{background: 'white',color:'#828282',fontFamily:'Poppins',fontSize:'15px',fontWeight:'200'}}>
+                            Armá tu propio plan <br/> 
+                            de financiación a<br/>
+                            medida, adaptado<br/>
+                            a tus necesidades.
+                        </Card.Subtitle>
+                    </Card.Body>
+                    </ContenidoVerde>
+                </Card>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card style={{width:'15rem',height:'250px',borderRadius:'10px',border:'1px solid rgb(130 130 130 / 23%)'}}>
+                    <ContenidoVerde >
+                    <Card.Img variant="top" style={{width:'50px',height:'auto',paddingBottom:'10px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-28_bouhbg_hykndw.webp" />
+                    <Card.Body style={{padding:'0',width:'100%'}} >
+                        <Card.Title style={{color:'#1D2142',FontFamily:'Poppins',fontSize:'20px',fontWeight:'400',borderBottom:'1px solid rgb(130 130 130 / 23%)',paddingBottom:'10px'}}  >Accedé <br/>solo con tu DNI</Card.Title>             
+                    </Card.Body>
+                    <Card.Body style={{padding:'0'}}>
+                        <Card.Subtitle  style={{background: 'white',color:'#828282',fontFamily:'Poppins',fontSize:'15px',fontWeight:'200'}}>
+                            Podés acceder a <br/> 
+                            tu propio terreno <br/>
+                            financiado, con <br/>
+                            minimos requisitos.
+                        </Card.Subtitle>
+                    </Card.Body>
+                    </ContenidoVerde>
+                </Card>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card style={{width:'15rem',height:'250px',borderRadius:'10px',border:'1px solid rgb(130 130 130 / 23%)'}}>
+                    <ContenidoVerde >
+                    <Card.Img variant="top" style={{width:'50px',height:'auto',paddingBottom:'10px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-3-1_wradha_uymmal.webp" />
+                    <Card.Body style={{padding:'0',width:'100%'}} >
+                        <Card.Title style={{color:'#1D2142',FontFamily:'Poppins',fontSize:'20px',fontWeight:'400',borderBottom:'1px solid rgb(130 130 130 / 23%)',paddingBottom:'10px'}}  >Maquinaria<br/>Propia</Card.Title>             
+                    </Card.Body>
+                    <Card.Body style={{padding:'0'}}>
+                        <Card.Subtitle  style={{background: 'white',color:'#828282',fontFamily:'Poppins',fontSize:'15px',fontWeight:'200'}}>
+                            Contamos con la<br/> 
+                            maquinaria para<br/>
+                            el tratamiento del<br/>
+                            suelo y servicios.
+                        </Card.Subtitle>
+                    </Card.Body>
+                    </ContenidoVerde>
+                </Card>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card style={{width:'15rem',height:'250px',borderRadius:'10px',border:'1px solid rgb(130 130 130 / 23%)'}}>
+                    <ContenidoVerde >
+                    <Card.Img variant="top" style={{width:'50px',height:'auto',paddingBottom:'10px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715425/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/035-agreement_rhmtz8_frqs5x.webp" />
+                    <Card.Body style={{padding:'0',width:'100%'}} >
+                        <Card.Title style={{color:'#1D2142',FontFamily:'Poppins',fontSize:'20px',fontWeight:'400',borderBottom:'1px solid rgb(130 130 130 / 23%)',paddingBottom:'10px'}}  >Terrenos con<br/>Escritura</Card.Title>             
+                    </Card.Body>
+                    <Card.Body style={{padding:'0'}}>
+                        <Card.Subtitle  style={{background: 'white',color:'#828282',fontFamily:'Poppins',fontSize:'15px',fontWeight:'200'}}>
+                            Nuestros desarrollos<br/> 
+                            tienen la posibilidad<br/>
+                            de una escrituración<br/>
+                            inmediata.
+                        </Card.Subtitle>
+                    </Card.Body>
+                    </ContenidoVerde>
+                </Card>
+            </SwiperSlide>
     </Swiper>
     </SubBoxCards>
     </BoxCardsMobile>

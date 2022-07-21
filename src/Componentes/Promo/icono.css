@@ -10,10 +10,10 @@
 @media screen and (max-width: 480px) {
     .iconoWsp{
         position: fixed;
-        bottom: 20px !important;
-        right: 10px !important;
+        bottom: 0px;
+        right: 0px;
         z-index: 9999999;
-        width: 10%;
+        width: 15%;
     }
 }
 @media (min-width: 480px) and (max-width: 768px) {
@@ -21,3 +21,10 @@
      width: 100%;
  }
 }
+
+.desactivar{
+    display: none!important;
+   }
+   .activar{
+    display: block!important;
+   }

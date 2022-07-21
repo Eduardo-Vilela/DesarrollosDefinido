@@ -35,12 +35,12 @@ function Seccion2Lacampiña() {
                     </Parrafo>
                 </Separador>
                 <Separador>
-                <Button1><a target="_blank" rel="noreferrer" href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'style={{textDecoration:'none',color:'white'}}>Me interesa → </a></Button1>
+                <Button1><a target="_blank" rel="noreferrer" href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'style={{textDecoration:'none',color:'white'}}>Me interesa</a></Button1>
                 </Separador>
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Video1 loop autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657809914/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/La-Campina222222_pmfcqa.mp4'/>
+             <Video1 loop muted autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657809914/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/La-Campina222222_pmfcqa.mp4'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

@@ -20,7 +20,7 @@ function Seccion7() {
               <BoxBordesCards  className='bordeMedio '> 
                 <Link to='/Lasorianas'>        
                <div >
-                <ImgCardsDesarrollos src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715443/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Logo-Banner-Las-Orianas-negro_ccoswn_kvqprb.webp" />
+                <ImgCardsDesarrollos style={{filter:' invert(1)'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715451/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_oxmzw1_yis4w6.webp" />
                 </div>
                </Link>
             </BoxBordesCards>

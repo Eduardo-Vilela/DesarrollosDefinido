@@ -18,6 +18,7 @@ import Laescondida from './Pages/Desarrollos/Lotes/Laescondida/Laescondida'
 import Lacampiña from './Pages/Desarrollos/Lotes/Lacampiña/Lacampiña'
 import Lasorianas from './Pages/Desarrollos/Lotes/Lasorianas/Lasorianas'
 import Icono from './Icono'
+import PromoJunio from './Promo/PromoJunio'
 
 
 function Rutas() {
@@ -46,6 +47,7 @@ function Rutas() {
             <Route path='/Desarrollos' element={<Desarrollos/>} />
             <Route path='/Plancanje' element={<PlanCanje/>} />
             <Route path='/Contacto' element={<Contacto/>} />
+            <Route path='/dds' element={<PromoJunio/>} />
 
             <Route path='/Lasvictorias' element={<LasVictorias/>} />
             <Route path='/Eljuncal' element={<Eljuncal/>} />

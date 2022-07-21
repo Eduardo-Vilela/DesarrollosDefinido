@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react';
-import { Navbar , Container , Nav } from 'react-bootstrap';
+import { Navbar , Container , Nav ,Offcanvas,NavLink} from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 
 /*stylessssss */
-// import './NavbarTransparent.css'
-
+import './NavbarTransparent.css'
+import './Navbar2.css'
 
 function NavbarTransparent() {
 
@@ -27,10 +27,15 @@ function NavbarTransparent() {
       window.addEventListener("scroll", changeBackground)
     })
 
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const toggleShow = () => setShow((s) => !s);
+
   return (
       <>
           <Navbar className={navbar ? "navbar navBar active navbarWhite" : "navbar navbar77"} fixed="top" expand="lg" >
-            <Container fluid>
+            <Container className='navbarDisable' fluid>
               <Navbar.Brand href="#home">
               <div className='paddingMobileLogo'>
                 <Link to='/'>
@@ -66,6 +71,50 @@ function NavbarTransparent() {
                  </div>             
                 </Nav>
               </Navbar.Collapse>
+            </Container>
+
+            <Container fluid className='mobile-nav'>
+              <Navbar.Brand >
+              {
+                    window.scrollY >= 200 ? 
+                    <img width='90' height='30' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp' />
+                    :
+                    <img style={{filter:'brightness(0) invert(1)'}} width='90' height='30' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp' />
+                  }
+              </Navbar.Brand>
+              {/* <img  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731135/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/barras-de-menu-de-la-derecha_2_mnqsoc.png' width={"20px"} variant="primary" onClick={toggleShow} className="me-2"/> */}
+              {
+                    window.scrollY >= 200 ? 
+                    <img  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731135/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/barras-de-menu-de-la-derecha_1_uah0sq.png' alt="lala" variant="primary" onClick={toggleShow} className="me-2"/> 
+                    :
+                    <img  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731135/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/barras-de-menu-de-la-derecha_2_mnqsoc.png' alt="lala" variant="primary" onClick={toggleShow} className="me-2"/> 
+                  }
+              <Navbar.Offcanvas      
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+                placement="start"
+                show={show}
+                onHide={handleClose}
+              >
+                <Offcanvas.Header closeButton>
+                  <Offcanvas.Title id="offcanvasNavbarLabel"><NavLink to="/"><img  src={'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp'}/></NavLink></Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body onHide={handleClose}> 
+                  <Nav className="me-auto" >
+                    <Nav.Item className='navBarItems' href="#home"><Link onClick={handleClose} style={{color:'#1D2142',textDecoration:'none !important'}} to='/'>Inicio</Link></Nav.Item>
+                    <Nav.Item className='navBarItems' href="#link"><Link onClick={handleClose} to='/Nosotros'>Nosotros</Link></Nav.Item>
+                    <Nav.Item className='navBarItems' href="#home"><Link onClick={handleClose} to='/Desarrollos'>Desarrollos</Link></Nav.Item>
+                    <Nav.Item className='navBarItems' href="#home"><Link onClick={handleClose}  to='/Plancanje'>Plan Canje</Link></Nav.Item>
+                    <Nav.Item className='navBarItems' href="#home"><Link onClick={handleClose} to='/Contacto'>Contacto</Link></Nav.Item>   
+                    <div className='redesNav'>
+                      <a target="_blank" rel="noreferrer" href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><img className='imagenRedesNav2' alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731608/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/icons8-facebook-nuevo-50_ra8jax.webp'/></a>   
+                      <a target="_blank" rel="noreferrer" href='https://www.instagram.com/desarrollos.delsud/'><img className='imagenRedesNav2'  alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731706/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/icons8-instagram-32_gb7elk.webp'/> </a> 
+                      <a target="_blank" rel="noreferrer" href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>
+                      <img className='imagenRedesNav2' alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657736437/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/icons8-whatsapp-24_qtmcnm.webp'/> </a>     
+                    </div>             
+                  </Nav>
+                </Offcanvas.Body>
+              </Navbar.Offcanvas>
             </Container>
           </Navbar>
       </>

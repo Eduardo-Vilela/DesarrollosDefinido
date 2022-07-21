@@ -30,9 +30,7 @@ function Seccion2Laescondida() {
                       siete manzanas, rodeado de espacios verdes que propician un 
                       entorno tranquilo, silencioso y reservado. Los lotes que 
                       integran este desarrollo, son de medidas variadas que van 
-                      desde los 251 m2 hasta 609 m2. Este proyecto es un gran lugar 
-                      para aquellos que buscan salir de la ciudad y respirar aire 
-                      puro, ideal como vivienda de fin de semana o permanente.
+                      desde los 251 m2 hasta 609 m2.
                     </Parrafo>
                 </Separador>
                 <Separador>

@@ -33,15 +33,13 @@ function Seccion6Lasorianas() {
                   <div>
                     <ParrafoDerecha>
                     Contará con los servicios de electricidad y agua potable, 
-                    suministrado por reconocida empresa de la zona,
-                     aunque cabe destacar que la conectividad de estos 
-                     fue facilitada por obra privada de Desarrollos Delsud. 
-                     Desde la empresa también nos hemos ocupado del 
-                     mejoramiento de la calle, cuyo final de obra 
-                     cuenta con tosca y calcáreo, y de su luminaria común. 
-                     De esta manera, facilitamos los recursos necesarios 
-                     para que cada propietario cumpla los 
-                     sueños de su propia inversión.
+                    suministrado por reconocida empresa de la zona, aunque cabe destacar que 
+                    la conectividad de estos fue facilitada por obra privada de Desarrollos Delsud. 
+                    Por otro lado, el ingreso y egreso al predio será posible mediante dos portones ubicados 
+                    sobre la calle 515. Desde la empresa también nos hemos ocupado del mejoramiento de la calle,
+                     cuyo final de obra cuenta con tosca y calcáreo, y de su luminaria común. De esta manera, 
+                     facilitamos los recursos necesarios para que cada propietario
+                      cumpla los sueños de su propia inversión.
                     </ParrafoDerecha>
                   </div>
                   <ContenedorLista>

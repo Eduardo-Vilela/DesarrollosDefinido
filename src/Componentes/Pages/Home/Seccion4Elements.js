@@ -39,6 +39,7 @@ export const Box1 = styled.div`
        padding: 0px;
        width: 100%;
        text-align: center; 
+       justify-content: center;
     }
 
 `
