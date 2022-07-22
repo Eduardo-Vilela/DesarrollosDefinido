@@ -9,9 +9,9 @@ export const Container = styled.div`
 
 export const BoxPrincipal = styled.div`
 width: 100%;
-height: 900px;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/PromoJunio/fondo_ls99i1_fjvyl7.jpg);
-background-size: contain;
+height: 1000px;
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658513564/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/5_abelrq.jpg);
+background-size: cover;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   height: 65vh;

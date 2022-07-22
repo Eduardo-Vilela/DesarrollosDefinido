@@ -48,6 +48,7 @@ import './range.css'
 import 'rsuite/dist/rsuite.min.css';
 import RangeSlider from 'react-bootstrap-range-slider';
 import './icono.css'
+// import Footer from '../Footer'
 
 var montoTotal=0;
 function PromoJunio() {
@@ -324,6 +325,7 @@ function PromoJunio() {
           </Box2>
         </SubBox>
      </BoxPrincipal>
+     {/* <Footer/> */}
      </Container>
 
      <Modal style={{display:'flex',flexDirection:'column',justifyContent:'center', background: '#000000c4'}} size={'lg'} open={open} onClose={handleClose}>
