@@ -97,7 +97,7 @@ function NavbarTransparent() {
                 onHide={handleClose}
               >
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title id="offcanvasNavbarLabel"><NavLink to="/"><img  src={'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp'}/></NavLink></Offcanvas.Title>
+                  <Offcanvas.Title id="offcanvasNavbarLabel"><NavLink to="/"><img width='90' height='30' src={'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.webp'}/></NavLink></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body onHide={handleClose}> 
                   <Nav className="me-auto" >

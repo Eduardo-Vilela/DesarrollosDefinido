@@ -55,6 +55,10 @@ function Seccion8Lasorianas() {
                     }}
                   className="mySwiper"
                 >
+                   <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658436426/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/4_e5igbs.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658436426/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/3_euj93j.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658436425/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/2_iagowq.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide  alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658436426/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/1_w5lyvt.jpg'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657812021/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/Orianas_2_nueva_-_jpg_iz5k0l.jpg'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657812021/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/Orianas_1nueva_-_jpg_r28tq4.jpg'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657812021/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/Orianas_4nueva_-_jpg_vdifvl.jpg'/></SwiperSlide>

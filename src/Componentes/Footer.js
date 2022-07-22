@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm } from "react-hook-form";
+import { useLocation } from 'react-router-dom'
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import {
@@ -27,7 +28,7 @@ import {
 
 
 function Footer() {
-
+  let location = useLocation();
   const ScrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -46,7 +47,7 @@ function Footer() {
   });
   const onSubmit = (data,e) => {
     //alert(JSON.stringify(data));
-    axios.post(`https://prueba.desarrollosdelsud.com.ar/webApi/public/formSuscribite`, data)
+    axios.post(`https://desarrollosdelsud.com.ar/webApi/public/formSuscribite`, data)
       .then(function (response) {
         console.log(response.data);
         toast.success('Formulario enviado!', {
@@ -81,6 +82,7 @@ function Footer() {
 
   return (
     <>
+      {location.pathname != "/dds" ?  
     <BoxPrimario>
         <BoxSecundario>
  
@@ -156,6 +158,7 @@ function Footer() {
 
         </BoxSecundario>
     </BoxPrimario> 
+    : ""}
     </>
   )
 }

@@ -66,6 +66,7 @@ function Rutas() {
 
 
         </Routes>
+        
         <Footer/>
         <Icono/>
       </ScrollToTop>

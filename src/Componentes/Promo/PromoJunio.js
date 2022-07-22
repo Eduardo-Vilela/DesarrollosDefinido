@@ -115,31 +115,31 @@ function PromoJunio() {
       }
           
         if(formDatos.cuotas == "12 meses"){
-            montoTotal =Math.round(((3900000 - value) / 12));
+            montoTotal =Math.round(((4800000 - value) / 12));
             setMontoCuotas(montoTotal);
         }
         if(formDatos.cuotas == "24 meses"){
-            montoTotal =Math.round(((3900000 - value) / 24));
+            montoTotal =Math.round(((4800000 - value) / 24));
             setMontoCuotas(montoTotal);
         }
         if(formDatos.cuotas == "36 meses"){
-            montoTotal =Math.round(((3900000 - value) / 36));
+            montoTotal =Math.round(((4800000 - value) / 36));
             setMontoCuotas(montoTotal);
         }
         if(formDatos.cuotas == "48 meses"){
-            montoTotal =Math.round(((3900000 - value) / 48));
+            montoTotal =Math.round(((4800000 - value) / 48));
             setMontoCuotas(montoTotal);
         }
         if(formDatos.cuotas == "60 meses"){
-          montoTotal =Math.round(((3900000 - value) / 60));
+          montoTotal =Math.round(((4800000 - value) / 60));
           setMontoCuotas(montoTotal);
         }
         if(formDatos.cuotas == "72 meses"){
-          montoTotal =Math.round(((3900000 - value) / 72));
+          montoTotal =Math.round(((4800000 - value) / 72));
           setMontoCuotas(montoTotal);
         }
         if(formDatos.cuotas == "84 meses"){
-          montoTotal =Math.round(((3900000 - value) / 84));
+          montoTotal =Math.round(((4800000 - value) / 84));
           setMontoCuotas(montoTotal);
         }
         
@@ -183,7 +183,7 @@ function PromoJunio() {
         formData.append("nombre",JSON.stringify(formDatos.nombre))
         
         
-      axios.post(`https://promo.desarrollosdelsud.com.ar/webApi/public/FormularioPromo`, formData)
+      axios.post(`https://desarrollosdelsud.com.ar/webApi/public/FormularioPromo`, formData)
       .then(function (response) {
         reset()
       })
