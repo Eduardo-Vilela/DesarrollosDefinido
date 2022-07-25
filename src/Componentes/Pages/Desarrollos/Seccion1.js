@@ -65,7 +65,7 @@ function Seccion1() {
           <SubtituloFlips>Calle 37 entre 177 y 179</SubtituloFlips>
         </div>
       <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715485/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/eljunci1_o2vhgg_b2vber.webp'/>   
+      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658428693/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/El_Juncal_8_impoan.jpg'/>   
       </div>    
     </Link>
   </>
@@ -87,7 +87,7 @@ function Seccion1() {
           <SubtituloFlips>Calle 90 entre 143 y 152</SubtituloFlips>
         </div> 
       <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715438/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latit34_wxhitz_kwklmc.webp'/>   
+      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430281/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_2_nkwplq.jpg'/>   
       </div>  
     </Link>         
   </>
@@ -109,7 +109,7 @@ function Seccion1() {
           <SubtituloFlips>Calle 229 entre 38 y 42</SubtituloFlips>
         </div> 
       <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715436/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi1_qxte9w_lopuuo.webp'/>   
+      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755727/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/7_iaw9ot.jpg'/>   
       </div>  
     </Link>          
   </>

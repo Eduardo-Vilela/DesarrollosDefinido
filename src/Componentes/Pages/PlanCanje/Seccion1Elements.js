@@ -254,7 +254,7 @@ cursor: pointer;
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
-      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Logo-Banner-Las-Orianas_qmldsg_y4ed0m.webp);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_184_j7j7rc_fkyrds.webp);
   }
   @media (max-width: 480px) { 
     width: 30%;
@@ -330,7 +330,7 @@ cursor: pointer;
       background-repeat: no-repeat;
       background-size: 60%;
       background-position: center center;
-      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_184_j7j7rc_fkyrds.webp);
+      background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715451/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_oxmzw1_yis4w6.svg)
   } 
   @media (max-width: 480px) { 
     width: 30%;

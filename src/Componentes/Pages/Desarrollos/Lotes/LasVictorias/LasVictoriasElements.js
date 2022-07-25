@@ -28,7 +28,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%),url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Latitud_34_3_1_yomdy4_trvu3g.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%),url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430280/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_4_rnhsnz.jpg);
 background-position: center;
 `
 export const BoxHomeLaescondida = styled.div`
@@ -47,7 +47,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%),url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/La_Campi%C3%B1a-8_edit_2_muqssy_cm38fd.jpg);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%),url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755728/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/9_xjwrmo.jpg);
 background-position: center;
 `
 

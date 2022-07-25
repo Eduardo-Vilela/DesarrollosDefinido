@@ -101,7 +101,7 @@ function PromoJunio() {
       if(formDatos.Desarrollo == "Las Orianas - Melchor Romero"){
         setFotoDesarrollo(
     
-          'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715451/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_oxmzw1_yis4w6.webp'
+          'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658781051/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_fyusq7.svg'
         
         )
       }

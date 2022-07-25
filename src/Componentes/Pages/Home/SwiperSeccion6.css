@@ -32,7 +32,7 @@
 
 .swiper-slide img {
   display: block;
-  width: 90%;
+  width: 95%;
   /* height: 100%; */
 }
 
@@ -41,20 +41,20 @@
 }
 
 .swiper-slide:nth-child(2n) {
-  width: 30%;
+  width: 25%;
 }
 
 .swiper-slide:nth-child(3n) {
-  width: 30%;
+  width: 25%;
 }
 .swiper-slide:nth-child(4n) {
-  width: 30%;
+  width: 25%;
 }
 .swiper-slide:nth-child(5n) {
-  width: 30%;
+  width: 25%;
 }
 .swiper-slide:nth-child(6n) {
-  width: 30%;
+  width: 25%;
 }
 
 .swiper-button-disabled{

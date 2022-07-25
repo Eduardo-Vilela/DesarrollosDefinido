@@ -26,7 +26,7 @@ function Seccion4() {
                 <br/>
                 
                 Además, nos enorgullece contarte que formamos parte de un
-                grupo empresarial que en solo dos años supo crecer para  
+                grupo empresarial que en solo cuatro años supo crecer para  
                 acompañarte en todo tu proceso.
                 <br/>
                 <br/>

@@ -20,7 +20,7 @@ function Seccion7() {
               <BoxBordesCards  className='bordeMedio '> 
                 <Link to='/Lasorianas'>        
                <div >
-                <ImgCardsDesarrollos style={{filter:' invert(1)'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715451/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_oxmzw1_yis4w6.webp" />
+                <ImgCardsDesarrollos style={{filter:'invert(1)'}}  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658781051/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_fyusq7.svg" />
                 </div>
                </Link>
             </BoxBordesCards>
@@ -61,7 +61,7 @@ function Seccion7() {
               </Link>
             </BoxBordesCards>
             <BoxBordesCards className='bordeMedio'>
-              <Link to='/LasCatalinas'>
+              <Link to='/'>
                 <div >
                     <ImgCardsLasCatalinas  src="https://res.cloudinary.com/grupo-delsud/image/upload/v1656448614/Logo_-_Las_Catalinas_lakd4u.webp" />
                 </div>   

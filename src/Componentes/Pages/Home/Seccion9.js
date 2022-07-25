@@ -61,25 +61,25 @@ function Seccion9() {
                 loop={true}          
         >   
                 <SwiperSlide>
-                    <a href='https://www.eleditorplatense.com.ar/'><EmpresasLogo><img  style={{width:'100%'}} alt='eleditor' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899646/marcas/marca-4_fumybn_lexght_e2sfsy_g9mekb.webp'/></EmpresasLogo></a>
+                    <a target="_blank" rel="noreferrer" href='https://www.eleditorplatense.com.ar/'><EmpresasLogo><img  style={{width:'100%'}} alt='eleditor' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899646/marcas/marca-4_fumybn_lexght_e2sfsy_g9mekb.webp'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://elementalconstructora.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='elemental' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/marca-5_i2vi7q_orv4sh_iblfhz.webp'/></EmpresasLogo></a>
+                    <a target="_blank" rel="noreferrer" href='https://elementalconstructora.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='elemental' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/marca-5_i2vi7q_orv4sh_iblfhz.webp'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://desarrollosdelsud.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='desarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899645/marcas/marca-6_izsi6k_w4hhgm_jksv2b.webp'/></EmpresasLogo></a>
+                    <a target="_blank" rel="noreferrer" href='https://desarrollosdelsud.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='desarrollo' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899645/marcas/marca-6_izsi6k_w4hhgm_jksv2b.webp'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://eugenie.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='eugenie' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/eugenie_zfirr3_tse5uk_hphaqm.webp'/></EmpresasLogo></a>
+                    <a target="_blank" rel="noreferrer" href='https://eugenie.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='eugenie' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/eugenie_zfirr3_tse5uk_hphaqm.webp'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://www.trustfund.com.ar/'><EmpresasLogo><img style={{width:'100%'}} alt=' trust' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899646/marcas/marca-1_kjjq86_qtyhar_y0vxpl_zjg4da.webp'/></EmpresasLogo></a>
+                    <a target="_blank" rel="noreferrer" href='https://www.trustfund.com.ar/'><EmpresasLogo><img style={{width:'100%'}} alt=' trust' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899646/marcas/marca-1_kjjq86_qtyhar_y0vxpl_zjg4da.webp'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://blick.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='blick' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899645/marcas/blick-01_fowsgk_yfqepc_pphaq9.webp'/></EmpresasLogo></a>
+                    <a target="_blank" rel="noreferrer" href='https://blick.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='blick' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899645/marcas/blick-01_fowsgk_yfqepc_pphaq9.webp'/></EmpresasLogo></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href='https://grava.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='grava' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/marca-7_rpdjbu_sz1m3o_xopgqx.webp'/></EmpresasLogo></a>
+                    <a target="_blank" rel="noreferrer" href='https://grava.com.ar/' ><EmpresasLogo><img style={{width:'100%'}} alt='grava' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657899644/marcas/marca-7_rpdjbu_sz1m3o_xopgqx.webp'/></EmpresasLogo></a>
                 </SwiperSlide>
         
         </SwiperEmpresas>

@@ -26,7 +26,7 @@ function Seccion1() {
         <BoxTitulo>
           <ContainerTittle>
             <TituloPrincipal>  Tenemos el terreno ideal para vos y tu familia  </TituloPrincipal>
-            <SubtituloPrincipal>Contamos con una amplia variedad de terrenos para que encuentres el que mejor se adapte a tus necesidades.</SubtituloPrincipal>
+            <SubtituloPrincipal>Contamos con una amplia variedad de terrenos para que encuentres <br/> el que mejor se adapte a tus necesidades.</SubtituloPrincipal>
           </ContainerTittle>
         </BoxTitulo>
       </BoxHome>
