@@ -7,7 +7,7 @@ BoxHomeVictorias,BoxTitulo,BoxTitulo2,LetrasLasVictorias,BoxTituloJuncal
 function LasVictorias() {
   return (
     <>
-     <BoxHomeVictorias>
+     <BoxHomeVictorias data-aos="fade-down" data-aos-duration="2000">
        <BoxTitulo>
         <BoxTituloJuncal>
           <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_184_j7j7rc_fkyrds.webp'/>

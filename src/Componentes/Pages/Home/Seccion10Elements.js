@@ -11,6 +11,10 @@ import styled from "styled-components";
  @media (max-width: 767px) { 
     height: 50px;
    }
+
+   @media (min-width: 768px) and (max-width: 1199px) { 
+      height: 180px;
+   }
  `
 
 export const SubBox = styled.div`

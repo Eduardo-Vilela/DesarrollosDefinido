@@ -54,6 +54,17 @@ function Seccion8Lacampiña() {
                     }}
                   className="mySwiper"
                 >
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755728/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/11_oao7ra.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755729/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/10_zyww4e.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755728/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/9_xjwrmo.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755727/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/8_gxz6yh.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755727/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/7_iaw9ot.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755726/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/6_qyrryp.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755729/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/5_lx4ckb.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755726/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/4_zocuk2.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755727/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/3_kryl8e.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755725/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/2_ywlnva.jpg'/></SwiperSlide>
+                <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755725/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/1_d1grza.jpg'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657810357/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/DJI_0960_fgg0qv.webp'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657810358/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/LA-CAMPINA-1_axhzch.webp'/></SwiperSlide>
                 <SwiperSlide><Imagenslide alt='victoriaslide1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657810357/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/La-Campina_web_wd1y70.webp'/></SwiperSlide>

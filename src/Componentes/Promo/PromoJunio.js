@@ -48,13 +48,13 @@ import './range.css'
 import 'rsuite/dist/rsuite.min.css';
 import RangeSlider from 'react-bootstrap-range-slider';
 import './icono.css'
-// import Footer from '../Footer'
+
 
 var montoTotal=0;
 function PromoJunio() {
 
    const [value, setValue] = useState(0);
-    const [formDatos,setFormDatos]= useState({cuotas:"84 meses", nombre:"", Desarrollo:"", montoAInvertir:""});
+    const [formDatos,setFormDatos]= useState({cuotas:"84 meses", nombre:"", Desarrollo:"La Escondida - Los Hornos", montoAInvertir:""});
     const [cuotas, setCuotas] = useState();
     const [nombre, setNombre] = useState();
     const [montoCuotas,setMontoCuotas]= useState();
@@ -69,7 +69,6 @@ function PromoJunio() {
             ...formDatos,
             [e.target.name]: e.target.value
           });
-       
       };
   
       useEffect(()=>{   
@@ -264,7 +263,7 @@ function PromoJunio() {
                         {...register("Desarrollo", { required: "*Campo requerido",})}
                         onChange ={(e)=>{onChangeFormDatos(e)}}
                         >
-                        <option value="La Escondida - Los Hornos">La Escondida - Los Hornos</option>
+                        <option value="La Escondida - Los Hornos"  selected="La Escondida - Los Hornos" >La Escondida - Los Hornos</option>
                         <option value="Las Victorias - Abasto">Las Victorias - Abasto</option>
                         <option value="El Juncal - Lisandro Olmos">El Juncal - Lisandro Olmos</option>
                         <option value="La Campiña - Ángel Etcheverry">La Campiña - Ángel Etcheverry</option>
@@ -275,13 +274,13 @@ function PromoJunio() {
                     <ContenedorInputs>
                     <LabelInputs htmlFor="cuotas">Seleccioná la cantidad de cuotas</LabelInputs>
                        <InputSelect name="cuotas" {...register("cuotas", { required: true })} onChange ={(e)=>{onChangeFormDatos(e)}}>
-                            <option value="12 meses"> 12 meses</option>
+                            <option value="12 meses" > 12 meses</option>
                             <option value="24 meses">24 meses</option>
                             <option value="36 meses">36 meses</option>
                             <option value="48 meses">48 meses</option>
                             <option value="60 meses">60 meses</option>
-                            <option value="72 meses">72 meses</option>
-                            <option value="84 meses" selected="84 meses"> 84 meses </option>
+                            <option value="72 meses" >72 meses</option>
+                            <option value="84 meses"selected="84 meses" > 84 meses </option>
                       </InputSelect>
                         
                     </ContenedorInputs> 

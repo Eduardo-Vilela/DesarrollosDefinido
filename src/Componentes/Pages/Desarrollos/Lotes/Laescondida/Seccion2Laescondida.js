@@ -18,7 +18,7 @@ function Seccion2Laescondida() {
      <Box2>
        <SubBox>
          <BoxTitulo>
-             <AjusteBox>
+             <AjusteBox data-aos="fade-up"  data-aos-duration="2000">
                <Separador> 
                 <Titulo>El placer de <br/>vivir donde querés</Titulo>
                </Separador>
@@ -39,7 +39,7 @@ function Seccion2Laescondida() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Imagen1 alt='fotoseccion1-lasvictorias'  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715435/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/render-grupo_8-Foto-1024x576_rkb7op_hkzdaz.webp'/>
+             <Imagen1 data-aos="fade-up"  data-aos-duration="2000" alt='fotoseccion1-lasvictorias'  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715435/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/render-grupo_8-Foto-1024x576_rkb7op_hkzdaz.webp'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

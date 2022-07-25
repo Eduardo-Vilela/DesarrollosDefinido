@@ -7,7 +7,7 @@ BoxHomeVictorias,BoxTitulo,LetrasLasVictorias,BoxTitulo2
 function LasVictorias() {
   return (
     <>
-     <BoxHomeVictorias>
+     <BoxHomeVictorias data-aos="fade-down" data-aos-duration="2000">
        <BoxTitulo>
         <BoxTituloJuncal>
          <LetrasLasVictorias className='imagenInicioLasVictorias' alt='letras-' src=''/>

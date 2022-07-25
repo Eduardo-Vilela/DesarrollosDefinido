@@ -18,7 +18,7 @@ function Seccion2Latitud34() {
      <Box2>
        <SubBox>
          <BoxTitulo>
-             <AjusteBox>
+             <AjusteBox data-aos="fade-up"  data-aos-duration="2000">
                <Separador> 
                 <Titulo>Disfrutá un nuevo <br/> estilo de vida</Titulo>
                </Separador>
@@ -39,7 +39,7 @@ function Seccion2Latitud34() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-            <Video1 loop muted autoPlay type="video/mp4"  alt='fotoseccion1-lasvictorias' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808376/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/latitud22222_tuuzuh.mp4'/>
+            <Video1 data-aos="fade-up"  data-aos-duration="2000" loop muted autoPlay type="video/mp4"  alt='fotoseccion1-lasvictorias' src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657808376/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/latitud22222_tuuzuh.mp4'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

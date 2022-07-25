@@ -18,7 +18,7 @@ function Seccion2Lacampiña() {
      <Box2>
        <SubBox>
          <BoxTitulo>
-             <AjusteBox>
+             <AjusteBox data-aos="fade-up"  data-aos-duration="2000">
                <Separador> 
                 <Titulo>Viví rodeado <br/>de naturaleza</Titulo>
                </Separador>
@@ -39,8 +39,8 @@ function Seccion2Lacampiña() {
                 </Separador>
             </AjusteBox>    
          </BoxTitulo>
-         <BoxTitulo>
-             <Video1 loop muted autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657809914/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/La-Campina222222_pmfcqa.mp4'/>
+         <BoxTitulo data-aos="fade-up"  data-aos-duration="2000">
+             <Video1 loop muted autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657809914/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/La-Campina222222_pmfcqa.mp4' />
          </BoxTitulo>
        </SubBox>
      </Box2>

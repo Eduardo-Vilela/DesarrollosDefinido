@@ -33,7 +33,7 @@
 .swiper-slide img {
   display: block;
   width: 90%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .swiper-slide:nth-child(1n) {
@@ -68,5 +68,4 @@
     height: 100%;
   
   }
-
 }

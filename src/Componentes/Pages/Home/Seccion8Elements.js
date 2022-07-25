@@ -40,6 +40,8 @@ z-index: 3;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
  top: 150px;
+ align-items: center;
+
  }
 `
 
@@ -92,6 +94,7 @@ export const SubTituloMaps = styled.p`
  font-family: "Poppins";
  font-weight: 200;
  color: #B8B8B8;
+ margin: 0;
 
 
  @media (max-width: 480px) { 

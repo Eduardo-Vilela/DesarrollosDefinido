@@ -63,7 +63,7 @@ export const IconosValores = styled.img`
 width: 40px;
 height: 42px;
 @media (min-width: 768px) and (max-width: 1199px) { 
-  width: 55px;
+  width: 40px;
 }
 `
 export const SubBoxPadre3 = styled.div`

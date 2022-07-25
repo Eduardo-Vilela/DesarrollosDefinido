@@ -33,7 +33,7 @@ Width: 50%;
 height: 100vh;
 /* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715484/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/El_Juncal-8_1_c76ut4_lprsx9.webp); */
 background-position: center center;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715441/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/La_Campi%C3%B1a_edit_hqt4up_frahbz.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658770679/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Contacto_oa38sm.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -61,11 +61,13 @@ padding: 0em 5em 0em 5em;
     width: 100%;
     padding: 0px;
     height: 100vh;
+    margin-bottom: 20px;
   }
   @media (max-width: 767px) { 
     width: 100%;
     padding: 0px;
     height: 100vh;
+    margin-bottom: 20px;
    }
 `
 

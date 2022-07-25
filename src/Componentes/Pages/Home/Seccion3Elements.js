@@ -58,7 +58,6 @@ export const BoxTexto = styled.div`
         height: 730px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      padding: 50px;
       height: auto;
       width: 50%;
     }
@@ -131,7 +130,7 @@ export const Parrafo3 = styled.p `
       font-size: 18px;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
-      font-size: 18px; 
+      font-size: 15px; 
     }
     @media (min-width: 1025px) and (max-width: 1280px) {
       font-size:14px;
@@ -191,5 +190,8 @@ export const BoxInterior = styled.div`
   width: 90%;
   row-gap: 30px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+      width: 100%;
+    }
 
 `

@@ -78,6 +78,7 @@ width: 80%;
 display: flex;
 flex-direction: column;
 justify-content: center;
+align-items: end;
 
 @media (max-width: 480px) { 
   width: 100%;
@@ -92,7 +93,8 @@ justify-content: center;
  @media (min-width: 768px) and (max-width: 1199px) { 
   height: auto;
   padding: 0;
-  width: 90%;
+  width: 50%;
+  align-items: center;
 }
 `
 export const Card1 = styled.div`
@@ -189,6 +191,9 @@ export const BoxCards = styled.div`
   width: 100%;
   padding: 0px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  width: 90%;
+  }
 `
 
 export const TituloLogros = styled.h2`
@@ -203,6 +208,9 @@ font-size: 12px;
 @media (max-width: 767px) { 
 font-size: 12px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+    font-size: 15px;
+  }
 `
 
 export const NumeroLogros = styled.div`
@@ -240,6 +248,9 @@ color: white;
   text-align: left;
   padding-left: 18px;
  }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+    font-size: 30px;
+  }
 
 `
 

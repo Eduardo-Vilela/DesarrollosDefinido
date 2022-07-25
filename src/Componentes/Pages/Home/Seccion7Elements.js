@@ -114,12 +114,12 @@ export const ImgCardsLasCatalinas = styled.img`
 width: 200px;
 
  @media (max-width: 480px) { 
-    width: 100%    
+    width: 100%;    
   }
   @media (max-width: 767px) { 
-    width: 100%
+    width: 100%;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
-    width: 70%
+    width: 150px;
   }
 `

@@ -72,7 +72,7 @@ return (
                     <Card4>
                         <IconoAños  alt='logros3' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715498/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_103_dn4m2u_wtzmzi.webp'/>
                         <TituloLogros >Años en el mercado</TituloLogros>
-                        <NumeroLogros  data-count="150">{alturaActivacion != false ? <CountUp end={3} /> : ""}</NumeroLogros>
+                        <NumeroLogros  data-count="150">{alturaActivacion != false ? <CountUp end={4} /> : ""}</NumeroLogros>
                     </Card4>
                 </BoxCards>
             </Box2>

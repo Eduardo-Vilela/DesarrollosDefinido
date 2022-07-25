@@ -77,6 +77,7 @@ background-position-y: center;
   @media (min-width: 768px) and (max-width: 1199px) { 
   height: 100%;
   background-size: 100%;
+  width: 50%;
 }
 `
 
@@ -85,11 +86,12 @@ width: 65%;
 text-align: left;
 @media (max-width: 480px) { 
       width: 80%;
-
   }
   @media (max-width: 767px) { 
       width: 80%;
-
+  }
+  @media (min-width: 768px) and (max-width: 1199px) { 
+    width: 80%;
   }
 `
 

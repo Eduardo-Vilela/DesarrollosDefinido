@@ -88,7 +88,9 @@ justify-content: space-evenly;
   height: 70vh;
   padding-top: 20px;
  }
-
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  width: 100%;
+}
 `
 export const BoxTitulos = styled.div`
 width: 50%;

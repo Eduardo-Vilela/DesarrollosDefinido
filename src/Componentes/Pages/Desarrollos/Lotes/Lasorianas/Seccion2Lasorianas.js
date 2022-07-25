@@ -19,7 +19,7 @@ function Seccion2Lasorianas() {
      <Box2>
        <SubBox>
          <BoxTitulo>
-             <AjusteBox>
+             <AjusteBox data-aos="fade-up"  data-aos-duration="2000">
                <Separador> 
                 <Titulo>La tranquilidad <br/>que buscabas</Titulo>
                </Separador>
@@ -42,7 +42,7 @@ function Seccion2Lasorianas() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Imagen1 loop muted autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715491/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/foto-inicio--1024x858_ataue4_zwbcrz.jpg'/>
+             <Imagen1 data-aos="fade-up"  data-aos-duration="2000" loop muted autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715491/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/foto-inicio--1024x858_ataue4_zwbcrz.jpg'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

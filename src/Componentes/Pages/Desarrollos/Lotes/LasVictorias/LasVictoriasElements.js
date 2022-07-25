@@ -28,7 +28,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Latitud_34_3_1_yomdy4_trvu3g.webp);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
 background-position: center;
 `
 export const BoxHomeLaescondida = styled.div`
@@ -47,7 +47,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715444/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/La_Campi%C3%B1a-8_edit_2_muqssy_cm38fd.webp);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
 background-position: center;
 `
 
@@ -58,7 +58,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 background-position: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657811087/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/portada-de-inicio-scaled_fvcadl.webp);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
 `
 export const BoxTitulo2 = styled.div`
 width: 50%;
@@ -305,7 +305,7 @@ justify-content: center;
 export const BoxMaps = styled.div`
 width: 45%;
 height: 107vh;
-margin-top: -50px;
+margin-top: -60px;
 background-attachment: fixed;
 
 @media (max-width: 480px) { 
@@ -806,6 +806,7 @@ color: #1D2142;
 font-family: "Poppins", Sans-serif;
 font-size: 35px;
 font-weight: 600;
+margin: 0px;
 
 @media (max-width: 480px) { 
   font-size: 18px;
@@ -824,6 +825,8 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1em;
 color: grey;
+margin: 0px;
+
 @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:14px;
 }
@@ -1038,4 +1041,38 @@ align-self: center;
     flex-direction: column;
     justify-content: center;
    }
+`
+
+export const BoxVideoOrianas = styled.video`
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+height: 80vh;
+object-fit:cover;
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
+@media (max-width: 480px) { 
+  width: 100%,
+}
+@media (max-width: 767px) { 
+  width: 100%
+}
+
+`
+export const BoxVideoLaCampiña = styled.video`
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+height: 80vh;
+object-fit:cover;
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
+@media (max-width: 480px) { 
+  width: 100%,
+}
+@media (max-width: 767px) { 
+  width: 100%
+}
 `

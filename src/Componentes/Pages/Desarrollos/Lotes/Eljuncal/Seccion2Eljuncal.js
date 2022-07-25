@@ -18,7 +18,7 @@ function Seccion2Eljuncal() {
      <Box2>
        <SubBox>
          <BoxTitulo>
-             <AjusteBox>
+             <AjusteBox data-aos="fade-up"  data-aos-duration="2000">
                <Separador> 
                 <Titulo>La tranquilidad <br/>que buscabas</Titulo>
                </Separador>
@@ -37,7 +37,7 @@ function Seccion2Eljuncal() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Video1 loop muted autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4"  src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657804339/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/El-Juncal-Landing22222_siy7dg.mp4'/>
+             <Video1 data-aos="fade-up"  data-aos-duration="2000" loop muted autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4"  src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657804339/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/El-Juncal-Landing22222_siy7dg.mp4'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

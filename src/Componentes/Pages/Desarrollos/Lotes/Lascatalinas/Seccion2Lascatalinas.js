@@ -18,7 +18,7 @@ function Seccion2Victorias() {
      <Box2>
        <SubBox>
          <BoxTitulo>
-             <AjusteBox>
+             <AjusteBox data-aos="fade-up"  data-aos-duration="2000">
                <Separador> 
                 <Titulo>Viví en contacto<br/> con la naturaleza</Titulo>
                </Separador>
@@ -40,7 +40,7 @@ function Seccion2Victorias() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo>
-             <Imagen1  alt='fotoseccion1-lasvictorias' src=''/>
+             <Imagen1 data-aos="fade-up"  data-aos-duration="2000"  alt='fotoseccion1-lasvictorias' src=''/>
          </BoxTitulo>
        </SubBox>
      </Box2>
