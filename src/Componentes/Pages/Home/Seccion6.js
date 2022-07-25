@@ -72,16 +72,16 @@ function Seccion6() {
               </SlideTexto6>
             </SwiperSlide >
             <SwiperSlide >
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_195_jklscp_byfhsh.png" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658777060/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Latitud_q5x6as.jpg" />
             </SwiperSlide>
             <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_194_qnrsio_m6iskz.png" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658777060/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Juncal_bsf8fs.jpg" />
             </SwiperSlide>
             <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715504/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_191_x2r2ef_t88nz3.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658777061/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Las_Victorias_okarhd.jpg" />
             </SwiperSlide>
             <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_189_zo7ghe_ouxxhx.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658777060/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_La_Campi%C3%B1a_ymqq5j.jpg" />
             </SwiperSlide>
             <SwiperSlide>
                <ImagenSlideVacia to='/Desarrollos'>Ver Desarrollos</ImagenSlideVacia>
@@ -139,16 +139,16 @@ function Seccion6() {
 
           >
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt="" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_195_jklscp_byfhsh.webp" />
+              <ImagenSlide alt="" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658777060/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Latitud_q5x6as.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715414/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_194_qnrsio_m6iskz.webp" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658777060/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Juncal_bsf8fs.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715504/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_191_x2r2ef_t88nz3.webp" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658777061/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Las_Victorias_okarhd.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_189_zo7ghe_ouxxhx.webp" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658777060/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_La_Campi%C3%B1a_ymqq5j.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5" >
                 <ImagenSlideVacia  to='/Desarrollos'>Ver Desarrollos → </ImagenSlideVacia>

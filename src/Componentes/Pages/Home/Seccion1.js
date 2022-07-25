@@ -19,7 +19,7 @@ function Seccion1() {
       <BoxHome  >
         <BoxVideo  loop autoPlay muted  className='videoInicio'>
             <source
-                src="https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1657719312/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/02-La-Campina-3_vfsrk9.mp4"
+                src="https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1658776500/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Banner_-_Home_-_Final_q33yu0.mp4"
                 type="video/mp4"
             />
         </BoxVideo>
