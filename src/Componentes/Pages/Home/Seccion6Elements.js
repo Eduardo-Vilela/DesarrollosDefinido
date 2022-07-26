@@ -56,6 +56,7 @@ export const SlideTexto6 = styled.div`
     height: 30vh;
     margin: auto;
     padding-left: 0;
+    row-gap: 22px;
   }
   @media (max-width: 767px) { 
     width: 86%;
@@ -63,6 +64,7 @@ export const SlideTexto6 = styled.div`
     margin: auto;
     padding-left: 0;
     justify-content: space-evenly;
+    row-gap: 22px;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
     width: 80%;

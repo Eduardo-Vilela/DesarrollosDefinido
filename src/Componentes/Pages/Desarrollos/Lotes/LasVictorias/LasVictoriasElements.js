@@ -9,7 +9,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715428/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/inicio_victorias_g5j4k1_bvudwr.webp);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658849706/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/Banner_-_Victorias_-_header_yetryl.jpg);
 background-position: center !important;
 `
 export const BoxHomeJuncal = styled.div`
@@ -18,7 +18,7 @@ height: 70vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715488/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/DJI_0077_3_xewzsu_bnpmqv.webp);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658850524/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/11_-_Juncal_-_Banner_y_card_its5pm.jpg);
 background-position: center;
 `
 
@@ -39,7 +39,7 @@ flex-direction: row;
 justify-content: center;
 background-size: cover;
 background-position: center;
-background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715434/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/inicio2_pujbto_yofib9.webp);
+background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658860781/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/Banner_-_La_Escondida_cojioo.jpg);
 `
 export const BoxHomeLacampiña = styled.div`
 width: 100%;
@@ -307,6 +307,9 @@ width: 45%;
 height: 107vh;
 margin-top: -60px;
 background-attachment: fixed;
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658850743/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/Orianas_-_Servicios_-_Horizontal_emcryy.jpg);
+background-size: cover;
+background-position-x: -550px;
 
 @media (max-width: 480px) { 
   width: 100%;
@@ -326,15 +329,18 @@ background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upl
 background-attachment: fixed;
 background-size: contain;
 background-repeat: no-repeat;
+
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
  }
 
 `
@@ -342,19 +348,21 @@ background-repeat: no-repeat;
 export const BoxMaps2Latitud = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_01_vcappe_gzraox.webp);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658845127/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud___Servicios_ezfy1l.jpg);
 background-attachment: fixed;
-background-size: contain;
+background-size: 45%;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
  }
 `
 export const BoxMaps3Latitud = styled.div`
@@ -368,11 +376,13 @@ background-repeat: no-repeat;
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
  }
 `
 export const BoxMaps1Victorias = styled.div`
@@ -386,30 +396,34 @@ background-size: contain;
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
  }
 `
 
 export const BoxMaps2Victorias = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715441/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Latitud_34_2_1_os8k4l_kac4hg.webp);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658844216/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/Las_Victorias___Servicios_ucozc5.jpg);
 background-attachment: fixed;
-background-size: contain;
+background-size: 45%;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
  }
 `
 
@@ -424,11 +438,13 @@ background-repeat: no-repeat;
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+    background-size: cover;
  }
 `
 
@@ -444,30 +460,34 @@ background-repeat: no-repeat;
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
  }
 `
 export const BoxMaps2Laescondida = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_01_vcappe_gzraox.webp);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658845700/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/Escondida_-_servicios_qzqagt.jpg);
 background-attachment: fixed;
-background-size: contain;
+background-size:45%;
 background-repeat: no-repeat;
 
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
  }
 `
 export const BoxMaps3Laescondida = styled.div`
@@ -483,11 +503,13 @@ background-repeat: no-repeat;
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
  }
 `
 export const BoxMaps1Eljuncal = styled.div`
@@ -502,29 +524,34 @@ background-size: contain;
   background-attachment: inherit;
   width: 100%;
   height:50vh;
+      background-size: cover;
 }
 @media (max-width: 767px) { 
   background-attachment: inherit;
   width: 100%;
   height:50vh;
+      background-size: cover;
  }
 `
 export const BoxMaps2Eljuncal = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715449/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_02_xztnn6_g2aimm.webp);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658849230/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/Juncal_-_Servicios_-_Horizontal_cvmnza.jpg);
 background-attachment: fixed;
-background-size: contain;
+background-size: cover;
 background-repeat: no-repeat;
+background-position-x: -650px;
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
  }
 `
 export const BoxMaps3Eljuncal = styled.div`
@@ -538,11 +565,13 @@ background-repeat: no-repeat;
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
  }
 `
 
@@ -557,30 +586,35 @@ background-repeat: no-repeat;
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
  }
 `
 
 export const BoxMaps2Lacampiña = styled.div`
 width: 45%;
 height:100vh;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_04_b8zrms_ytcbmq.webp);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658847470/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/Campi%C3%B1a_-_Servicios_-_Horizontal_duayxa.jpg);
 background-attachment: fixed;
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
+background-position-x: -270px ;
 @media (max-width: 480px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
  }
 `
 export const BoxMaps3Lacampiña = styled.div`
@@ -594,11 +628,13 @@ background-repeat: no-repeat;
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
 }
 @media (max-width: 767px) { 
   width: 100%;
   height:50vh;
     background-attachment: inherit;
+        background-size: cover;
  }
 `
 
@@ -848,11 +884,9 @@ border-bottom: 1px solid #6464643B;
 padding: 20px 0px;
 
 
-@media (max-width: 480px) { 
-  font-size: 14px;
-}
+
 @media (max-width: 767px) { 
-  font-size: 14px;
+  font-size: 13px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:14px;

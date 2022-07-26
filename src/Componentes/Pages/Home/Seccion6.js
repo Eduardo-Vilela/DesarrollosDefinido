@@ -106,7 +106,7 @@ function Seccion6() {
                 adapte a tus necesidades.
               </Parrafo6>
               <ButtonSlideSeccion6 >
-                <a className="boton-seccion5" style={{color:'white'}} href='aaaaa' >Ver Desarrollos → </a>             
+                <a className="boton-seccion5" style={{color:'white'}} href='aaaaa' >Ver Desarrollos</a>             
               </ButtonSlideSeccion6>           
         </SlideTexto6>
         <BoxSwiperMobile className="ajusteswiper-mobile">
@@ -142,7 +142,7 @@ function Seccion6() {
               <ImagenSlide alt="" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779275/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Latitud_rznkkv.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt=""  src="" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779274/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Juncal_xypfqm.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
               <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779275/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Las_Victorias_dxgiai.jpg" />
@@ -151,7 +151,7 @@ function Seccion6() {
               <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779274/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_La_Campi%C3%B1a_1_hwxzxw.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5" >
-                <ImagenSlideVacia  to='/Desarrollos'>Ver Desarrollos → </ImagenSlideVacia>
+                <ImagenSlideVacia  to='/Desarrollos'>Ver Desarrollos</ImagenSlideVacia>
             </SwiperSlide>
           </Swiper>
           </BoxSwiperMobile>

@@ -7,6 +7,11 @@ export const Principal = styled.div`
   margin: 0px 0px 150px 0px;
   align-items: center;
   display: flex;
+
+  @media (max-width: 767px) { 
+    height: 300px;
+    margin: 0px 0px 90px 0px;
+   }
 `
 
 export const Secundario = styled.div`

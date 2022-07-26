@@ -14,14 +14,17 @@ background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upl
 background-size: cover;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
-  height: 65vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
     }
     @media (max-width: 767px) { 
-      height: 65vh;
+      height: 100vh;
       background-size: cover;
       background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
      }
 `
 export const SubBox = styled.div`
@@ -44,7 +47,11 @@ justify-content: center;
 export const Box1 = styled.div`
 width: 100%;
 height: 350px;
-
+.centrarMobile{
+  @media (max-width: 480px) { 
+  text-align: center;
+    }
+}
 @media (max-width: 480px) { 
   height: 30vh;
     }
@@ -148,11 +155,11 @@ font-family:'Poppins';
 font-size: 20px;
 font-weight: 600;
 
-@media (max-width: 480px) { 
-      font-size: 13px;
-    }
+
     @media (max-width: 767px) { 
       font-size: 13px;
+      margin-top: 1em;
+    margin-bottom: 0px;
      }
 `
 export const InputForm  = styled.input`
@@ -208,20 +215,20 @@ export const SubContenedorForm = styled.div`
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      height: 135px;
+      height: auto;
     }
     @media (max-width: 767px) { 
       flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 135px;
+    height: auto;
      }
 `
 export const InputSelect = styled.select`
     height: 45px;
     border-radius: 10px;
     border: 0 !important;
-    font-size: 14px;
+    font-size: 18px;
     color: #000E4A;
     appearance: none;
     background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1655823583/ascascascasca_prxyc5.png);
@@ -233,7 +240,7 @@ export const InputSelect = styled.select`
 option {
     color: #000E4A;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 20px;
     background: white;
     display: flex;
     white-space: pre;
@@ -267,10 +274,10 @@ export const ContenedorInputRange = styled.div`
 
     
 @media (max-width: 480px) { 
-      height: 80px;
+  height: auto;
     }
     @media (max-width: 767px) { 
-      height: 80px;
+      height: auto;
      }
 `
 export const InputRange = styled.input`
@@ -302,10 +309,10 @@ export const BoxTitulo = styled.div`
 
 
 @media (max-width: 480px) { 
-      height: 40px;
+      height: auto;
     }
     @media (max-width: 767px) { 
-      height: 40px;
+      height: auto;
      }
 `
 export const LabelInputRange = styled.label`

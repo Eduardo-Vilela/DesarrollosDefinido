@@ -20,7 +20,7 @@ function Seccion6Lasorianas() {
      <Box2 id='3-servicios' >
          <SubBox2>
              <BoxMaps>
-             <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lomas_01_vcappe_gzraox.webp'  ></Imagen2>
+             {/* <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658850743/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/Orianas_-_Servicios_-_Horizontal_emcryy.jpg'  ></Imagen2> */}
              </BoxMaps>
              <BoxUbicacion>
                  <SubBoxUbicacion>

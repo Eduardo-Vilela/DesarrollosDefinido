@@ -42,17 +42,13 @@
 .redesNav{
  display: flex;
  flex-direction: row;
- justify-content: space-evenly;
+ justify-content: space-around;
  width: 75%;
- padding-top: 50px;
+ padding-top: 90px;
 }
 .imagenRedesNav2{
     width: 60px;
-    filter: invert(1);
-    padding-top: 50px;
-    border: 2px solid black;
-    border-radius: 50px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .navbar-toggler:focus {
@@ -78,7 +74,8 @@
     }
     .navBarItems a{
         font-size: 20px;
-        color: #1D2142 !important;
+        color: white !important;
+        font-weight: 400;
     }
     .navbar:active{
         background-color: #1D2142 !important;

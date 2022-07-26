@@ -67,12 +67,14 @@ background-position-y: center;
       height: 30%;
       border-radius:0;
       background-position-x: center;
+      background-size: 100%;
   }
   @media (max-width: 767px) { 
       width: 100%;
       height: 30%;
       border-radius:0;
       background-position-x: center;
+      background-size: 100%;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
   height: 100%;

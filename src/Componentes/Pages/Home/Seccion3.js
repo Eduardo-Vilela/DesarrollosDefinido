@@ -8,7 +8,16 @@ import {
     Parrafo3,
     Button3,
     BoxIntermedio,
-    BoxInterior
+    BoxInterior,
+    ContenedorCollage,
+    SubContenedorCollage,
+    SubContenedorCollage1,
+    SubContenedorCollage2,
+    FotoNosotros1,
+    FotoNosotros2,
+    FotoNosotros3,
+    ContenedorCollage2,
+
 } from './Seccion3Elements'
 
 
@@ -35,7 +44,20 @@ function Seccion3() {
           </BoxIntermedio>  
         </BoxTexto>
         <BoxBack>
-          
+        <ContenedorCollage2 >
+          <SubContenedorCollage>
+              <FotoNosotros1 alt='foto1' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658853019/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nosotros_-_Foto_2_jkmbhj.jpg'/>
+              
+          </SubContenedorCollage>
+          </ContenedorCollage2>
+          <ContenedorCollage >
+            <SubContenedorCollage1 >
+             <FotoNosotros2  alt='foto2' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658853018/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nosotros_-_Foto_1_srcsvu.jpg'/>
+            </SubContenedorCollage1>
+            <SubContenedorCollage2 >
+             <FotoNosotros3  alt='foto3' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658853018/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nosotros_-_Foto_3_muxllg.jpg'/>
+            </SubContenedorCollage2>
+          </ContenedorCollage>
         </BoxBack>
       </SubBox>
      </BoxPrincipal>  

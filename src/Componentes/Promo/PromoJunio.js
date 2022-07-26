@@ -216,7 +216,7 @@ function PromoJunio() {
             <CajaLogo>
               <Logo width='200' height='100' alt='logoPrincipal' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715464/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/PromoJunio/Logo_-_Desarrollos_Delsud_-_Web-02_ex4bbc_g4umpo.svg'/>
             </CajaLogo>
-            <div>
+            <div className='centrarMobile'>
             <Titulo>Tu terreno propio financiado al 100% </Titulo>
             <SubTitulo>Construí recuerdos en tu propiedad</SubTitulo>
             </div>
@@ -280,7 +280,7 @@ function PromoJunio() {
                             <option value="48 meses">48 meses</option>
                             <option value="60 meses">60 meses</option>
                             <option value="72 meses" >72 meses</option>
-                            <option value="84 meses"selected="84 meses" > 84 meses </option>
+                            <option value="84 meses" selected="84 meses" > 84 meses </option>
                       </InputSelect>
                         
                     </ContenedorInputs> 

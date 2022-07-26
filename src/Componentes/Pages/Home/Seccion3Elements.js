@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export const BoxPrincipal = styled.div`
   width:100%;
-  height: 100vh;
   margin-bottom: 40px;
   
     @media (max-width: 480px) { 
@@ -30,13 +29,13 @@ export const SubBox = styled.div`
         display:flex;
         flex-direction: column-reverse;
         justify-content: center;
-        padding: 0px 0px 0px 20px
+        height: 115vh;
     }
     @media (max-width: 767px) { 
         display:flex;
         flex-direction: column-reverse;
         justify-content: center;
-        padding: 0px 0px 0px 20px
+        height: 115vh;
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       height: 100%;
@@ -44,7 +43,7 @@ export const SubBox = styled.div`
      }
 `
 export const BoxTexto = styled.div`
-  width: 80%;
+  width: 50%;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -52,10 +51,14 @@ export const BoxTexto = styled.div`
 
     @media (max-width: 480px) { 
         width: 100%;
+        margin-top: 30px;
+        padding: 0px 0px 0px 20px
     }
     @media (max-width: 767px) { 
         width: 100%;
         height: 730px;
+        margin-top: 30px;
+        padding: 0px 0px 0px 20px
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       height: auto;
@@ -68,15 +71,10 @@ export const BoxTexto = styled.div`
 `
 export const BoxBack = styled.div`
   width: 50%;
-  height: 100vh;
-  border-radius: 20px 0px 0px 20px;
-  background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715454/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Lomas_de_Arana-Muestra-1_1_tqpjva_xupsff.png);
-  /* background-size: cover; */
-  object-fit: contain;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-size: 100%;
-  background-position-y: 50%;
+  /* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715454/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Lomas_de_Arana-Muestra-1_1_tqpjva_xupsff.png);  */
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
 
     @media (max-width: 480px) { 
         width: 100%;
@@ -194,4 +192,95 @@ export const BoxInterior = styled.div`
       width: 100%;
     }
 
+`
+export const ContenedorCollage = styled.div`
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+row-gap: 10px;
+
+@media (max-width: 767px) { 
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+ }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+    }
+`
+
+export const ContenedorCollage2 = styled.div`
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+row-gap: 10px;
+
+@media (max-width: 767px) { 
+  display: none !important;
+ }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+  display: none !important;
+     }
+ 
+`
+export const SubContenedorCollage = styled.div`
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: end;
+    padding-right: 10px;
+`
+export const SubContenedorCollage1 = styled.div`
+width: 100%;
+
+@media (max-width: 767px) { 
+  width: 50%;
+ }
+`
+export const SubContenedorCollage2 = styled.div`
+width: 100%;
+@media (max-width: 767px) { 
+  width: 50%;
+ }
+`
+
+export const FotoNosotros1 = styled.img`
+width:405px;
+border-radius: 10px;
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+      width: 175px;
+     }
+     
+
+`
+export const FotoNosotros2 = styled.img`
+width:200px;
+border-radius: 10px;
+
+
+@media (max-width: 767px) { 
+  width: 100%;
+ }
+
+ @media (min-width: 768px) and (max-width: 1199px) { 
+      width: 210px;
+     }
+`
+export const FotoNosotros3 = styled.img`
+width:200px;
+border-radius: 10px;
+
+@media (max-width: 767px) { 
+  width: 100%;
+ }
+ @media (min-width: 768px) and (max-width: 1199px) { 
+     width: 210px;
+     }
 `

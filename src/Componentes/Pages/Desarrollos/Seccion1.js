@@ -16,6 +16,7 @@ import {
   LinkFlip,
 } from './Seccion1Elements'
 import ReactHoverFlip from 'react-hover-flip'
+import JuncalCard from '../../media/Juncal-card.jpg'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,7 +43,7 @@ function Seccion1() {
             <SubtituloFlips>Calle 492 entre 202 y 208</SubtituloFlips>
           </div>
           <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-          src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/RENDER_LA_VICTORIA_2_-_Foto_2_tgiwqb_idt4tv.webp'/>   
+          src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658849706/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/Banner_-_Victorias_-_header_yetryl.jpg'/>   
 
       </div> 
     </Link>   
@@ -65,7 +66,7 @@ function Seccion1() {
           <SubtituloFlips>Calle 37 entre 177 y 179</SubtituloFlips>
         </div>
       <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658428693/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/slideEljuncal/El_Juncal_8_impoan.jpg'/>   
+      src={JuncalCard}/>   
       </div>    
     </Link>
   </>
@@ -131,7 +132,7 @@ function Seccion1() {
           <SubtituloFlips>Calle 515 entre 168 y 170</SubtituloFlips>
         </div> 
       <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715428/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Intro-Card-Las-Orianas-Dorso_axmuf8_wtrnsj.webp'/>   
+      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658850363/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/Orianas_-_Foto_para_Card_fuzu5c.jpg'/>   
       </div> 
     </Link>           
   </>
@@ -153,7 +154,7 @@ const BackLaEscondida
         <SubtituloFlips>Calle 84 entre 161 y 167</SubtituloFlips>
       </div>
     <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-    src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715464/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Render05-1024x576_xfqrrc_hzwgp3.webp'/>   
+    src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658860732/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/Card_-_La_Escondida_pjzpvg.jpg'/>   
     </div>   
   </Link>         
 </>
