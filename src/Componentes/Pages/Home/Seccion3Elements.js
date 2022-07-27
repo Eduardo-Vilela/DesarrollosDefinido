@@ -51,14 +51,11 @@ export const BoxTexto = styled.div`
 
     @media (max-width: 480px) { 
         width: 100%;
-        margin-top: 30px;
-        padding: 0px 0px 0px 20px
+        padding: 0px 0px 0px 15px
     }
     @media (max-width: 767px) { 
         width: 100%;
-        height: 730px;
-        margin-top: 30px;
-        padding: 0px 0px 0px 20px
+        padding: 0px 0px 0px 15px
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       height: auto;
@@ -164,11 +161,11 @@ text-align: left;
 
 
 @media (max-width: 480px) { 
-  width: 100%;
+  width: 95%;
   padding: 0;
 }
 @media (max-width: 767px) { 
-  width: 100%;
+  width: 95%;
   padding: 0;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
@@ -186,7 +183,7 @@ export const BoxInterior = styled.div`
 
   @media (max-width: 767px) { 
   width: 90%;
-  row-gap: 30px;
+  row-gap: 15px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
       width: 100%;
@@ -201,7 +198,7 @@ justify-content: center;
 row-gap: 10px;
 
 @media (max-width: 767px) { 
-  width: 100%;
+  width: 90%;
   flex-direction: row;
   justify-content: center;
   column-gap: 10px;

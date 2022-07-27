@@ -206,7 +206,7 @@ export const ImagenSlideVacia = styled(Link)`
 @media (max-width: 767px) { 
   width: 70% ;
   font-size: 20px;
-  height: 430px;
+  height: 450px;
   color: rgb(130,171,41) !important;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 

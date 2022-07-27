@@ -67,7 +67,7 @@ height: 42px;
 }
 `
 export const SubBoxPadre3 = styled.div`
-width: 100%;
+width: 95%;
 height: 100vh;
 margin: auto;
 display: flex;
@@ -86,14 +86,10 @@ justify-content: center;
 }
 `
 export const BoxValoresMobile = styled.div`
-@media (max-width: 480px) { 
-    display: block;
-    width: 80%;
-    margin: auto;
-    }
+
     @media (max-width: 767px) { 
     display: block;
-    width: 80%;
+    width: 85%;
     margin: auto;
      }
      @media (min-width: 768px) and (max-width: 2000px) { 

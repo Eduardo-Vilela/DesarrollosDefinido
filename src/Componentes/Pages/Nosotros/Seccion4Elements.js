@@ -4,19 +4,13 @@ export const BoxPadre = styled.div`
 width: 100%;
 height: 900px;
 
-@media (max-width: 480px) { 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 850px;
 
-}
 @media (max-width: 767px) { 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 850px;
-
+  height: auto;
+margin-bottom: 20px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   height: 560px;
@@ -31,17 +25,13 @@ flex-direction: row;
 justify-content: center;
 padding-top: 70px;
 
-@media (max-width: 480px) { 
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    padding-top: 0px;
-  }
+
   @media (max-width: 767px) { 
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     padding-top: 0px;
+    height: auto;
    }
 
    @media (min-width: 768px) and (max-width: 1199px) { 
@@ -52,7 +42,7 @@ padding-top: 70px;
 `
 
 export const BoxBack2 = styled.div`
-width: 70%;
+width: 49%;
 height: 90vh;
 
 border-radius: 20px;
@@ -62,16 +52,10 @@ background-repeat: no-repeat;
 background-position-x: right;
 background-position-y: center;
 
-  @media (max-width: 480px) { 
-      width: 100%;
-      height: 30%;
-      border-radius:0;
-      background-position-x: center;
-      background-size: 100%;
-  }
+
   @media (max-width: 767px) { 
       width: 100%;
-      height: 30%;
+      height: 200px;
       border-radius:0;
       background-position-x: center;
       background-size: 100%;
@@ -87,10 +71,10 @@ export const BoxIntermedioNos = styled.div`
 width: 65%;
 text-align: left;
 @media (max-width: 480px) { 
-      width: 80%;
+      width: 95%;
   }
   @media (max-width: 767px) { 
-      width: 80%;
+      width: 95%;
   }
   @media (min-width: 768px) and (max-width: 1199px) { 
     width: 80%;

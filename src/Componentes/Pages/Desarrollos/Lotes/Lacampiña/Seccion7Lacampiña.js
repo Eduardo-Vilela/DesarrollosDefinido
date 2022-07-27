@@ -20,7 +20,7 @@ function Seccion7Lacampiña() {
      <Box2 id='4-formadepago'>
          <SubBox2>
              <BoxMaps3Lacampiña>
-             {/* <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649432527/DESARROLLOSGRUPODELSUD/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u.jpg'  ></Imagen2> */}
+             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715477/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u_bquphb.webp'  ></Imagen2>
              </BoxMaps3Lacampiña>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -44,7 +44,7 @@ function Seccion7Lacampiña() {
                     </ul>
                   </ContenedorLista> */}
                   <div>
-                  <ButtonArmaTuPago target="_blank" href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos</ButtonArmaTuPago>
+                  <ButtonArmaTuPago to='/dds'  target="_blank" href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos</ButtonArmaTuPago>
                   </div>
                  </SubBoxUbicacion>
              </BoxUbicacion>

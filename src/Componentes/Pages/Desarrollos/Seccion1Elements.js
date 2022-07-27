@@ -165,7 +165,7 @@ color: #1D2142;
 font-family: Poppins;
 font-size: 24px;
 font-weight: 600;
-line-height: 0.5em;
+line-height: 1.2em;
 @media (max-width: 767px) { 
     font-size: 18px;
     line-height: 1.2em;

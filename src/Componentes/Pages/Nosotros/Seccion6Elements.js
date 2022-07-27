@@ -23,13 +23,9 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 
-@media (max-width: 480px) { 
-    width: 90%;
-    flex-direction: column;
-    justify-content: space-around;
-  }
+
   @media (max-width: 767px) { 
-    width: 90%;
+    width: 97%;
     flex-direction: column;
     justify-content: space-around;
    }

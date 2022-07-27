@@ -161,6 +161,9 @@ font-weight: 600;
       margin-top: 1em;
     margin-bottom: 0px;
      }
+     @media (min-width: 768px) and (max-width: 1700px) { 
+      font-size: 15px;
+}
 `
 export const InputForm  = styled.input`
 height: 45px !important;

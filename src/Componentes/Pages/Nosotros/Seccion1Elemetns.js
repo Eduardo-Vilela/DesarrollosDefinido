@@ -28,10 +28,12 @@ justify-content: center;
 @media (max-width: 480px) { 
  flex-direction: column;
  height: 100vh;
+ width: 85%;
 }
 @media (max-width: 767px) { 
 flex-direction: column;
 height: 100vh;
+width: 85%;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
 flex-direction: row;

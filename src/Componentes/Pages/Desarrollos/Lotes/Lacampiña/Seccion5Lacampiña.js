@@ -19,7 +19,7 @@ function Seccion5Lacampiña() {
      <Box2 id='2-proyecto'>
          <SubBox2>
              <BoxMaps1Lacampiña>
-              {/* <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649432360/DESARROLLOSGRUPODELSUD/La_Campi%C3%B1a_unmfp3.svg'  ></Imagen2> */}
+              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715443/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/La_Campi%C3%B1a_unmfp3_ovpquc.webp'  ></Imagen2>
              </BoxMaps1Lacampiña>
              <BoxUbicacion>
                  <SubBoxUbicacion>

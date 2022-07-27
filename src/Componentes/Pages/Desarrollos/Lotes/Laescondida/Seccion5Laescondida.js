@@ -19,7 +19,7 @@ function Seccion5Laescondida() {
      <Box2 id='2-proyecto'>
          <SubBox2>
              <BoxMaps1Laescondida>
-              {/* <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1651587525/DESARROLLOSGRUPODELSUD/la%20escondida/444-948x1024_wefged.png'  ></Imagen2> */}
+              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715431/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/444-948x1024_wefged_lcetzb.webp'  ></Imagen2>
              </BoxMaps1Laescondida>
              <BoxUbicacion>
                  <SubBoxUbicacion>

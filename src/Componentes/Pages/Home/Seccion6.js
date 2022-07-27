@@ -72,16 +72,16 @@ function Seccion6() {
               </SlideTexto6>
             </SwiperSlide >
             <SwiperSlide >
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779275/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Latitud_rznkkv.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658927019/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_sin_nombre_-_Latitud_pul9pr.jpg" />
             </SwiperSlide>
             <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779274/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Juncal_xypfqm.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658927018/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_sin_nombre_-_Juncal_s8mhhv.jpg" />
             </SwiperSlide>
             <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779275/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Las_Victorias_dxgiai.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658927018/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_sin_nombre_-_Las_Victorias_xjmsuj.jpg" />
             </SwiperSlide>
             <SwiperSlide>
-                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779274/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_La_Campi%C3%B1a_1_hwxzxw.jpg" />
+                  <ImagenSlide alt="fotoDesarrollos" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658927019/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_sin_nombre-_La_Campi%C3%B1a_dls4hz.jpg" />
             </SwiperSlide>
             <SwiperSlide>
                <ImagenSlideVacia to='/Desarrollos'>Ver Desarrollos</ImagenSlideVacia>
@@ -139,16 +139,16 @@ function Seccion6() {
 
           >
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt="" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779275/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Latitud_rznkkv.jpg" />
+              <ImagenSlide alt="" src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658927019/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_sin_nombre_-_Latitud_pul9pr.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779274/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Juncal_xypfqm.jpg" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658927018/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_sin_nombre_-_Juncal_s8mhhv.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779275/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_Las_Victorias_dxgiai.jpg" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658927018/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_sin_nombre_-_Las_Victorias_xjmsuj.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5">
-              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658779274/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_-_La_Campi%C3%B1a_1_hwxzxw.jpg" />
+              <ImagenSlide alt=""  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658927019/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nuestros_desarrollos_-_Portada_sin_nombre-_La_Campi%C3%B1a_dls4hz.jpg" />
             </SwiperSlide>
             <SwiperSlide className="swiperSlide-Seccion5" >
                 <ImagenSlideVacia  to='/Desarrollos'>Ver Desarrollos</ImagenSlideVacia>

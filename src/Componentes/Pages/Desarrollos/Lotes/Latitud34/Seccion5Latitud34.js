@@ -19,7 +19,7 @@ function Seccion5Latitud34() {
      <Box2 id='2-proyecto'>
          <SubBox2>
              <BoxMaps1Latitud>
-              {/* <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627419/DESARROLLOSGRUPODELSUD/Las_Victorias_landing-05_1_dpjkk9.jpg'  ></Imagen2> */}
+             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715438/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Latitud_pup3rf_rfxez1.webp'  ></Imagen2>
              </BoxMaps1Latitud>
              <BoxUbicacion>
                  <SubBoxUbicacion>

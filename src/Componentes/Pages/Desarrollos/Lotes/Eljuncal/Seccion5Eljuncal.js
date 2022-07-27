@@ -20,7 +20,7 @@ function Seccion5Eljuncal() {
      <Box2 id='2-proyecto'>
          <SubBox2>
              <BoxMaps1Eljuncal>
-              {/* <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649076431/DESARROLLOSGRUPODELSUD/Juncal_gtamen.jpg'  ></Imagen2> */}
+              <Imagen2 alt='fotoPlano' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715431/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Juncal_gtamen_f5z7j8.webp'  ></Imagen2>
              </BoxMaps1Eljuncal>
              <BoxUbicacion>
                  <SubBoxUbicacion>

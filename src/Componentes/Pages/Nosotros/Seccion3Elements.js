@@ -37,12 +37,14 @@ justify-content: center;
     flex-direction: column;
     justify-content: center;
     height: 80vh;
+    width: 95%;
   }
   @media (max-width: 767px) { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 80vh;
+    width: 95%;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
   height: 100%;

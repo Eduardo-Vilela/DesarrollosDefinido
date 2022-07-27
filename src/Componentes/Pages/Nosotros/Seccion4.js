@@ -38,8 +38,8 @@ function Seccion4() {
             </Parrafo3>
             </BoxIntermedioNos> 
         </BoxTexto>
-        <BoxBack2 data-aos="fade-up"  data-aos-duration="3000">
- 
+        <BoxBack2 >
+           
         </BoxBack2>
       </SubBoxPadre>
      </BoxPadre>

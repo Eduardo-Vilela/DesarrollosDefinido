@@ -23,7 +23,7 @@ return (
             style={{ width: '18rem',borderRight:'1px solid #E5E5E5' }}>
             <Card.Body>
                 <img  alt='aa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715422/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/002-dollar_bnwiea_vwc3vo.webp' />
-                <Card.Title style={{color:'#767676',FontFamily:'Raleway'}} >Cuotas en pesos <br/>y/o dólares</Card.Title>
+                <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}} >Cuotas en pesos <br/>y/o dólares</Card.Title>
         </Card.Body>  
             <TarjetaVerde>
                         <Card style={{ width: 'auto', height:'100%',border:'0' }} >
@@ -43,7 +43,7 @@ return (
             style={{ width: '18rem' ,borderRight:'1px solid #E5E5E5' }}>
             <Card.Body >
             <img  alt='aaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715416/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_22_femmox_kfomfk.webp' />
-            <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}  >Financiación <br/> Personalizada</Card.Title>          
+            <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}  >Financiación <br/> Personalizada</Card.Title>          
             </Card.Body>
 
             <TarjetaVerde>
@@ -64,7 +64,7 @@ return (
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
             <Card.Body >
             <img width='80'  alt='aaa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715418/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/018-bank-check-1_jnjhh6_tb6n1y.webp' />
-            <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}  >Accedé sólo <br/> con DNI</Card.Title>              
+            <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}  >Accedé sólo <br/> con DNI</Card.Title>              
             </Card.Body>
             <TarjetaVerde >
                 <Card style={{width: 'auto', height:'100%',border:'0' }}>
@@ -83,7 +83,7 @@ return (
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
             <Card.Body >
             <img  alt='aaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715417/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/006-crane_truck_1_ipxkwu_vholqq.webp' />
-            <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}   >Maquinaria <br/> Propia</Card.Title>               
+            <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}   >Maquinaria <br/> Propia</Card.Title>               
             </Card.Body>
             <TarjetaVerde>
                 <Card style={{width: 'auto', height:'100%',border:'0' }}>
@@ -103,7 +103,7 @@ return (
         <CardsBox style={{ width: '18rem' }}>
             <Card.Body >
             <img  alt='ss' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715427/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/035-agreement_rszyxv_mzpcfy.webp' />
-            <Card.Title style={{color:'#767676',FontFamily:'Raleway'}}  >Terrenos con<br/> Escritura</Card.Title>             
+            <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}  >Terrenos con<br/> Escritura</Card.Title>             
             </Card.Body>
             <TarjetaVerde >
                 <Card style={{ width: 'auto', height:'100%',border:'0'}}>
@@ -152,7 +152,7 @@ return (
                     <ContenidoVerde >
                     <Card.Img variant="top" style={{width:'50px',height:'auto',paddingBottom:'10px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-5_epscre_x68fqz.webp" />
                     <Card.Body style={{padding:'0',width:'100%'}} >
-                        <Card.Title style={{color:'#1D2142',FontFamily:'Poppins',fontSize:'20px',fontWeight:'400',borderBottom:'1px solid rgb(130 130 130 / 23%)',paddingBottom:'10px'}}  >Cuotas en pesos <br/> y/o dólares</Card.Title>             
+                        <Card.Title style={{color:'#1D2142',FontFamily:'Poppins',fontSize:'20px',fontWeight:'400 !important',borderBottom:'1px solid rgb(130 130 130 / 23%)',paddingBottom:'10px'}}  >Cuotas en pesos <br/> y/o dólares</Card.Title>             
                     </Card.Body>
                     <Card.Body style={{padding:'0'}}>
                         <Card.Subtitle  style={{background: 'white',color:'#828282',fontFamily:'Poppins',fontSize:'15px',fontWeight:'200'}}>
