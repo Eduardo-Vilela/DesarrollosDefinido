@@ -92,6 +92,9 @@ export const ImgCardsDesarrollos = styled.img`
   @media (min-width: 768px) and (max-width: 1199px) { 
     width: 70%
   }
+  @media (max-width:1281px) { 
+      width: 110px;
+    }
 `
 
 export const BoxCardsMobile = styled.div`
@@ -122,4 +125,7 @@ width: 200px;
   @media (min-width: 768px) and (max-width: 1199px) { 
     width: 150px;
   }
+  @media (max-width:1281px) { 
+      width: 125px;
+    }
 `

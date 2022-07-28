@@ -41,13 +41,14 @@ Parrafito,
 ButtonFormFalso,
 CajaLogo,
 } from './PromoElements'
-import { useForm, useFormState } from "react-hook-form";
+import { useForm} from "react-hook-form";
 import axios from "axios";
 import { Modal } from 'rsuite';
 import './range.css'
 import 'rsuite/dist/rsuite.min.css';
 import RangeSlider from 'react-bootstrap-range-slider';
 import './icono.css'
+import'../../FooterElements'
 
 
 var montoTotal=0;
@@ -72,33 +73,33 @@ function PromoJunio() {
       };
   
       useEffect(()=>{   
-        if(formDatos.Desarrollo == "La Escondida - Los Hornos"){
+        if(formDatos.Desarrollo === "La Escondida - Los Hornos"){
         setFotoDesarrollo(
           'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715434/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/Logo-La-Escondida-fondo-transparente-con-sombra-17-1024x1024_uj96z1_n7zhlv.webp'
         )
       }
-      if(formDatos.Desarrollo == "Las Victorias - Abasto"){
+      if(formDatos.Desarrollo === "Las Victorias - Abasto"){
         setFotoDesarrollo(
     
           'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_184_j7j7rc_fkyrds.webp'
         
         )
       }
-      if(formDatos.Desarrollo == "La Campiña - Ángel Etcheverry"){
+      if(formDatos.Desarrollo === "La Campiña - Ángel Etcheverry"){
         setFotoDesarrollo(
     
           'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715436/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a_hdxe5y_qzvlhe.webp'
         
         )
       }
-      if(formDatos.Desarrollo == "El Juncal - Lisandro Olmos"){
+      if(formDatos.Desarrollo === "El Juncal - Lisandro Olmos"){
         setFotoDesarrollo(
     
           'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715487/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/eljuncalLetras_xlttzf_kp4bnu.webp'
         
         )
       }
-      if(formDatos.Desarrollo == "Las Orianas - Melchor Romero"){
+      if(formDatos.Desarrollo === "Las Orianas - Melchor Romero"){
         setFotoDesarrollo(
     
           'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658781051/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_fyusq7.svg'
@@ -106,7 +107,7 @@ function PromoJunio() {
         )
       }
        
-      if(formDatos.Desarrollo == "Latitud 34 - Los Hornos"){
+      if(formDatos.Desarrollo === "Latitud 34 - Los Hornos"){
         setFotoDesarrollo(
     
           'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715498/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Groupaaa_vvoggh_mhkmve.webp'
@@ -114,31 +115,31 @@ function PromoJunio() {
         )
       }
           
-        if(formDatos.cuotas == "12 meses"){
+        if(formDatos.cuotas === "12 meses"){
             montoTotal =Math.round(((4800000 - value) / 12));
             setMontoCuotas(montoTotal);
         }
-        if(formDatos.cuotas == "24 meses"){
+        if(formDatos.cuotas === "24 meses"){
             montoTotal =Math.round(((4800000 - value) / 24));
             setMontoCuotas(montoTotal);
         }
-        if(formDatos.cuotas == "36 meses"){
+        if(formDatos.cuotas === "36 meses"){
             montoTotal =Math.round(((4800000 - value) / 36));
             setMontoCuotas(montoTotal);
         }
-        if(formDatos.cuotas == "48 meses"){
+        if(formDatos.cuotas === "48 meses"){
             montoTotal =Math.round(((4800000 - value) / 48));
             setMontoCuotas(montoTotal);
         }
-        if(formDatos.cuotas == "60 meses"){
+        if(formDatos.cuotas === "60 meses"){
           montoTotal =Math.round(((4800000 - value) / 60));
           setMontoCuotas(montoTotal);
         }
-        if(formDatos.cuotas == "72 meses"){
+        if(formDatos.cuotas === "72 meses"){
           montoTotal =Math.round(((4800000 - value) / 72));
           setMontoCuotas(montoTotal);
         }
-        if(formDatos.cuotas == "84 meses"){
+        if(formDatos.cuotas === "84 meses"){
           montoTotal =Math.round(((4800000 - value) / 84));
           setMontoCuotas(montoTotal);
         }
@@ -159,7 +160,7 @@ function PromoJunio() {
       let valor = e.toString();
       valor = valor.replace(/\D/g, "");
       valor = valor.toString().split('').reverse().join('').replace(/(?=\d*\.?)(\d{3})/g,'$1.');
-      valor = valor.split('').reverse().join('').replace(/^[\.]/,'');
+      valor = valor.split('').reverse().join('').replace(/^[/.]/,'');
       e=valor
       return e;
   }
@@ -322,9 +323,8 @@ function PromoJunio() {
                 </BoxButton>
             </ContenedorForm>
           </Box2>
-        </SubBox>
+        </SubBox> 
      </BoxPrincipal>
-     {/* <Footer/> */}
      </Container>
 
      <Modal style={{display:'flex',flexDirection:'column',justifyContent:'center', background: '#000000c4'}} size={'lg'} open={open} onClose={handleClose}>

@@ -88,6 +88,9 @@ export const LogosRedes = styled.img`
     @media (max-width: 767px) { 
       width: 50px;
     }
+    @media (max-width:1281px) { 
+      width: 50px;
+    }
   
  
 `
@@ -106,6 +109,9 @@ export const Titulo = styled.h2`
    @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 20px;
    }
+   @media (max-width:1281px) { 
+      font-size: 30px;
+    }
 `
 
 export const BoxContent = styled.div`

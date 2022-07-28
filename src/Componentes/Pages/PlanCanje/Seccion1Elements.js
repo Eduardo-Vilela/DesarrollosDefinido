@@ -5,6 +5,11 @@ export const BoxPrimario = styled.div`
 width: 100%;
 height: 120vh;
 background: #E5E5E5;
+
+@media (max-width: 767px) { 
+      height: auto;
+      margin-bottom: 40px;
+   }
 `
 export const BoxSecundario = styled.div`
 width: 100%;
@@ -45,13 +50,10 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 
-@media (max-width: 480px) { 
-  width: 100%;
-  height: 70vh;
-}
+
 @media (max-width: 767px) { 
   width: 100%;
-  height: 70vh;
+  height: auto;
  }
 
 `
@@ -78,15 +80,12 @@ border-radius: 10px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
-@media (max-width: 480px) { 
-  width: 100%;
-  height: 70vh;
-  padding-top: 20px;
-}
+
 @media (max-width: 767px) { 
   width: 100%;
-  height: 70vh;
+  height: auto;
   padding-top: 20px;
+  row-gap: 10px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   width: 100%;
@@ -125,10 +124,10 @@ font-weight: 600;
 line-height: 1.5em;
 
 @media (max-width: 480px) { 
-    font-size: 35px;
+    font-size: 30px;
   }
   @media (max-width: 767px) { 
-    font-size: 35px;
+    font-size: 30px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:40px;
@@ -143,10 +142,12 @@ line-height: 1.3em;
 text-align: left;
 
 @media (max-width: 480px) { 
-    font-size: 15px;
+  font-size: 13px;
+    text-align: center;
   }
   @media (max-width: 767px) { 
-    font-size: 15px;
+    font-size: 13px;
+    text-align: center;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:15px;
@@ -200,15 +201,12 @@ export const Columnas = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-@media (max-width: 480px) { 
-  flex-direction: row;
-  justify-content: space-around;
-  margin:auto;
-}
+
 @media (max-width: 767px) { 
-  flex-direction: row;
-  justify-content: space-around;
-  margin:auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
  }
 `
 
@@ -230,11 +228,10 @@ cursor: pointer;
       background-size: 60%;
       background-position: center center;
   }
-  @media (max-width: 480px) { 
-    width: 30%;
-  }
+ 
   @media (max-width: 767px) { 
-    width: 30%;
+    width: 60%;
+    height: 80px;
    }
 `
 
@@ -256,11 +253,10 @@ cursor: pointer;
       background-position: center center;
       background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715502/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_184_j7j7rc_fkyrds.webp);
   }
-  @media (max-width: 480px) { 
-    width: 30%;
-  }
+
   @media (max-width: 767px) { 
-    width: 30%;
+    width: 60%;
+    height: 80px;
    }
   
 `
@@ -282,11 +278,10 @@ cursor: pointer;
     background-position: center center;
       background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715436/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a_hdxe5y_qzvlhe.webp);
   }
-  @media (max-width: 480px) { 
-    width: 30%;
-  }
+
   @media (max-width: 767px) { 
-    width: 30%;
+    width: 60%;
+    height: 80px;
    }
 `
 export const CardLote3 = styled.div`
@@ -307,11 +302,10 @@ cursor: pointer;
       background-position: center center;
       background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715498/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Groupaaa_vvoggh_mhkmve.webp);
   }
-  @media (max-width: 480px) { 
-    width: 30%;
-  }
+ 
   @media (max-width: 767px) { 
-    width: 30%;
+    width: 60%;
+    height: 80px;
    }
 `
 export const CardLote4 = styled.div`
@@ -332,11 +326,9 @@ cursor: pointer;
       background-position: center center;
       background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658781051/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_fyusq7.svg)
   } 
-  @media (max-width: 480px) { 
-    width: 30%;
-  }
   @media (max-width: 767px) { 
-    width: 30%;
+    width: 60%;
+    height: 80px;
    }
 `
 export const CardLote5 = styled.div`
@@ -357,13 +349,11 @@ cursor: pointer;
       background-position: center center;
       background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657735373/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Logo-La-Escondida-fondo-transparente-con-sombra-17-1024x1024_mkcffm.webp);
   }
-  @media (max-width: 480px) { 
-    width: 30%;
-  }
-  @media (max-width: 767px) { 
-    width: 30%;
-   }
 
+  @media (max-width: 767px) { 
+    width: 60%;
+    height: 80px;
+   }
 `
 
 export const T1 = styled.p`
@@ -372,11 +362,10 @@ font-size: 20px;
 font-family: Poppins;
 font-weight: 400;
 
-@media (max-width: 480px) { 
-  font-size: 15px;
-}
+
 @media (max-width: 767px) { 
   font-size: 15px;
+  margin: 0px;
  }
 `
 export const S1 = styled.p`
@@ -384,11 +373,10 @@ color: #878080;
 font-size: 17px;
 font-family: Poppins;
 font-weight: 400;
-@media (max-width: 480px) { 
-  font-size: 11px;
-}
+
 @media (max-width: 767px) { 
   font-size: 11px;
+  margin: 0px;
  }
 `
 

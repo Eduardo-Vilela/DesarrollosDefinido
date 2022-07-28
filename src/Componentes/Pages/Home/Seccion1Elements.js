@@ -104,6 +104,9 @@ export const ContainerTittle = styled.div`
     @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 57px ;
     }
+    @media (max-width:1281px) { 
+      font-size: 47px ;
+    }
   
   `
   export const SubtituloPrincipal = styled.h2`
@@ -122,6 +125,9 @@ export const ContainerTittle = styled.div`
     }
     @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 24px ;
+    }
+    @media (max-width:1281px) { 
+      font-size: 20px ;
     }
     
   `

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from "react-hook-form";
-import { useLocation } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import {
@@ -28,7 +28,7 @@ import {
 
 
 function Footer() {
-  let location = useLocation();
+  // let location = useLocation();
   const ScrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -82,7 +82,7 @@ function Footer() {
 
   return (
     <>
-      {location.pathname != "/dds" ?  
+      {/* {location.pathname != "/formulario" ?   */}
     <BoxPrimario>
         <BoxSecundario>
  
@@ -140,7 +140,7 @@ function Footer() {
           </Box1>
           <Box2>
             <Seccion4>
-                <p>© 2021, Desarrollos Delsud. Todos los derechos reservados.</p>
+                <TitulosFooter style={{fontWeight:'300'}}>© 2021, Desarrollos Delsud. Todos los derechos reservados.</TitulosFooter>
             </Seccion4>
           </Box2>  
           <Box3>
@@ -155,10 +155,10 @@ function Footer() {
               </Seccion6>
             </SubBox>
           </Box3> 
-
+         
         </BoxSecundario>
     </BoxPrimario> 
-    : ""}
+  {/* : ""}  */}
     </>
   )
 }

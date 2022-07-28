@@ -30,6 +30,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 background-color: white;
+align-items: center;
 z-index: 3;
 
 @media (max-width: 480px) { 
@@ -86,7 +87,9 @@ export const TituloMaps = styled.h1`
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size: 20px;
  }
- 
+ @media (max-width:1281px) { 
+      font-size: 30px;
+    }
 `
 export const SubTituloMaps = styled.p`
  font-size: 25px;

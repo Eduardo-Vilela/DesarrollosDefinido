@@ -85,4 +85,9 @@ height: 300px;
   @media (max-width: 767px) { 
     height: 200px;
   }
+  @media (max-width:1281px) { 
+    height: 180px;
+    }
+    
+      align-items: center;
 `

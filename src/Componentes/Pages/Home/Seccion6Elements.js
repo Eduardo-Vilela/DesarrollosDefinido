@@ -107,6 +107,9 @@ export const Titulo6 = styled.h1`
 @media (min-width: 768px) and (max-width: 1199px) { 
  font-size: 20px;
 }
+ @media (max-width:1281px) { 
+      font-size: 30px ;
+    }
     
 `
 

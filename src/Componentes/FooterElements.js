@@ -136,7 +136,7 @@ import styled from "styled-components";
 
  export const TitulosFooter = styled.h3`
  color: #1D2142;
- font-family: "Poppins", Sans-serif;
+ font-family: "Poppins";
  font-size: 19px;
  font-weight: 600;
 
@@ -148,6 +148,9 @@ import styled from "styled-components";
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
   font-size:13px;
+ }
+ @media (max-width:1281px) { 
+  font-size:15px;
  }
  `
 

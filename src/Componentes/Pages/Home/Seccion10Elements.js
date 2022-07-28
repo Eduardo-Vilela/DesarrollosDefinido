@@ -15,6 +15,9 @@ import styled from "styled-components";
    @media (min-width: 768px) and (max-width: 1199px) { 
       height: 180px;
    }
+   @media (max-width:1281px) { 
+      height: 210px;
+    }
  `
 
 export const SubBox = styled.div`
@@ -53,5 +56,7 @@ font-family: 'Poppins';
    @media (min-width: 768px) and (max-width: 1199px) { 
       font-size: 20px;
    }
-   
+   @media (max-width:1281px) { 
+      font-size: 30px ;
+    }
 `

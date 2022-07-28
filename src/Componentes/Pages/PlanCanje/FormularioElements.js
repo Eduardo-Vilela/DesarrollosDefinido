@@ -25,11 +25,10 @@ background-color: white;
 align-items: center;
 border-radius: 10px;
 
-@media (max-width: 480px) { 
-    width: 100%;
-  }
+
   @media (max-width: 767px) { 
-    width: 100%;
+    width: 90%;
+    height: 480px;
    }
    @media (min-width: 768px) and (max-width: 1199px) { 
      
@@ -43,11 +42,12 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 
-@media (max-width: 480px) { 
-  width: 100%;
-}
+
+
 @media (max-width: 767px) { 
   width: 100%;
+  height: auto;
+  row-gap: 15px;
  }
  @media (min-width: 768px) and (max-width: 1199px) { 
    
@@ -59,6 +59,14 @@ height: 50%;
 display:flex;
 flex-direction: row;
 justify-content: space-around;
+
+@media (max-width: 767px) { 
+      height: auto;
+      flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 15px;
+   }
 `
 export const Parte2 = styled.div`
 width: 80%;
@@ -79,6 +87,11 @@ flex-direction: column;
 justify-content: center;
 align-items: baseline;
 
+@media (max-width: 767px) { 
+  width: 90%;
+  
+   }
+
 `
 export const InputPlanCanje = styled.input`
 background: #E5E5E5;
@@ -86,7 +99,7 @@ border-radius: 8px;
 font-family: 'Poppins';
 outline: 0!important;
 border: 0!important;
-height: 5vh;
+height: 45px;
 text-indent: 10px;
 width: 100%;
 
@@ -126,6 +139,11 @@ height: 80vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
+@media (max-width: 767px) { 
+  height: auto;
+  margin: auto;
+ }
 `
 
 export const ButtonFormPlanCanje = styled.button`
@@ -151,9 +169,7 @@ font-family: "Poppins", Sans-serif;
       
     
 
-    @media (max-width: 480px) { 
-      font-size: 14px;
-    }
+
     @media (max-width: 767px) { 
       font-size: 14px;
      }
@@ -162,7 +178,7 @@ font-family: "Poppins", Sans-serif;
      }
 `
 export const ImagenFinal = styled.img`
-width:70%;
+width: 90%;
 height: auto;
 margin: auto;
 `

@@ -189,7 +189,7 @@ export const Parrafo = styled.p`
 
 `
 export const Button1 = styled.button`
-font-family: 'Mabry Pro', Sans-serif;
+font-family: 'Poppins';
 font-size: 20px;
 font-weight: 300;
 line-height: 1em;
@@ -755,7 +755,7 @@ color: #ADADAD;
 `
 export const TituloDerecha = styled.h3`
 color: #1D2142;
-font-family: "Raleway", Sans-serif;
+font-family: "Poppins";
 font-size: 35px;
 font-weight: 600;
 line-height: 1.3em;
@@ -773,7 +773,7 @@ line-height: 1.3em;
 
 export const ParrafoDerecha = styled.p`
 text-align: left;
-font-family: "Poppins", Sans-serif;
+font-family: "Poppins";
 font-size: 22px;
 font-weight: 300;
 line-height: 1.25em;
@@ -787,7 +787,7 @@ line-height: 1.25em;
 `
 export const SubtituloDerecha = styled.h4`
 color: #1D2142;
-font-family: "Raleway", Sans-serif;
+font-family: "Poppins";
 font-size: 23px;
 font-weight: 600;
 
@@ -849,7 +849,7 @@ justify-content: inherit;
 export const NumerosAzules = styled.p`
 text-align: center;
 color: #1D2142;
-font-family: "Poppins", Sans-serif;
+font-family: "Poppins";
 font-size: 35px;
 font-weight: 600;
 margin: 0px;
@@ -866,7 +866,7 @@ margin: 0px;
 `
 
 export const TextoGris = styled.p`
-font-family: "Raleway", Sans-serif;
+font-family: "Poppins", Sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 1em;
@@ -886,7 +886,7 @@ background-attachment: fixed;
 export const ItemListaDerecha3 = styled.li`
 width: 100%;
 color: #1D2142;
-font-family: "Poppins", Sans-serif;
+font-family: "Poppins";
 font-size: 20px;
 font-weight: 300;
 line-height: 1.2em;
@@ -908,7 +908,7 @@ padding: 20px 0px;
 
 export const ButtonArmaTuPago = styled(Link)`
 
-  font-family: "Mabry Pro", Sans-serif;
+  font-family: "Poppins";
   font-size: 20px;
   font-weight: 300;
   line-height: 1em;
@@ -1006,7 +1006,7 @@ export const VideoSlideJuncal = styled.video`
 export const NavItems = styled.div`
  outline: none;
  font-size: 16px;
- font-family: "Mabry Pro", Sans-serif;
+ font-family: "Poppins", Sans-serif;
  font-weight: 600;
  color: #E0E0E0;
  margin-right: 30px;

@@ -107,8 +107,10 @@ export const Titulo3 = styled.h2 `
        }
        @media (min-width: 1025px) and (max-width: 1280px) {
         font-size:24px;
-        
        }
+       @media (max-width:1281px) { 
+      font-size: 30px ;
+    }
 `
 export const Parrafo3 = styled.p `
     font-size: 22px;
@@ -129,6 +131,9 @@ export const Parrafo3 = styled.p `
     }
     @media (min-width: 1025px) and (max-width: 1280px) {
       font-size:14px;
+    }
+    @media (max-width:1281px) { 
+      font-size: 20px ;
     }
 `
 export const Button3 = styled(Link) `
@@ -154,6 +159,10 @@ export const Button3 = styled(Link) `
        @media (min-width: 768px) and (max-width: 1199px) { 
          font-size:20px;
        }
+
+       @media (max-width:1281px) { 
+      font-size: 20px ;
+    }
 `
 export const BoxIntermedio = styled.div`
 width: 62%;
@@ -188,7 +197,10 @@ export const BoxInterior = styled.div`
  @media (min-width: 768px) and (max-width: 1199px) { 
       width: 100%;
     }
-
+    @media (min-width:1281px) { 
+      width: 100%;
+      row-gap: 30px;
+    }
 `
 export const ContenedorCollage = styled.div`
 width: 50%;
@@ -254,7 +266,9 @@ border-radius: 10px;
 @media (min-width: 768px) and (max-width: 1199px) { 
       width: 175px;
      }
-     
+     @media (max-width:1281px) { 
+      width: 235px;
+    }
 
 `
 export const FotoNosotros2 = styled.img`
@@ -269,6 +283,9 @@ border-radius: 10px;
  @media (min-width: 768px) and (max-width: 1199px) { 
       width: 210px;
      }
+     @media (max-width:1281px) { 
+      width: 115px;
+    }
 `
 export const FotoNosotros3 = styled.img`
 width:200px;
@@ -280,4 +297,7 @@ border-radius: 10px;
  @media (min-width: 768px) and (max-width: 1199px) { 
      width: 210px;
      }
+     @media (max-width:1281px) { 
+      width: 115px;
+    }
 `

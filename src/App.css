@@ -41,7 +41,11 @@ a{
     background-repeat: no-repeat;
     height: 10% !important;
     width: 10% !important;
+    
 }
+
+
+
 .swiper-button-prev{
     color:transparent !important;
     background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715494/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-178_bbov0q_lyx2dt.webp);

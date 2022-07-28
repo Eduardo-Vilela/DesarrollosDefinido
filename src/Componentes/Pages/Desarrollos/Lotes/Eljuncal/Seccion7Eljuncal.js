@@ -40,7 +40,7 @@ function Seccion7Eljuncal() {
                     </ParrafoDerecha>
                   </div>
                   <div>
-                  <ButtonArmaTuPago to='/dds'  target="_blank" href="https://api.whatsapp.com/send?phone=542215079256&text=Hola!%20Quiero%20recibir%20informaci%C3%B3n%20sobre%20los%20desarrollos!">Arma tu plan de pagos</ButtonArmaTuPago>
+                  <ButtonArmaTuPago to='/dds'  target="_blank" >Arma tu plan de pagos</ButtonArmaTuPago>
                   </div>
                  </SubBoxUbicacion>
              </BoxUbicacion>

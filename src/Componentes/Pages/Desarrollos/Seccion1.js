@@ -43,7 +43,7 @@ function Seccion1() {
             <SubtituloFlips>Calle 492 entre 202 y 208</SubtituloFlips>
           </div>
           <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-          src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658849706/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/Banner_-_Victorias_-_header_yetryl.jpg'/>   
+          src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659041394/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/Foto_para_Card_Las_Victorias_fd7sie.jpg'/>   
 
       </div> 
     </Link>   
