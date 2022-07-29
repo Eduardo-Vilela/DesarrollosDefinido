@@ -37,8 +37,8 @@ font-size: 15px;
 font-family: Poppins;
 font-weight: 200;
 
-@media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 11px;
+@media (min-width: 768px) and (max-width: 1400px) { 
+  font-size: 14px;
 }
 `
 
@@ -55,14 +55,15 @@ height: 1000px;
   display: none;
 
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
-  height: 600px;
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  height: 750px;
 }
 `
 export const IconosValores = styled.img`
-width: 40px;
-height: 42px;
-@media (min-width: 768px) and (max-width: 1199px) { 
+width: 44px;
+
+
+@media (min-width: 768px) and (max-width: 1400px) { 
   width: 40px;
 }
 `
@@ -80,8 +81,8 @@ justify-content: center;
   @media (max-width: 767px) { 
   display: none;
    }
-   @media (min-width: 768px) and (max-width: 1199px) {
-    width: 90% ;
+   @media (min-width: 768px) and (max-width: 1281px) {
+    width: 88% ;
   height: 100%;
 }
 `
@@ -127,5 +128,5 @@ justify-content: space-evenly;
 `
 
 export const BoxInterno = styled.div`
-  width: 75%;
+  width: 100%;
 `

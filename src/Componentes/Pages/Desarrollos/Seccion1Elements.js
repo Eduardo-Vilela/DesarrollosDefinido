@@ -83,8 +83,8 @@ color: #808080;
   @media (max-width: 767px) { 
      font-size: 20px;
    }
-   @media (min-width: 768px) and (max-width: 1199px) { 
-    font-size: 18px;
+   @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 28px;
   }
 `
 export const AjusteFotos = styled.div`

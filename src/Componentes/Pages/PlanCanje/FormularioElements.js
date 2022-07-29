@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 export const BoxPrincipal = styled.div`
 width: 100%;
-height: 120vh;
+height: 1000px;
 background-color: #E5E5E5;
 `
 export const SubBox = styled.div`
 width: 100%;
-height: 120vh;
+height: 1000px;
 display:flex;
 flex-direction: column;
 justify-content: center;
@@ -16,7 +16,7 @@ margin: auto;
 
 export const BoxFormulario = styled.form`
 width: 50%;
-height: 55vh;
+height: 500px;
 margin: auto;
 display: flex;
 flex-direction: column;
@@ -111,8 +111,8 @@ width: 100%;
   @media (max-width: 767px) { 
     font-size: 12px;
    }
-   @media (min-width: 768px) and (max-width: 1199px) { 
-     
+   @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 14px;
    }
 }
 `
@@ -122,23 +122,23 @@ font-size: 20px;
 font-family: Poppins;
 font-weight: 600;
 
-@media (max-width: 480px) { 
-  font-size: 14px;
-}
+
 @media (max-width: 767px) { 
   font-size: 14px;
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
-   
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  font-size: 16px;
+ 
  }
 `
 
 export const BoxFondoForm = styled.div`
 width: 100%;
-height: 80vh;
+height: 600px;
 display: flex;
 flex-direction: column;
 justify-content: center;
+align-items: center;
 
 @media (max-width: 767px) { 
   height: auto;

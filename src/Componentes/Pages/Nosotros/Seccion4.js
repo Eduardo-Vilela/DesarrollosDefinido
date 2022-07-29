@@ -10,10 +10,10 @@ import { BoxTexto, Parrafo3, Titulo3,BoxIntermedio, } from '../Home/Seccion3Elem
 function Seccion4() {
   return (
     <>
-     <BoxPadre>
+     <BoxPadre data-aos="fade-up"  data-aos-duration="3000">
       <SubBoxPadre>
         <BoxTexto>
-          <BoxIntermedioNos data-aos="fade-up"  data-aos-duration="3000">
+          <BoxIntermedioNos >
             <Titulo3 className='seccion4-nosotros-titulo'>
                   ¿Qué nos inspira?
             </Titulo3>

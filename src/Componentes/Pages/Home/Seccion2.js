@@ -22,7 +22,7 @@ return (
             <CardsBox 
             style={{ width: '18rem',borderRight:'1px solid #E5E5E5' }}>
             <Card.Body>
-                <img  alt='aa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715422/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/002-dollar_bnwiea_vwc3vo.webp' />
+                <img className='ajusteLogos'  alt='aa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715422/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/002-dollar_bnwiea_vwc3vo.webp' />
                 <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}} >Cuotas en pesos <br/>y/o dólares</Card.Title>
         </Card.Body>  
             <TarjetaVerde>
@@ -42,7 +42,7 @@ return (
 
             style={{ width: '18rem' ,borderRight:'1px solid #E5E5E5' }}>
             <Card.Body >
-            <img  alt='aaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715416/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_22_femmox_kfomfk.webp' />
+            <img className='ajusteLogos'  alt='aaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715416/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_22_femmox_kfomfk.webp' />
             <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}  >Financiación <br/> Personalizada</Card.Title>          
             </Card.Body>
 
@@ -63,7 +63,7 @@ return (
             </CardsBox>
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
             <Card.Body >
-            <img width='80'  alt='aaa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715418/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/018-bank-check-1_jnjhh6_tb6n1y.webp' />
+            <img className='ajusteLogos' width='80'  alt='aaa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715418/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/018-bank-check-1_jnjhh6_tb6n1y.webp' />
             <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}  >Accedé sólo <br/> con DNI</Card.Title>              
             </Card.Body>
             <TarjetaVerde >
@@ -82,7 +82,7 @@ return (
             </CardsBox>
             <CardsBox style={{ width: '18rem',borderRight:'1px solid #E5E5E5'  }}>
             <Card.Body >
-            <img  alt='aaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715417/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/006-crane_truck_1_ipxkwu_vholqq.webp' />
+            <img className='ajusteLogos'  alt='aaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715417/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/006-crane_truck_1_ipxkwu_vholqq.webp' />
             <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}   >Maquinaria <br/> Propia</Card.Title>               
             </Card.Body>
             <TarjetaVerde>
@@ -102,7 +102,7 @@ return (
         </CardsBox>
         <CardsBox style={{ width: '18rem' }}>
             <Card.Body >
-            <img  alt='ss' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715427/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/035-agreement_rszyxv_mzpcfy.webp' />
+            <img className='ajusteLogos'  alt='ss' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715427/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/035-agreement_rszyxv_mzpcfy.webp' />
             <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}  >Terrenos con<br/> Escritura</Card.Title>             
             </Card.Body>
             <TarjetaVerde >

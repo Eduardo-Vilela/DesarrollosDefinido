@@ -40,7 +40,9 @@ export const BoxSecundario = styled.div`
     height: auto;
     row-gap: 60px;
 }
-
+@media (max-width:1281px) { 
+      width: 95%;
+    }
 `
 export const SlideTexto6 = styled.div`
    width: 62%;
@@ -102,14 +104,12 @@ export const Titulo6 = styled.h1`
     font-size:40px;
 }
 @media (max-width: 767px) { 
-   font-size: 20px;
+   font-size: 20px !important;
 }
-@media (min-width: 768px) and (max-width: 1199px) { 
- font-size: 20px;
+@media (min-width: 768px) and (max-width: 1400px) { 
+ font-size: 25px;
 }
- @media (max-width:1281px) { 
-      font-size: 30px ;
-    }
+
     
 `
 
@@ -123,10 +123,10 @@ export const Parrafo6 = styled.p`
   font-size:15px;
 }
 @media (max-width: 767px) { 
- font-size: 15px;
+ font-size: 15px !important;
 }
-@media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 15px;
+@media (min-width: 768px) and (max-width: 1400px) { 
+  font-size: 18px;
  }
 `
 export const ButtonSlideSeccion6 = styled.a`

@@ -21,6 +21,7 @@ import JuncalCard from '../../media/Juncal-card.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Lotes/rotation.css';
+import Seccion8 from '../Home/Seccion8'
 AOS.init();
 
 
@@ -303,6 +304,7 @@ const BackLasCatalinas
          </BoxLotes>
        </SubBoxLotes>
      </BoxPrincipal>
+     <Seccion8/>
      <Seccion10/>
      <Seccion11/>
     </>

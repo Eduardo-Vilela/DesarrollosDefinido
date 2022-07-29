@@ -1,0 +1,195 @@
+.slider-home-hero{
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
+}
+
+.hero-container{
+    width: 100%;
+    height: 100vh;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-container.image-one{
+    background-image:linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659119567/marcas/sliderNuevoHome/Victorias_para_slider_2_1_ktfbmq.webp');
+}
+
+.hero-container.image-two{
+    background-image:linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120206/marcas/sliderNuevoHome/juncal_whmsei.webp');
+}
+
+.hero-container.image-three{
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120207/marcas/sliderNuevoHome/latitud34_h9gmwf.webp');
+}
+.hero-container.image-four{
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659122236/marcas/sliderNuevoHome/image_37_spsevm.webp');
+}
+.hero-container.image-five{
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120204/marcas/sliderNuevoHome/las_orianas_s68llm.webp');
+}
+.hero-container.image-six{
+    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120206/marcas/sliderNuevoHome/laEscondida_ewinlz.webp');
+}
+
+.hero-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .hero-text:hover{
+    filter: grayscale(80%);
+} */
+
+.hero-text-container{
+    height: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hero-text h1{
+    font-size: 45px;
+    color:#032854 !important;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 1;
+}
+.hero-text h1.hero-text-title-bold{
+    font-weight: 800!important;
+}
+
+
+.hero-text h2{
+    font-size: 28px;
+    line-height: 1.21;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #032854 !important;
+    font-weight: 500;
+}
+
+.hero-butons img{
+    animation: moverAbajo 1s 4  alternate; 
+    width: 50px;
+}
+
+.boton-imagen-scroll:hover{
+    transform: translateY(10px)!important;
+}
+
+.boton-home-ver-mas{
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 20px !important;
+    font-size: 20px;
+    font-weight: 500 !important;
+    line-height: 1.22;
+    margin-left: 15px;
+    background-color: #82AB29;
+    color: #ffffff;
+    
+}
+
+.boton-home-ver-mas:hover{
+    transform: translateY(-3px)!important;
+    box-shadow: 0px 5px 12px 0px grey ;
+    color: white;
+}
+
+.hero-butons{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+@keyframes moverAbajo {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(5px); }
+}
+
+
+/*ajuste logos*/
+
+.logoVictorias{
+    margin-left: 30px;
+}
+.logoEljuncal{
+    margin-left: 30px;
+}
+.logoLatitud34{
+    margin-left: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-container{
+        height: 92vh;
+    }
+    .hero-container.image-one{
+        background-image:linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659119567/marcas/sliderNuevoHome/Victorias_para_slider_2_1_ktfbmq.webp');
+    }
+    
+    .hero-container.image-two{
+        background-image:linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120206/marcas/sliderNuevoHome/juncal_whmsei.webp');
+    }
+    
+    .hero-container.image-three{
+        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120207/marcas/sliderNuevoHome/latitud34_h9gmwf.webp');
+    }
+    .hero-container.image-four{
+        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120206/marcas/sliderNuevoHome/la_campi%C3%B1a_dwdn3u.webp');
+    }
+    .hero-container.image-five{
+        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120204/marcas/sliderNuevoHome/las_orianas_s68llm.webp');
+    }
+    .hero-container.image-six{
+        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120206/marcas/sliderNuevoHome/laEscondida_ewinlz.webp');
+    }
+
+   .hero-text h1{
+       font-size: 1.5rem;
+       margin-bottom: 8px;
+       line-height: 25px;
+   }
+   .hero-text h2{
+       margin-bottom: 15px;
+       font-size: 20px;
+   }
+   .hero-container{
+       margin-top: 0px;
+   }
+   .hero-butons img{
+       display: none;
+   }
+   .hero-butons a{
+       font-size: 16px;
+       margin-left: 0px;
+   }
+   .hero-text-container{
+       align-items: flex-end;
+       padding-bottom: 70px;
+   }
+   .hero-text{
+       width: 100%;
+   }
+   .boton-home-ver-mas{
+    border-radius: 5px !important;
+    padding: 0.5rem 0.8rem;
+   }
+   .logoVictorias{
+    margin: 0;
+   }
+   .logoEljuncal{
+    margin: 0;
+   }
+.logoLatitud34{
+    margin-left: 35px;
+}
+}

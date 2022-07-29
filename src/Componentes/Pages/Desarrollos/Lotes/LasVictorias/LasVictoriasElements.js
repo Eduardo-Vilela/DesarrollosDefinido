@@ -1120,3 +1120,18 @@ background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
   width: 100%
 }
 `
+export const Video2 = styled.video`
+width: 70%;
+  height: 55%;
+  border-radius: 10px !important;
+  object-fit: cover;
+
+@media (max-width: 480px) { 
+   width: 100%;
+   height: auto;
+  }
+  @media (max-width: 767px) { 
+   width: 100%;
+   height: auto;
+  }
+`

@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 export const BoxPrincipal8 = styled.div`
  width: 100%;
+ padding-bottom: 200px;
+
 
  @media (max-width: 767px) { 
   padding: 25px 0px;
@@ -33,9 +35,7 @@ background-color: white;
 align-items: center;
 z-index: 3;
 
-@media (max-width: 480px) { 
-  flex-direction: column;
-}
+
 @media (max-width: 767px) { 
   flex-direction: column;
  }
@@ -76,20 +76,15 @@ export const TituloMaps = styled.h1`
  font-weight: 500;
  color: #1D2142;
 
- @media (max-width: 480px) { 
-  font-size:24px;
-  line-height: 20px;
-}
+
 @media (max-width: 767px) { 
-  font-size:24px;
-  line-height: 20px;
+  font-size:24px !important;
+  line-height: 20px !important;
  } 
- @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size: 20px;
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  font-size: 25px;
  }
- @media (max-width:1281px) { 
-      font-size: 30px;
-    }
+
 `
 export const SubTituloMaps = styled.p`
  font-size: 25px;
@@ -105,6 +100,9 @@ export const SubTituloMaps = styled.p`
 }
 @media (max-width: 767px) { 
   font-size: 15px;
+ }
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  font-size: 18px;
  }
  `
 

@@ -59,7 +59,7 @@ function Seccion1() {
       };
   return (
     <> 
-     <BoxPadre>
+     <BoxPadre style={{marginTop:'80px'}}>
          <SubBoxPadre>
              <Box1>
 
@@ -71,7 +71,7 @@ function Seccion1() {
                             <TituloContacto>Contacto</TituloContacto>
                             <SubtituloContacto >
                                 Completá el formulario con tu consulta
-                                <br/> 
+    
                                 y la resolveremos a la brevedad.
                             </SubtituloContacto>
                         </ContenedorTitulos>   
@@ -86,19 +86,21 @@ function Seccion1() {
                             placeholder="Nombre"
                             
                           />
-                          {errors.name && <p style={{color:'white', fontFamily:'Poppins'}}>Campo Requerido!</p>}
-                          <InputContacto  type="text" name='email'
+                          {errors.name && <p style={{color:'red', fontFamily:'Poppins',fontWeight:'200'}}>Campo Requerido!</p>}
+                          <InputContacto  type="text" name='email' autocomplete="off"
                             {...register("email", {
-                            required: "*Campo requerido",
+                            required: true,
                             pattern: {
                             value: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-                            message1: "Dirección de mail invalida"
+                            message: "Dirección de mail invalida",
                                }
                               })}
                             style={{color:'white'}}
                             placeholder="Email"
                             />
-                            {errors.email &&  <p style={{color:'white', fontFamily:'Poppins'}}>Campo Requerido!</p>}
+                            {errors.email && <p className='text-danger'>{errors.email.message}</p>}
+                            {errors?.email?.type === "required" && 
+                              <p className='text-danger'>Este campo es obligatorio</p>}
                           <InputContacto type="number" name='telefono' onWheel={(e) => e.target.blur()}
                               {...register("telefono", {
                                 required: "*Campo requerido",
@@ -109,7 +111,7 @@ function Seccion1() {
 
                             placeholder="Teléfono "
                             />
-                            {errors.telefono &&  <p style={{color:'white', fontFamily:'Poppins'}}>Campo Requerido!</p>}
+                            {errors.telefono &&  <p style={{color:'red', fontFamily:'Poppins',fontWeight:'200'}}>Campo Requerido!</p>}
                         <InputArea  name="w3review" rows="4" cols="10" placeholder='Mensaje'
                         {...register("mensaje", 
                         { 
@@ -118,9 +120,9 @@ function Seccion1() {
                           })}
                         />
                          {errors?.mensaje?.type === "required" && 
-                            <p style={{color: 'white'}}>Campo requerido</p>}
+                            <p style={{color: 'red',fontWeight:'200'}}>Campo requerido</p>}
                           {errors?.mensaje?.type === "maxLength" && (
-                            <p style={{color: 'white'}}>El mensaje no puede exceder los 140 caracteres</p>
+                            <p style={{color: 'red',fontWeight:'200'}}>El mensaje no puede exceder los 140 caracteres</p>
                           )}
                           </div>   
                           <div style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'flex-start'}}>

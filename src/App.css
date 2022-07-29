@@ -1,3 +1,9 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
 
 a{
     text-decoration: none !important;
@@ -43,8 +49,6 @@ a{
     width: 10% !important;
     
 }
-
-
 
 .swiper-button-prev{
     color:transparent !important;

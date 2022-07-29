@@ -116,9 +116,9 @@ a{
             padding: 13px;
         }
 }
-@media (min-width: 768px) and (max-width: 1199px) { 
+@media (min-width: 768px) and (max-width: 1281px) { 
      .navbar{
-        flex-wrap: none !important;
+        flex-directi: row !important;
      }
 
 }

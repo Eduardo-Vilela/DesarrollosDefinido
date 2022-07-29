@@ -9,15 +9,12 @@ import styled from "styled-components";
  background-position: bottom;
 
  @media (max-width: 767px) { 
-    height: 50px;
+    height: 50px !important;
    }
 
-   @media (min-width: 768px) and (max-width: 1199px) { 
-      height: 180px;
+   @media (min-width: 768px) and (max-width: 1400px) { 
+      height: 200px;
    }
-   @media (max-width:1281px) { 
-      height: 210px;
-    }
  `
 
 export const SubBox = styled.div`
@@ -47,16 +44,12 @@ font-weight: 200;
 color: #808080;
 font-family: 'Poppins';
 
-@media (max-width: 480px) { 
-     font-size: 18px;
-  }
+
   @media (max-width: 767px) { 
-    font-size: 18px;
+    font-size: 18px !important;
    }
-   @media (min-width: 768px) and (max-width: 1199px) { 
-      font-size: 20px;
+   @media (min-width: 768px) and (max-width: 1400px) { 
+      font-size: 25px;
    }
-   @media (max-width:1281px) { 
-      font-size: 30px ;
-    }
+
 `

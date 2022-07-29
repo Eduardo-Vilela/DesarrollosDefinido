@@ -140,7 +140,7 @@ function Footer() {
           </Box1>
           <Box2>
             <Seccion4>
-                <TitulosFooter style={{fontWeight:'300'}}>© 2021, Desarrollos Delsud. Todos los derechos reservados.</TitulosFooter>
+                <SubtitulosFooter style={{fontWeight:'300'}}>© 2021, Desarrollos Delsud. Todos los derechos reservados.</SubtitulosFooter>
             </Seccion4>
           </Box2>  
           <Box3>

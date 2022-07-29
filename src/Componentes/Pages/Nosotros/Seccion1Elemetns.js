@@ -9,7 +9,7 @@ export const BoxPadre = styled.div`
   padding-top: 80px;
 }
 @media (max-width: 767px) { 
-  height: 1000px;
+  height: 1050px;
   padding-top: 80px;
 }
 @media (min-width: 768px) and (max-width: 1199px) { 
@@ -89,7 +89,8 @@ font-weight: 500;
   @media (max-width: 767px) { 
     font-size: 18px;
    }
-   @media (min-width: 768px) and (max-width: 1199px) { 
+   @media (min-width: 768px) and (max-width: 1400px) { 
      font-size:30px;
    }
+   
 `   

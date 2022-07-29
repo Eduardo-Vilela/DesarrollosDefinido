@@ -23,7 +23,7 @@ import styled from "styled-components";
  `
  export const Box1 = styled.div`
     width: 100%;
-    height: 300px;
+    height: 340px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -38,16 +38,20 @@ import styled from "styled-components";
  export const Box2 = styled.div`
  width: 100%;
  text-align: left;
- height: 10vh;
+ height: 5vh;
  `
 
  export const Box3 = styled.div`
  display: flex;
  flex-direction: row;
  justify-content: space-around;
- height: 120px;
+ height: 80px;
  width: 100%;
  background-color: #1D2142;
+
+ @media (min-width: 768px) and (max-width: 1199px) { 
+
+ }
 
  `
 
@@ -100,9 +104,10 @@ import styled from "styled-components";
  `
 
  export const Seccion5 = styled.div`
+ width: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   
   @media (max-width: 480px) { 
@@ -117,9 +122,10 @@ import styled from "styled-components";
  `
 
  export const Seccion6 = styled.div`
+  width: 50%;
  display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     @media (max-width: 480px) { 
       display: none;
@@ -140,18 +146,14 @@ import styled from "styled-components";
  font-size: 19px;
  font-weight: 600;
 
- @media (max-width: 480px) { 
-  font-size:13px;
- }
+ 
  @media (max-width: 767px) { 
-  font-size:13px;
+  font-size:13px !important;
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:13px;
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  font-size:14px;
  }
- @media (max-width:1281px) { 
-  font-size:15px;
- }
+
  `
 
  export const SubtitulosFooter = styled.p`
@@ -167,7 +169,7 @@ import styled from "styled-components";
      @media (max-width: 767px) { 
       font-size:12px;
      }
-     @media (min-width: 768px) and (max-width: 1199px) { 
+     @media (min-width: 768px) and (max-width: 1400px) { 
       font-size:12px;
      }
  `
@@ -194,7 +196,7 @@ import styled from "styled-components";
    font-size:12px;
    column-gap: 0px;
   }
-  @media (min-width: 768px) and (max-width: 1199px) { 
+  @media (min-width: 768px) and (max-width: 1400px) { 
    font-size:12px;
   }
  `
@@ -210,10 +212,15 @@ import styled from "styled-components";
   height: 35px;
   border: 0;
   background-color: #FAFAFA;
+  font-size: 14px;
   border-bottom: 2px solid #1D2142;
 &:focus{
   outline: none !important;
 }
+
+@media (min-width: 768px) and (max-width: 1281px) { 
+   font-size: 13px;
+  }
  `
 
  export const TituloFooterFinal = styled.h4`
@@ -228,14 +235,14 @@ import styled from "styled-components";
 @media (max-width: 767px) { 
   font-size: 10px;
 }
-@media (min-width: 768px) and (max-width: 1199px) { 
+@media (min-width: 768px) and (max-width: 1400px) { 
   font-size: 14px;
 }
  `
 
  export const LogoGrupo = styled.img`
 
- width: 40%;
+ width: 80px;
 
  @media (max-width: 480px) { 
   width: 20%;

@@ -48,7 +48,7 @@ line-height: 1.2em;
 @media (max-width: 767px) { 
   font-size: 20px;
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
+ @media (min-width: 768px) and (max-width: 1400px) { 
   font-size: 20px;
  }
 `
@@ -83,7 +83,7 @@ height: 300px;
       justify-content: center;
     }
   @media (max-width: 767px) { 
-    height: 200px;
+    height: 200px !important;
   }
   @media (max-width:1281px) { 
     height: 180px;

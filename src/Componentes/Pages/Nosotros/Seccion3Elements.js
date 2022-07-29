@@ -24,7 +24,9 @@ justify-content: center;
  @media (min-width: 768px) and (max-width: 1199px) { 
   height: 550px;
 }
-
+@media (max-width:1281px) { 
+    height: 700px;
+    }
 `
 export const Secundario = styled.div`
 width: 80%;
@@ -210,7 +212,7 @@ font-size: 12px;
 @media (max-width: 767px) { 
 font-size: 12px;
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
+ @media (min-width: 768px) and (max-width: 1400px) { 
     font-size: 15px;
   }
 `
@@ -227,8 +229,8 @@ color: white;
   @media (max-width: 767px) { 
   font-size: 20px;
    }
-   @media (min-width: 768px) and (max-width: 1199px) { 
-    font-size: 25px;
+   @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 23px;
   }
 `
 export const TituloPrincipalLogros = styled.h2`
@@ -250,10 +252,9 @@ color: white;
   text-align: left;
   padding-left: 18px;
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
+ @media (min-width: 768px) and (max-width: 1400px) { 
     font-size: 30px;
   }
-
 `
 
 export const IconoAños = styled.img`

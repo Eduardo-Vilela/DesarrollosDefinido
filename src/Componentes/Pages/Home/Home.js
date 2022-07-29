@@ -23,16 +23,16 @@ function Home() {
     <NavbarTransparent/>
     <ModalInicio/>
      <Seccion1/>
-     <Seccion2/>
+     {/* <Seccion2/> */}
      <Seccion3/>
      <Seccion4/>
      {/* <Seccion5/> */}
-     <Seccion6/>
-     <Seccion7/>
-     <Seccion8/>
+     {/* <Seccion6/> */}
+     {/* <Seccion7/> */}
+     {/* <Seccion8/> */}
      <Seccion9/>
      <Seccion10/>
-     <Seccion11/>
+     {/* <Seccion11/> */}
     </>
   )
 }

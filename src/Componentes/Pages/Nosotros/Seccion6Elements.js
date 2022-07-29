@@ -69,8 +69,8 @@ color: white;
 @media (max-width: 767px) { 
   font-size: 18px;
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:25px;
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  font-size:20px;
 }
 `
 
@@ -87,8 +87,8 @@ line-height: 3em;
 @media (max-width: 767px) { 
   font-size: 14px;
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
-  font-size:22px;
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  font-size:18px;
 }
 `
 

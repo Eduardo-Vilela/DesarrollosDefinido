@@ -83,18 +83,14 @@ border-right: 1px solid #dadada40;
 export const ImgCardsDesarrollos = styled.img`
  width: 130px;
 
- @media (max-width: 480px) { 
-    width: 100px;  
-  }
+
   @media (max-width: 767px) { 
-    width: 100px;  
+    width: 100px !important;  
   }
-  @media (min-width: 768px) and (max-width: 1199px) { 
-    width: 70%
+  @media (min-width: 768px) and (max-width: 1400px) { 
+    width: 110px;
   }
-  @media (max-width:1281px) { 
-      width: 110px;
-    }
+
 `
 
 export const BoxCardsMobile = styled.div`
@@ -116,16 +112,12 @@ export const BoxCardsMobile = styled.div`
 export const ImgCardsLasCatalinas = styled.img`
 width: 200px;
 
- @media (max-width: 480px) { 
-    width: 100%;    
-  }
+
   @media (max-width: 767px) { 
-    width: 100%;
+    width: 100% !important;
   }
-  @media (min-width: 768px) and (max-width: 1199px) { 
+  @media (min-width: 768px) and (max-width: 1400px) { 
     width: 150px;
   }
-  @media (max-width:1281px) { 
-      width: 125px;
-    }
+
 `

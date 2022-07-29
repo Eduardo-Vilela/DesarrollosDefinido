@@ -93,19 +93,13 @@ export const ContainerTittle = styled.div`
   text-shadow: 0px 0px 10px rgb(0 0 0 / 76%);
   line-height: 1.2em;
 
-    @media (max-width: 480px) { 
-      font-size: 40px ;
-      line-height: 1.2em;
-    }
+  
     @media (max-width: 767px) { 
-      font-size: 30px ;
-      line-height: 1.2em;
+      font-size: 30px !important ;
+      line-height: 1.2em !important;
     }
-    @media (min-width: 768px) and (max-width: 1199px) { 
+    @media (min-width: 768px) and (max-width: 1400px) { 
       font-size: 57px ;
-    }
-    @media (max-width:1281px) { 
-      font-size: 47px ;
     }
   
   `
@@ -117,17 +111,15 @@ export const ContainerTittle = styled.div`
   text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
 
     @media (max-width: 480px) { 
-      font-size: 16px ;
-      line-height: 30px;
+      font-size: 16px !important ;
+      line-height: 30px !important;
     }
     @media (max-width: 767px) { 
       font-size: 20px ;
     }
-    @media (min-width: 768px) and (max-width: 1199px) { 
-      font-size: 24px ;
-    }
-    @media (max-width:1281px) { 
+    @media (min-width: 768px) and (max-width: 1400px) { 
       font-size: 20px ;
     }
+
     
   `

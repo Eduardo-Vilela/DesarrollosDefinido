@@ -7,18 +7,18 @@ import {
     Titulo,
     Parrafo,
     Button1,
-    Imagen1,
-    Separador
+    Separador,
+    Video2
 } from './LasVictoriasElements'
 
 
 function Seccion2Victorias() {
   return (
     <>
-     <Box2>
+     <Box2 data-aos="fade-up"  data-aos-duration="2000">
        <SubBox>
          <BoxTitulo>
-             <AjusteBox data-aos="fade-up"  data-aos-duration="2000">
+             <AjusteBox >
                <Separador> 
                 <Titulo>Viví en contacto con la naturaleza</Titulo>
                </Separador>
@@ -40,7 +40,7 @@ function Seccion2Victorias() {
             </AjusteBox>    
          </BoxTitulo>
          <BoxTitulo >
-             <Imagen1 data-aos="fade-up"  data-aos-duration="2000"  alt='fotoseccion1-lasvictorias' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715440/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lasvictorias_viv_qjlpwc_mxij49.webp'/>
+             <Video2 loop muted autoPlay alt='fotoseccion1-lasvictorias' type="video/mp4" src='https://res.cloudinary.com/desarrollogrupodelsud/video/upload/v1659109477/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/Las_Victorias_-_landing_hcmro5.mp4'/>
          </BoxTitulo>
        </SubBox>
      </Box2>

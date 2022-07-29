@@ -44,7 +44,18 @@ margin: auto;
 
 export const CardsBox = styled.div`
 position: relative;
-
+.card-title{
+ 
+  @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 16px;
+      }
+}
+.ajusteLogos{
+  
+  @media (min-width: 768px) and (max-width: 1400px) { 
+    width: 50px;
+      }
+}
 `
 export const TarjetaVerde = styled.div`
 display: none;
@@ -109,5 +120,8 @@ export const BoxCardsMobile = styled.div`
  `
  export const LogoVerde = styled.img`
  width: 60px;
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  width: 50px;
+      }
 
  `

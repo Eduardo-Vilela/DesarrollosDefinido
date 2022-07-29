@@ -120,8 +120,19 @@ color: #82AB1B !important;
 }
 
 
+/* clase color blue para home nuevo*/
 
-
+.colorBlue{
+    color: #1D2142 !important;
+    background-color: white;
+    border-color: #1D2142 !important;
+}
+.colorBlue::placeholder{
+    color: #1D2142 !important;
+}
+.colorButtonFormHome{
+    background-color: #82AB1B !important;
+}
 
 @media screen and (max-width: 480px) {
     .accordion-flex{
@@ -196,9 +207,9 @@ color: #82AB1B !important;
         font-size: 18px !important;
     }
 }
-@media (min-width: 768px) and (max-width: 1199px) { 
+@media (min-width: 768px) and (max-width: 1400px) { 
     .accordion-button{
-    font-size: 18px !important;
+    font-size: 25px !important;
 }
     .flexButtonFormInicio{
         width:100%;
@@ -206,9 +217,19 @@ color: #82AB1B !important;
     .buttonFormInicio{
         font-size: 18px;
         width: 50%;
+        text-align: end;
     }
     .card-title{
         font-size: 15px !important;
+    }
+    .textarea-formularioInicio{
+      font-size: 18px;
+    }
+    .inputInicio-form{
+        font-size: 18px;
+    }
+    .Subtitlofooterform{
+        font-size: 20px;
     }
 }
 
@@ -222,7 +243,7 @@ color: #82AB1B !important;
     height: 60px;
     justify-content: center;
 }
-@media (max-width:1281px) { 
+@media (max-width:1400px) { 
     .BordesRedondos{
         width: 50px;
         height: 50px;
@@ -230,6 +251,6 @@ color: #82AB1B !important;
   }
   @media (max-width:1281px) { 
   .accordion-button{
-    font-size: 30px !important;
+    font-size: 30px ;
   }
   }

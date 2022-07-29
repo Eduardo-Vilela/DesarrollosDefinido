@@ -12,8 +12,8 @@ height: 900px;
   height: auto;
 margin-bottom: 20px;
  }
- @media (min-width: 768px) and (max-width: 1199px) { 
-  height: 560px;
+ @media (min-width: 768px) and (max-width: 1281px) { 
+  height: 600px;
 }
 `
 export const SubBoxPadre = styled.div`
@@ -34,9 +34,9 @@ padding-top: 70px;
     height: auto;
    }
 
-   @media (min-width: 768px) and (max-width: 1199px) { 
+   @media (min-width: 768px) and (max-width: 1281px) { 
   height: 100%;
-  width: 90%;
+  width: 100%;
   padding: 0 !important;
 }
 `
@@ -45,7 +45,7 @@ export const BoxBack2 = styled.div`
 width: 49%;
 height: 90vh;
 
-border-radius: 20px;
+border-radius: 10px;
 background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715453/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/plantita2_tmojez_k5okl2.webp);
 background-size: 90%;
 background-repeat: no-repeat;
@@ -60,7 +60,7 @@ background-position-y: center;
       background-position-x: center;
       background-size: 100%;
   }
-  @media (min-width: 768px) and (max-width: 1199px) { 
+  @media (min-width: 768px) and (max-width: 1400px) { 
   height: 100%;
   background-size: 100%;
   width: 50%;
@@ -76,8 +76,8 @@ text-align: left;
   @media (max-width: 767px) { 
       width: 95%;
   }
-  @media (min-width: 768px) and (max-width: 1199px) { 
-    width: 80%;
+  @media (min-width: 768px) and (max-width: 1281px) { 
+    width: 60%;
   }
 `
 

@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const BoxPadre = styled.div`
 width: 100%;
-height: 100vh;
-margin-top: 80px;
+height: 850px;
+
 
 @media (max-width: 480px) { 
   margin-top: 60px;
@@ -11,10 +11,13 @@ margin-top: 80px;
 @media (max-width: 767px) { 
   margin-top: 60px;
  }
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  height: 600px;
+ }
 `
 export const SubBoxPadre = styled.div`
 width: 100%;
-height: 100vh;
+height: 850px;
 margin: auto;
 display: flex;
 flex-direction: row;
@@ -26,11 +29,14 @@ justify-content: center;
   @media (max-width: 767px) { 
     flex-direction:column;
    }
+   @media (min-width: 768px) and (max-width: 1400px) { 
+  height: 600px;
+ }
 `
 
 export const Box1 = styled.div`
-Width: 50%;
-height: 100vh;
+width: 50%;
+height: 100%;
 /* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715484/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/El_Juncal-8_1_c76ut4_lprsx9.webp); */
 background-position: center center;
 background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658770679/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Contacto_oa38sm.jpg);
@@ -48,9 +54,29 @@ background-size: cover;
     height: 20vh;
    }
 `
+export const BoxFormularioHome = styled.div`
+width: 50%;
+height: 100%;
+/* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715484/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/El_Juncal-8_1_c76ut4_lprsx9.webp); */
+background-position: center center;
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659124533/marcas/sliderNuevoHome/Mask_group_odze5s.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+@media (max-width: 480px) { 
+    width: 100%;
+    background-size: cover;
+    height: 20vh;
+  }
+  @media (max-width: 767px) { 
+    width: 100%;
+    background-size: cover;
+    height: 20vh;
+   }
+`
 export const Box2 = styled.div`
-Width: 50%;
-height: 100vh;
+width: 50%;
+height: 100%;
 background-color: #929292;
 display: flex;
 flex-direction: column;
@@ -78,34 +104,38 @@ justify-content: center;
 align-items: baseline;
 width:70%;
 margin: auto;
+
+@media (min-width: 768px) and (max-width: 1400px) { 
+    row-gap: 20px;
+  }
 `
 export const TituloContacto = styled.h1`
 color: white;
 font-size: 40px;
 font-family: Poppins;
-font-weight: 400;
+font-weight: 500;
 @media (max-width: 480px) { 
     font-size: 30px;
   }
   @media (max-width: 767px) { 
     font-size: 30px;
    }
-   @media (min-width: 768px) and (max-width: 1199px) { 
-    font-size: 35px;
+   @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 30px;
   }
 `
 export const ContenedorTitulos = styled.div`
 width: 80%;
 text-align: left;
-padding-bottom: 80px;
+
 @media (max-width: 480px) { 
     padding:0px;
-    padding-bottom: 35px;
+
     width: 100%;
   }
   @media (max-width: 767px) { 
     padding:0px;
-    padding-bottom: 35px;
+
     width: 100%;
    }
 `
@@ -113,7 +143,7 @@ export const SubtituloContacto = styled.p`
 font-size: 20px;
 color: white;
 font-family: Poppins;
-font-weight: 300;
+font-weight: 200;
 
 @media (max-width: 480px) { 
     font-size: 15px;
@@ -121,8 +151,8 @@ font-weight: 300;
   @media (max-width: 767px) { 
     font-size: 15px;
    }
-   @media (min-width: 768px) and (max-width: 1199px) { 
-    font-size: 15px;
+   @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 20px;
   }
 `
 
@@ -147,14 +177,17 @@ width: 100%;
 &:focus{
   outline: none !important;
 }
+&:active{
+        outline: none;
+    }
 @media (max-width: 480px) { 
    font-size: 22px;
   }
   @media (max-width: 767px) { 
     font-size: 22px;
    }
-   @media (min-width: 768px) and (max-width: 1199px) { 
-    font-size: 22px;
+   @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 18px;
   }
 `
 export const InputArea = styled.textarea`
@@ -181,9 +214,9 @@ resize: none !important;
    @media (max-width: 767px) { 
      font-size: 22px;
     }
-    @media (min-width: 768px) and (max-width: 1199px) { 
-        font-size: 22px;
-      }
+    @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 18px;
+  }
 `
 
 export const Button = styled.input`
@@ -206,6 +239,9 @@ padding: 15px 30px;
     background-color: #82AB1B;
   border: 1px solid white;
     }
+    @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 18px;
+  }
 
 &:hover{
   background-color: #82AB1B;

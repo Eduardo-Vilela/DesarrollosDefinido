@@ -156,7 +156,7 @@ const onSubmit = (data,e) => {
                 </BoxIntermedioinputs>
                 <BoxIntermedioinputs>
                   <PosicionLabels>
-                        <LabelPlanCanje className='label-auto' >Kilometros</LabelPlanCanje>
+                        <LabelPlanCanje className='label-auto' >Kilómetros</LabelPlanCanje>
                         <InputPlanCanje className='input-formAuto' type="number" name='kilometros' onWheel={(e) => e.target.blur()}
                           {...register("kilometros", 
                           { 
