@@ -16,6 +16,8 @@ import {
   InputArea ,
   Button,
   BoxFormularioHome,
+  InputAreaHome,
+  InputContactoHome,
 } from '../Contacto/Seccion1Elements'
 import '../Home/Seccion11.css'
 
@@ -69,19 +71,19 @@ function Seccion1() {
              <BoxFormularioHome >
 
              </BoxFormularioHome>
-             <Box2 className='colorBlue'>
+             <Box2 className='colorBlue' style={{background:'white'}}>
              <BoxFormContacto  onSubmit={handleSubmit(onSubmit)}>
 
                         <ContenedorTitulos>
-                            <TituloContacto className='colorBlue' >Contacto</TituloContacto>
-                            <SubtituloContacto className='colorBlue' >
+                            <TituloContacto style={{color:'#1D2142'}} className='colorBlue' >Contacto</TituloContacto>
+                            <SubtituloContacto style={{color:'#1D2142'}} c className='colorBlue' >
                                 Completá el formulario con tu consulta
     
                                 y la resolveremos a la brevedad.
                             </SubtituloContacto>
                         </ContenedorTitulos>   
                         <div style={{width:'100%'}}>    
-                          <InputContacto className='colorBlue' type="text" name='name'
+                          <InputContactoHome style={{color:'#1D2142'}} c className='colorBlue' type="text" name='name'
                             {...register("name", {
                               required: "*Campo requerido",
                               maxLength: {
@@ -92,7 +94,7 @@ function Seccion1() {
                             
                           />
                           {errors.name && <p style={{color:'red', fontFamily:'Poppins',fontWeight:'200'}}>Campo Requerido!</p>}
-                          <InputContacto  className='colorBlue' type="text" name='email' autocomplete="off"
+                          <InputContactoHome style={{color:'#1D2142'}} c  className='colorBlue' type="text" name='email' autocomplete="off"
                             {...register("email", {
                             required: true,
                             pattern: {
@@ -100,13 +102,12 @@ function Seccion1() {
                             message: "Dirección de mail invalida",
                                }
                               })}
-                            style={{color:'white'}}
                             placeholder="Email"
                             />
                             {errors.email && <p className='text-danger'>{errors.email.message}</p>}
                             {errors?.email?.type === "required" && 
                               <p className='text-danger'>Este campo es obligatorio</p>}
-                          <InputContacto className='colorBlue' type="number" name='telefono' onWheel={(e) => e.target.blur()}
+                          <InputContactoHome style={{color:'#1D2142'}} c className='colorBlue' type="number" name='telefono' onWheel={(e) => e.target.blur()}
                               {...register("telefono", {
                                 required: "*Campo requerido",
                                 maxLength: {
@@ -117,7 +118,7 @@ function Seccion1() {
                             placeholder="Teléfono "
                             />
                             {errors.telefono &&  <p style={{color:'red', fontFamily:'Poppins',fontWeight:'200'}}>Campo Requerido!</p>}
-                        <InputArea className='colorBlue'  name="w3review" rows="4" cols="10" placeholder='Mensaje'
+                        <InputAreaHome style={{color:'#1D2142'}} c className='colorBlue'  name="w3review" rows="4" cols="10" placeholder='Mensaje'
                         {...register("mensaje", 
                         { 
                           maxLength: 140,

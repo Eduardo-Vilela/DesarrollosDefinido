@@ -164,7 +164,7 @@ border-bottom: solid #ffff 1px !important;
 margin-bottom: 20px;
 font-size: 25px;
 font-family: 'Poppins';
-color: #ffff !important;
+color: #ffff;
 outline: none !important;
 width: 100%;
 ::placeholder,
@@ -190,6 +190,43 @@ width: 100%;
     font-size: 18px;
   }
 `
+
+
+export const InputContactoHome  = styled.input`
+border: 0 !important;
+outline: 0;
+background: none !important;
+border-bottom: solid #1D2142 1px !important;
+margin-bottom: 20px;
+font-size: 25px;
+font-family: 'Poppins';
+color: #1D2142;
+outline: none !important;
+width: 100%;
+::placeholder,
+::-webkit-input-placeholder {
+  color: #1D2142 !important;
+}
+:-ms-input-placeholder {
+   color: #1D2142  !important;
+}
+&:focus{
+  outline: none !important;
+}
+&:active{
+        outline: none;
+    }
+@media (max-width: 480px) { 
+   font-size: 22px;
+  }
+  @media (max-width: 767px) { 
+    font-size: 22px;
+   }
+   @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 18px;
+  }
+`
+
 export const InputArea = styled.textarea`
 border: 0 !important;
 background: none !important;
@@ -198,7 +235,7 @@ margin-bottom: 20px;
 font-size: 25px;
 font-family: "Raleway", Sans-serif;
 width: 100%;
-color: #ffff !important;
+color: #ffff ;
 outline: none !important;
 resize: none !important;
 ::placeholder,
@@ -207,6 +244,36 @@ resize: none !important;
 }
 :-ms-input-placeholder {
    color: white  !important;
+}
+@media (max-width: 480px) { 
+    font-size: 22px;
+   }
+   @media (max-width: 767px) { 
+     font-size: 22px;
+    }
+    @media (min-width: 768px) and (max-width: 1400px) { 
+    font-size: 18px;
+  }
+`
+
+
+export const InputAreaHome = styled.textarea`
+border: 0 !important;
+background: none !important;
+border-bottom: solid #1D2142 1px !important;
+margin-bottom: 20px;
+font-size: 25px;
+font-family: "Raleway", Sans-serif;
+width: 100%;
+color: #1D2142 ;
+outline: none !important;
+resize: none !important;
+::placeholder,
+::-webkit-input-placeholder {
+  color: #1D2142 !important;
+}
+:-ms-input-placeholder {
+   color: #1D2142  !important;
 }
 @media (max-width: 480px) { 
     font-size: 22px;

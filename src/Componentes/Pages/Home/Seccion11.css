@@ -124,7 +124,7 @@ color: #82AB1B !important;
 
 .colorBlue{
     color: #1D2142 !important;
-    background-color: white;
+    /* background-color: white; */
     border-color: #1D2142 !important;
 }
 .colorBlue::placeholder{

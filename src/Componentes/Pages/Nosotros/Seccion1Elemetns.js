@@ -94,3 +94,8 @@ font-weight: 500;
    }
    
 `   
+export const Parrafo3 = styled.p`
+font-family: 'Poppins';
+
+
+`
