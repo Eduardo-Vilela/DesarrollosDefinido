@@ -15,6 +15,19 @@ height: 850px;
   height: 600px;
  }
 `
+
+export const BoxPadreHome = styled.div`
+width: 100%;
+height: 850px;
+
+
+
+
+ @media (min-width: 768px) and (max-width: 1400px) { 
+  height: 600px;
+ }
+`
+
 export const SubBoxPadre = styled.div`
 width: 100%;
 height: 850px;

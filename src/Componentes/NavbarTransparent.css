@@ -80,9 +80,13 @@
     .navbar:active{
         background-color: #1D2142 !important;
     }
+    .me-auto.navbar-nav{
+        flex-direction: column !important ;
+    }
 }
   @media (max-width: 767px) { 
     .navbar-collapse{
+        display: none !important;
         width: 100% !important;
         background-color: #1D2142;
     }
@@ -91,7 +95,7 @@
         padding: 0;
     }
     .me-auto.navbar-nav{
-        flex-direction: row !important;
+        flex-direction: row ;
         justify-content: center;
     }
     .paddingMobileLogo{

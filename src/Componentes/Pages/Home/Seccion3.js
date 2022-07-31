@@ -18,6 +18,7 @@ import {
   BoxFormularioHome,
   InputAreaHome,
   InputContactoHome,
+  BoxPadreHome,
 } from '../Contacto/Seccion1Elements'
 import '../Home/Seccion11.css'
 
@@ -66,7 +67,7 @@ function Seccion1() {
       };
   return (
     <> 
-     <BoxPadre>
+     <BoxPadreHome>
          <SubBoxPadre>
              <BoxFormularioHome >
 
@@ -137,7 +138,7 @@ function Seccion1() {
                   </BoxFormContacto>
              </Box2>
          </SubBoxPadre>
-     </BoxPadre>
+     </BoxPadreHome>
     </>
   )
 }
