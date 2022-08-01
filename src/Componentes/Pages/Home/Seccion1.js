@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
-
-
-
-
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 import { Swiper, SwiperSlide } from "swiper/react";

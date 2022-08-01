@@ -93,11 +93,11 @@
     font-family: 'Poppins';
     margin: 0px;
     line-height: 1;
-    text-shadow: 3px 2px 2px black;
+    text-shadow: 3px 2px 4px black;
 }
 .hero-text h1.hero-text-title-bold{
     font-weight: 800!important;
-    
+    text-shadow: 3px 2px 4px black;
 }
 
 
