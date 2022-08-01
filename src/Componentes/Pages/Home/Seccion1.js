@@ -121,6 +121,20 @@ function desactivarEfecto(){
               </div>
             </SwiperSlide>
             <SwiperSlide>
+              <div className={`hero-container image-nine  ${imgEffect   ? "effect-active" : ""}`}>
+                  <div className='hero-text-container'>
+                      <div className='hero-text'>
+                          <h1 className="hero-text-title-bold">Financiación personalizada</h1>
+                          <h2 className='hero-subtitulo'>Accedé solo con tu DNI y armá tu plan a medida, con cuotas en pesos o dólares.</h2>
+                          <div className='hero-butons'>
+                              {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
+                              {/* <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link> */}
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
               <div className={`hero-container image-three  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container'>
                       <div className='hero-text'>
@@ -153,6 +167,20 @@ function desactivarEfecto(){
               </div>
             </SwiperSlide>
             <SwiperSlide>
+              <div className={`hero-container image-seven  ${imgEffect   ? "effect-active" : ""}`}>
+                  <div className='hero-text-container'>
+                      <div className='hero-text'>
+                          <h1 className="hero-text-title-bold">Escrituración</h1>
+                          <h2 className='hero-subtitulo'>Nuestros desarrollos cuentan con la posibilidad de una escrituración inmediata.</h2>
+                          <div className='hero-butons'>
+                              {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
+                              {/* <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link> */}
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
               <div className={`hero-container image-five  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container'>
                       <div className='hero-text'>
@@ -179,34 +207,6 @@ function desactivarEfecto(){
                           <div className='hero-butons'>
                               {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
                               <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={`hero-container image-nine  ${imgEffect   ? "effect-active" : ""}`}>
-                  <div className='hero-text-container'>
-                      <div className='hero-text'>
-                          <h1 className="hero-text-title-bold">Financiación personalizada</h1>
-                          <h2 className='hero-subtitulo'>Accedé solo con tu DNI y armá tu plan a medida, con cuotas en pesos o dólares.</h2>
-                          <div className='hero-butons'>
-                              {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              {/* <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link> */}
-                          </div>
-                      </div>
-                  </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={`hero-container image-seven  ${imgEffect   ? "effect-active" : ""}`}>
-                  <div className='hero-text-container'>
-                      <div className='hero-text'>
-                          <h1 className="hero-text-title-bold">Escrituración</h1>
-                          <h2 className='hero-subtitulo'>Nuestros desarrollos cuentan con la posibilidad de una escrituración inmediata.</h2>
-                          <div className='hero-butons'>
-                              {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              {/* <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link> */}
                           </div>
                       </div>
                   </div>
