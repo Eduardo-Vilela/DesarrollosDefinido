@@ -19,6 +19,8 @@ import {
   InputAreaHome,
   InputContactoHome,
   BoxPadreHome,
+  BoxPrincipalFormNuevo,
+  SubBoxPadreFormNuevo,
 } from '../Contacto/Seccion1Elements'
 import '../Home/Seccion11.css'
 
@@ -67,8 +69,8 @@ function Seccion1() {
       };
   return (
     <> 
-     <BoxPadreHome>
-         <SubBoxPadre>
+     <BoxPrincipalFormNuevo>
+         <SubBoxPadreFormNuevo data-aos="fade-right" data-aos-duration="4000">
              <BoxFormularioHome >
 
              </BoxFormularioHome>
@@ -137,8 +139,8 @@ function Seccion1() {
                           </div>
                   </BoxFormContacto>
              </Box2>
-         </SubBoxPadre>
-     </BoxPadreHome>
+         </SubBoxPadreFormNuevo>
+     </BoxPrincipalFormNuevo>
     </>
   )
 }

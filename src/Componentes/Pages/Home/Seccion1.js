@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
 
 
@@ -40,6 +40,17 @@ function Seccion1() {
   //       alert('no anda perri!')
   //     });
   // };
+
+  const [imgEffect,setImgEffect] = useState(false)
+  
+
+function activarEfecto(){
+    setImgEffect(true);
+}  
+function desactivarEfecto(){
+    setImgEffect(false)
+}
+
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
@@ -78,138 +89,138 @@ function Seccion1() {
             className="slider-home-hero"
         >
            <SwiperSlide>
-              <div className='hero-container image-one'>
+              <div className={`hero-container image-one  ${imgEffect   ? "effect-active" : ""}`}> 
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           {/* <h1 className="hero-text-title-bold">CRÉDITOS</h1>
                           <h1>PARA MUJERES</h1>
                           <h2>Tenemos lo necesario para<br/> que alcances tus objetivos<br/> financieros</h2> */}
-                          <img className='logoVictorias' alt='LasVictorias' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120434/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-04-04-04_1_k70wsp.png'/>
+                          <img className='logoVictorias' alt='LasVictorias' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-04-04-04_1_uqylqz.png'/>
                           <div className='hero-butons'>
                               {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Lasvictorias">Conocelo</Link>
+                              <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Lasvictorias">Conocelo</Link>
                           </div>
                       </div>
                   </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className='hero-container image-two'>
+              <div className={`hero-container image-two  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container' >
                       <div className='hero-text'>
                           {/* <h1 className="hero-text-title-bold">CRÉDITOS</h1>
                           <h1>PARA MUJERES</h1>
                           <h2>Tenemos lo necesario para<br/> que alcances tus objetivos<br/> financieros</h2> */}
-                           <img className='logoEljuncal'  alt='Eljuncal' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659121420/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-02_1_dtwa8c.png'/>
+                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoEljuncal'  alt='Eljuncal' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-02_1_ldds6f.png'/>
                           <div className='hero-butons'>
                               {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Eljuncal">Conocelo</Link>
+                              <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Eljuncal">Conocelo</Link>
                           </div>
                       </div>
                   </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className='hero-container image-three'>
+              <div className={`hero-container image-three  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           {/* <h1 className="hero-text-title-bold">CRÉDITOS</h1>
                           <h1>PARA MUJERES</h1>
                           <h2>Tenemos lo necesario para<br/> que alcances tus objetivos<br/> financieros</h2> */}
-                           <img className='logoLatitud34' alt='Latitud34' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659121504/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS_Mesa_de_trabajo_1_1_nclo72.webp'/>
+                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}}  className='logoLatitud34' alt='Latitud34' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS_Mesa_de_trabajo_1_1_ppphux.png'/>
                           <div className='hero-butons'>
                               {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Latitud34">Conocelo</Link>
+                              <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Latitud34">Conocelo</Link>
                           </div>
                       </div>
                   </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className='hero-container image-four'>
+              <div className={`hero-container image-four  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           {/* <h1 className="hero-text-title-bold">CRÉDITOS</h1>
                           <h1>PARA MUJERES</h1>
                           <h2>Tenemos lo necesario para<br/> que alcances tus objetivos<br/> financieros</h2> */}
-                           <img alt='LaCampiña' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659121567/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-03_1_sfkk8i.webp'/>
+                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoLaCampiña' alt='LaCampiña' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-03_1_x1x5zq.png'/>
                           <div className='hero-butons'>
                               {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Lacampina">Conocelo</Link>
+                              <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Lacampina">Conocelo</Link>
                           </div>
                       </div>
                   </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className='hero-container image-five'>
+              <div className={`hero-container image-five  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           {/* <h1 className="hero-text-title-bold">CRÉDITOS</h1>
                           <h1>PARA MUJERES</h1>
                           <h2>Tenemos lo necesario para<br/> que alcances tus objetivos<br/> financieros</h2> */}
-                           <img style={{marginLeft:'30px'}} alt='LasOrianas' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659121640/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-05_1_twmlh1.webp'/>
+                           <img style={{marginLeft:'10px',filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoLasOrianas' alt='LasOrianas' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-05_1_ozj3p0.png'/>
                           <div className='hero-butons'>
                               {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Lasorianas">Conocelo</Link>
+                              <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Lasorianas">Conocelo</Link>
                           </div>
                       </div>
                   </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className='hero-container image-six'>
+              <div className={`hero-container image-six  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           {/* <h1 className="hero-text-title-bold">CRÉDITOS</h1>
                           <h1>PARA MUJERES</h1>
                           <h2>Tenemos lo necesario para<br/> que alcances tus objetivos<br/> financieros</h2> */}
-                           <img alt='LaEscondida' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659121640/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-06_1_pga4qr.webp'/>
+                           <img style={{marginBottom:'15px',filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='LogoLaEscondida' alt='LaEscondida' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-06_1_lpbmyy.png'/>
                           <div className='hero-butons'>
                               {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link>
+                              <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link>
                           </div>
                       </div>
                   </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className='hero-container image-seven'>
-                  <div className='hero-text-container'>
-                      <div className='hero-text'>
-                          <h1 className="hero-text-title-bold">Escrituración</h1>
-                          <h2>Nuestros desarrollos cuentan con la posibilidad de una escrituración inmediata.</h2>
-                          <div className='hero-butons'>
-                              {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className='hero-container image-eight'>
-                  <div className='hero-text-container'>
-                      <div className='hero-text'>
-                          <h1 className="hero-text-title-bold">Obras propias</h1>
-                          <h2>Contamos con la maquinaria necesaria para el tratamiento del suelo y la colocación de servicios.</h2>
-                          <div className='hero-butons'>
-                              {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className='hero-container image-nine'>
+              <div className={`hero-container image-nine  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           <h1 className="hero-text-title-bold">Financiación personalizada</h1>
-                          <h2>Accedé solo con tu DNI y armá tu plan a medida, con cuotas en pesos o dólares.</h2>
+                          <h2 className='hero-subtitulo'>Accedé solo con tu DNI y armá tu plan a medida, con cuotas en pesos o dólares.</h2>
                           <div className='hero-butons'>
                               {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
-                              <Link className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link>
+                              {/* <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link> */}
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className={`hero-container image-seven  ${imgEffect   ? "effect-active" : ""}`}>
+                  <div className='hero-text-container'>
+                      <div className='hero-text'>
+                          <h1 className="hero-text-title-bold">Escrituración</h1>
+                          <h2 className='hero-subtitulo'>Nuestros desarrollos cuentan con la posibilidad de una escrituración inmediata.</h2>
+                          <div className='hero-butons'>
+                              {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
+                              {/* <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link> */}
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className={`hero-container image-eight  ${imgEffect   ? "effect-active" : ""}`}>
+                  <div className='hero-text-container'>
+                      <div className='hero-text'>
+                          <h1 className="hero-text-title-bold">Obras propias</h1>
+                          <h2 className='hero-subtitulo'>Contamos con la maquinaria necesaria <br/> para el tratamiento del suelo y la colocación de servicios.</h2>
+                          <div className='hero-butons'>
+                              {/* <HashLink className="boton-imagen-scroll" to="/#slider-home"><img src='https://res.cloudinary.com/davfkopai/image/upload/v1657722134/Eugenie%20web/ico/hero-flecha_avcioq_rabuqr.svg'/></HashLink> */}
+                              {/* <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link> */}
                           </div>
                       </div>
                   </div>

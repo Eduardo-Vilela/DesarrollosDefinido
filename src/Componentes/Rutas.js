@@ -60,7 +60,7 @@ function Rutas() {
 
             <Route path='/FormularioDesarrollo/Eljuncal' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lasorianas' element={<Formulario1/>} />
-            <Route path='/FormularioDesarrollo/Lacampiña' element={<Formulario1/>} />
+            <Route path='/FormularioDesarrollo/Lacampina' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Latitud34' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Lasvictorias' element={<Formulario1/>} />
             <Route path='/FormularioDesarrollo/Laescondida' element={<Formulario1/>} />
