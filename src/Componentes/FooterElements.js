@@ -38,7 +38,7 @@ import styled from "styled-components";
  export const Box2 = styled.div`
  width: 100%;
  text-align: left;
- height: 5vh;
+
  `
 
  export const Box3 = styled.div`
