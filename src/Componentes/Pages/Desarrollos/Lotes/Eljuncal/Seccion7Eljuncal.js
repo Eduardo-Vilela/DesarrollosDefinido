@@ -40,7 +40,7 @@ function Seccion7Eljuncal() {
                     </ParrafoDerecha>
                   </div>
                   <div>
-                  <ButtonArmaTuPago to='/dds'  target="_blank" >Arma tu plan de pagos</ButtonArmaTuPago>
+                  <ButtonArmaTuPago to='/dds' >Arma tu plan de pagos</ButtonArmaTuPago>
                   </div>
                  </SubBoxUbicacion>
              </BoxUbicacion>
