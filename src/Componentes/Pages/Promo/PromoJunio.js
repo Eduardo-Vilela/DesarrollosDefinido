@@ -102,7 +102,7 @@ function PromoJunio() {
       if(formDatos.Desarrollo === "Las Orianas - Melchor Romero"){
         setFotoDesarrollo(
     
-          'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658781051/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_fyusq7.svg'
+          'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658781051/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/melchore-romero-las-orianas_fyusq7.webp'
         
         )
       }
@@ -215,7 +215,7 @@ function PromoJunio() {
         <SubBox>
           <Box1>
             <CajaLogo>
-              <Logo width='200' height='100' alt='logoPrincipal' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715464/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/PromoJunio/Logo_-_Desarrollos_Delsud_-_Web-02_ex4bbc_g4umpo.svg'/>
+              <Logo width='200' height='100' alt='logoPrincipal' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715464/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/PromoJunio/Logo_-_Desarrollos_Delsud_-_Web-02_ex4bbc_g4umpo.webp'/>
             </CajaLogo>
             <div className='centrarMobile'>
             <Titulo>Tu terreno propio financiado al 100% </Titulo>

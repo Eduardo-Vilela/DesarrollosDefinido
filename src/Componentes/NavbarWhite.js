@@ -53,7 +53,7 @@ function NavbarWhite() {
                 onHide={handleClose}
               >
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title id="offcanvasNavbarLabel"><Link to="/" ><img width='90' height='30'  src={'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715423/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_s8dqa5_cgbxhd.svg'}/></Link></Offcanvas.Title>
+                  <Offcanvas.Title id="offcanvasNavbarLabel"><Link to="/" ><img width='90' height='30'  src={'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715423/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_s8dqa5_cgbxhd.webp'}/></Link></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body onHide={handleClose}> 
                   <Nav className="me-auto" >

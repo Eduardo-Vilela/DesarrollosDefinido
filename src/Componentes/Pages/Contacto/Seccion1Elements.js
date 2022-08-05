@@ -74,6 +74,7 @@ margin: auto;
 display: flex;
 flex-direction: row;
 justify-content: center;
+background: linear-gradient(0deg,hsla(0,0%,100%,0) 94%,#1D2142);
 
   @media (max-width: 767px) { 
     flex-direction:column;
@@ -89,7 +90,7 @@ width: 50%;
 height: 100%;
 /* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715484/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/El_Juncal-8_1_c76ut4_lprsx9.webp); */
 background-position: center center;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658770679/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Contacto_oa38sm.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658770679/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Contacto_oa38sm.webp);
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -109,7 +110,7 @@ width: 50%;
 height: 80%;
 /* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715484/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/El_Juncal-8_1_c76ut4_lprsx9.webp); */
 background-position: center center;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659124533/marcas/sliderNuevoHome/Mask_group_odze5s.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659124533/marcas/sliderNuevoHome/Mask_group_odze5s.webp);
 background-repeat: no-repeat;
 background-size: cover;
 border-radius: 20px;

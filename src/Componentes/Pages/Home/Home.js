@@ -3,7 +3,7 @@ import NavbarTransparent from '../../NavbarTransparent'
 import ModalInicio from './ModalInicio'
 import Seccion1 from './Seccion1'
 import Seccion10 from './Seccion10'
-import Seccion11 from './Seccion11'
+
 import Seccion2 from './Seccion2'
 import Seccion3 from './Seccion3'
 import Seccion4 from './Seccion4'
@@ -23,16 +23,10 @@ function Home() {
     <NavbarTransparent/>
     <ModalInicio/>
      <Seccion1/>
-     {/* <Seccion2/> */}
      <Seccion3/>
      <Seccion4/>
-     {/* <Seccion5/> */}
-     {/* <Seccion6/> */}
-     {/* <Seccion7/> */}
-     {/* <Seccion8/> */}
      <Seccion9/>
      <Seccion10/>
-     {/* <Seccion11/> */}
     </>
   )
 }

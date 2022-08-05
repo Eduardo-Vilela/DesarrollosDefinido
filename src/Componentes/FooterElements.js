@@ -4,9 +4,11 @@ import styled from "styled-components";
  export const BoxPrimario = styled.div`
   width: 100%;
   height: 50vh;
-  background-color: #FAFAFA;;
+  background-color: #FAFAFA;
+
   @media (max-width: 767px) { 
   height: auto;
+  padding-top: 20px;
  }
  `
 

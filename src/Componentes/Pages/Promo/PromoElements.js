@@ -10,7 +10,7 @@ export const Container = styled.div`
 export const BoxPrincipal = styled.div`
 width: 100%;
 height: 1000px;
-background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658513564/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/5_abelrq.jpg);
+background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658513564/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/5_abelrq.webp);
 background-size: cover;
 background-repeat: no-repeat;
 @media (max-width: 480px) { 
@@ -19,7 +19,7 @@ background-repeat: no-repeat;
   background-position: center;
     }
     @media (max-width: 767px) { 
-      height: 100vh;
+      height: 850px;
       background-size: cover;
       background-position: center;
       display: flex;
@@ -47,6 +47,7 @@ justify-content: center;
 export const Box1 = styled.div`
 width: 100%;
 height: 350px;
+
 .centrarMobile{
   @media (max-width: 480px) { 
   text-align: center;
@@ -56,7 +57,7 @@ height: 350px;
   height: 30vh;
     }
     @media (max-width: 767px) { 
-      height: 200px;
+      height: 260px;
       margin-bottom: 30px;
      }
 `
@@ -234,7 +235,7 @@ export const InputSelect = styled.select`
     font-size: 18px;
     color: #000E4A;
     appearance: none;
-    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1655823583/ascascascasca_prxyc5.png);
+    background-image: url(https://res.cloudinary.com/grupo-delsud/image/upload/v1655823583/ascascascasca_prxyc5.webp);
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 17px;

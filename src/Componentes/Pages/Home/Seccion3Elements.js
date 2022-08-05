@@ -66,7 +66,6 @@ export const BoxTexto = styled.div`
 `
 export const BoxBack = styled.div`
   width: 50%;
-  /* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715454/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Lomas_de_Arana-Muestra-1_1_tqpjva_xupsff.png);  */
   display: flex;
   flex-direction: row;
   justify-content:center;

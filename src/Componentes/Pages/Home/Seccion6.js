@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Link} from 'react-router-dom'
 import { Keyboard,Autoplay,  Navigation } from "swiper";
 import {
    BoxPrincipal,
@@ -18,37 +17,17 @@ import {
 import './SwiperSeccion6.css'
 import { Button3 } from "./Seccion3Elements";
 
-import PulseDot from 'react-pulse-dot'
-import 'react-pulse-dot/dist/index.css'
 
 
 
 
 function Seccion6() {
-      //navbar scroll when active state
-      // const [color, setColor] = useState(false)
-  
-      //navbar scroll changeBackground function
-      // const changeBackgroundNuestros = () => {
-      //   if (window.scrollY >= 2000) {
-      //     setColor(true)
-          
-      //   } else {
-      //     setColor(false)
-      //   }
-      // }
-  
-      // useEffect(() => {
-      //   changeBackgroundNuestros()
-        // adding the event when scroll change background
-      //   window.addEventListener("scroll", changeBackgroundNuestros)
-      // })
+
 
 
   return (
     <>
      <BoxPrincipal 
-    //  className={color ? "SwiperHome " : "mySwiper7 desactivacionSwiperSeccion5"}
      data-aos="fade-up" data-aos-duration="3000" >
          <BoxSecundario >
             <Swiper 
@@ -75,7 +54,6 @@ function Seccion6() {
                     adapte a tus necesidades.
                   </Parrafo6>
                   <Button3 to='/Desarrollos'>Ver Desarrollos</Button3>    
-                  {/* <PulseDot style={{border:'1px solid white',borderRadius:'50%',backgroundColor:'white',color:'white'}} />                  */}
               </SlideTexto6>
             </SwiperSlide >
             <SwiperSlide >

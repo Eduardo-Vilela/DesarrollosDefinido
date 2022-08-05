@@ -43,9 +43,9 @@ function NavbarTransparent() {
                 <Link to='/'>
                   {
                     window.scrollY >= 200 ? 
-                    <img width='130'  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659040682/Logo_Desarrollos_Delsud-_Azul_-_07-07_gfdomk.png' />
+                    <img width='130'  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659040682/Logo_Desarrollos_Delsud-_Azul_-_07-07_gfdomk.webp' />
                     :
-                    <img  width='130' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659040845/Logo_Desarrollos_Delsud-07_rnz2jc.png' />
+                    <img  width='130' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659040845/Logo_Desarrollos_Delsud-07_rnz2jc.webp' />
                   }
                 </Link>
               </div>
@@ -87,9 +87,9 @@ function NavbarTransparent() {
               {/* <img  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731135/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/barras-de-menu-de-la-derecha_2_mnqsoc.png' width={"20px"} variant="primary" onClick={toggleShow} className="me-2"/> */}
               {
                     window.scrollY >= 200 ? 
-                    <img  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731135/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/barras-de-menu-de-la-derecha_1_uah0sq.png' alt="lala" variant="primary" onClick={toggleShow} className="me-2"/> 
+                    <img  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731135/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/barras-de-menu-de-la-derecha_1_uah0sq.webp' alt="lala" variant="primary" onClick={toggleShow} className="me-2"/> 
                     :
-                    <img  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731135/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/barras-de-menu-de-la-derecha_2_mnqsoc.png' alt="lala" variant="primary" onClick={toggleShow} className="me-2"/> 
+                    <img  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657731135/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/barras-de-menu-de-la-derecha_2_mnqsoc.webp' alt="lala" variant="primary" onClick={toggleShow} className="me-2"/> 
                   }
               <Navbar.Offcanvas      
                 id="offcanvasNavbar"
@@ -99,7 +99,7 @@ function NavbarTransparent() {
                 onHide={handleClose}
               >
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title className='offcanvas-title2' id="offcanvasNavbarLabel"><NavLink to="/"><img  width='90' height='30' src={'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715423/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_s8dqa5_cgbxhd.svg'}/></NavLink></Offcanvas.Title>
+                  <Offcanvas.Title className='offcanvas-title2' id="offcanvasNavbarLabel"><NavLink to="/"><img  width='90' height='30' src={'https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715423/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_s8dqa5_cgbxhd.webp'}/></NavLink></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body onHide={handleClose}> 
                   <Nav className="me-auto" >
@@ -109,10 +109,10 @@ function NavbarTransparent() {
                     <Nav.Item className='navBarItems' href="#home"><Link onClick={handleClose}  to='/Plancanje'>Plan Canje</Link></Nav.Item>
                     <Nav.Item className='navBarItems' href="#home"><Link onClick={handleClose} to='/Contacto'>Contacto</Link></Nav.Item>   
                     <div className='redesNav'>
-                      <a target="_blank" rel="noreferrer" className='bordesRedondos' href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><img className='imagenRedesNav2' alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658166853/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/face_zhvnbt.svg'/></a>   
-                      <a target="_blank" rel="noreferrer" className='bordesRedondos' href='https://www.instagram.com/desarrollos.delsud/'><img className='imagenRedesNav2'  alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658166853/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/insta_wlh145.svg'/> </a> 
+                      <a target="_blank" rel="noreferrer" className='bordesRedondos' href='https://www.facebook.com/DesarrollosDelsud.LaPlata/'><img className='imagenRedesNav2' alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658166853/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/face_zhvnbt.webp'/></a>   
+                      <a target="_blank" rel="noreferrer" className='bordesRedondos' href='https://www.instagram.com/desarrollos.delsud/'><img className='imagenRedesNav2'  alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658166853/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/insta_wlh145.webp'/> </a> 
                       <a target="_blank" rel="noreferrer" className='bordesRedondos' href='https://api.whatsapp.com/send?phone=5492215079256&text=Hola!%20%F0%9F%98%80%20Quiero%20recibir%20informaci%C3%B3n%20sobre...'>
-                      <img className='imagenRedesNav2' alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658166898/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/wsp_gyatf7.svg'/> </a>     
+                      <img className='imagenRedesNav2' alt='iconoNav' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658166898/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/wsp_gyatf7.webp'/> </a>     
                     </div>             
                   </Nav>
                 </Offcanvas.Body>

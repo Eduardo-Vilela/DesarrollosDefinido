@@ -74,7 +74,7 @@ function Seccion1() {
              <BoxFormularioHome >
 
              </BoxFormularioHome>
-             <Box2 className='colorBlue' style={{background:'white'}}>
+             <Box2 className='colorBlue' style={{background:'transparent'}}>
              <BoxFormContacto  onSubmit={handleSubmit(onSubmit)}>
 
                         <ContenedorTitulos>

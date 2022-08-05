@@ -1,16 +1,28 @@
 .slider-home-hero{
-    background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%);
-
+    /* background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%); */
+width: 100%;
+height: 100%;
+padding-top: 100px !important;
 }
-
-
-.hero-container{
+.containerPrincipal{
     width: 100%;
     height: 100vh;
+    /* background-image: url(https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715488/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/DJI_0077_3_xewzsu_bnpmqv.jpg); */
+    /* background-color: #222; */
+    background-color: #1D2142;
+}
+
+.hero-container{
+    width: 80%;
+    height: 80vh;
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    width: 60%;
+    height: 550px;
+    box-shadow: 2px -1px 32px 6px rgba(0,0,0,0.73);
+-webkit-box-shadow: 2px -1px 32px 6px rgba(0,0,0,0.73);
+-moz-box-shadow: 2px -1px 32px 6px rgba(0,0,0,0.73);
 }
 
 .hero-container:before {
@@ -20,41 +32,66 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-    background: linear-gradient(0deg, rgba(29,33,66,0.9444152661064426) 0%, rgba(29,33,66,0) 20%, rgba(29,33,66,0) 50%, rgba(29,33,66,0) 80%, rgba(29,33,66,0.9444152661064426) 100%, rgba(29,33,66,1) 100%);;
+    /* background: linear-gradient(0deg, rgba(29,33,66,0.9444152661064426) 0%, rgba(29,33,66,0) 20%, rgba(29,33,66,0) 50%, rgba(29,33,66,0) 80%, rgba(29,33,66,0.9444152661064426) 100%, rgba(29,33,66,1) 100%); */
 }
 
 .hero-container.image-one{
-    background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659119567/marcas/sliderNuevoHome/Victorias_para_slider_2_1_ktfbmq.webp');
+    background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659725819/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Victorias_WEB_para_slider_zld5kc.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 30px;
 }
 
 
 .hero-container.image-two{
     background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120206/marcas/sliderNuevoHome/juncal_whmsei.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
 
 .hero-container.image-three{
     background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120207/marcas/sliderNuevoHome/latitud34_h9gmwf.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
 .hero-container.image-four{
-    background-image:url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659129234/marcas/sliderNuevoHome/Slider_-_Campi%C3%B1a_kvjhtq.jpg');
+    background-image:url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659129234/marcas/sliderNuevoHome/Slider_-_Campi%C3%B1a_kvjhtq.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
 .hero-container.image-five{
-    background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120204/marcas/sliderNuevoHome/las_orianas_s68llm.webp');
+    background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659710071/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las_orianas_nuevo_eaemph.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
 .hero-container.image-six{
     background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659120206/marcas/sliderNuevoHome/laEscondida_ewinlz.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
-.hero-container.image-seven{
+/* .hero-container.image-seven{
     background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659285368/marcas/sliderNuevoHome/escrituracion_1_xrwpip.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
 .hero-container.image-eight{
     background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659285368/marcas/sliderNuevoHome/obras_propias_1_p7qebt.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
 .hero-container.image-nine{
     background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659285368/marcas/sliderNuevoHome/financiacion_1_lvhfke.webp');
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+} */
 
 .hero-text{
     width: 58%;
@@ -157,6 +194,9 @@
    flex-direction: row;
    align-items: flex-start;
 }
+.swiper-3d{
+    perspective: 800px !important;
+}
 
 @keyframes moverAbajo {
     0% { transform: translateY(0); }
@@ -198,37 +238,48 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 
 @media only screen and (max-width: 768px) {
     .hero-container{
-        height: 100vh;
+        height: 60vh;
+        width: 90%;
     }
     .hero-container.image-one{
-        background-image:linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659357208/marcas/sliderNuevoHome/PortMobile_-_Victorias_g3ins3.jpg');
+        background-image:url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659725723/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/MOBILE_heuyig.webp');
+        border-radius: 10px;
     }
     
     .hero-container.image-two{
-        background-image:linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659357208/marcas/sliderNuevoHome/PortMobile_-_Juncal_ces3yy.jpg');
+        background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659725235/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/PortMobile_-_Juncal_2_z8x9wr.webp');
+        border-radius: 10px;
+        background-position: bottom;
     }
     
     .hero-container.image-three{
-        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659357209/marcas/sliderNuevoHome/PortMobile_-_Latitud_w9ybxs.jpg');
+        background-image:  url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659357209/marcas/sliderNuevoHome/PortMobile_-_Latitud_w9ybxs.webp');
+        border-radius: 10px;
     }
     .hero-container.image-four{
-        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659357207/marcas/sliderNuevoHome/PortMobile_-_Campi%C3%B1a_cjf0io.jpg');
+        background-image:  url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659724715/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Campi%C3%B1a_mobile_Mesa_de_trabajo_1_lmcojb.webp');
+        border-radius: 10px;
     }
     .hero-container.image-five{
-        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659357207/marcas/sliderNuevoHome/PortMobile_-_Orianas_z4u537.jpg');
+        background-image: url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659724706/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Orianas_mobile-05_qgfqj1.webp');
+        border-radius: 10px;
     }
     .hero-container.image-six{
-        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659357209/marcas/sliderNuevoHome/PortMobile_-_Escondida_kcrnu1.jpg');
+        background-image:  url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659357209/marcas/sliderNuevoHome/PortMobile_-_Escondida_kcrnu1.webp');
+        border-radius: 10px;
     }
-    .hero-container.image-seven{
-        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715462/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/businesspeople-shaking-hands_1_umpbig_xrthbu.jpg');
+    /* .hero-container.image-seven{
+        background-image:  url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715462/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/businesspeople-shaking-hands_1_umpbig_xrthbu.webp');
+        border-radius: 10px;
     }
     .hero-container.image-eight{
-        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658853018/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nosotros_-_Foto_1_srcsvu.jpg');
+        background-image:  url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658853018/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Nosotros_-_Foto_1_srcsvu.webp');
+        border-radius: 10px;
     }
     .hero-container.image-nine{
-        background-image: linear-gradient(180deg, #1D2142 0%, #1D214200 32%), url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715477/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u_bquphb.jpg');
-    }
+        background-image:  url('https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715477/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_1_tzem1u_bquphb.webp');
+        border-radius: 10px;
+    } */
 
    .hero-text h1{
        font-size: 20px;
@@ -263,21 +314,23 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
    }
    .logoVictorias{
     margin: 0;
+    margin-bottom: 10px;
    }
    .logoEljuncal{
     margin: 0;
+    margin-bottom: 12px;
    }
 .logoLatitud34{
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .logoLaCampiña{
-    margin-right: 30px;
+    margin-right: 21px;
 }
 .logoLasOrianas{
     margin-right: 20px;
 }
 .LogoLaEscondida{
-    margin-right: 12px;
+    margin-right: -15px;
 }
 
 }
