@@ -21,7 +21,7 @@ function Seccion6Eljuncal() {
      <Box2 id='3-servicios' >
          <SubBox2>
              <BoxMaps2Eljuncal>
-             {/* <Imagen2 alt='fotoCamion' width='100%' height='100%' src='https://res.cloudinary.com/grupo-delsud/image/upload/v1649627424/DESARROLLOSGRUPODELSUD/Latitud_34_2_1_os8k4l.jpg'  ></Imagen2> */}
+             {/* <Imagen2 id='fotoCamion' alt='fotoCamion' width='100%' height='100%' src=''  ></Imagen2> */}
              </BoxMaps2Eljuncal>
              <BoxUbicacion>
                  <SubBoxUbicacion>
@@ -47,9 +47,9 @@ function Seccion6Eljuncal() {
                   </div>
                   <ContenedorLista>
                     <ul style={{listStyle:'none',padding:'0'}}>
-                        <ItemListaDerecha3 style={{borderTop: '1px solid #6464643B'}}><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/destello-1-1-1_xrlv3z.webp'/></span>Electricidad</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657741465/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/difuminar-1-1_nd7w9v.webp'/></span>Agua Potable</ItemListaDerecha3>
-                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715466/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/road_1_qqkxci_e1cu4d.webp'/></span>Mejorado de calles</ItemListaDerecha3>
+                        <ItemListaDerecha3 style={{borderTop: '1px solid #6464643B'}}><span style={{marginRight:'5%'}}><img width='20' height='20' id='destello' alt='icon' src=''/></span>Electricidad</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' id='difumar'src=''/></span>Agua Potable</ItemListaDerecha3>
+                        <ItemListaDerecha3><span style={{marginRight:'5%'}}><img width='20' height='20' alt='icon' src='' id='road'/></span>Mejorado de calles</ItemListaDerecha3>
                     </ul>
                   </ContenedorLista>
                  </SubBoxUbicacion>

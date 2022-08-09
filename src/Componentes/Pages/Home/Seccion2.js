@@ -12,8 +12,26 @@ import{Card,ListGroup} from 'react-bootstrap'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import './Seccion11';
-
+import obtenerVideo from '../../obtenerVideo';
 function Seccion2() {
+
+    obtenerVideo('002-dollar_bnwiea_vwc3vo.webp').then((url) => {
+        const img = document.getElementById('myimg');
+        img.setAttribute('src', url );
+    });
+
+    obtenerVideo('Group-5_epscre_x68fqz.webp').then((url) => {
+        const img2 = document.getElementById('myimg2');
+        img2.setAttribute('src', url );
+    });
+    obtenerVideo('Group_22_femmox_kfomfk.svg').then((url) => {
+        const img3 = document.getElementById('myimg3');
+        img3.setAttribute('src', url );
+    });
+    obtenerVideo('Group-2-1_naohwr_dilydi.svg').then((url) => {
+        const img4 = document.getElementById('myimg4');
+        img4.setAttribute('src', url );
+    });
 
 return (
     <>
@@ -22,13 +40,13 @@ return (
             <CardsBox 
             style={{ width: '18rem',borderRight:'1px solid #E5E5E5' }}>
             <Card.Body>
-                <img className='ajusteLogos'  alt='aa'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715422/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/002-dollar_bnwiea_vwc3vo.webp' />
+                <img className='ajusteLogos' id='myimg' alt='aa'src='' />
                 <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}} >Cuotas en pesos <br/>y/o dólares</Card.Title>
         </Card.Body>  
             <TarjetaVerde>
                         <Card style={{ width: 'auto', height:'100%',border:'0' }} >
                             <ContenidoVerde >
-                            <LogoVerde style={{paddingBottom:'10px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715496/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-5_epscre_x68fqz.webp" />
+                            <LogoVerde id='myimg2' style={{paddingBottom:'10px'}} src="" />
                                 <Card.Subtitle style={{background: 'white',color:'#767676'}} >
                                 Financiá tu terreno
                                 en cuotas fijas en pesos o 
@@ -42,15 +60,15 @@ return (
 
             style={{ width: '18rem' ,borderRight:'1px solid #E5E5E5' }}>
             <Card.Body >
-            <img className='ajusteLogos'  alt='aaa' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715416/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_22_femmox_kfomfk.webp' />
+            <img id='myimg3'className='ajusteLogos'  alt='aaa' src='' />
             <Card.Title style={{color:'#767676',FontFamily:'Raleway',fontWeight:'400'}}  >Financiación <br/> Personalizada</Card.Title>          
             </Card.Body>
 
             <TarjetaVerde>
                 <Card style={{width: 'auto', height:'100%',border:'0' }}>
                     <ContenidoVerde >
-                    <LogoVerde style={{paddingBottom:'15px'}} src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-2-1_naohwr_dilydi.webp" />
-                        <Card.Subtitle  style={{background: 'white',color:'#767676'}}>
+                    <LogoVerde style={{paddingBottom:'15px'}} src="" />
+                        <Card.Subtitle  id='myimg4'style={{background: 'white',color:'#767676'}}>
                         Armá tu propio plan de 
                         financiación a medida, 
                         adaptado a tus 

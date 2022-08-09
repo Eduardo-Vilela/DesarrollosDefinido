@@ -15,14 +15,16 @@ import {
     ButtonArmaTuPago,
     ContenedorLista,
 }  from '../LasVictorias/LasVictoriasElements'
+import cargarArchivos from './Files'
 
 function Seccion7Eljuncal() {
+  cargarArchivos()
   return (
     <>
      <Box2 id='4-formadepago'>
          <SubBox2>
              <BoxMaps3Eljuncal>
-             <Imagen2 alt='fotoFormadepago' width='100%' height='100%' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715448/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/business-men-sitting-at-the-lawyers-s-desk-people-signing-important-documents_2_1_cle5ng_ck6w5r.webp'  ></Imagen2>
+             <Imagen2 id='fotoFormadepago'alt='fotoFormadepago' width='100%' height='100%' src=''  ></Imagen2>
              </BoxMaps3Eljuncal>
              <BoxUbicacion>
                  <SubBoxUbicacion>

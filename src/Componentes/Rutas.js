@@ -18,6 +18,7 @@ import Laescondida from './Pages/Desarrollos/Lotes/Laescondida/Laescondida'
 import Lacampiña from './Pages/Desarrollos/Lotes/Lacampiña/Lacampiña'
 import Lasorianas from './Pages/Desarrollos/Lotes/Lasorianas/Lasorianas'
 import Icono from './Icono'
+import obtenerVideo from './obtenerVideo'
 // import PromoJunio from '../Componentes/Pages/Promo/PromoJunio'
 import RutasPromo from './Pages/Promo/RutasPromo'
 
@@ -67,7 +68,7 @@ function Rutas() {
 
 
         </Routes>
-        
+        <obtenerVideo/>
         <Footer/>
         <Icono/>
       </ScrollToTop>

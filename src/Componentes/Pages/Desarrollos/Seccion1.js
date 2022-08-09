@@ -17,6 +17,7 @@ import {
 } from './Seccion1Elements'
 import ReactHoverFlip from 'react-hover-flip'
 import JuncalCard from '../../media/Juncal-card.jpg'
+import cargarArchivos from './Files'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -26,13 +27,13 @@ AOS.init();
 
 
 function Seccion1() {
-
+  cargarArchivos();
   /*LAS VICTORIAS*/
   const FrontLasVictorias 
   = <> 
     <Link to="/Lasvictorias">
-      <ContenedorFotoLotes alt='fotoDesarrollo' 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715416/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group_201_c7pyuc_m4icki.webp'/>
+      <ContenedorFotoLotes id='frontvictorias'alt='fotoDesarrollo' 
+      src=''/>
     </Link>
   </>
   const BackLasVictorias 
@@ -43,8 +44,8 @@ function Seccion1() {
             <TituloFlips>Las Victorias</TituloFlips>
             <SubtituloFlips>Calle 492 entre 202 y 208</SubtituloFlips>
           </div>
-          <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-          src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659041394/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/SlideLasvictorias/Foto_para_Card_Las_Victorias_fd7sie.jpg'/>   
+          <img id='backvictorias'alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
+          src=''/>   
 
       </div> 
     </Link>   
@@ -54,8 +55,8 @@ function Seccion1() {
   const FrontElJuncal 
   = <> 
     <Link to="/Eljuncal">
-      <ContenedorFotoLotes alt='fotoDesarrollo' 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715458/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-01_sxqfl8_dsv6nf.webp'/>
+      <ContenedorFotoLotes id='frontjuncal'alt='fotoDesarrollo' 
+      src=''/>
     </Link>
   </>
   const BackElJuncal 
