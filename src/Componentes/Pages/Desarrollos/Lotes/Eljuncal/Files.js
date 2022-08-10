@@ -1,7 +1,7 @@
 import obtenerVideo from "../../../../obtenerVideo";
 
 export default function cargarArchivos(){
-    obtenerVideo('eljuncalLetras_xlttzf_kp4bnu.svg').then((url) => {
+    obtenerVideo('Desarrollos/juncal/letraseljuncal.svg').then((url) => {
         const img = document.getElementById('imagenInicioLasVictorias');
         img.setAttribute('src', url );
     });
@@ -37,7 +37,7 @@ export default function cargarArchivos(){
         const img = document.getElementById('Juncal1jpgzjuoiu');
         img.setAttribute('src', url );
     });
-    // obtenerVideo('SlideElJuncal').then((url) => {
+    // obtenerVideo('SlideElJuncal/').then((url) => {
     //     const img = document.getElementById('');
     //     img.setAttribute('src', url );
     // });

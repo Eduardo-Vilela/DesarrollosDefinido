@@ -13,11 +13,14 @@ import Seccion7 from './Seccion7'
 import Seccion8 from './Seccion8'
 import Seccion9 from './Seccion9'
 
+import cargarArchivos from './Files';
+
+
 
 
 function Home() {
   
-  
+  cargarArchivos();
   return (
     <>
     <NavbarTransparent/>

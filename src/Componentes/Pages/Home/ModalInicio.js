@@ -4,6 +4,7 @@ import {BoxPrincipal,Box1,Box2,InputModal,BoxForm,LogoModal,BoxLogo,BoxInputs,Su
 import { useForm } from "react-hook-form";
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import obtenerVideo from '../../obtenerVideo';
 
 
 function ModalInicio() {
@@ -53,7 +54,10 @@ function ModalInicio() {
           });
           e.target.reset()
       };
-
+      obtenerVideo('Home/logodesaazul.png').then((url) => {
+        const img = document.getElementById('logodesa');
+        img.setAttribute('src', url );
+      });
   return (
     <>
       <Modal style={{top:'0px !important'}}  size={'md'} open={open} onClose={handleClose}  >
@@ -70,7 +74,7 @@ function ModalInicio() {
           </Box1>
           <Box2>
             {/* <BoxLogo>
-            <LogoModal  alt='logoModal'src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715445/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/logoNav_h8jfaz_ih4rfm.svg'/>
+            <LogoModal  id='logodesa'alt='logoModal'src=''/>
             </BoxLogo> */}
             <BoxInputs>
                 <BoxForm onSubmit={handleSubmit(onSubmit)} >

@@ -16,7 +16,6 @@ import {
   LinkFlip,
 } from './Seccion1Elements'
 import ReactHoverFlip from 'react-hover-flip'
-import JuncalCard from '../../media/Juncal-card.jpg'
 import cargarArchivos from './Files'
 
 import AOS from 'aos';
@@ -67,8 +66,8 @@ function Seccion1() {
           <TituloFlips>El Juncal</TituloFlips>
           <SubtituloFlips>Calle 37 entre 177 y 179</SubtituloFlips>
         </div>
-      <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src={JuncalCard}/>   
+      <img id='backjuncal' style={{width: '80%', borderRadius:'10px'}} 
+      src=''/>   
       </div>    
     </Link>
   </>
@@ -77,8 +76,8 @@ function Seccion1() {
   const FrontLatitud34 
   = <> 
     <Link to="/Latitud34">
-      <ContenedorFotoLotes alt='fotoDesarrollo' 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715460/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-06_ldau8m_fjmy6g.webp'/>
+      <ContenedorFotoLotes id='frontlatitud'alt='fotoDesarrollo' 
+      src=''/>
     </Link>
   </>
   const BackLatitud34 
@@ -89,8 +88,8 @@ function Seccion1() {
           <TituloFlips>Latitud 34</TituloFlips>
           <SubtituloFlips>Calle 90 entre 143 y 152</SubtituloFlips>
         </div> 
-      <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658430281/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/latitud/Latitud_2_nkwplq.jpg'/>   
+      <img id='backlatitud' alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
+      src=''/>   
       </div>  
     </Link>         
   </>
@@ -99,8 +98,8 @@ function Seccion1() {
   const FrontLaCampiña 
   = <> 
     <Link to="/Lacampina">
-      <ContenedorFotoLotes alt='fotoDesarrollo' 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715459/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-02_knbvxl_nmvbcd.webp'/>
+      <ContenedorFotoLotes id='frontcampina' alt='fotoDesarrollo' 
+      src=''/>
     </Link>
   </>
   const BackLaCampiña 
@@ -111,8 +110,8 @@ function Seccion1() {
           <TituloFlips>La Campiña</TituloFlips>
           <SubtituloFlips>Calle 229 entre 38 y 42</SubtituloFlips>
         </div> 
-      <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658755727/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/lacampi%C3%B1a/7_iaw9ot.jpg'/>   
+      <img id='backcampina' alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
+      src=''/>   
       </div>  
     </Link>          
   </>
@@ -121,8 +120,8 @@ function Seccion1() {
   const FrontLasOrianas 
   = <> 
     <Link to="/Lasorianas">
-      <ContenedorFotoLotes alt='fotoDesarrollo' 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715458/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Portadas-03_ddaifm_jgeowb.webp'/>
+      <ContenedorFotoLotes id='frontorianas'alt='fotoDesarrollo' 
+      src=''/>
     </Link>
   </>
   const BackLasOrianas 
@@ -133,8 +132,8 @@ function Seccion1() {
           <TituloFlips>Las Orianas</TituloFlips>
           <SubtituloFlips>Calle 515 entre 168 y 170</SubtituloFlips>
         </div> 
-      <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-      src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658850363/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/las%20orianas/Orianas_-_Foto_para_Card_fuzu5c.jpg'/>   
+      <img alt='aaaa' id='backorianas'style={{width: '80%', borderRadius:'10px'}} 
+      src=''/>   
       </div> 
     </Link>           
   </>
@@ -143,8 +142,8 @@ function Seccion1() {
 const FrontLaEscondida 
 = <> 
   <Link to="/Laescondida">
-    <ContenedorFotoLotes alt='fotoDesarrollo' 
-    src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715487/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/dsadasdasd-1024x877_f59iqi_kg9flb.webp'/>
+    <ContenedorFotoLotes id='frontescondida'alt='fotoDesarrollo' 
+    src=''/>
   </Link>
 </>
 const BackLaEscondida 
@@ -155,8 +154,8 @@ const BackLaEscondida
         <TituloFlips>Las Escondida</TituloFlips>
         <SubtituloFlips>Calle 84 entre 161 y 167</SubtituloFlips>
       </div>
-    <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-    src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1658860732/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/la%20escondida/Card_-_La_Escondida_pjzpvg.jpg'/>   
+    <img id='backescondida'alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
+    src=''/>   
     </div>   
   </Link>         
 </>
@@ -165,7 +164,7 @@ const BackLaEscondida
 const FrontLasCatalinas 
 = <> 
     <ContenedorFotoLotes alt='fotoDesarrollo' 
-    src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715437/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Las-Catalinas_q5xlrv_wywhmh.webp'/>
+    id='frontcatalinas' src=''/>
 </>
 const BackLasCatalinas 
 =<>
@@ -175,7 +174,7 @@ const BackLasCatalinas
       <SubtituloFlips>Ruta Provincial N°36 entre 425 y 428</SubtituloFlips>
     </div>
   <img alt='aaaa' style={{width: '80%', borderRadius:'10px'}} 
-  src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715491/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Fotos_9-Foto-1024x576_l2isyq_fjvmzv.webp'/>   
+  id='backcatalinas' src=''/>   
   </div>            
 </>
 

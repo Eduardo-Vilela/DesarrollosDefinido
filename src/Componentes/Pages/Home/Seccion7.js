@@ -10,8 +10,6 @@ import {
     ImgCardsLasCatalinas,
 } from './Seccion7Elements'
 
-
-
 function Seccion7() {
   return (
     <>
@@ -42,7 +40,7 @@ function Seccion7() {
             <BoxBordesCards className='bordeMedio'>
               <Link to='/Eljuncal'>
                 <div >
-                    <ImgCardsDesarrollos  src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1_zjxifn_jbmvde.webp" />
+                    <ImgCardsDesarrollos  id='' src="https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1657715495/DESARROLLOSGRUPODELSUD_2022-07-13_08_54/Group-1_zjxifn_jbmvde.webp" />
                 </div>
               </Link> 
             </BoxBordesCards>

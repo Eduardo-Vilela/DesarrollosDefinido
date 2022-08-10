@@ -12,26 +12,8 @@ import{Card,ListGroup} from 'react-bootstrap'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import './Seccion11';
-import obtenerVideo from '../../obtenerVideo';
+
 function Seccion2() {
-
-    obtenerVideo('002-dollar_bnwiea_vwc3vo.webp').then((url) => {
-        const img = document.getElementById('myimg');
-        img.setAttribute('src', url );
-    });
-
-    obtenerVideo('Group-5_epscre_x68fqz.webp').then((url) => {
-        const img2 = document.getElementById('myimg2');
-        img2.setAttribute('src', url );
-    });
-    obtenerVideo('Group_22_femmox_kfomfk.svg').then((url) => {
-        const img3 = document.getElementById('myimg3');
-        img3.setAttribute('src', url );
-    });
-    obtenerVideo('Group-2-1_naohwr_dilydi.svg').then((url) => {
-        const img4 = document.getElementById('myimg4');
-        img4.setAttribute('src', url );
-    });
 
 return (
     <>

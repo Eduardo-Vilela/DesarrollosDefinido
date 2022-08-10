@@ -10,16 +10,14 @@ import "swiper/css/effect-fade";
 import './hero.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 AOS.init();
 
-
-
 function Seccion1() {
-
   const [imgEffect,setImgEffect] = useState(false)
-  
 
 function activarEfecto(){
+    
     setImgEffect(true);
 }  
 function desactivarEfecto(){
@@ -30,9 +28,9 @@ function desactivarEfecto(){
     clickable: true,
     renderBullet: function (index, className) {
       return '<span  class="' + className + '">' + (index + 1) + "</span>";
-    },
-  };
- 
+        },
+};
+   
   return (
     <>
 
@@ -63,8 +61,9 @@ function desactivarEfecto(){
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           
-                          <img className='logoVictorias' alt='LasVictorias' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-04-04-04_1_uqylqz.webp'/>
+                          <img className='logoVictorias' id='logovictorias'alt='LasVictorias' src=''/>
                           <div className='hero-butons'>
+                            
                             
                               <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Lasvictorias">Conocelo</Link>
                           </div>
@@ -76,7 +75,7 @@ function desactivarEfecto(){
               <div className={`hero-container image-two  ${imgEffect   ? "effect-active" : ""}`}>
                   <div className='hero-text-container' >
                       <div className='hero-text'>
-                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoEljuncal'  alt='Eljuncal' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-02_1_ldds6f.webp'/>
+                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoEljuncal'  id='logojuncal'alt='Eljuncal' src=''/>
                           <div className='hero-butons'>           
                               <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Eljuncal">Conocelo</Link>
                           </div>
@@ -101,7 +100,7 @@ function desactivarEfecto(){
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           
-                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}}  className='logoLatitud34' alt='Latitud34' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS_Mesa_de_trabajo_1_1_ppphux.webp'/>
+                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}}  className='logoLatitud34' id='logolatitud'alt='Latitud34' src=''/>
                           <div className='hero-butons'>
                              
                               <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Latitud34">Conocelo</Link>
@@ -115,7 +114,7 @@ function desactivarEfecto(){
                   <div className='hero-text-container'>
                       <div className='hero-text'>
 
-                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoLaCampiña' alt='LaCampiña' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-03_1_x1x5zq.webp'/>
+                           <img style={{filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoLaCampiña' id='logocampina'alt='LaCampiña' src=''/>
                           <div className='hero-butons'>
                            
                               <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Lacampina">Conocelo</Link>
@@ -142,7 +141,7 @@ function desactivarEfecto(){
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           
-                           <img style={{marginLeft:'10px',filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoLasOrianas' alt='LasOrianas' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-05_1_ozj3p0.webp'/>
+                           <img style={{marginLeft:'10px',filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='logoLasOrianas' id='logoorianas'alt='LasOrianas' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-05_1_ozj3p0.webp'/>
                           <div className='hero-butons'>
                              
                               <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Lasorianas">Conocelo</Link>
@@ -156,7 +155,7 @@ function desactivarEfecto(){
                   <div className='hero-text-container'>
                       <div className='hero-text'>
                           
-                           <img style={{marginBottom:'9px',filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='LogoLaEscondida' alt='LaEscondida' src='https://res.cloudinary.com/desarrollogrupodelsud/image/upload/v1659355818/marcas/sliderNuevoHome/Logos_de_desarrollos_ACTIVOS-06_1_lpbmyy.webp'/>
+                           <img style={{marginBottom:'9px',filter:'drop-shadow(rgba(0, 0, 0, 0.7) 3px 2px 4px)'}} className='LogoLaEscondida' id='logoescondida'alt='LaEscondida' src=''/>
                           <div className='hero-butons'>
                              
                               <Link onMouseOver={activarEfecto} onMouseLeave={desactivarEfecto} className="boton-home-ver-mas" to="/Laescondida">Conocelo</Link>
